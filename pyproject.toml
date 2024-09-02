@@ -1,0 +1,29 @@
+[tool.poetry]
+authors = ["23people <hola@23people.io>"]
+description = "The public handbook of 23people"
+maintainers = [
+  "Manuel Reyes <manuel@23people.io>",
+  "Marcelo Ampuero <marcelo@23people.io>",
+]
+name = "23people-handbook"
+readme = "README.md"
+repository = "https://github.com/23people-io/23people-handbook"
+version = "0.1.1"
+
+[tool.poetry.dependencies]
+mkdocs = {extras = ["i18n"], version = "^1.6.1"}
+mkdocs-exclude = "^1.0.2"
+mkdocs-material = "^9.5.34"
+mkdocs-redirects = "^1.2.1"
+mkdocs-version-annotations = "^1.0.0"
+mkdocstrings = "^0.25.2"
+mkdocstrings-python = "^1.10.9"
+python = "^3.11, <3.12"
+python-dotenv = "^1.0.1"
+mkdocs-minify-plugin = "^0.8.0"
+mkdocs-git-committers-plugin = "^0.2.3"
+mkdocs-git-revision-date-localized-plugin = "^1.2.7"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]

@@ -1,0 +1,129 @@
+# Project information
+site_name: Nuestro Manual
+site_author: 23people.io
+site_description: Nuestro manual público de lo que hacemos en 23people
+strict: false
+site_url: https://23people.io/
+
+# Repository
+repo_name: 23people/handbook
+repo_url: https://github.com/23people-io/23people-handbook
+
+# Copyright
+copyright: Copyright &copy; 2024 <a href="https://23people.io">23people SpA</a>
+
+# Configuration
+docs_dir: "docs"
+site_dir: "site"
+theme:
+  name: "material"
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - announce.dismiss
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.suggest
+    - toc.follow
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: "https://23people.io/img/logo-white.svg"
+  icon:
+    repo: fontawesome/brands/github
+  language: es
+
+# Plugins
+plugins:
+  - blog:
+      post_dir: "{blog}/articles"
+      post_date_format: long
+      post_readtime: true
+      authors: true
+      authors_file: "{blog}/.authors.yml"
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - "mkdocs-version-annotations":
+      version_added_admonition: "tip"
+  - mkdocstrings:
+      enable_inventory: true
+      handlers:
+        python:
+          options:
+            docstring_style: google
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.snippets:
+      restrict_base_path: false
+  - admonition
+  - tables
+  - toc:
+      permalink: "#"
+  - attr_list
+
+extra:
+  version:
+    provider: mike
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/23people-io
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/9192215
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/23people.io/
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@23people.io
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/23people
+  chatbot:
+    url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
+  alternate:
+    - name: "English"
+      link: en/
+      lang: en
+    - name: "Español"
+      link: es/
+      lang: es
+
+nav:
+  - Home: index.md
+  - Acerca de:
+      - about-us/index.md
+      - Nuestras metas: about-us/our-goals.md
+      - Nuestros valores: about-us/our-values.md
+  - Blog:
+      - blog/index.md
