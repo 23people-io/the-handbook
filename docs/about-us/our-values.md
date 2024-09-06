@@ -1,4 +1,5 @@
 ---
+created: 2024-09-06T14:39:48 (UTC -04:00)
 description: Aprende más de los valores que compartimos en 23people
 ---
 
@@ -8,25 +9,25 @@ Las personas que son parte de 23people, se espera que compartan los siguientes v
 
 ## Valores
 
-### Aprendizaje continuo.
+### Aprendizaje continuo
 
-Valoramos el aprendizaje constante. Somos eternos aprendices buscando la excelencia técnica y profesional. Somos un equipo de "nerds" a los que les encanta lo que hacen. 
+Valoramos el aprendizaje constante. Somos eternos aprendices buscando la excelencia técnica y profesional. Somos un equipo de "nerds" a los que les encanta lo que hacen.
 
 A más sabemos, más nos damos cuenta de que menos sabemos. Dado esto, tenemos una mentalidad abierta a continuar aprendiendo. Perseguimos la excelencia y la perfección en lo que hacemos, al mismo tiempo de que sabemos de qué es un camino sin fin, pero digno de avanzar en él. Buscamos formas de trabajo iterativas, flexibles, metódicas y preferentemente basados en datos, para consolidar lo que aprendemos y enseñamos a otros.  
 
-### Colaboración y apoyo genuino.
+### Colaboración y apoyo genuino
 
-Enfatizamos el apoyo y la colaboración entre nuestros profesionales, así como con los profesionales y equipos de nuestros clientes. Cocreamos juntos. 
+Enfatizamos el apoyo y la colaboración entre nuestros profesionales, así como con los profesionales y equipos de nuestros clientes. Cocreamos juntos.
 
 No buscamos ser el héroe o la heroína de la historia. Trabajamos en equipos, nos apoyamos como equipo y tomamos responsabilidades como equipo. Compartimos la carga de lo que se debe hacer dado que siempre habrá tareas que hacer o que deberían haberse hecho. Celebramos las victorias y nos damos apoyo en los momentos complejos o no esperados.  
 
-### Crecimiento económico sostenible.
+### Crecimiento económico sostenible
 
 Buscamos un crecimiento que sea económicamente viable y sostenible en el tiempo. Perseguimos ambiciosamente nuestros números, pero no a costa de nuestras personas.
 
 Absolutamente, somos ambiciosos en lo que queremos como empresa y nuestro crecimiento económico, pero compartimos que esto no puede ser a costa de otras personas. Perseguimos la sostenibilidad en lo que hacemos, es decir, encontramos un ritmo de trabajo que nos permita avanzar indefinidamente. Preferimos avances sistemáticos por sobre esfuerzos puntuales y desgastantes al mediano o largo plazo.
 
-### Honesta transparencia.
+### Honesta transparencia
 
 Priorizamos la claridad de comunicación en todas nuestras operaciones. Sabemos que no todo se puede compartir, pero en lo que sí se puede, lo hacemos con honestidad.
 

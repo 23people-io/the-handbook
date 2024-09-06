@@ -40,7 +40,6 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.instant.prefetch
-    - navigation.instant.preview
     - navigation.instant.progress
     - navigation.path
     - navigation.sections
@@ -118,12 +117,22 @@ extra:
     - name: "Español"
       link: es/
       lang: es
+  extra:
+    consent:
+      title: Cookie consent
+      description: >-
+        We use cookies to recognize your repeated visits and preferences, as well
+        as to measure the effectiveness of our documentation and whether users
+        find what they're searching for. With your consent, you're helping us to
+        make our documentation better.
 
 nav:
   - Home: index.md
   - Acerca de:
       - about-us/index.md
+      - Nuestros servicios: about-us/our-services.md
       - Nuestras metas: about-us/our-goals.md
       - Nuestros valores: about-us/our-values.md
+      - Nuestra organización: about-us/our-organization.md
   - Blog:
       - blog/index.md

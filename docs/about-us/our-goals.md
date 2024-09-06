@@ -1,4 +1,5 @@
 ---
+created: 2024-09-06T14:39:48 (UTC -04:00)
 description: Expansión global y en Latam, liderazgo en TI, y cultura de innovación en IA para crear soluciones digitales eficaces y sostenibles.
 ---
 
@@ -9,6 +10,7 @@ En 23people, nos proyectamos hacia los próximos 3 años con un norte claro. Nue
 ## Lo que perseguimos
 
 ### Expandir nuestras operaciones y presencia a nivel de Latam y globalmente
+
 Buscamos crecer económicamente de manera sostenible y consolidar nuestra posición en el mercado de Latam como referentes en equipos de TI de alto rendimiento,  plataformas digitales de clase mundial y uso de herramientas IA.
 
 ### Ser referentes en tecnología y desarrollo profesional en TI
@@ -22,12 +24,14 @@ Perseguimos el crear nuevos productos y servicios digitales mediante una cultura
 ## Prácticas generales
 
 ### Todos pueden contribuir
+
 Creemos firmemente que todos pueden contribuir en esto. Las soluciones no saldrán desde el equipo de High Council necesariamente, sino que también vendrán desde los demás equipos de la empresa. La creatividad, experiencia y datos en tiempo real, estarán siempre distribuidas a lo largo de la empresa. Es necesario que estemos todos en constante comunicación a la vez que alineados y enfocados.
 
 ### Priorizar, enfocarse y adaptarse a cambios
+
 Tenemos claro donde queremos ir, pero la forma de llegar a ese norte, será enfocada, priorizada, pero también flexible y creativa. El mundo es cambiante y debemos adaptarnos a los nuevos hechos que aparezcan.
 
-### La ejecución es lo que más importa.
+### La ejecución es lo que más importa
 
 "...it almost doesn't matter what you know…it's execution that matters most." -  Andy Grove
 
