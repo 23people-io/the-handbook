@@ -1,0 +1,23 @@
+---
+created: 2024-06-17T18:00:12
+updated: 2024-06-17T18:00:49
+description: 
+author: 5127711
+status: wip
+slug: acerca-de-engineering
+legacy_url: https://manual.23people.io/es/articles/9487347-acerca-de-engineering
+---
+
+# Acerca de Engineering
+
+## Bienvenidos
+
+...
+
+## Propósito
+
+...
+
+## KPIs
+
+

@@ -82,7 +82,7 @@ A diferencia de lo que se pueda pensar, nuestro nombre como empresa **_no es deb
  y en particular desde un diálogo entre El Arquitecto y Neo en la película [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/?ref_=fn_al_tt_3)
 :
 
-[![](https://23people-spa.intercom-attachments-1.com/i/o/847573945/b337e6a596acedf6014f0123/41ba599-thumbnail.jpg?expires=1725231600&signature=67fdf1633407a47a5c34fc045b80439968be51d5e0caab19b6ed6a073514f847&req=fCQgE859lIVaFb4f3HP0gHmSRkbpXjlnecYajltTq8JqxZJYborsc0Y2U%2FmE%0ALudzFj7N%2FXdi9WM86g%3D%3D%0A)](https://23people-spa.intercom-attachments-1.com/i/o/847573945/b337e6a596acedf6014f0123/41ba599-thumbnail.jpg?expires=1725231600&signature=67fdf1633407a47a5c34fc045b80439968be51d5e0caab19b6ed6a073514f847&req=fCQgE859lIVaFb4f3HP0gHmSRkbpXjlnecYajltTq8JqxZJYborsc0Y2U%2FmE%0ALudzFj7N%2FXdi9WM86g%3D%3D%0A)
+[![]()](https://23people-spa.intercom-attachments-1.com/i/o/847573945/b337e6a596acedf6014f0123/41ba599-thumbnail.jpg?expires=1725231600&signature=67fdf1633407a47a5c34fc045b80439968be51d5e0caab19b6ed6a073514f847&req=fCQgE859lIVaFb4f3HP0gHmSRkbpXjlnecYajltTq8JqxZJYborsc0Y2U%2FmE%0ALudzFj7N%2FXdi9WM86g%3D%3D%0A)
 
 _"The function of the One is now to return to the source, allowing a temporary dissemination of the code you carry, reinserting the prime program. After which you will be required to select from the matrix **23 individuals**, 16 female, 7 male, to rebuild Zion. Failure to comply with this process will result in a cataclysmic system crash killing everyone connected to the matrix, which coupled with the extermination of Zion will ultimately result in the extinction of the entire human race." -_ **[The Architect - The Matrix Reloaded](https://www.youtube.com/watch?v=LN8EE5JxSGQ)
 **
