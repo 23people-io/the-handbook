@@ -30,7 +30,7 @@ la empresa.
 No solo aplica para profesionales TI, sino que para todos los cargos en
 23people (es decir, también para cargos administrativos y de gestión).
 
-**Restricción de Antigüedad**
+### Restricción de Antigüedad
 
 Consideramos que existe un periodo llamado ramp-up en donde el/la profesional,
 que recién ingresa a la empresa, está en un periodo adaptación y no aportando
@@ -40,9 +40,9 @@ de calidad esperada y, por tanto, acceder a todos los beneficios que tenemos.
 
 ## Los beneficios actuales de 23people
 
-**✅ Fecha de más reciente actualización**
-
-Estos beneficios están actualizados al 31 de mayo de 2024.
+> ✅ Fecha de más reciente actualización
+>
+> Estos beneficios están actualizados al 31 de mayo de 2024.
 
 A continuación, el listado actual de Beneficios 🥳. En general, los
 clasificamos en: Incentivos, Reembolsos y Convenios.
@@ -50,32 +50,32 @@ clasificamos en: Incentivos, Reembolsos y Convenios.
 Las condiciones y topes de reembolso (en donde aplique), se detallan en los
 enlaces de **"Más detalles..."**.
 
-### Incentivos - Reconocimiento y Motivación
+## Incentivos - Reconocimiento y Motivación
 
 * * *
 
-#### 🏖️ Incentivo para Vacaciones
+### 🏖️ Incentivo para Vacaciones
 
 Se te entregarán un incentivo económico por cada semana de vacaciones que
 tomes.
 
 [Más detalles...](/incentivo-por-vacaciones)
 
-#### 🎓 Incentivo para Exámenes de Certificaciones Internacionales
+### 🎓 Incentivo para Exámenes de Certificaciones Internacionales
 
 Reembolsamos los gastos asociados a los exámenes de certificación
 internacional 😉.
 
 [Más detalles...](/certificaciones-internacionales)
 
-#### 💰 Incentivos de Fiestas Patrias y Navidad
+### 💰 Incentivos de Fiestas Patrias y Navidad
 
 En estas fechas especiales de Fiestas Patrias y Navidad, te entregaremos un
 incentivo económico.
 
 [Más detalles...](/incentivos-fiestas-patrias-y-navidad)
 
-#### 👩🏻‍🍼 Incentivo por Baby Shower
+### 👩🏻‍🍼 Incentivo por Baby Shower
 
 Luego de estar 1 año con 23people, si tienes la felicidad de ser un/a futuro
 papá/mamá, se te entregará un regalo de parte de todo 23people en forma de
@@ -83,13 +83,13 @@ incentivo económico.
 
 [Más detalles...](/bono-baby-shower)
 
-#### 🎉 Regalo personalizado para tu Cumpleaños
+### 🎉 Regalo personalizado para tu Cumpleaños
 
 Recibirás un regalo con base en tus gustos y preferencias.
 
 [Más detalles...](/regalo-para-tu-cumpleanos)
 
-#### 🎂 Día libre de cumpleaños
+### 🎂 Día libre de cumpleaños
 
 Día libre por tu cumpleaños.
 
@@ -141,7 +141,7 @@ más.
 
 [Más detalles...](/betterfly)
 
-### Capacitaciones
+## Capacitaciones
 
 * * *
 
@@ -158,5 +158,3 @@ ello que se generan los siguiente lineamientos.
 Cursos de inglés desde A2 hasta C1.
 
 [Más detalles...](/clases-de-ingles)
-
-

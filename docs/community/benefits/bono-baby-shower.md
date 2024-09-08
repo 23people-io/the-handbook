@@ -45,5 +45,3 @@ adelantarse. Se solicita mantener informada al área de People Growth para
 acceder al bono en el momento correspondiente.
 
 🐻 **¡Solo queda disfrutar!**
-
-

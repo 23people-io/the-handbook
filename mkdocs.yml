@@ -135,17 +135,18 @@ extra:
 
 nav:
   - Home: index.md
-  - Acerca de:
-      - about-us/index.md
-      - Nuestros servicios: about-us/our-services.md
-      - Nuestras metas: about-us/our-goals.md
-      - Nuestros valores: about-us/our-values.md
-      - Nuestra organización: about-us/our-organization.md
+  - 23people:
+      - Acerca de:
+          - about-us/index.md
+          - Nuestros servicios: about-us/our-services.md
+          - Nuestras metas: about-us/our-goals.md
+          - Nuestros valores: about-us/our-values.md
+          - Nuestra organización: about-us/our-organization.md
+
   - KPIs:
       - People Growth:
           - "Tasa de Rotación Profesionales (12 meses móviles)": kpis/people-growth/kpi-turnover-rate.md
           - "Total de Profesionales Activos": kpis/people-growth/kpi-headcount.md
           - "Glassdoor eNPS": kpis/people-growth/kpi-glassdoor-enps.md
-
   - Blog:
       - blog/index.md

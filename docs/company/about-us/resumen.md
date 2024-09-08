@@ -27,13 +27,13 @@ Para más detalles, visita [Nuestros Servicios](https://manual.23people.io/es/ar
 
 ## Nuestros valores
 
-* **Aprendizaje continuo**. Valoramos el aprendizaje constante. Somos eternos aprendices buscando la excelencia técnica y profesional. Somos un equipo de _nerds_ a los que les encanta lo que hacen.
+- **Aprendizaje continuo**. Valoramos el aprendizaje constante. Somos eternos aprendices buscando la excelencia técnica y profesional. Somos un equipo de _nerds_ a los que les encanta lo que hacen.
 
-* **Colaboración y apoyo genuino**. Enfatizamos el apoyo y la colaboración entre nuestros profesionales, así como con los profesionales y equipos de nuestros clientes. Co-creamos juntos.
+- **Colaboración y apoyo genuino**. Enfatizamos el apoyo y la colaboración entre nuestros profesionales, así como con los profesionales y equipos de nuestros clientes. Co-creamos juntos.
 
-* **Crecimiento económico sostenible**. Buscamos un crecimiento que sea económicamente viable y sostenible en el tiempo. Perseguimos ambiciosamente nuestros números, pero no a costa de nuestras personas.
+- **Crecimiento económico sostenible**. Buscamos un crecimiento que sea económicamente viable y sostenible en el tiempo. Perseguimos ambiciosamente nuestros números, pero no a costa de nuestras personas.
 
-* **Honesta transparencia**. Priorizamos la claridad de comunicación en todas nuestras operaciones. Sabemos que no todo se puede compartir, pero en lo que sí se puede, lo hacemos con honestidad.
+- **Honesta transparencia**. Priorizamos la claridad de comunicación en todas nuestras operaciones. Sabemos que no todo se puede compartir, pero en lo que sí se puede, lo hacemos con honestidad.
 
 Para más detalles, visita [Nuestros Valores](https://manual.23people.io/es/articles/8792601-valores).
 
@@ -49,10 +49,10 @@ Para más detalles, visita [Nuestras Metas](https://manual.23people.io/es/articl
 
 ## Nuestra Historia
 
-* **Fundación:** 23people fue fundada el 26 de noviembre de 2014 por Marcelo Ampuero y [Manuel Reyes](https://github.com/manu-reyes-23p)
+- **Fundación:** 23people fue fundada el 26 de noviembre de 2014 por Marcelo Ampuero y [Manuel Reyes](https://github.com/manu-reyes-23p)
     , Ingenieros de Software.
 
-* **Idea inicial:** Crear una empresa en donde a ellos mismos les hubiera gustado trabajar.
+- **Idea inicial:** Crear una empresa en donde a ellos mismos les hubiera gustado trabajar.
 
 Para más detalles, visita [Nuestra Historia](https://manual.23people.io/es/articles/9014518-vision-y-metas).
 
@@ -60,19 +60,19 @@ Para más detalles, visita [Nuestra Historia](https://manual.23people.io/es/arti
 
 ### Departamentos de Servicios
 
-* IT Talent Services
+- IT Talent Services
 
-* Digital Platforms, Data & AI Services
+- Digital Platforms, Data & AI Services
 
 ### Departamentos Funcionales
 
-* People Growth
+- People Growth
 
-* Marketing & Strategic Growth
+- Marketing & Strategic Growth
 
-* Finances
+- Finances
 
-* Engineering
+- Engineering
 
 Para más detalles, visita [Nuestra Organización](https://manual.23people.io/es/articles/8826527-organizacion).
 
@@ -81,8 +81,6 @@ Para más detalles, visita [Nuestra Organización](https://manual.23people.io/es
 A diferencia de lo que se pueda pensar, nuestro nombre como empresa **_no es debido a que seamos 23 personas_** 😱. Nuestro nombre ha originado de un concepto destacado en la saga de películas [Matrix](https://es.wikipedia.org/wiki/Matrix)
  y en particular desde un diálogo entre El Arquitecto y Neo en la película [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/?ref_=fn_al_tt_3)
 :
-
-[![]()](https://23people-spa.intercom-attachments-1.com/i/o/847573945/b337e6a596acedf6014f0123/41ba599-thumbnail.jpg?expires=1725231600&signature=67fdf1633407a47a5c34fc045b80439968be51d5e0caab19b6ed6a073514f847&req=fCQgE859lIVaFb4f3HP0gHmSRkbpXjlnecYajltTq8JqxZJYborsc0Y2U%2FmE%0ALudzFj7N%2FXdi9WM86g%3D%3D%0A)
 
 _"The function of the One is now to return to the source, allowing a temporary dissemination of the code you carry, reinserting the prime program. After which you will be required to select from the matrix **23 individuals**, 16 female, 7 male, to rebuild Zion. Failure to comply with this process will result in a cataclysmic system crash killing everyone connected to the matrix, which coupled with the extermination of Zion will ultimately result in the extinction of the entire human race." -_ **[The Architect - The Matrix Reloaded](https://www.youtube.com/watch?v=LN8EE5JxSGQ)
 **

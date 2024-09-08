@@ -74,7 +74,4 @@ Sí, puedes reembolsar audífonos, lampara, mouse pad, brazo para pantalla.
 Son tuyos, al finalizar la relación laboral los artículos adquiridos bajo este
 beneficio se quedan contigo.
 
-  
 ​
-
-

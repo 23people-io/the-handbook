@@ -27,16 +27,14 @@ varían año a año.
 En formato de reembolso contra boleta de compra, entregaremos un presupuesto
 tope de $10.000, para quienes se vacunen contra la influenza.
 
-**🚧Nota:**
+**🚧 Nota:**
 
 Por convenio con algunas Isapres esta vacuna puede salir costo $0 o inferior a
 $10.000.En este último caso, se reembolsaría el monto que pagaron. En caso
 contrario, que cueste más del presupuesto mencionado, se tomará como tope los
 $10.000.
 
-**💡Nota:**
+**💡 Nota:**
 
 Recuerda guardar tú boleta de pago. Solicita tu reembolso en el siguiente
 [formulario.](https://23people.typeform.com/VacunaInfluenza)
-
-

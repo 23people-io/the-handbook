@@ -21,5 +21,3 @@ adapte a tus gustos y puedas disfrutar.
 Si por dificultad de distancia no logramos enviarte algo acorde, te haremos
 llegar una giftcard para que te compres algo a tu gusto. ¡En 23people se
 celebra la vida! 🥳
-
-
