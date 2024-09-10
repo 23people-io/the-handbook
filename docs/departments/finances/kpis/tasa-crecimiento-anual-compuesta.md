@@ -4,17 +4,17 @@ updated: 2024-08-23T13:03:20
 description: Mide el crecimiento de las ventas a lo largo del tiempo
 author: 5127711
 status: wip
-slug: tasa-de-crecimiento-anual-compuesta-carg
+slug: tasa-de-crecimiento-anual-compuesta
 legacy_url: https://manual.23people.io/es/articles/8795833-tasa-de-crecimiento-anual-compuesta-carg
 ---
 
-# Tasa de Crecimiento Anual Compuesta (CARG)
+# Tasa de Crecimiento Anual Compuesta
 
-🚧 **Work in Progress**
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
 
-Esta página es un trabajo en proceso.
-
-### Descripción e Importancia
+## Descripción e Importancia
 
 Mide la tasa de crecimiento anual promedio. Esta métrica proporciona una
 visión suavizada del crecimiento, facilitando comparaciones entre diferentes
@@ -27,5 +27,3 @@ períodos de la empresa.
 ### Cómo Calcularlo
 
 ### Ejemplo Numérico
-
-

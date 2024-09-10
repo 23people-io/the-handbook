@@ -4,15 +4,15 @@ updated: 2024-08-23T13:44:00
 description: Porcentaje que representa el EBITDA sobre los ingresos totales.
 author: 5127711
 status: wip
-slug: margen-de-ebitda-emg
+slug: margen-de-ebitda
 legacy_url: https://manual.23people.io/es/articles/8792831-margen-de-ebitda-emg
 ---
 
-# Margen de EBITDA (EMG)
+# Margen de EBITDA
 
-🚧 **Work in Progress**
-
-Esta página es un trabajo en proceso.
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
 
 ## Descripción e Importancia
 
@@ -59,8 +59,6 @@ Services y Digital Platforms Services).
 
 Se calcula mediante la fórmula:
 
-    
-    
     Margen de EBITDA = (EBITDA/Ventas Totales)×100
 
 **Ejemplo:**
@@ -68,8 +66,4 @@ Se calcula mediante la fórmula:
 Si el EBITDA de un mes es de $50,000 y las ventas totales del mismo mes son de
 $200,000, la fórmula sería:
 
-    
-    
     Margen de EBITDA = (50,000/200,000)×100 = 25%
-
-

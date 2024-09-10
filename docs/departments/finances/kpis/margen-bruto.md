@@ -10,6 +10,10 @@ legacy_url: https://manual.23people.io/es/articles/8792835-margen-bruto
 
 # Margen Bruto
 
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
+
 ## Descripción e Importancia
 
 El Margen Bruto mide la rentabilidad de cada servicio ofrecido, reflejando la
@@ -58,9 +62,9 @@ Ventas Totales) × 100
 
 En donde:
 
-  * **Ventas Totales** es la suma de todas las ventas generadas por ambas divisiones.
+* **Ventas Totales** es la suma de todas las ventas generadas por ambas divisiones.
 
-  * **Costos Directos de los Servicios** incluyen todos los costos asociados directamente con la prestación del servicio, como salarios del personal técnico, costos de software/hardware, etc.
+* **Costos Directos de los Servicios** incluyen todos los costos asociados directamente con la prestación del servicio, como salarios del personal técnico, costos de software/hardware, etc.
 
 #### Ejemplo Numérico
 
@@ -78,5 +82,3 @@ Margen Bruto
 Este KPI ayudará a monitorear la rentabilidad de 23people a un nivel agregado,
 facilitando la identificación de áreas de mejora y la eficiencia en la gestión
 de costos.
-
-

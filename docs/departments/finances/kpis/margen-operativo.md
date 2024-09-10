@@ -4,15 +4,15 @@ updated: 2024-08-23T13:04:04
 description: Mide la eficiencia operativa y la rentabilidad.
 author: 5127711
 status: wip
-slug: margen-operativo-omg
+slug: margen-operativo
 legacy_url: https://manual.23people.io/es/articles/8857438-margen-operativo-omg
 ---
 
-# Margen Operativo (OMG)
+# Margen Operativo
 
-🚧 **Work in Progress**
-
-Esta página es un trabajo en proceso.
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
 
 ## Descripción e Importancia
 
@@ -65,20 +65,18 @@ Totales) × 100
 
 **Ejemplo:**
 
-  * Ingresos Totales: $500,000
+* Ingresos Totales: $500,000
 
-  * Costos Directos: $200,000
+* Costos Directos: $200,000
 
-  * Costos Indirectos: $100,000
+* Costos Indirectos: $100,000
 
-  * Costos Operativos Totales: $200,000 + $100,000 = $300,000
+* Costos Operativos Totales: $200,000 + $100,000 = $300,000
 
-  * % de Margen Operativo = (($500,000 - $300,000) / $500,000) × 100 = 40%
+* % de Margen Operativo = (($500,000 - $300,000) / $500,000) × 100 = 40%
 
 Un margen operativo del 40% indica que después de cubrir tanto los costos
 directos como los indirectos, el 40% de cada peso de ingreso generado es
 beneficio operativo. Este resultado es fundamental para evaluar la eficiencia
 y efectividad de las estrategias operativas en las Divisiones de Servicios de
 23people.
-
-
