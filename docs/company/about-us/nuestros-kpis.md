@@ -1,10 +1,10 @@
 ---
 created: 2024-06-17T17:33:21
 updated: 2024-08-23T12:44:41
-description: Estos son los Top-10 KPIs mas importantes que monitorean el rendimiento de la empresa.
+description: Nuestros KPIs. Los top-10 mas importantes y el detalle de los KPIs que monitorean el rendimiento de la empresa.
 author: 5127711
 status: wip
-slug: kpis-de-23people
+slug: nuestros-kpis
 legacy_url: https://manual.23people.io/es/articles/9487190-kpis-de-23people
 ---
 

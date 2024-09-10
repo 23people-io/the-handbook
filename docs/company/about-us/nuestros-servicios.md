@@ -1,8 +1,8 @@
 ---
 created: 2024-09-06T14:58:21 (UTC -04:00)
-tags: []
-source: 
-author: 
+author: 5127711
+status: wip
+slug: nuestros-servicios
 description: Una visión general de lo que hacemos por nuestros clientes y el valor real que generamos.
 ---
 
@@ -10,7 +10,22 @@ description: Una visión general de lo que hacemos por nuestros clientes y el va
 
 Entendemos y reconocemos que la inversión en proyectos tecnológicos representa un compromiso significativo para nuestros clientes. Nuestros servicios están diseñados para facilitar la implementación de estos proyectos, reduciendo la incertidumbre y fortaleciendo la confianza técnica asociada. Nuestra aproximación se basa en la cocreación: guiamos técnicamente el proceso mientras nos apoyamos en el conocimiento y experiencia que nuestros clientes tienen de su negocio.
 
-- **Talento TI**. Buscamos y seleccionamos Profesionales TI de alto nivel cuyas habilidades y experiencia técnica han sido validadas por nosotros y que realmente se adecuan a los proyectos que se necesitan implementar.
+Tenemos dos grandes líneas de servicios:
+
+## Talento TI
+
+Buscamos y seleccionamos Profesionales y Equipos TI de alto nivel cuyas habilidades y experiencia técnica han sido validadas por nosotros y que realmente se adecuan a los proyectos que se necesitan implementar. No solo revisamos CVs y enviamos candidatos, sino que validamos sus habilidades técnicas y experiencia en proyectos reales. Nuestro objetivo es que nuestros clientes confiar en nosotros para estas tareas y alivianarles realmente estas tareas de busqueda y seleccion de profesionales TI.
+
+Para lo anterior, ofrecemos los siguientes servicios:
+
+- **Outsourcing TI**. Si se necesita que los profesionales trabajen para el proyecto de nuestro cliente pero no se quiere contratar y administrar directamente, ofrecemos la posibilidad de que trabajen para el cliente bajo nuestra figura legal.
+- **Hunting TI**. Si nuestro cliente necesita contratar directamente a un profesional TI pero se requiere ayuda y guia para la busqueda y selección de los profesionales TI, ofrecemos este servicio.
+
+## Plataformas Digitales, Datos y AI
+
+Apoyamos y guiamos el viaje de evolución digital de nuestros clientes. Tenemos experiencia en la implementación de grandes proyectos tecnológicos que son usados por cientos de empresas y miles de usuarios a nivel mundial. Integraciones, modernización, evolución, datos, analítica, QA automatizado e Inteligencia Artificial son solo algunas de las áreas en las que podemos ayudar a nuestros clientes.
+
+Para lo anterior, ofrecemos los siguientes servicios:
 
 - **Integración**. Conectamos aplicaciones empresariales para que se comuniquen en forma eficiente y segura con otras aplicaciones, tanto internas como externas a la organización.
 
@@ -22,23 +37,13 @@ Entendemos y reconocemos que la inversión en proyectos tecnológicos representa
 
 - **Inteligencia Artificial**. Evaluamos las factibilidades y utilidades reales de las herramientas IA y su tecnología, habilitando la implementación para su uso efectivo.
 
-## Como lo hacemos
-
-Para lograr lo anterior, contamos con dos líneas de servicios:
-
-- **IT Talent Services**
-
-- **Digital Platforms, Data & AI Services**
-
-En 23people, entendemos que la evolución digital es un camino de mejora continua. Por ello, no solo respondemos a las necesidades tecnológicas actuales, sino que preparamos a las empresas para los futuros desafíos. Con nuestra experiencia y conocimientos, ofrecemos soluciones que transforman desafíos en oportunidades significativas de crecimiento y diferenciación.
-
 ## Como nos diferenciamos
 
 Esto es lo que nos hace únicos en el mercado:
 
-- Tenemos una validada experiencia técnica.
+- Tenemos una validada experiencia técnica y una serie de grandes proyectos satisfactoriamente implementados.
 - Tenemos una probada "receta" para encontrar y retener profesionales IT de alto nivel.
-- Tenemos una valorada atención al cliente
+- Tenemos una valorada atención al cliente.
 - Tenemos cerca de 10 años de trayectoria en esta industria.
 
 ## Nuestra relación con clientes
@@ -47,6 +52,8 @@ Nuestros clientes persiguen objetivos de negocio específicos, inherentes a sus 
 
 ## Casos de Éxito
 
-- Equifax: Modernizando la plataforma del Informe Platinum 360
+Estos son algunos de los casos de exito que hemos tenido con nuestros clientes:
 
-- ACHS: Manteniendo la Atención de Pacientes en Tiempos de Pandemia
+- **Equifax**: Modernizando la plataforma del Informe Platinum 360
+
+- **ACHS**: Manteniendo la Atención de Pacientes en Tiempos de Pandemia

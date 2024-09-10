@@ -1,6 +1,9 @@
 ---
 created: 2024-09-06T14:39:48 (UTC -04:00)
-description: Aprende más de los valores que compartimos en 23people
+description: Los valores que compartimos en 23people
+author: 5127711
+status: wip
+slug: nuestros-valores
 ---
 
 # Nuestros Valores

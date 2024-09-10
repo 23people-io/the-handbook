@@ -1,1 +1,1 @@
-# 23people-handbook
+# 23people Handbook

@@ -66,8 +66,8 @@ plugins:
       authors_file: "{blog}/.authors.yml"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify:
-      minify_html: true
+  # - minify:
+  #     minify_html: true
   - "mkdocs-version-annotations":
       version_added_admonition: "tip"
   - mkdocstrings:
@@ -134,19 +134,34 @@ extra:
     wip: Work in progress
 
 nav:
-  - Home: index.md
-  - 23people:
-      - Acerca de:
-          - about-us/index.md
-          - Nuestros servicios: about-us/our-services.md
-          - Nuestras metas: about-us/our-goals.md
-          - Nuestros valores: about-us/our-values.md
-          - Nuestra organización: about-us/our-organization.md
+  - Home:
+      - index.md
+      - Acerca de 23people: company/about-us/resumen.md
+      - Nuestros valores: company/about-us/nuestros-valores.md
+      - Nuestras metas: company/about-us/nuestras-metas.md
+      - Nuestros servicios: company/about-us/nuestros-servicios.md
+      - Nuestra organización: company/about-us/nuestra-organizacion.md
 
-  - KPIs:
+  - Comunidad:
+      - Comunidad:
+          - community/index.md
+          - Código de Conducta: community/code-of-conduct.md
+          - Diversidad e Inclusión: community/diversity-and-inclusion.md
+          - Eventos: community/events.md
+          - Voluntariado: community/volunteering.md
+
+  - Departamentos:
+      - departments/index.md
       - People Growth:
-          - "Tasa de Rotación Profesionales (12 meses móviles)": kpis/people-growth/kpi-turnover-rate.md
-          - "Total de Profesionales Activos": kpis/people-growth/kpi-headcount.md
-          - "Glassdoor eNPS": kpis/people-growth/kpi-glassdoor-enps.md
+          - departments/people-growth/index.md
+          - KPIs:
+              - "Tasa de Rotación Profesionales (12 meses móviles)": kpis/people-growth/kpi-turnover-rate.md
+              - "Total de Profesionales Activos": kpis/people-growth/kpi-headcount.md
+              - "Glassdoor eNPS": kpis/people-growth/kpi-glassdoor-enps.md
+      - Finances:
+          - departments/finances/index.md
+          - KPIs:
+              - "Ventas Netas UF": departments/finances/kpis/ventas-netas-uf.md
+              - "Concentración de Ventas": departments/finances/kpis/concentracion-ventas.md
   - Blog:
       - blog/index.md

@@ -1,8 +1,9 @@
 ---
 created: 2024-09-06T14:39:48 (UTC -04:00)
-tags: []
-source: 
-author: 
+author: 5127711
+status: wip
+slug: nuestra-organizacion
+legacy_url: 
 description: "Como nos organizamos internamente en 23people: Departamentos, Tribus y Equipos"
 ---
 
@@ -22,9 +23,9 @@ Tenemos dos tipos de departamentos: de Servicios y Funcionales.
 
 Son aquellos departamentos que están enfocados en la prestación, apoyo y mejora operacional de todos los servicios que ofrecemos a nuestros clientes. Existe un departamento por cada línea de servicios principal que manejamos.
 
-- [IT Talent Services](https://manual.23people.io/es/articles/9487351-acerca-de-it-talent-services)
+- [IT Talent Services (ITTS)](https://manual.23people.io/es/articles/9487351-acerca-de-it-talent-services)
 
-- [Digital Platforms, Data & AI Services](https://manual.23people.io/es/articles/9487353-acerca-de-digital-platforms-data-ai-services)
+- [Digital Platforms, Data & AI Services (DPS)](https://manual.23people.io/es/articles/9487353-acerca-de-digital-platforms-data-ai-services)
 
 ### Departamentos Funcionales
 

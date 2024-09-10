@@ -1,6 +1,6 @@
 ---
-title: El Manual de 23people
-date: 2024-09-01
+created: 2024-08-10T14:30:00
+updated: 2024-08-10T14:30:00
 authors:
   - manu-reyes-23p
 slug: el-manual-de-23people
@@ -14,6 +14,7 @@ description: >
 El Manual de 23people apunta a compartir información de manera fácil y eficiente entre las personas que trabajan en la empresa. La intención es tener una fuente de verdad única sobre qué, cómo y por qué lo hacemos así.
 
 ## Por qué necesitamos esto
+
 Somos una empresa en crecimiento y sabemos que las nuevas personas que ingresen no podrán acceder a emails, conversaciones o decisiones que se hayan tomado anteriormente. Por otro lado, muchos problemas por los que hemos pasado y sus soluciones, además de procedimientos que hemos armado para responder a ciertas necesidades, cuando vuelven a aparecer, es necesario comunicarlos nuevamente con el problema inherente que ya tiene la comunicación humana.
 
 ¿Cómo poder enfocar nuestro esfuerzo intelectual en los problemas nuevos, en vez de en problemas ya conocidos?

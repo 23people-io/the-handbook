@@ -15,19 +15,19 @@ RESET=$(shell tput -Txterm sgr0)
 
 # Run the app. Default target. 
 run:
-	@echo "$(YELLOW)Starting chatbot...$(RESET)"
+	@echo "$(YELLOW)Running handbook...$(RESET)"
 	mkdocs serve
-	@echo "$(GREEN)✔ Application started successfully.$(RESET)"
+	@echo "$(GREEN)✔ Started successfully.$(RESET)"
 
 # Build the project
 build:
-	@echo "$(YELLOW)Building project...$(RESET)"
+	@echo "$(YELLOW)Building handbook...$(RESET)"
 	@$(MAKE) -s check-dependencies
 	@$(MAKE) -s clean
 	@$(MAKE) -s install-python-dependencies
 	poetry export --without-hashes -f requirements.txt -o requirements.txt
 	@$(MAKE) -s activate-env
-	@mkdocs build
+	mkdocs build
 	@echo "$(GREEN)✔ Build completed successfully.$(RESET)"
 
 # Clean the project
@@ -35,6 +35,8 @@ clean:
 	@echo "$(YELLOW)Cleaning...$(RESET)"
 	@echo "$(BLUE)Deleting .venv directory.$(RESET)"; \
 	rm -rf .venv
+	@echo "$(BLUE)Deleting site folder.$(RESET)"; \
+	rm -rf site
 	@echo "$(BLUE)Deleting poetry.lock file.$(RESET)"; \
 	rm -f poetry.lock
 	@echo "$(GREEN)✔ Cleaned successfully.$(RESET)"
@@ -63,20 +65,10 @@ version:
 	poetry version
 	@echo "$(GREEN)✔ Git Tag Version created successfully...$(RESET)"
 
-# Deploy
-deploy:
-	@echo "$(YELLOW)Building infrastructure...$(RESET)"
-	@if [ ! -d "terraform" ]; then \
-		echo "$(RED)Error: 'terraform' folder not found.$(RESET)"; \
-		exit 1; \
-	fi
-	@cd terraform && \
-		terraform fmt -check && \
-		terraform fmt -diff && \
-		terraform init && \
-		terraform validate && \
-		terraform plan -out=tfplan.out -var-file=terraform.tfvars && \
-		terraform apply "tfplan.out"
+build-docs:
+	@echo "$(YELLOW)Building docs...$(RESET)"
+	@$(MAKE) -s activate-env
+	mkdocs build
 	@echo "$(GREEN)✔ Build completed successfully.$(RESET)"
 
 # ---------------------------------------------------------------------------------------------------------------------
@@ -149,7 +141,7 @@ install-python-dependencies:
 
 activate-env:
 	@echo "$(YELLOW)Activating Virtual Environment...$(RESET)"	
-	poetry env use python
+	poetry shell
 	@echo "$(GREEN)✔ Virtual Environment activated successfully.$(RESET)"
 
-.PHONY: run build clean version deploy check-dependencies check-system check-python check-poetry install-python-dependencies activate-env
+.PHONY: run build clean version check-dependencies check-system check-python check-poetry install-python-dependencies activate-env

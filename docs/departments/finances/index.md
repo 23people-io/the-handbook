@@ -12,14 +12,10 @@ legacy_url: https://manual.23people.io/es/articles/8863807-acerca-de-finances
 
 ## Bienvenidos
 
-* * *
-
 ¡Bienvenido al manual de **Finances**! Aquí deberías poder encontrar
 respuestas a la mayoría de tus preguntas.
 
 ## Propósito
-
-* * *
 
 **Finances** es el departamento y equipo de 23people encargado de asegurar la
 estabilidad y el crecimiento financiero de la empresa, actuando como nuestro
@@ -28,20 +24,11 @@ tecnológico a través de una gestión eficiente de los recursos económicos.
 
 ## KPIs
 
-* * *
-
 Estos son los KPI que monitorea este departamento:
 
-  * [Concentración de Ventas por Cliente (ORC)](/concentracion-de-ventas-total)
-
-  * [Ventas Neta UF (NRCLF)](/total-ventas-uf)
-
-  * [Tasa Anual de Crecimiento Compuesto (CAGR)](/tasa-de-crecimiento-anual-compuesta-carg)
-
-  * [Margen de EBITDA (EMG)](/margen-de-ebitda-emg)
-
-  * [Margen Operativo (OMG)](/margen-operativo-omg)
-
-  * [Costo de Adquisición de Clientes (CAC)](/costo-de-adquisicion-de-clientes-cac)
-
-
+* [Ventas Neta UF](kpis/ventas-netas-uf)
+* [Concentración de Ventas por Cliente](kpis/concentracion-ventas)
+* [Tasa Anual de Crecimiento Compuesto](kpis/tasa-crecimiento-anual-compuesta)
+* [Margen de EBITDA](kpis/margen-de-ebitda)
+* [Margen Operativo](kpis/margen-operativo)
+* [Costo de Adquisición de Clientes](kpis/costo-adquisicion-clientes)

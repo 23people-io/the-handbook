@@ -1,6 +1,10 @@
 ---
 created: 2024-09-06T14:39:48 (UTC -04:00)
 description: Expansión global y en Latam, liderazgo en TI, y cultura de innovación en IA para crear soluciones digitales eficaces y sostenibles.
+author: 5127711
+status: wip
+slug: nuestras-metas
+legacy_url: 
 ---
 
 # Nuestras Metas

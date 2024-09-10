@@ -1,6 +1,10 @@
 ---
 created: 2024-09-06T14:39:48 (UTC -04:00)
-description: Un resumen de lo que hacemos por nuestros clientes y que nos define como un equipo-empresa.
+description: Un resumen de lo que hacemos en 23people por nuestros clientes y lo que nos define como un equipo-empresa.
+author: 5127711
+status: wip
+slug: resumen
+legacy_url: 
 ---
 
 # Acerca de 23people
@@ -60,9 +64,9 @@ Para más detalles, visita [Nuestra Historia](https://manual.23people.io/es/arti
 
 ### Departamentos de Servicios
 
-- IT Talent Services
+- IT Talent Services (ITTS)
 
-- Digital Platforms, Data & AI Services
+- Digital Platforms, Data & AI Services (DPS)
 
 ### Departamentos Funcionales
 
