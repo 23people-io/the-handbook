@@ -66,8 +66,6 @@ plugins:
       authors_file: "{blog}/.authors.yml"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  # - minify:
-  #     minify_html: true
   - "mkdocs-version-annotations":
       version_added_admonition: "tip"
   - mkdocstrings:
@@ -100,9 +98,6 @@ extra_javascript:
 extra:
   version:
     provider: mike
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/23people-io
@@ -155,7 +150,7 @@ nav:
       - People Growth:
           - departments/people-growth/index.md
           - KPIs:
-              - "Tasa de Rotación Profesionales (12 meses móviles)": kpis/people-growth/kpi-turnover-rate.md
+              - "Tasa de Rotación Profesionales (12 meses móviles)": departments/people-growth/kpis/tasa-rotacion-profesionales-12m-moviles.md
               - "Total de Profesionales Activos": kpis/people-growth/kpi-headcount.md
               - "Glassdoor eNPS": kpis/people-growth/kpi-glassdoor-enps.md
       - Finances:

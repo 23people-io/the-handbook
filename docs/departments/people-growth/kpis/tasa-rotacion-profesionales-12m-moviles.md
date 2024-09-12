@@ -1,22 +1,34 @@
+---
+created: 2024-09-12T12:15:10
+updated: 2024-09-12T14:30:00
+description: Mide el porcentaje de profesionales que han dejado la empresa en los últimos 12 meses.
+author: 5127711
+status: wip
+slug: tasa-rotacion-profesionales-12m-moviles
+legacy_url: 
+---
+
 # Tasa de Rotación Profesionales (12 meses móviles)
 
-Mide el porcentaje de profesionales que han dejado la empresa en los últimos 12 meses.
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
 
 ## Descripción e Importancia
 
 La Tasa de Rotación Profesionales (12 meses móviles) es un indicador crucial que permite a 23people evaluar la estabilidad y satisfacción de su fuerza laboral. Este KPI mide el porcentaje de profesionales que han dejado la empresa en los últimos 12 meses, considerando todas las causas de salida. Al monitorear este indicador, la empresa puede identificar tendencias en la retención de empleados, entender las razones detrás de la salida del personal, y desarrollar estrategias para mejorar la satisfacción y retención laboral.
 
-| **Atributo**                               | **Valor**                |
-| ------------------------------------------ | ------------------------ |
-| **ID**                                     | PGR_PTR12M               |
-| **Responsable**                            | People Growth            |
+| **Atributo**                               | **Valor**                  |
+|--------------------------------------------|----------------------------|
+| **ID**                                     | PGR_PTR12M                 |
+| **Responsable**                            | People Growth              |
 | **Impacto a medir**                        | Calidad para profesionales |
-| **Frecuencia de actualización y registro** | Mensual                  |
-| **Unidad de medida**                       | Porcentaje (%)           |
-| **Umbrales de salud**                      | **Rango**                |
-| *Objetivo*                                 | <= 20%                   |
-| *Alerta*                                   | > 20% y <= 30%           |
-| *Crítico*                                  | > 30%                    |
+| **Frecuencia de actualización y registro** | Mensual                    |
+| **Unidad de medida**                       | Porcentaje (%)             |
+| **Umbrales de salud**                      | **Rango**                  |
+| *Objetivo*                                 | <= 20%                     |
+| *Alerta*                                   | > 20% y <= 30%             |
+| *Crítico*                                  | > 30%                      |
 
 ## Fuente de datos y actualización
 
@@ -37,8 +49,8 @@ Además, se debe considerar la posibilidad de desagregar el KPI por las siguient
 - Empresa (Nombre del cliente en el caso de Drakkar, "23people" en el caso de Jarvis)
 - Equipo (Equipo en el cliente en el caso de Drakkar, Nombre del Departamento en el caso de 23people)
 - Perfil del Profesional (Software Engineer, Account Manager, Recruiter, Data Engineer, etc.)
-- Tipo de Renuncia (Voluntaria, Mutuo Acuerdo, Necesidades de la empresa)
-- Motivo de Renuncia (Motivos tabulados que se hayan detectado)
+- Causal de Término. Corresponde a los tipos indicados en la Dirección del Trabajo (e.g. Renuncia del trabajador, Necesidades de la empresa, Mutuo acuerdo, etc.)
+- Motivo del Término. Tipos de motivos por la cual el profesional renunció o fue desvinculado de la empresa.
 
 ## Cálculo
 

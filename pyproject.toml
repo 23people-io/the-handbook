@@ -8,7 +8,7 @@ maintainers = [
 name = "23people-company-public-handbook"
 readme = "README.md"
 repository = "https://github.com/23people-io/23people-company-public-handbook"
-version = "0.2.4"
+version = "0.2.5"
 
 [tool.poetry.dependencies]
 mkdocs = {extras = ["i18n"], version = "^1.6.1"}
@@ -23,6 +23,7 @@ mkdocstrings = "^0.25.2"
 mkdocstrings-python = "^1.10.9"
 python = "^3.11, <3.12"
 python-dotenv = "^1.0.1"
+mkdocs-with-pdf = "^0.9.3"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
