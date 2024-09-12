@@ -66,7 +66,7 @@ En donde:
 
 * **Costos Directos de los Servicios** incluyen todos los costos asociados directamente con la prestación del servicio, como salarios del personal técnico, costos de software/hardware, etc.
 
-#### Ejemplo Numérico
+### Ejemplo Numérico
 
 Supongamos que las Ventas Totales del mes fueron de $1,000,000 y los Costos
 Directos de los Servicios fueron de $600,000.

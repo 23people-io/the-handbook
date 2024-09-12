@@ -17,7 +17,7 @@ activos en ese mismo período. Es un indicador vital de la satisfacción y el
 compromiso de los empleados con la empresa, así como de la eficacia de las
 políticas de retención de talento.
 
-### Frecuencia de Cálculo
+## Frecuencia de Cálculo
 
 Mensual (con un enfoque en el periodo acumulativo de 12 meses).
 
@@ -36,5 +36,3 @@ promedio mensual de profesionales activos durante ese período es de 500, la
 fórmula sería:
 
 ...
-
-
