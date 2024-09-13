@@ -10,4 +10,8 @@ legacy_url:
 
 # Preferir dar autonomía a los colaboradores en lugar de micromanagement
 
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
+
 (pero si no hay resultados, se debe actuar con micromanagement y esto en general no será buena señal para quien tenia la autonomía)

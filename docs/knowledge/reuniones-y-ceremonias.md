@@ -12,8 +12,6 @@ legacy_url: https://manual.23people.io/es/articles/9060383-reuniones-y-ceremonia
 
 ## Key Reviews Meeting
 
-* * *
-
 ### Propósito
 
 Realizar una revisión de los OKRs definidos para el trimestre. Se evalúa el
@@ -22,9 +20,9 @@ de cara al siguiente trimestre.
 
 ### Métricas Clave
 
-  * KPIs de ese Departamento o Función en la empresa.
+* KPIs de ese Departamento o Función en la empresa.
 
-  * OKRs para esa función.
+* OKRs para esa función.
 
 ### Cuándo y Dónde
 
@@ -56,24 +54,24 @@ Estas reuniones están diseñadas para asegurar alineación entre las distintas
 divisiones de servicios, departamentos y equipos multi-departamentales.
 Incluye el compartir:
 
-  * Las variaciones de mes a mes.
+* Las variaciones de mes a mes.
 
-  * El rendimiento contra el plan, pronóstico y modelo operativo.
+* El rendimiento contra el plan, pronóstico y modelo operativo.
 
-  * La conexión entre OKRs y KPIs.
+* La conexión entre OKRs y KPIs.
 
-  * El progreso contra los objetivos anuales y OKRs.
+* El progreso contra los objetivos anuales y OKRs.
 
-  * Compromiso a comunicar y responsabilizarse frente a los demás miembros de la empresa.
+* Compromiso a comunicar y responsabilizarse frente a los demás miembros de la empresa.
 
 Además, disponibiliza una oportunidad para que miembros o equipos, muestren
 con orgullo en lo que han estado trabajando y sus resultados.
 
 ### Métricas Clave
 
-  * KPIs de ese Departamento o Función en la empresa
+* KPIs de ese Departamento o Función en la empresa
 
-  * OKRs para esa función
+* OKRs para esa función
 
 ### Cuándo y Dónde
 
@@ -91,6 +89,7 @@ Se puede acceder al material de las reuniones [siguiente
 enlace](https://drive.google.com/drive/folders/1L4vZ1b9wn2AkAdmP8jTbMh0eBGvCRbWo?usp=drive_link).
 
 ##  
+
 High Council Meeting
 
 * * *
@@ -109,5 +108,3 @@ de Google Meets.
 
 En esta reunión participan todos los miembros del equipo de [High
 Council](https://manual.23people.io/docs/high-council-team).
-
-

@@ -4,7 +4,7 @@ Mide la cantidad total de profesionales empleados activamente en la empresa.
 
 ## Descripción e Importancia
 
-El KPI "Total de Profesionales Activos" cuantifica el número de profesionales empleados activamente en la empresa al final de cada mes. Este indicador es crucial ya que refleja la capacidad operativa de la empresa en el mercado local, así como su crecimiento o contracción en términos de personal. Proporciona una visión clara del tamaño de la fuerza laboral y es un indicador clave de la escala de operaciones de la empresa. Además, permite un análisis detallado por diferentes dimensiones, lo que facilita la toma de decisiones estratégicas en recursos humanos y planificación de proyectos.
+El KPI "Total de Profesionales Activos" cuantifica el número de profesionales que han estado activos en un periodo determinado. Este indicador es crucial ya que refleja la capacidad operativa de la empresa en el mercado local, así como su crecimiento o contracción en términos de personal. Proporciona una visión clara del tamaño de la fuerza laboral y es un indicador clave de la escala de operaciones de la empresa. Además, permite un análisis detallado por diferentes dimensiones, lo que facilita la toma de decisiones estratégicas en recursos humanos y planificación de proyectos.
 
 | **Atributo**                               | **Valor**                    |
 | ------------------------------------------ | ---------------------------- |
@@ -41,11 +41,11 @@ Además, se debe considerar la posibilidad de desagregar el KPI por las siguient
 
 ## Cálculo
 
-El **Total de Profesionales Activos** se calcula contabilizando el número total de profesionales que están activamente empleados en la empresa al final de cada mes, considerando todas las dimensiones relevantes.
+El **Total de Profesionales Activos** se calcula contabilizando el número total de profesionales que están activamente empleados en la empresa, considerando todas las dimensiones relevantes.
 
 **Fórmula**:
 
-$$\text{Total de Profesionales Activos} = \sum \text{Profesionales Activos al final del mes}$$
+$$\text{Total de Profesionales Activos} = \sum \text{Número de Profesionales Activos}$$
 
 **Ejemplo**:
 

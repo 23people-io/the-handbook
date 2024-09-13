@@ -9,3 +9,7 @@ legacy_url:
 ---
 
 # Preferir documentar decisiones en lugar de dejarlas en la memoria de las personas
+
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
