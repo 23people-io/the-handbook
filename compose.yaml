@@ -1,0 +1,10 @@
+name: 23people-company-handbook
+
+services:
+  handbook-service:
+    build: .
+    container_name: handbook-service
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"

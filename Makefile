@@ -1,6 +1,7 @@
 SHELL=/bin/bash
 
 PYTHON_VERSION = 3.11
+APP_PORT = 2300
 
 # ANSI color codes
 GREEN=$(shell tput -Txterm setaf 2)
@@ -16,7 +17,7 @@ RESET=$(shell tput -Txterm sgr0)
 # Run the app. Default target. 
 run:
 	@echo "$(YELLOW)Running handbook...$(RESET)"
-	mkdocs serve
+	mkdocs serve -a 127.0.0.1:$(APP_PORT)
 	@echo "$(GREEN)✔ Started successfully.$(RESET)"
 
 # Build the project
@@ -27,7 +28,7 @@ build:
 	@$(MAKE) -s install-python-dependencies
 	poetry export --without-hashes -f requirements.txt -o requirements.txt
 	@$(MAKE) -s activate-env
-	mkdocs build
+	@$(MAKE) -s build-docs
 	@echo "$(GREEN)✔ Build completed successfully.$(RESET)"
 
 # Clean the project
@@ -64,6 +65,12 @@ version:
 	git push --tags
 	poetry version
 	@echo "$(GREEN)✔ Git Tag Version created successfully...$(RESET)"
+
+# Docker Compose
+docker-compose:
+	@echo "$(YELLOW)Composing docker stack...$(RESET)"
+	docker compose up
+	@echo "$(GREEN)Docker Compose was build successfully.$(RESET)"
 
 build-docs:
 	@echo "$(YELLOW)Building docs...$(RESET)"
