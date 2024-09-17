@@ -16,4 +16,8 @@
         "editor.formatOnType": true,
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
 }
