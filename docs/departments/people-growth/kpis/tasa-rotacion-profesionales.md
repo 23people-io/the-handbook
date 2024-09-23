@@ -26,9 +26,9 @@ La Tasa de Rotación Profesionales es un indicador crucial que permite a 23peopl
 | **Frecuencia de actualización y registro** | Mensual                    |
 | **Unidad de medida**                       | Porcentaje (%)             |
 | **Umbrales de salud**                      | **Rango**                  |
-| *Objetivo*                                 | <= 20%                     |
-| *Alerta*                                   | > 20% y <= 30%             |
-| *Crítico*                                  | > 30%                      |
+| *Objetivo*                                 | <= 1.5%                     |
+| *Alerta*                                   | > 1.5% y <= 3%             |
+| *Crítico*                                  | > 3%                      |
 
 ## Fuente de datos y actualización
 
@@ -54,23 +54,73 @@ Además, se debe considerar la posibilidad de desagregar el KPI por las siguient
 
 ## Cálculo
 
-La Tasa de Rotación Profesionales se calcula sumando el número de profesionales que han dejado la empresa en el mes en cuestión, dividiendo este número entre el promedio de Profesionales Activos en ese mes, y multiplicando por 100.
+La Tasa de Rotación Profesionales (Mensual) se calcula sumando el número de profesionales que han dejado la empresa en el mes en cuestión, dividiendo este número entre el total de Profesionales Activos al inicio de ese mes, y multiplicando por 100.
 
-**Fórmula**:
+Fórmula:
 
-$$\text{Tasa de Rotación} = \left( \frac{\text{Número Total de Salidas en el mes}}{\text{Total de Profesionales Activos al inicio del mes}} \right) \times 100$$
+$$\text{Tasa de Rotación Mensual} = \left( \frac{\text{Número de Salidas en el mes}}{\text{Total de Profesionales Activos al inicio del mes}} \right) \times 100$$
 
-**Ejemplo**:
+### Trimestral, Semestral y Anual
 
-Considerando, como ejemplo ficticio, que se quiere calcular el KPI para el mes de **Diciembre 2023** y se registraron los siguientes datos:
+Para periodos más largos, se calcula el promedio de las tasas mensuales en el periodo correspondiente.
+
+Fórmula general:
+
+$$\text{Tasa de Rotación Periodo} = \frac{\sum \text{Tasas de Rotación Mensuales en el periodo}}{\text{Número de meses en el periodo}}$$
+
+## Ejemplos de Cálculo
+
+### Ejemplo 1: Cálculo Mensual Básico
+
+Considerando, como ejemplo, que se quiere calcular el KPI para el mes de Julio 2024:
 
 ```plaintext
-- Salidas del mes: 5
-- Promedio de profesionales activos en ese mes: 123
+- Salidas en Julio 2024: 2
+- Total de Profesionales Activos al inicio de Julio 2024: 150
 ```
 
-Dada la formula del KPI, el cálculo sería:
+Cálculo:
 
-$$\text{Tasa de Rotación} = \left( \frac{5}{123} \right) \times 100 = 4.07\%$$
+$$\text{Tasa de Rotación Julio 2024} = \left( \frac{2}{150} \right) \times 100 = 1.33%$$
 
-La Tasa de Rotación Profesionales sería de 4.07% en Diciembre 2024, lo cual está en el rango saludable (<= 20%).
+Este resultado está dentro del rango objetivo (<= 1.5%).
+
+### Ejemplo 2: Cálculo Trimestral con Dimensiones
+
+Supongamos que queremos calcular la tasa de rotación para el segundo trimestre de 2024, desglosado por Tribu y Perfil del Profesional:
+
+```plaintext
+Abril 2024:
+- Drakkar: 1 salida (Software Engineer) de 80 profesionales
+- Jarvis: 1 salida (Account Manager) de 70 profesionales
+
+Mayo 2024:
+- Drakkar: 2 salidas (1 Software Engineer, 1 Data Engineer) de 82 profesionales
+- Jarvis: 0 salidas de 72 profesionales
+
+Junio 2024:
+- Drakkar: 1 salida (Software Engineer) de 81 profesionales
+- Jarvis: 1 salida (Recruiter) de 73 profesionales
+```
+
+Cálculos mensuales:
+
+Abril: (1/80 + 1/70) × 100 = 2.68%
+Mayo: (2/82 + 0/72) × 100 = 2.44%
+Junio: (1/81 + 1/73) × 100 = 2.60%
+
+Tasa de Rotación Trimestral:
+
+$$(2.68% + 2.44% + 2.60%) \div 3 = 2.57%$$
+
+Desglose por Tribu:
+
+Drakkar: ((1/80 + 2/82 + 1/81) ÷ 3) × 100 = 1.63%
+Jarvis: ((1/70 + 0/72 + 1/73) ÷ 3) × 100 = 0.92%
+
+Desglose por Perfil:
+
+Software Engineer: 3 salidas
+Data Engineer: 1 salida
+Account Manager: 1 salida
+Recruiter: 1 salida
