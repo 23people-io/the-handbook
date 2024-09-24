@@ -8,7 +8,7 @@ maintainers = [
 name = "23people-company-handbook"
 readme = "README.md"
 repository = "https://github.com/23people-io/23people-company-handbook"
-version = "0.3.3"
+version = "0.3.4"
 
 [tool.poetry.dependencies]
 mkdocs = {extras = ["i18n"], version = "^1.6.1"}
@@ -21,7 +21,7 @@ mkdocs-redirects = "^1.2.1"
 mkdocs-version-annotations = "^1.0.0"
 mkdocstrings = "^0.25.2"
 mkdocstrings-python = "^1.10.9"
-python = "^3.11, <3.12"
+python = "^3.12"
 python-dotenv = "^1.0.1"
 
 [build-system]
