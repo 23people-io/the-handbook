@@ -4,7 +4,7 @@ services:
   handbook:
     build: .
     container_name: handbook
-    env_file:
-      - .env
+    environment:
+      - APP_PORT=2300
     ports:
-      - "2300:8000"
+      - "2300:2300"
