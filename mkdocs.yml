@@ -150,9 +150,9 @@ nav:
       - People Growth:
           - departments/people-growth/index.md
           - KPIs:
-              - "Tasa de Rotación Profesionales (12 meses móviles)": departments/people-growth/kpis/tasa-rotacion-profesionales-12m-moviles.md
-              - "Total de Profesionales Activos": kpis/people-growth/kpi-headcount.md
-              - "Glassdoor eNPS": kpis/people-growth/kpi-glassdoor-enps.md
+              - "Tasa de Rotación Profesionales": departments/people-growth/kpis/tasa-rotacion-profesionales.md
+              - "Total de Profesionales Activos": departments/people-growth/total-profesionales-activos.md
+              - "Glassdoor eNPS": departments/people-growth/glassdoor-enps.md
       - Finances:
           - departments/finances/index.md
           - KPIs:
