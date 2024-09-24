@@ -26,9 +26,9 @@ La Tasa de Rotación Profesionales es un indicador crucial que permite a 23peopl
 | **Frecuencia de actualización y registro** | Mensual                    |
 | **Unidad de medida**                       | Porcentaje (%)             |
 | **Umbrales de salud**                      | **Rango**                  |
-| *Objetivo*                                 | <= 1.5%                     |
+| *Objetivo*                                 | <= 1.5%                    |
 | *Alerta*                                   | > 1.5% y <= 3%             |
-| *Crítico*                                  | > 3%                      |
+| *Crítico*                                  | > 3%                       |
 
 ## Fuente de datos y actualización
 
@@ -77,22 +77,8 @@ Además, se debe considerar la posibilidad de desagregar el KPI por las siguient
 La Tasa de Rotación Profesionales (Mensual) se calcula sumando el número de profesionales que han dejado la empresa en el mes en cuestión, dividiendo este número entre el total de Profesionales Activos al inicio de ese mes, y multiplicando por 100.
 
 Fórmula:
-Fórmula:
 
 $$\text{Tasa de Rotación Mensual} = \left( \frac{\text{Número de Salidas en el mes}}{\text{Total de Profesionales Activos al inicio del mes}} \right) \times 100$$
-$$\text{Tasa de Rotación Mensual} = \left( \frac{\text{Número de Salidas en el mes}}{\text{Total de Profesionales Activos al inicio del mes}} \right) \times 100$$
-
-### Trimestral, Semestral y Anual
-
-Para periodos más largos, se calcula el promedio de las tasas mensuales en el periodo correspondiente.
-
-Fórmula general:
-
-$$\text{Tasa de Rotación Periodo} = \frac{\sum \text{Tasas de Rotación Mensuales en el periodo}}{\text{Número de meses en el periodo}}$$
-
-## Ejemplos de Cálculo
-
-### Ejemplo 1: Cálculo Mensual Básico
 
 ### Trimestral, Semestral y Anual
 
