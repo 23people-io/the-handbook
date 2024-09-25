@@ -10,6 +10,10 @@ legacy_url: https://manual.23people.io/es/articles/9807041-gestion-de-flujos-de-
 
 # Gestión de Flujos de Trabajo
 
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
+
 ## La importancia del método Kanban en 23people
 
 En 23people, hemos adoptado el Método Kanban como nuestra estrategia principal
@@ -18,10 +22,11 @@ arbitraria, sino que responde a la necesidad de mejorar nuestra eficiencia,
 transparencia y capacidad de respuesta en un entorno empresarial cada vez más
 dinámico y competitivo.
 
-**🧠💡 Estamos en el área de Trabajo del Conocimiento.**  
-El valor de este trabajo se determina basándose en cuantos problemas no
-triviales y que impliquen creatividad de pensamiento, se pueden resolver.
-**Todo lo demás, debe hacerse una manera aburrida, predecible y metódica.**
+> **🧠💡 Estamos en el Área de Trabajo del Conocimiento.**
+>
+> El valor de este trabajo se determina basándose en cuantos problemas no
+> triviales y que impliquen creatividad de pensamiento, se pueden resolver.
+> **Todo lo demás, debe hacerse de una manera aburrida, predecible y metódica.**
 
 Entendemos por **Flujo de Trabajo** a la representación visual y sistemática
 de cómo se mueve y transforma el trabajo a través de diferentes etapas, desde
@@ -162,6 +167,24 @@ Utilizamos estas métricas para:
 * Identificar áreas de mejora en nuestros procesos.
 
 * Evaluar el impacto de los cambios implementados.
+
+## Notas para definición de políticas
+
+1. **Claridad en el proceso de gestión de tarjetas:** Las tarjetas pasan de "Inmaduro" (o Backlog) a "Por hacer" cuando hay suficiente claridad sobre el trabajo a realizar. Antes de mover una tarjeta a "Por hacer", es importante hacer todas las preguntas necesarias para entender completamente la tarea.
+2. **Definición de subtareas:** Es importante crear una primera versión de subtareas antes de mover la tarjeta a "Por hacer".
+Las subtareas pueden ser refinadas o ampliadas a medida que avanza el trabajo.
+3. **Compromiso del equipo:** Mover una tarjeta a "Por hacer" implica un compromiso del equipo para realizarla.
+Se debe tratar cada tarjeta como una funcionalidad de software en términos de compromiso.
+4. **Validación y QA:** La subtarea de validación se marca cuando el solicitante confirma que el trabajo se ha completado satisfactoriamente.
+La validación actúa como el control de calidad (QA) del trabajo realizado.
+5. **Flexibilidad en la planificación:** Se reconoce que no siempre se puede prever todo el trabajo necesario desde el principio.
+Es aceptable añadir más subtareas, clarificar detalles o hacer ajustes durante el proceso.
+6. **Manejo de bloqueos:** En general, es preferible bloquear las tarjetas en lugar de devolverlas al estado anterior.
+Sin embargo, se pueden hacer excepciones cuando sea necesario para una mejor clarificación.
+7. **Definición de Listo (DoD):** Las Definiciones de Listo actúan como "contratos" que el equipo acepta.
+La validación final se hace contra estos criterios antes de marcar una tarea como completada.
+8. **Ajustes de alcance:** Si durante el proceso se descubre que una tarea es más grande de lo previsto, se puede reducir el alcance o crear tarjetas adicionales.
+9. **Comunicación continua:** Se fomenta la comunicación abierta y las preguntas para clarificar las tareas antes de comenzar el trabajo.
 
 ## Conclusión
 

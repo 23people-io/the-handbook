@@ -145,6 +145,9 @@ nav:
           - Eventos: community/events.md
           - Voluntariado: community/volunteering.md
 
+  - Conocimiento:
+      - "Flujos de Trabajo": knowledge/gestion-de-flujos-de-trabajo.md
+
   - Departamentos:
       - departments/index.md
       - People Growth:
@@ -158,5 +161,6 @@ nav:
           - KPIs:
               - "Ventas Netas UF": departments/finances/kpis/ventas-netas-uf.md
               - "Concentración de Ventas": departments/finances/kpis/concentracion-ventas.md
+
   - Blog:
       - blog/index.md
