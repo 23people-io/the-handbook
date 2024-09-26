@@ -25,7 +25,7 @@ La Tasa de Rotación Profesionales es un indicador crucial que permite a 23peopl
 | **Impacto a medir**                        | Calidad para profesionales |
 | **Frecuencia de actualización y registro** | Mensual                    |
 | **Unidad de medida**                       | Porcentaje (%)             |
-| **Umbrales de salud**                      | **Rango**                  |
+| **Umbrales de salud**                      | **Rangos (Base Mensual)**  |
 | *Objetivo*                                 | <= 1.5%                    |
 | *Alerta*                                   | > 1.5% y <= 3%             |
 | *Crítico*                                  | > 3%                       |

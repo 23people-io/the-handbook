@@ -168,24 +168,57 @@ Utilizamos estas métricas para:
 
 * Evaluar el impacto de los cambios implementados.
 
-## Notas para definición de políticas
+## Políticas
 
-1. **Claridad en el proceso de gestión de tarjetas:** Las tarjetas pasan de "Inmaduro" (o Backlog) a "Por hacer" cuando hay suficiente claridad sobre el trabajo a realizar. Antes de mover una tarjeta a "Por hacer", es importante hacer todas las preguntas necesarias para entender completamente la tarea.
-2. **Definición de subtareas:** Es importante crear una primera versión de subtareas antes de mover la tarjeta a "Por hacer".
-Las subtareas pueden ser refinadas o ampliadas a medida que avanza el trabajo.
-3. **Compromiso del equipo:** Mover una tarjeta a "Por hacer" implica un compromiso del equipo para realizarla.
-Se debe tratar cada tarjeta como una funcionalidad de software en términos de compromiso.
-4. **Validación y QA:** La subtarea de validación se marca cuando el solicitante confirma que el trabajo se ha completado satisfactoriamente.
-La validación actúa como el control de calidad (QA) del trabajo realizado.
-5. **Flexibilidad en la planificación:** Se reconoce que no siempre se puede prever todo el trabajo necesario desde el principio.
-Es aceptable añadir más subtareas, clarificar detalles o hacer ajustes durante el proceso.
-6. **Manejo de bloqueos:** En general, es preferible bloquear las tarjetas en lugar de devolverlas al estado anterior.
-Sin embargo, se pueden hacer excepciones cuando sea necesario para una mejor clarificación.
-7. **Definición de Listo (DoD):** Las Definiciones de Listo actúan como "contratos" que el equipo acepta.
-La validación final se hace contra estos criterios antes de marcar una tarea como completada.
+Por políticas entendemos las reglas y procedimientos que guían la ejecución de las tareas y actividades en 23people. Estas políticas son esenciales para garantizar la coherencia y la calidad en nuestros flujos de trabajo, y para mantener la transparencia y la responsabilidad en todas nuestras operaciones.
+
+A continuación se indican principios generales y plantillas de políticas para cada etapa del flujo de trabajo en 23people.
+
+### Principios
+
+Para asegurar una implementación efectiva del método Kanban en 23people, hemos establecido una serie de principios para definir las políticas que guían nuestro trabajo diario y nos ayudan a mantener la coherencia y la calidad en nuestros flujos de trabajo:
+
+1. **Claridad en el proceso de gestión de tarjetas:** Las actividades/tareas deberian transitar desde "Inmaduro" (o Backlog) a "Por hacer" cuando hay suficiente claridad sobre el trabajo a realizar. Antes de mover una tarjeta a "Por hacer", es importante hacer todas las preguntas necesarias para entender completamente la tarea.
+2. **Definición de Listo (DoD):** Cada tarjeta debe tener una definición de listo (DoD) clara que ha sido indicada por quien solicita la actividad/tarea. La DoD define los criterios que deben cumplirse antes de que una tarea se considere completada. Se puede conversar con el equipo responsable de su implementación para ajustar la DoD si es necesario, pero es responsabilidad del solicitante indicarla y responsabilidad del equipo cumplirla.
+3. **Definición de subtareas:** Es importante crear una primera versión de subtareas antes de mover la actividad desde la sección "Por hacer" a la sección "En progreso". Esto debe ser suficiente para que el equipo pueda comenzar a trabajar en la actividad y es el equipo responsable de la actividad quien debe definir estas subtareas. Las subtareas pueden ser refinadas o ampliadas a medida que avanza el trabajo.
+4. **Compromiso del equipo:** Mover una tarjeta a "Por hacer" implica un compromiso del equipo para realizarla. Se entenderá que el equipo realizó las preguntas necesarias para entender suficiente bien la tarea, negoció el alcance y se comprometió a completarla.
+5. **Validación y QA:** La subtarea de validación se marca cuando el solicitante confirma que el trabajo se ha completado satisfactoriamente. Se basará en un criterio de aceptación previamente definido en la DoD. La validación actúa como el control de calidad (QA) del trabajo realizado.
+6. **Flexibilidad en la planificación:** Se reconoce que no siempre se puede prever todo el trabajo necesario desde el principio. Es aceptable añadir más subtareas, clarificar detalles, negociar alcance o hacer ajustes durante el proceso.
+7. **Manejo de bloqueos:** En general, es preferible bloquear las tarjetas en lugar de devolverlas al estado anterior. Se busca que visualmente se muestre el estado de esta actividad y se pueda identificar rápidamente si hay algún problema. Esto aplica principalmente cuando ya se ha avanzado en la actividad y se detecta un problema. La actividad/tarea puede marcarse con un bloqueo por "Cambio de Foco" si se detecta que no es prioritaria en ese momento. Es preferible marcarla con un bloqueo, sin embargo, se pueden hacer excepciones cuando sea necesario para una mejor clarificación.
 8. **Ajustes de alcance:** Si durante el proceso se descubre que una tarea es más grande de lo previsto, se puede reducir el alcance o crear tarjetas adicionales.
-9. **Comunicación continua:** Se fomenta la comunicación abierta y las preguntas para clarificar las tareas antes de comenzar el trabajo.
+9. **Comunicación continua:** Se fomenta la comunicación abierta y las preguntas para clarificar las tareas antes de comenzar el trabajo y durante su ejecución.
 
+### Plantilla de políticas por cada etapa del Flujo de Trabajo
+
+#### Inmaduro (Backlog)
+
+Criterios de salida:
+
+* Se ha indicado el solicitante de la actividad (owner de la tarjeta)
+* Se ha indicado la Definición de Listo (DoD) por parte del solicitante
+* Se ha indicado una descripción que muestre el objetivo de esta actividad
+* Al menos 1 persona del equipo ha indicado que la descripción y la DoD se consideran suficientemente maduras (entendibles).
+
+#### Por hacer
+
+Criterios de salida:
+
+* Se ha definido al responsable de la ejecución de la actividad (co-owner de la tarjeta).
+* Se han definido las subtareas iniciales necesarias para completar la actividad.
+
+#### En progreso/En ejecución
+
+Criterios de salida:
+
+* Se han completado las subtareas necesarias para completar la actividad.
+* El equipo ha validado internamente que la actividad cumple con la DoD definida por el solicitante.
+
+#### Validación
+
+Criterios de salida:
+
+* El solicitante ha validado que la actividad cumple con la DoD definida.
+  
 ## Conclusión
 
 La adopción del método Kanban en 23people nos permite gestionar eficazmente

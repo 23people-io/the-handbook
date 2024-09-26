@@ -152,15 +152,12 @@ nav:
       - departments/index.md
       - People Growth:
           - departments/people-growth/index.md
-          - KPIs:
-              - "Tasa de Rotación Profesionales": departments/people-growth/kpis/tasa-rotacion-profesionales.md
-              - "Total de Profesionales Activos": departments/people-growth/total-profesionales-activos.md
-              - "Glassdoor eNPS": departments/people-growth/glassdoor-enps.md
+      - "Marketing & Strategic Growth":
+          - departments/marketing/index.md
       - Finances:
           - departments/finances/index.md
-          - KPIs:
-              - "Ventas Netas UF": departments/finances/kpis/ventas-netas-uf.md
-              - "Concentración de Ventas": departments/finances/kpis/concentracion-ventas.md
+      - Engineering:
+          - departments/engineering/index.md
 
   - Blog:
       - blog/index.md
