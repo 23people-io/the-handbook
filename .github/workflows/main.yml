@@ -1,0 +1,52 @@
+name: 23people-company-handbook
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+      - name: Add server to known hosts
+        run: |
+          ssh-keyscan -H ${{ secrets.IP_SERVER }} >> ~/.ssh/known_hosts
+          echo "Done"
+
+      - name: Deploy code via SSH
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
+            mkdir -p /home/jedi/23people-company-handbook &&
+            cd /home/jedi/23people-company-handbook &&
+            if [ -d ".git" ]; then
+              git pull;
+            else
+              git clone git@github.com:23people-io/23people-company-handbook.git .;
+            fi
+          '
+      - name: Install dependencies
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
+            cd /home/jedi/23people-company-handbook &&
+            /home/jedi/.local/bin/poetry install --no-root &&
+            export PYTHONPATH=./src
+          '
+      - name: Restart pm2
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
+            cd /home/jedi/23people-company-handbook &&
+            source ~/.nvm/nvm.sh &&
+            pm2 restart run-pm2.json
+          '
+        
