@@ -12,7 +12,7 @@ legacy_url: https://manual.23people.io/es/articles/9769626-postulaciones-calific
 
 (incluye las postulaciones calificadas y referidas como dimensiones de medición, tambien el perfil profesional TI)
 
-### Descripción
+## Descripción
 
 Mide la cantidad de postulaciones a ofertas laborales provenientes de
 profesionales que cumplen con los requisitos mínimos y tienen posibilidades
