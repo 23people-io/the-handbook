@@ -3,7 +3,7 @@ name: 23people-company-handbook
 on:
   push:
     branches: 
-      - main
+      - stage
 
 jobs:
   build:
