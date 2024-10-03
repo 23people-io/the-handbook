@@ -3,14 +3,14 @@ created: 2024-01-16T11:08:36
 updated: 2024-09-26T14:05:21
 description: El departamento de People Growth en 23people, apoya a todos los/las profesionales de 23people a lo largo de todo su ciclo de vida.
 author: 5127711
-status: wip
 slug: people-growth
+site_url: /departments/people-growth
 legacy_url: https://manual.23people.io/es/articles/8826549-acerca-de-people-growth
 ---
 
 # People Growth
 
-¡Bienvenido al manual de **People Growth**! Aquí deberías poder encontrar
+¡Bienvenido al Departamento de **People Growth** de 23people! Aquí encontrarás
 respuestas a la mayoría de tus preguntas relacionadas con este departamento y sus funciones.
 
 ## Propósito

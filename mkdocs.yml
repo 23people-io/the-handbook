@@ -8,6 +8,7 @@ site_url: https://23people.io/
 # Repository
 repo_name: 23people/handbook
 repo_url: https://github.com/23people-io/23people-handbook
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2024 <a href="https://23people.io">23people SpA</a>
@@ -38,6 +39,7 @@ theme:
     - content.code.copy
     - announce.dismiss
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
@@ -45,9 +47,10 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.tracking
-    - navigation.indexes
     - search.suggest
     - toc.follow
+    - navigation.sections
+    - content.action.edit
   font:
     text: Roboto
     code: Roboto Mono
@@ -149,15 +152,22 @@ nav:
       - "Flujos de Trabajo": knowledge/gestion-de-flujos-de-trabajo.md
 
   - Departamentos:
-      - departments/index.md
-      - People Growth:
-          - departments/people-growth/index.md
-      - "Marketing & Strategic Growth":
-          - departments/marketing/index.md
-      - Finances:
-          - departments/finances/index.md
-      - Engineering:
-          - departments/engineering/index.md
+      - De Servicios:
+          - "IT Talent Services":
+              - Acerca de: departments/it-talent-services/index.md
+              - KPIs:
+                  - "Tasa Aceptación de Candidatos": departments/it-talent-services/kpis/tasa-aceptacion-candidatos.md
+          - "Digital Platforms, Data & AI":
+              - departments/digital-platforms-services/index.md
+      - Core:
+          - People Growth:
+              - departments/people-growth/index.md
+          - "Marketing & Strategic Growth":
+              - departments/marketing/index.md
+          - Finances:
+              - departments/finances/index.md
+          - Engineering:
+              - departments/engineering/index.md
 
   - Blog:
       - blog/index.md
