@@ -100,7 +100,3 @@ echo "${WHITE}Building Docker image...${RESET}"
 docker compose build
 echo "${GREEN}✔ Docker image built successfully.${RESET}"
 
-# Building docs
-echo "${WHITE}Building docs...${RESET}"
-mkdocs build
-echo "${GREEN}✔ Build completed successfully.${RESET}"
