@@ -8,7 +8,9 @@ slug: postulaciones-calificadas-qajo
 legacy_url: https://manual.23people.io/es/articles/9769626-postulaciones-calificadas-qajo
 ---
 
-# Postulaciones Calificadas (QAJO)
+# Postulaciones
+
+(incluye las postulaciones calificadas y referidas como dimensiones de medición, tambien el perfil profesional TI)
 
 ### Descripción
 
@@ -21,5 +23,3 @@ atracción de talento.
 ### Fórmula
 
 QAJO = Número de postulaciones calificadas recibidas durante el mes.
-
-

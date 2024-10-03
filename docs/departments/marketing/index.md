@@ -3,7 +3,6 @@ created: 2024-09-26T11:08:36
 updated: 2024-09-26T14:05:21
 description: El departamento de Marketing en 23people, encargado de la promoción y difusión de la empresa.
 author: 5127711
-status: wip
 slug: marketing
 legacy_url: 
 ---

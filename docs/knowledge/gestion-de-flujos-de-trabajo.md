@@ -4,7 +4,7 @@ updated: 2024-08-30T15:34:04
 description: Cómo usamos el método Kanban para gestionar todos nuestros flujos de trabajo.
 author: 5127711
 status: wip
-slug: gestion-de-flujos-de-trabajo
+slug: gestion-flujos-trabajo
 legacy_url: https://manual.23people.io/es/articles/9807041-gestion-de-flujos-de-trabajo
 ---
 

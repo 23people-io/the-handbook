@@ -29,17 +29,17 @@ suelen ser barreras que dificultan su éxito.
 
 **Nuestros clientes, a menudo, se sienten frustrados por:**
 
-  * La falta de acceso a profesionales TI calificados y validados en su experiencia.
+* La falta de acceso a profesionales TI calificados y validados en su experiencia.
 
-  * La preocupación por el proceso de selección y contratación, y el riesgo de tomar decisiones no afortunadas.
+* La preocupación por el proceso de selección y contratación, y el riesgo de tomar decisiones no afortunadas.
 
 **Nuestros servicios son ideales para clientes que:**
 
-  * Buscan impulsar proyectos digitales y necesitan formar equipos de especialistas en TI.
+* Buscan impulsar proyectos digitales y necesitan formar equipos de especialistas en TI.
 
-  * Se sienten abrumados por la abundancia de opciones y la dificultad de encontrar el talento adecuado para sus proyectos.
+* Se sienten abrumados por la abundancia de opciones y la dificultad de encontrar el talento adecuado para sus proyectos.
 
-  * Desean delegar el proceso de selección y contratación a expertos en el reclutamiento de talento TI.
+* Desean delegar el proceso de selección y contratación a expertos en el reclutamiento de talento TI.
 
 ## **Servicios que ofrecemos**
 
@@ -86,5 +86,3 @@ Nuestro proceso de entrega se extiende desde la identificación de los
 requisitos del cliente, pasando por la selección y contratación de
 profesionales TI, hasta la formación de equipos completos para la realización
 de proyectos digitales.
-
-

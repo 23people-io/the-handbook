@@ -3,7 +3,6 @@ created: 2024-01-24T17:38:41
 updated: 2024-08-23T13:46:10
 description: El departamento de Finances en 23people.
 author: 5127711
-status: wip
 slug: acerca-de-finances
 legacy_url: https://manual.23people.io/es/articles/8863807-acerca-de-finances
 ---
