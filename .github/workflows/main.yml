@@ -3,7 +3,7 @@ name: 23people-company-handbook
 on:
   push:
     branches: 
-      - stage
+      - main
 
 jobs:
   build:
@@ -27,8 +27,8 @@ jobs:
       - name: Deploy code via SSH
         run: |
           ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
-            mkdir -p /home/jedi/23people-company-handbook &&
-            cd /home/jedi/23people-company-handbook &&
+            mkdir -p /home/jedi/23people-company-handbook-prod &&
+            cd /home/jedi/23people-company-handbook-prod &&
             if [ -d ".git" ]; then
               git pull;
             else
@@ -38,14 +38,14 @@ jobs:
       - name: Install dependencies
         run: |
           ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
-            cd /home/jedi/23people-company-handbook &&
+            cd /home/jedi/23people-company-handbook-prod &&
             /home/jedi/.local/bin/poetry install --no-root &&
             export PYTHONPATH=./src
           '
       - name: Restart pm2
         run: |
           ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
-            cd /home/jedi/23people-company-handbook &&
+            cd /home/jedi/23people-company-handbook-prod &&
             source ~/.nvm/nvm.sh &&
             pm2 restart run-pm2.json
           '
