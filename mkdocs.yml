@@ -131,11 +131,11 @@ extra:
 nav:
   - Home:
       - index.md
-      - Acerca de 23people: company/about-us/resumen.md
-      - Nuestros valores: company/about-us/nuestros-valores.md
-      - Nuestras metas: company/about-us/nuestras-metas.md
-      - Nuestros servicios: company/about-us/nuestros-servicios.md
-      - Nuestra organización: company/about-us/nuestra-organizacion.md
+      - Acerca de 23people: about-us/resumen.md
+      - Nuestros valores: about-us/nuestros-valores.md
+      - Nuestras metas: about-us/nuestras-metas.md
+      - Nuestros servicios: about-us/nuestros-servicios.md
+      - Nuestra organización: about-us/nuestra-organizacion.md
 
   - Comunidad:
       - Comunidad:
