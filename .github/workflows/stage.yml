@@ -4,6 +4,7 @@ on:
   push:
     branches: 
       - stage
+      - dev
 
 jobs:
   build:
@@ -50,4 +51,3 @@ jobs:
             pm2 restart run-pm2.json
           '
         
-
