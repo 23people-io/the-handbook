@@ -5,9 +5,6 @@ on:
     branches: 
       - stage
 
-env:
-  REPO_NAME: ${{ github.event.repository.name }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,8 +16,8 @@ jobs:
       - name: Set up SSH
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
 
       - name: Add server to known hosts
         run: |
@@ -29,25 +26,25 @@ jobs:
 
       - name: Deploy code via SSH
         run: |
-          ssh -i ~/.ssh/id_ed25519 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
             mkdir -p ${{ vars.WORKDIR }} &&
             cd ${{ vars.WORKDIR }} &&
             if [ -d ".git" ]; then
               git pull origin ${{ github.ref_name }};
             else
-              git clone --branch ${{ github.ref_name }} git@github.com-$REPO_NAME:${{github.repository}}.git .;
+              git clone --branch ${{ github.ref_name }} git@github.com-${{ github.event.repository.name }}:${{github.repository}}.git .;
             fi
           '
       - name: Install dependencies
         run: |
-          ssh -i ~/.ssh/id_ed25519 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
             cd ${{ vars.WORKDIR }} &&
             /home/jedi/.local/bin/poetry install --no-root &&
             export PYTHONPATH=./src
           '
       - name: Restart pm2
         run: |
-          ssh -i ~/.ssh/id_ed25519 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
             cd ${{ vars.WORKDIR }} &&
             source ~/.nvm/nvm.sh &&
             pm2 restart run-pm2-${{ github.ref_name }}.json
