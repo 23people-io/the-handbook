@@ -32,7 +32,7 @@ jobs:
             if [ -d ".git" ]; then
               git pull origin ${{ github.ref_name }};
             else
-              git clone --branch  ${{ github.ref_name }} git@github.com:${{github.repository}}.git .;
+              git clone --branch ${{ github.ref_name }} git@github.com:${{github.repository}}.git .;
             fi
           '
       - name: Install dependencies
