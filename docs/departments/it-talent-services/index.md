@@ -44,7 +44,7 @@ Estos son los KPI que monitorea este departamento:
 
 Si tienes alguna duda o necesitas ayuda, no dudes en contactar a **IT Talent Services** a través de [talent.services@23people.io](mailto:talent.services@23people.io) o por medio de nuestros canales en Discord y WhatsApp.
 
-### 📌 Tasa de Aceptación de Candidatos
+<!-- ### 📌 Tasa de Aceptación de Candidatos
 
 **KPI_ID:** ITTS_...
 
@@ -97,4 +97,4 @@ refieren. [Más detalles...](/numero-de-leads-calificados-generados)
 Mide la proporción total de vacantes TI cubiertas exitosamente con relación al
 número total de posiciones solicitadas por todos los clientes, a través de
 múltiples requerimientos. Esta métrica evalúa nuestra eficacia global en
-satisfacer las necesidades de personal TI de nuestros clientes.
+satisfacer las necesidades de personal TI de nuestros clientes. -->
