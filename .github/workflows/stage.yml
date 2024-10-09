@@ -6,7 +6,8 @@ on:
       - stage
 
 env:
-  DEPLOY_KEY_PATH: ~/.ssh/deploy_key      
+  DEPLOY_KEY_PATH: "~/.ssh/deploy_key"
+   
 jobs:
   build:
     runs-on: ubuntu-latest
