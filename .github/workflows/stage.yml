@@ -5,13 +5,14 @@ on:
     branches: 
       - stage
 
-env:
-  SSH_PATH: '~/.ssh'
+
    
 jobs:
   build:
     runs-on: ubuntu-latest
     environment: stage
+    env:
+      SSH_PATH: '~/.ssh'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
