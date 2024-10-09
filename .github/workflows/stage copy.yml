@@ -31,7 +31,11 @@ jobs:
           ssh -i $DEPLOY_KEY_PATH ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
             mkdir -p ${{ vars.WORKDIR }} &&
             cd ${{ vars.WORKDIR }} &&
-            echo "Hola!"
+            if [ -d ".git" ]; then
+              git pull origin ${{ github.ref_name }};
+            else
+              git clone --branch ${{ github.ref_name }} git@github.com-${{ github.event.repository.name }}:${{github.repository}}.git .;
+            fi
           '
       - name: Install dependencies
         run: |
