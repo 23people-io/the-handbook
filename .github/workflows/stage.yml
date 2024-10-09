@@ -22,11 +22,12 @@ jobs:
           mkdir -p $SSH_PATH
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > $SSH_PATH/deploy_key
           chmod 600 $SSH_PATH/deploy_key
+          echo "Deploy Key created at $SSH_PATH/deploy_key"
 
       - name: Add server to known hosts
         run: |
           ssh-keyscan -H ${{ secrets.IP_SERVER }} >> $SSH_PATH/known_hosts
-          echo "Done"
+          echo "Added ${{ secrets.IP_SERVER }} to known hosts at $SSH_PATH/known_hosts"
 
       - name: Deploy code via SSH
         run: |
