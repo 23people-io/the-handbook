@@ -4,12 +4,11 @@ on:
   push:
     branches: 
       - stage
-      - dev
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    environment: stage
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -17,8 +16,8 @@ jobs:
       - name: Set up SSH
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
 
       - name: Add server to known hosts
         run: |
@@ -27,27 +26,27 @@ jobs:
 
       - name: Deploy code via SSH
         run: |
-          ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
-            mkdir -p /home/jedi/23people-company-handbook &&
-            cd /home/jedi/23people-company-handbook &&
+          ssh -i ~/.ssh/id_ed25519 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
+            mkdir -p ${{ vars.WORKDIR }} &&
+            cd ${{ vars.WORKDIR }} &&
             if [ -d ".git" ]; then
-              git pull;
+              git pull origin ${{ github.ref_name }};
             else
-              git clone git@github.com:23people-io/23people-company-handbook.git .;
+              git clone --branch  ${{ github.ref_name }} git@github.com:${{github.repository}}.git .;
             fi
           '
       - name: Install dependencies
         run: |
-          ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
-            cd /home/jedi/23people-company-handbook &&
+          ssh -i ~/.ssh/id_ed25519 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
+            cd ${{ vars.WORKDIR }} &&
             /home/jedi/.local/bin/poetry install --no-root &&
             export PYTHONPATH=./src
           '
       - name: Restart pm2
         run: |
-          ssh ${{ secrets.SSH_USER }}@${{ secrets.IP_SERVER }} '
-            cd /home/jedi/23people-company-handbook &&
+          ssh -i ~/.ssh/id_ed25519 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
+            cd ${{ vars.WORKDIR }} &&
             source ~/.nvm/nvm.sh &&
-            pm2 restart run-pm2.json
+            pm2 restart run-pm2-${{ github.ref_name }}.json
           '
         
