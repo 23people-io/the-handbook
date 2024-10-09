@@ -16,8 +16,8 @@ jobs:
       - name: Set up SSH in the Github Runner
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
           echo "Deploy Key created."
 
       - name: Add Deployment Host to known_hosts file in the Github Runner
@@ -29,7 +29,7 @@ jobs:
 
       - name: Test connection to Deployment Host (via SSH from the Github Runner)
         run: |
-          ssh -i ~/.ssh/id_ed25519 -T ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }}
+          ssh -i ~/.ssh/deploy_key -T ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }}
 
       - name: Deploy code into Deployment Host (via SSH from the Github Runner)
         run: |
