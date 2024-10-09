@@ -34,15 +34,6 @@ Las principales funciones de **People Growth** son:
 * **Gestión administrativa de RRHH**: Gestionar los aspectos administrativos de recursos humanos (contratos, nóminas, certificados, liquidaciones de sueldo, etc.).
 * **Offboarding**: Acompañar a los/las profesionales en su proceso de desvinculación de 23people.
 
-## KPIs
-
-Estos son los KPI que monitorea este departamento:
-
-* [Tasa de Rotación Profesionales](kpis/tasa-rotacion-profesionales)
-* [Tiempo de Permanencia Promedio de Profesionales](kpis/tiempo-permanencia-profesionales)
-* [Total de Profesionales Activos](kpis/total-profesionales-activos)
-* [Glassdoor eNPS](kpis/glassdoor-enps)
-
 ## Contacto
 
 Si tienes alguna duda o necesitas ayuda, no dudes en contactar a **People Growth** a través de [people@23people.io](mailto:people@23people.io) o por medio de nuestros canales en Discord y WhatsApp.

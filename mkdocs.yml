@@ -155,13 +155,13 @@ nav:
       - De Servicios:
           - "IT Talent Services":
               - Acerca de: departments/it-talent-services/index.md
-              - KPIs:
-                  - "Tasa Aceptación de Candidatos": departments/it-talent-services/kpis/tasa-aceptacion-candidatos.md
+              - KPIs: departments/it-talent-services/kpis/index.md
           - "Digital Platforms, Data & AI":
               - departments/digital-platforms-services/index.md
       - Core:
           - People Growth:
-              - departments/people-growth/index.md
+              - Acerca de: departments/people-growth/index.md
+              - KPIs: departments/people-growth/kpis/index.md
           - "Marketing & Strategic Growth":
               - departments/marketing/index.md
           - Finances:
