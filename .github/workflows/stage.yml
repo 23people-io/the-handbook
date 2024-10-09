@@ -15,46 +15,40 @@ jobs:
       
       - name: Set up SSH in the Github Runner
         run: |
-          # Creates a directory for the SSH key
           mkdir -p ~/.ssh
-
-          # Adds the SSH key to the Github Runner
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
-
-          # Changes the permissions of the SSH key
           chmod 600 ~/.ssh/deploy_key
-
           echo "Deploy Key created."
 
       - name: Add Deployment Host to known_hosts file in the Github Runner
         run: |
-          # Adds the Deployment Host to the known_hosts file
-          ssh-keyscan -H ${{ secrets.DEPLOYMENT_HOST }} >> ~/.ssh/known_hosts
+          ssh-keyscan -H ${{ secrets.SSH_DEPLOYMENT_HOST }} >> ~/.ssh/known_hosts
 
-          echo "Added ${{ secrets.DEPLOYMENT_HOST }} to known hosts."
+          echo "Added ${{ secrets.SSH_DEPLOYMENT_HOST }} to known hosts."
           cat ~/.ssh/known_hosts
 
       - name: Deploy code into Deployment Host (via SSH from the Github Runner)
         run: |
-          # Deploys the code into the Deployment Host
-          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
-            mkdir -p ${{ vars.WORKDIR }} &&
-            cd ${{ vars.WORKDIR }} &&
-            echo "Hola!"
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
+            mkdir -p ~/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            cd ~/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            if [ -d ".git" ]; then
+              git pull origin ${{ github.ref_name }};
+            else
+              git clone --branch ${{ github.ref_name }} git@github.com-${{ github.event.repository.name }}:${{github.repository}}.git .;
+            fi
           '
       - name: Install dependencies into Deployment Host (via SSH from the Github Runner)
         run: |
-          # Installs the dependencies into the Deployment Host
-          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
-            cd ${{ vars.WORKDIR }} &&
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
+            cd ~/${{ github.event.repository.name }}/${{ github.ref_name }} &&
             /home/${{ secrets.SSH_USERNAME }}/.local/bin/poetry install --no-root &&
             export PYTHONPATH=./src
           '
       - name: Restart pm2 in the Deployment Host (via SSH from the Github Runner)
         run: |
-          # Restarts the pm2 in the Deployment Host
-          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
-            cd ${{ vars.WORKDIR }} &&
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
+            cd ~/${{ github.event.repository.name }}/${{ github.ref_name }} &&
             source ~/.nvm/nvm.sh &&
             pm2 restart run-pm2-${{ github.ref_name }}.json
           '
