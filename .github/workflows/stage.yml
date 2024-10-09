@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy code via SSH
         run: |
-          ssh -i $DEPLOY_KEY_PATH ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
+          ssh -i $SSH_PATH/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
             mkdir -p ${{ vars.WORKDIR }} &&
             cd ${{ vars.WORKDIR }} &&
             echo "Hola!"
