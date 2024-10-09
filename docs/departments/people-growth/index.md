@@ -3,14 +3,14 @@ created: 2024-01-16T11:08:36
 updated: 2024-09-26T14:05:21
 description: El departamento de People Growth en 23people, apoya a todos los/las profesionales de 23people a lo largo de todo su ciclo de vida.
 author: 5127711
-status: wip
 slug: people-growth
+site_url: /departments/people-growth
 legacy_url: https://manual.23people.io/es/articles/8826549-acerca-de-people-growth
 ---
 
 # People Growth
 
-¡Bienvenido al manual de **People Growth**! Aquí deberías poder encontrar
+¡Bienvenido al Departamento de **People Growth** de 23people! Aquí encontrarás
 respuestas a la mayoría de tus preguntas relacionadas con este departamento y sus funciones.
 
 ## Propósito
@@ -33,15 +33,6 @@ Las principales funciones de **People Growth** son:
 * **Comunicación Interna**: Facilitar la comunicación interna y el feedback entre los/las profesionales y la empresa.
 * **Gestión administrativa de RRHH**: Gestionar los aspectos administrativos de recursos humanos (contratos, nóminas, certificados, liquidaciones de sueldo, etc.).
 * **Offboarding**: Acompañar a los/las profesionales en su proceso de desvinculación de 23people.
-
-## KPIs
-
-Estos son los KPI que monitorea este departamento:
-
-* [Tasa de Rotación Profesionales](kpis/tasa-rotacion-profesionales)
-* [Tiempo de Permanencia Promedio de Profesionales](kpis/tiempo-permanencia-profesionales)
-* [Total de Profesionales Activos](kpis/total-profesionales-activos)
-* [Glassdoor eNPS](kpis/glassdoor-enps)
 
 ## Contacto
 
