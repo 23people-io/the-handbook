@@ -4,8 +4,6 @@ on:
   push:
     branches: 
       - stage
-
-
    
 jobs:
   build:
@@ -17,33 +15,34 @@ jobs:
       
       - name: Set up SSH in the Github Runner
         run: |
-          mkdir -p .ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > .ssh/deploy_key
-          chmod 600 .ssh/deploy_key
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
           echo "Deploy Key created."
 
-      - name: Add Deployment Host Host to known_hosts file in the Github Runner
+      - name: Add Deployment Host to known_hosts file in the Github Runner
         run: |
-          ssh-keyscan -H ${{ secrets.DEPLOYMENT_HOST }} >> .ssh/known_hosts
+          ssh-keyscan -H ${{ secrets.DEPLOYMENT_HOST }} >> ~/.ssh/known_hosts
           echo "Added ${{ secrets.DEPLOYMENT_HOST }} to known hosts."
+          cat ~/.ssh/known_hosts
 
       - name: Deploy code into Deployment Host (via SSH from the Github Runner)
         run: |
-          ssh -i .ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
             mkdir -p ${{ vars.WORKDIR }} &&
             cd ${{ vars.WORKDIR }} &&
             echo "Hola!"
           '
       - name: Install dependencies into Deployment Host (via SSH from the Github Runner)
         run: |
-          ssh -i .ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
             cd ${{ vars.WORKDIR }} &&
             /home/${{ secrets.SSH_USERNAME }}/.local/bin/poetry install --no-root &&
             export PYTHONPATH=./src
           '
       - name: Restart pm2 in the Deployment Host (via SSH from the Github Runner)
         run: |
-          ssh -i .ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.DEPLOYMENT_HOST }} '
             cd ${{ vars.WORKDIR }} &&
             source ~/.nvm/nvm.sh &&
             pm2 restart run-pm2-${{ github.ref_name }}.json
