@@ -4,6 +4,7 @@ on:
   push:
     branches: 
       - dev
+  
 # Environment variables available to all jobs and steps in this workflow
 env:
   DEPLOY_ENVIRONMENT: "development"
@@ -11,7 +12,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: ${{ env.DEPLOY_ENVIRONMENT }}
+    environment: development
     steps:
       - name: Checkout repository into Github Runner
         uses: actions/checkout@v4
