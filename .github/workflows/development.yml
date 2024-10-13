@@ -1,14 +1,14 @@
-name: 23people-company-handbook
+name: 23people-handbook
 
 on:
   push:
     branches: 
-      - stage
+      - development
    
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: staging
+    environment: development
     steps:
       - name: Checkout repository into Github Runner
         uses: actions/checkout@v4

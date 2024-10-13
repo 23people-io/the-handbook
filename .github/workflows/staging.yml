@@ -1,9 +1,9 @@
-name: 23people-company-handbook
+name: 23people-handbook
 
 on:
   push:
     branches: 
-      - stage
+      - staging
    
 jobs:
   build:
