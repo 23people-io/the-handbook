@@ -3,7 +3,7 @@ name: 23people-handbook
 on:
   push:
     branches: 
-      - development
+      - dev
    
 jobs:
   build:
@@ -55,6 +55,6 @@ jobs:
           ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
             cd ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
             source ~/.nvm/nvm.sh &&
-            pm2 restart run-pm2-${{ github.ref_name }}.json
+            pm2 restart deploy/run-pm2-${{ github.ref_name }}.json
           '
         
