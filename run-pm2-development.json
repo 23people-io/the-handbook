@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "name": "manual.23people.dev",
+            "script": "export PYTHONPATH=./src && /home/jedi/.local/bin/poetry run mkdocs serve",
+            "watch": true,
+            "merge_logs": true
+        }
+    ]
+}

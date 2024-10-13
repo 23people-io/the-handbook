@@ -1,0 +1,60 @@
+name: 23people-handbook
+
+on:
+  push:
+    branches: 
+      - development
+   
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: development
+    steps:
+      - name: Checkout repository into Github Runner
+        uses: actions/checkout@v4
+      
+      - name: Set up SSH in the Github Runner
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          echo "Deploy Key created."
+
+      - name: Add Deployment Host to known_hosts file in the Github Runner
+        run: |
+          ssh-keyscan -H ${{ secrets.SSH_DEPLOYMENT_HOST }} >> ~/.ssh/known_hosts
+
+          echo "Added ${{ secrets.SSH_DEPLOYMENT_HOST }} to known hosts."
+          cat ~/.ssh/known_hosts
+
+      - name: Test connection to Deployment Host (via SSH from the Github Runner)
+        run: |
+          ssh -i ~/.ssh/deploy_key -T ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }}
+
+      - name: Deploy code into Deployment Host (via SSH from the Github Runner)
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
+            mkdir -p ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            cd ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            if [ -d ".git" ]; then
+              git pull origin ${{ github.ref_name }};
+            else
+              git clone --branch ${{ github.ref_name }} git@github.com-${{ github.event.repository.name }}:${{github.repository}}.git .;
+            fi
+          '
+
+      - name: Install dependencies into Deployment Host (via SSH from the Github Runner)
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
+            cd ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            /home/${{ secrets.SSH_USERNAME }}/.local/bin/poetry install --no-root &&
+            export PYTHONPATH=./src
+          '
+      - name: Restart pm2 in the Deployment Host (via SSH from the Github Runner)
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
+            cd ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            source ~/.nvm/nvm.sh &&
+            pm2 restart run-pm2-${{ github.ref_name }}.json
+          '
+        
