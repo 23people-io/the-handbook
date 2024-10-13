@@ -71,7 +71,7 @@ jobs:
           ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
             cd ~/projects/${{ github.event.repository.name }}/${{ env.DEPLOY_ENVIRONMENT }} &&
             source ~/.nvm/nvm.sh &&
-            pm2 restart deploy/run-pm2-${{ github.ref_name }}.json
+            pm2 restart deploy/run-pm2-${{ env.DEPLOY_ENVIRONMENT }}.json
           '
           echo "::endgroup::"
         
