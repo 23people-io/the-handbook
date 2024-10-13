@@ -34,8 +34,8 @@ jobs:
       - name: Deploy code into Deployment Host (via SSH from the Github Runner)
         run: |
           ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
-            mkdir -p ~/${{ github.event.repository.name }}/${{ github.ref_name }} &&
-            cd ~/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            mkdir -p ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            cd ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
             if [ -d ".git" ]; then
               git pull origin ${{ github.ref_name }};
             else
@@ -46,14 +46,14 @@ jobs:
       - name: Install dependencies into Deployment Host (via SSH from the Github Runner)
         run: |
           ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
-            cd ~/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            cd ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
             /home/${{ secrets.SSH_USERNAME }}/.local/bin/poetry install --no-root &&
             export PYTHONPATH=./src
           '
       - name: Restart pm2 in the Deployment Host (via SSH from the Github Runner)
         run: |
           ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }} '
-            cd ~/${{ github.event.repository.name }}/${{ github.ref_name }} &&
+            cd ~/projects/${{ github.event.repository.name }}/${{ github.ref_name }} &&
             source ~/.nvm/nvm.sh &&
             pm2 restart run-pm2-${{ github.ref_name }}.json
           '
