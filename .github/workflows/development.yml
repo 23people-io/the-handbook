@@ -10,7 +10,7 @@ env:
   DEPLOY_ENVIRONMENT: "development"
 
 jobs:
-  setting-up-ssh:
+  deploy:
     runs-on: ubuntu-latest
     environment: development
     steps:
@@ -41,11 +41,6 @@ jobs:
           ssh -i ~/.ssh/deploy_key -T ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DEPLOYMENT_HOST }}
           echo "::endgroup::"
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: setting-up-ssh
-    environment: development
-    steps:
       - name: Deploy code into Deployment Host (via SSH from the Github Runner)
         run: |
           echo "::group::Deploy code into Deployment Host"
