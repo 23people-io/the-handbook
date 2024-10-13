@@ -11,6 +11,6 @@ legacy_url:
 Estos son los KPI que monitorea este departamento
 
 * [Tasa de Rotación Profesionales](tasa-rotacion-profesionales)
-* [Tiempo de Permanencia Promedio de Profesionales](tiempo-permanencia-profesionales)
+* [Tiempo de Permanencia de Profesionales](tiempo-permanencia-profesionales)
 * [Total de Profesionales Activos](total-profesionales-activos)
 * [Glassdoor eNPS](glassdoor-enps)
