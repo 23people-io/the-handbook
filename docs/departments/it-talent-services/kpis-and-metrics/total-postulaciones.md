@@ -23,3 +23,11 @@ atracción de talento.
 ### Fórmula
 
 QAJO = Número de postulaciones calificadas recibidas durante el mes.
+
+### Dimensiones
+
+- Referidos
+- Perfil Profesional TI
+- Convertidos a candidatos
+- Candidatos Aceptados
+- Candidatos Contratados
