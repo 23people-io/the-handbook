@@ -12,6 +12,13 @@ legacy_url: https://manual.23people.io/es/articles/8826778-postulaciones-referid
 
 ## Descripción e Importancia
 
+Mide el número de profesionales que postulan a nuestras ofertas laborales a
+través de referencias de otros profesionales, en comparación con el total de
+postulaciones. Esta métrica evalúa la efectividad de nuestro programa de
+referidos y la fortaleza de nuestra red profesional en la atracción de
+talento. Habla de la calidad percibida por los profesionales tal que nos
+refieren.
+
 Este KPI es crucial para evaluar la eficacia del programa de referencias de
 profesionales en la atracción de talento. Un alto porcentaje de postulaciones
 referidas suele indicar una fuerte cultura de empresa y satisfacción laboral,
@@ -47,7 +54,7 @@ services).
 
 ## Dimensiones de Comparación
 
-  * Comparación mensual, trimestral y anual.
+* Comparación mensual, trimestral y anual.
 
 ## Cómo Calcularlo
 
@@ -55,8 +62,6 @@ El cálculo se realiza dividiendo el Número de Postulaciones Referidas por el
 Número Total de Postulaciones en el mismo período, y luego multiplicando por
 100 para obtener el porcentaje.
 
-    
-    
     Postulaciones Referidas vs. Total de Postulaciones = (Número de Postulaciones Referidas/Total de Postulaciones) x 100
 
 **Ejemplo:**
@@ -64,10 +69,6 @@ Número Total de Postulaciones en el mismo período, y luego multiplicando por
 Si en un mes se reciben 100 postulaciones y 30 de ellas son referidas por
 empleados actuales, entonces el KPI sería calculado como:
 
-    
-    
     Postulaciones Referidas vs. Total de Postulaciones = (30/50) x 100= 60%
 
 Esto indica que el 60% de las postulaciones provienen de referencias internas.
-
-

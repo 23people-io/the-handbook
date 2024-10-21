@@ -95,8 +95,4 @@ echo "${GREEN}✔ Python dependencies installed successfully.${RESET}"
 
 poetry export --without-hashes -f requirements.txt -o requirements.txt
 
-# Building Docker image
-echo "${WHITE}Building Docker image...${RESET}"
-docker compose build
-echo "${GREEN}✔ Docker image built successfully.${RESET}"
 

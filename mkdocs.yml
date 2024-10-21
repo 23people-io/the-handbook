@@ -155,13 +155,14 @@ nav:
       - De Servicios:
           - "IT Talent Services":
               - Acerca de: departments/it-talent-services/index.md
-              - KPIs: departments/it-talent-services/kpis/index.md
+              - "KPIs y Métricas": departments/it-talent-services/kpis-and-metrics/index.md
           - "Digital Platforms, Data & AI":
-              - departments/digital-platforms-services/index.md
+              - Acerca de: departments/digital-platforms-services/index.md
+              - "KPIs y Métricas": departments/digital-platforms-services/kpis-and-metrics/index.md
       - Core:
           - People Growth:
               - Acerca de: departments/people-growth/index.md
-              - KPIs: departments/people-growth/kpis/index.md
+              - "KPIs y Métricas": departments/people-growth/kpis/index.md
           - "Marketing & Strategic Growth":
               - departments/marketing/index.md
           - Finances:
