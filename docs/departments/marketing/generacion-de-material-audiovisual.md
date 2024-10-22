@@ -3,8 +3,6 @@ created: 2024-04-10T16:21:04
 updated: 2024-04-10T16:23:56
 description: Guía para generar contenido audiovisual al asistir o realizar un evento con la intención de enriquecer nuestras redes sociales de la empresa
 author: 5127711
-status: wip
-slug: generacion-de-material-audiovisual
 legacy_url: https://manual.23people.io/es/articles/9180635-generacion-de-material-audiovisual
 ---
 
@@ -23,15 +21,15 @@ nuestra presencia en el evento.
 En general, aplica a todo tipo de evento en que participen profesionales de la
 empresa. Entre estos se puede mencionar:
 
-  * Giras de Negocios
+* Giras de Negocios
 
-  * Participación en Ferias
+* Participación en Ferias
 
-  * Viajes a eventos nacionales o internacionales (como al Google Cloud Next'24)
+* Viajes a eventos nacionales o internacionales (como al Google Cloud Next'24)
 
-  * Encuentros presenciales
+* Encuentros presenciales
 
-  * Almuerzos y After Offices
+* Almuerzos y After Offices
 
 ## Guía
 
@@ -42,5 +40,3 @@ comunidad.
 El enlace al documento con la guía concreta, se indica a continuación:
 
 [Guía](https://docs.google.com/document/d/1x60O-jijWPSHxVBTJNbxorlVCZTFP8dzo2YkBJbHUcE/edit)
-
-
