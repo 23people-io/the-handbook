@@ -3,16 +3,11 @@ created: 2024-05-03T12:46:17
 updated: 2024-08-22T14:57:46
 description: Conceptos, expresiones y acuerdos de definiciones que se usen en la comunicación diaria en temas asociados a Marketing y Ventas.
 author: 5127711
-status: wip
-slug: glosario-de-marketing-y-ventas
-legacy_url: https://manual.23people.io/es/articles/9278995-glosario-de-marketing-y-ventas
 ---
 
 # Glosario de Marketing y Ventas
 
 ## Introducción
-
-* * *
 
 Este es el registro oficial de todos aquellos conceptos, expresiones y
 acuerdos de definición que se usen en la comunicación diaria en temas
@@ -22,14 +17,10 @@ El objetivo es el poder alinear el conocimiento que se va adquiriendo a lo
 largo del tiempo y así poder transmitirlo a las personas de una manera más
 eficiente y efectiva.
 
-**NOTA**
-
-A menos que se indique explícitamente, todos los conceptos siguientes serán
+**NOTA**: A menos que se indique explícitamente, todos los conceptos siguientes serán
 comunes a todas las líneas de servicios.
 
 ## Listado
-
-* * *
 
 ### Oportunidad de Negocio
 
@@ -145,38 +136,11 @@ oportunidad a esta etapa. Esto puede deberse a diversas razones, como:
 
 ### Postulación
 
-Se define como el proceso mediante el cual un Profesional TI se presenta como
-una opción a considerar para un puesto de trabajo específico anunciado por
-23people.
-
-Características clave:
-
-  * Un Profesional TI puede tener múltiples postulaciones registradas con nuestra empresa.
-
-  * Cada postulación está vinculada a una oferta laboral específica y profesional.
-
-  * La postulación marca el inicio del proceso de selección para el perfil del profesional.
+Referir al [Glosario de IT Talent](/departments/it-talent-services/glosario/#postulacion)
 
 ### Candidato
 
-Se considera Candidato a todo Profesional TI que cumple con las siguientes
-condiciones:
-
-  1. Ha postulado a una o más ofertas laborales de 23people.
-
-  2. Ha completado satisfactoriamente nuestro Flujo de Selección.
-
-  3. Ha sido evaluado por nuestro equipo de Reclutamiento y Selección como apto para ser presentado a entrevista con un cliente.
-
-  4. Su perfil profesional actual se ajusta a los requisitos de una oferta laboral específica.
-
-Características importantes:
-
-  * El estado de Candidato es dinámico y depende del perfil profesional actual del individuo en relación con las ofertas laborales disponibles.
-
-  * Un Profesional TI puede ser considerado Candidato para múltiples ofertas laborales y/o clientes, siempre que su perfil se ajuste a los requisitos específicos de cada caso.
-
-  * La designación como Candidato no es permanente y puede variar según cambios en el perfil profesional o en los requisitos de las ofertas laborales.
+Referir al [Glosario de IT Talent](/departments/it-talent-services/glosario/#candidato)
 
 ### Perfil Profesional TI
 
@@ -191,13 +155,13 @@ especializadas en el campo de las Tecnologías de la Información (TI).
 
 Características clave:
 
-  * Posee conocimientos técnicos en una o más áreas de TI, como desarrollo de software, administración de sistemas, seguridad informática, análisis de datos, inteligencia artificial, entre otras.
+* Posee conocimientos técnicos en una o más áreas de TI, como desarrollo de software, administración de sistemas, seguridad informática, análisis de datos, inteligencia artificial, entre otras.
 
-  * Puede tener formación académica formal en campos relacionados con TI (como ingeniería informática, ciencias de la computación, sistemas de información, etc.) y/o certificaciones profesionales relevantes.
+* Puede tener formación académica formal en campos relacionados con TI (como ingeniería informática, ciencias de la computación, sistemas de información, etc.) y/o certificaciones profesionales relevantes.
 
-  * Cuenta con experiencia práctica en proyectos o roles relacionados con TI.
+* Cuenta con experiencia práctica en proyectos o roles relacionados con TI.
 
-  * Puede especializarse en tecnologías, lenguajes de programación o metodologías específicas.
+* Puede especializarse en tecnologías, lenguajes de programación o metodologías específicas.
 
 ### Pedido (IT Talent)
 
@@ -206,11 +170,11 @@ Requerimientos de Perfiles TI.
 
 Características clave:
 
-  * Está asociado a una Oportunidad de Negocio específica.
+* Está asociado a una Oportunidad de Negocio específica.
 
-  * Contiene uno o más Requerimientos de Perfiles TI.
+* Contiene uno o más Requerimientos de Perfiles TI.
 
-  * Representa la necesidad total de talento TI del cliente en un momento dado.
+* Representa la necesidad total de talento TI del cliente en un momento dado.
 
 ### Requerimiento de Perfil TI (IT Talent)
 
@@ -220,13 +184,13 @@ Stack, Midlevel Scrum Master, Entry QA, Senior Data Engineer, etc.
 
 Características clave:
 
-  * Forma parte de un Pedido hecho a IT Talent.
+* Forma parte de un Pedido hecho a IT Talent.
 
-  * Describe un perfil profesional específico solicitado por el cliente.
+* Describe un perfil profesional específico solicitado por el cliente.
 
-  * Puede incluir una o más Vacantes TI a ser cubiertas.
+* Puede incluir una o más Vacantes TI a ser cubiertas.
 
-  * Define las características y habilidades requeridas para un rol particular. 
+* Define las características y habilidades requeridas para un rol particular.
 
 ### Vacantes TI (IT Talent)
 
@@ -235,10 +199,8 @@ de Perfil TI específico.
 
 Características clave:
 
-  * Representa una oportunidad laboral concreta para un Profesional TI.
+* Representa una oportunidad laboral concreta para un Profesional TI.
 
-  * Puede haber múltiples Vacantes TI idénticas dentro de un mismo Requerimiento TI.
+* Puede haber múltiples Vacantes TI idénticas dentro de un mismo Requerimiento TI.
 
-  * Indica el número de profesionales que el cliente está dispuesto a contratar para un perfil específico.
-
-
+* Indica el número de profesionales que el cliente está dispuesto a contratar para un perfil específico.

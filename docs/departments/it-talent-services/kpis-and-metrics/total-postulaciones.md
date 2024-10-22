@@ -27,6 +27,7 @@ QAJO = Número de postulaciones calificadas recibidas durante el mes.
 ### Dimensiones
 
 - Referidos
+- Postulaciones calificadas
 - Perfil Profesional TI
 - Convertidos a candidatos
 - Candidatos Aceptados

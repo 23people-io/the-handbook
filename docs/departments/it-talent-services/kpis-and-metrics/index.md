@@ -11,7 +11,6 @@ legacy_url:
 > 🚧 **Work in Progress**
 >
 > Esta página es un trabajo en proceso.
->
 
 En IT Talent Services, monitoreamos tanto métricas como KPIs. Las métricas son medidas cuantitativas que rastrean el rendimiento  de procesos específicos, proporcionando información valiosa sobre nuestras operaciones diarias, mientras que los KPIs son un subconjunto de métricas que están directamente alineadas con los objetivos estratégicos de IT Talent Services y de 23people en general.
 

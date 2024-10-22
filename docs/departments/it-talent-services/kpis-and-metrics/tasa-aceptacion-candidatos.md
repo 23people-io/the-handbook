@@ -3,8 +3,6 @@ created: 2024-01-24T11:43:54
 updated: 2024-10-03T14:36:38
 description: Mide la calidad del servicio mediante la aprobación de candidatos por parte de los clientes.
 author: 5127711
-slug: tasa-aceptacion-candidatos
-legacy_url: https://manual.23people.io/es/articles/8862466-tasa-de-candidatos-aprobados-por-cliente
 ---
 
 # Tasa de Aceptación de Candidatos
