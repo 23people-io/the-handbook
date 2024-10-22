@@ -80,6 +80,18 @@ Referir al [Glosario de Marketing y Ventas](/departments/marketing/glosario/#req
 
 Referir al [Glosario de Marketing y Ventas](/departments/marketing/glosario/#vacantes-ti-it-talent)
 
+### Relación entre Pedidos, Requerimientos de Perfil TI y Vacantes TI
+
+Un Pedido (o Solicitud) es una petición formal que incluye uno o más Requerimientos de Perfil TI. Cada Requerimiento especifica las características y habilidades técnicas necesarias para un determinado rol. A su vez, cada Requerimiento indica el número de Vacantes TI a cubrir, es decir, la cantidad de profesionales que se necesitan contratar con ese perfil específico.
+
+**Ejemplo**:
+
+Un cliente puede hacer un Pedido que incluya:
+
+* Un Requerimiento para perfil "Senior Backend Developer" con 2 vacantes
+* Un Requerimiento para perfil "Data Engineer" con 1 vacante
+* Un Requerimiento para perfil "QA Automation" con 3 vacantes
+
 ### Niveles de Experiencia de Profesionales TI
 
 Corrensponden al grado de experiencia y conocimientos que un Profesional TI. Estos niveles son:
