@@ -7,7 +7,9 @@ author: 5127711
 
 # Tasa de Aceptación de Candidatos
 
-Mide el porcentaje de candidatos aceptados por los clientes en relación al total de candidatos presentados para posiciones de TI.
+> 🚧 **Work in Progress**
+>
+> Esta página es un trabajo en proceso.
 
 ## Descripción e Importancia
 
@@ -15,7 +17,7 @@ La Tasa de Aceptación de Candidatos es un indicador clave que evalúa la efecti
 
 | **Atributo**                               | **Valor**                    |
 | ------------------------------------------ | ---------------------------- |
-| **ID**                                     | ITTS-TAC                     |
+| **ID**                                     | ITTS_TAC                     |
 | **Responsable**                            | IT Talent Services           |
 | **Impacto a medir**                        | Calidad (para clientes)      |
 | **Frecuencia de actualización y registro** | Mensual                      |
