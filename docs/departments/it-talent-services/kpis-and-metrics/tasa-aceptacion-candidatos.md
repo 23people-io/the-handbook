@@ -45,8 +45,6 @@ Además, se debe considerar la posibilidad de desagregar el KPI por las siguient
 - Cliente
 - Perfil Profesional TI
 - Nivel de Experiencia (Entry, Entry Avanzado, Midlevel, Senior)
-- Tecnologías Principales
-- Nivel de Inglés
 
 ## Cálculo
 
