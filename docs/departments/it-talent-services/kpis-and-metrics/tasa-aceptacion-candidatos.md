@@ -23,8 +23,8 @@ La Tasa de Aceptación de Candidatos es un indicador clave que evalúa la efecti
 | **Frecuencia de actualización y registro** | Mensual                      |
 | **Unidad de medida**                       | Porcentaje (%)               |
 | **Umbrales de salud**                      | **Rango**                    |
-| *Objetivo*                                 | >= 70%                       |
-| *Alerta*                                   | >= 50% y < 70%               |
+| *Objetivo*                                 | >= 80%                       |
+| *Alerta*                                   | >= 50% y < 80%               |
 | *Crítico*                                  | < 50%                        |
 
 ## Fuente de datos y actualización
