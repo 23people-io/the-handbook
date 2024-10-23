@@ -3,12 +3,9 @@ created: 2024-02-01T13:18:32
 updated: 2024-02-05T10:36:40
 description: Técnicas que implementamos en 23people para predecir y poder responder con certeza a la importante pregunta de: ¿Cuándo estará listo?
 author: 5127711
-status: wip
-slug: metricas-de-tiempos-de-entrega-datos-experiencia-y-tecnicas-estadisticas-para-su-calculo-y-prediccion
-legacy_url: https://manual.23people.io/es/articles/8895652-metricas-de-tiempos-de-entrega-datos-experiencia-y-tecnicas-estadisticas-para-su-calculo-y-prediccion
 ---
 
-# Métricas de Tiempos de Entrega: Datos, Experiencia y Técnicas Estadísticas para su cálculo y predicción.
+# Métricas de Tiempos de Entrega: Datos, Experiencia y Técnicas Estadísticas para su cálculo y predicción
 
 ## Introducción
 
@@ -46,9 +43,9 @@ mejor asignación de recursos y a una mayor competitividad en el mercado.
 Distinguimos entre dos tipos de tiempos, cada uno con su relevancia
 específica:
 
-  * **Lead Time:** Desde que se recibe una solicitud hasta la entrega final al cliente. En general, asociado a servicios a clientes.
+* **Lead Time:** Desde que se recibe una solicitud hasta la entrega final al cliente. En general, asociado a servicios a clientes.
 
-  * **Cycle Time:** El tiempo para completar una tarea o proceso específico. En general para flujos de trabajo internos.
+* **Cycle Time:** El tiempo para completar una tarea o proceso específico. En general para flujos de trabajo internos.
 
 Estas categorías nos ayudan a identificar dónde y cómo podemos mejorar
 nuestros flujos de trabajo.
@@ -92,10 +89,10 @@ datos y nuestra experiencia**. Lo siguiente es una tabla que muestra un
 ejemplo de lo que se debería disponer para poder responder con base en
 distintos niveles de certeza:
 
-**Predicciones** |  |  |  |   
----|---|---|---|---  
-Certeza |  50% |  80% |  95%**** |  98%****  
-Tiempo Operativo |  2 días |  5 días |  7 días |  12 días  
+**Predicciones** |        |        |         |
+-----------------|--------|--------|---------|--------
+Certeza          | 50%    | 80%    | 95%**** | 98%****
+Tiempo Operativo | 2 días | 5 días | 7 días  | 12 días
   
 Dado lo anterior, frente a una pregunta como: "¿Cuándo estará esto terminado"?
 La respuesta será: "hay una probabilidad del 50/50 de finalizarlo en 2 días o
@@ -104,18 +101,15 @@ responderse: "dentro de 12 días".
 
 ### Comparación de técnicas estadísticas
 
-**Característica** |  **Percentiles Directos** |  **Método de Monte Carlo** |  **Bootstrapping**  
----|---|---|---  
-**Descripción** |  Utiliza datos históricos para calcular directamente los puntos de datos específicos del porcentaje acumulado. |  Utiliza la simulación aleatoria para modelar y predecir resultados posibles, basándose en probabilidades y distribuciones de entrada. |  Re-muestrea los datos existentes con reemplazo para crear nuevas muestras y estimar la variabilidad de una estadística.  
-**Complejidad** |  Baja. Cálculos estadísticos directos y fáciles de entender. |  Alta. Requiere un modelo detallado y conocimiento de las distribuciones de entrada. |  Media. Más complejo que los percentiles directos, pero generalmente menos que Monte Carlo.  
-**Datos necesarios** |  Grandes conjuntos de datos históricos representativos. |  Datos históricos y/o suposiciones sobre incertidumbres y relaciones entre variables. |  Datos históricos, no necesariamente grandes, pero preferiblemente representativos.  
-**Recursos computacionales** |  Bajos. Cálculos rápidos y sencillos. |  Potencialmente altos, dependiendo de la complejidad del modelo y el número de simulaciones. |  Moderados. Depende del número de muestras bootstrap generadas.  
-**Uso práctico** |  Predicción rápida de tiempos de ciclo basada en la experiencia pasada. |  Análisis de riesgo, evaluación de escenarios futuros y toma de decisiones bajo incertidumbre. |  Estimación de intervalos de confianza y análisis de sensibilidad.  
-**Ventajas** |  Intuitivo y fácil de comunicar, rápido de calcular. |  Puede incorporar múltiples variables y simular una amplia gama de resultados. |  No asume una distribución subyacente, útil para muestras pequeñas.  
-**Desventajas** |  Asume que el futuro replicará el pasado, puede no capturar la incertidumbre futura. |  Requiere suposiciones claras y a veces complejas, es computacionalmente intensivo. |  Los resultados pueden variar con muestras muy pequeñas o no representativas.  
-**Aplicabilidad** |  Adecuado para procesos estables y predecibles. |  Adecuado para procesos complejos y sistemas dinámicos. |  Adecuado para estimar la variabilidad y construir intervalos de confianza cuando la distribución es desconocida.  
-  
+**Característica**           | **Percentiles Directos**                                                                                      | **Método de Monte Carlo**                                                                                                             | **Bootstrapping**
+-----------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------
+**Descripción**              | Utiliza datos históricos para calcular directamente los puntos de datos específicos del porcentaje acumulado. | Utiliza la simulación aleatoria para modelar y predecir resultados posibles, basándose en probabilidades y distribuciones de entrada. | Re-muestrea los datos existentes con reemplazo para crear nuevas muestras y estimar la variabilidad de una estadística.
+**Complejidad**              | Baja. Cálculos estadísticos directos y fáciles de entender.                                                   | Alta. Requiere un modelo detallado y conocimiento de las distribuciones de entrada.                                                   | Media. Más complejo que los percentiles directos, pero generalmente menos que Monte Carlo.
+**Datos necesarios**         | Grandes conjuntos de datos históricos representativos.                                                        | Datos históricos y/o suposiciones sobre incertidumbres y relaciones entre variables.                                                  | Datos históricos, no necesariamente grandes, pero preferiblemente representativos.
+**Recursos computacionales** | Bajos. Cálculos rápidos y sencillos.                                                                          | Potencialmente altos, dependiendo de la complejidad del modelo y el número de simulaciones.                                           | Moderados. Depende del número de muestras bootstrap generadas.
+**Uso práctico**             | Predicción rápida de tiempos de ciclo basada en la experiencia pasada.                                        | Análisis de riesgo, evaluación de escenarios futuros y toma de decisiones bajo incertidumbre.                                         | Estimación de intervalos de confianza y análisis de sensibilidad.
+**Ventajas**                 | Intuitivo y fácil de comunicar, rápido de calcular.                                                           | Puede incorporar múltiples variables y simular una amplia gama de resultados.                                                         | No asume una distribución subyacente, útil para muestras pequeñas.
+**Desventajas**              | Asume que el futuro replicará el pasado, puede no capturar la incertidumbre futura.                           | Requiere suposiciones claras y a veces complejas, es computacionalmente intensivo.                                                    | Los resultados pueden variar con muestras muy pequeñas o no representativas.
+**Aplicabilidad**            | Adecuado para procesos estables y predecibles.                                                                | Adecuado para procesos complejos y sistemas dinámicos.                                                                                | Adecuado para estimar la variabilidad y construir intervalos de confianza cuando la distribución es desconocida.
   
 ​
-
-
