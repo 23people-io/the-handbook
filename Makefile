@@ -18,22 +18,22 @@ RESET=$(shell tput -Txterm sgr0)
 # Default target. Run the app
 run:
 	@echo "$(MAGENT)Running...$(RESET)"
-	@script/run
+	@scripts/run
 
 build:
 	@echo "$(MAGENT)Starting build...$(RESET)"
-	@script/bootstrap
-	@script/setup
+	@scripts/bootstrap
+	@scripts/setup
 	@echo "$(MAGENT)✔ Build completed successfully.$(RESET)"
 
 test:
 	@echo "$(MAGENT)Starting tests...$(RESET)"
-	@script/test
+	@scripts/test
 	@echo "$(MAGENT)✔ Tests passed.$(RESET)"
 
 version:
 	@echo "$(MAGENT)Starting Versioning...$(RESET)"
-	@script/version
+	@scripts/version
 	@echo "$(MAGENT)✔ Versioning completed successfully.$(RESET)"
 
 # Phony targets

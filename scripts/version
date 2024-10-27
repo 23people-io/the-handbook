@@ -27,7 +27,7 @@ if [ -z "${t}" ]; then
 fi
 
 echo "${YELLOW}Linting...${RESET}"
-script/lint
+scripts/lint
 
 echo "${YELLOW}Testing...${RESET}"
 # script/test
