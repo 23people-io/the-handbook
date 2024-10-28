@@ -1,9 +1,6 @@
 ---
 created: 2024-09-06T14:39:48 (UTC -04:00)
 author: 5127711
-status: wip
-slug: nuestra-organizacion
-legacy_url: 
 description: "Como nos organizamos internamente en 23people: Departamentos, Tribus y Equipos"
 ---
 

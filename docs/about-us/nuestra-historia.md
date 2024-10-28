@@ -3,9 +3,6 @@ created: 2023-10-06T13:21:47
 updated: 2024-08-02T16:24:17
 description: Una breve historia de 23people desde sus inicios en 2014.
 author: 5127711
-status: wip
-slug: nuestra-historia
-legacy_url: https://manual.23people.io/es/articles/8451613-nuestra-historia
 ---
 
 # Nuestra Historia

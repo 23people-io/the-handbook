@@ -133,12 +133,12 @@ extra:
 
 nav:
   - Home:
-      - index.md
-      - Acerca de 23people: about-us/resumen.md
+      - about-us/index.md
       - Nuestros valores: about-us/nuestros-valores.md
       - Nuestras metas: about-us/nuestras-metas.md
       - Nuestros servicios: about-us/nuestros-servicios.md
       - Nuestra organización: about-us/nuestra-organizacion.md
+      - Acerca de este manual: handbook/index.md
 
   - Comunidad:
       - Comunidad:

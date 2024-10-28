@@ -2,9 +2,6 @@
 created: 2024-09-06T14:39:48 (UTC -04:00)
 description: Un resumen de lo que hacemos en 23people por nuestros clientes y lo que nos define como un equipo-empresa.
 author: 5127711
-status: wip
-slug: resumen
-legacy_url: 
 ---
 
 # Acerca de 23people
@@ -27,19 +24,15 @@ Cocreamos soluciones junto a nuestros clientes, aprovechando nuestra probada _re
 
 Nuestro objetivo es acelerar ágilmente el viaje de evolución digital de nuestros clientes, permitiéndoles aprovechar al máximo las tecnologías emergentes, incrementar su eficiencia operativa y mantener su competitividad en un mercado en constante evolución.
 
-Para más detalles, visita [Nuestros Servicios](https://manual.23people.io/es/articles/8792344-nuestros-servicios).
+Para más detalles, visita [Nuestros Servicios](nuestros-servicios).
 
 ## Nuestros valores
 
-- **Aprendizaje continuo**. Valoramos el aprendizaje constante. Somos eternos aprendices buscando la excelencia técnica y profesional. Somos un equipo de _nerds_ a los que les encanta lo que hacen.
+Los siguientes, son los [valores](nuestros-valores) que compartimos como equipo-empresa:
 
-- **Colaboración y apoyo genuino**. Enfatizamos el apoyo y la colaboración entre nuestros profesionales, así como con los profesionales y equipos de nuestros clientes. Co-creamos juntos.
-
-- **Crecimiento económico sostenible**. Buscamos un crecimiento que sea económicamente viable y sostenible en el tiempo. Perseguimos ambiciosamente nuestros números, pero no a costa de nuestras personas.
-
-- **Honesta transparencia**. Priorizamos la claridad de comunicación en todas nuestras operaciones. Sabemos que no todo se puede compartir, pero en lo que sí se puede, lo hacemos con honestidad.
-
-Para más detalles, visita [Nuestros Valores](https://manual.23people.io/es/articles/8792601-valores).
+- [Excelencia](nuestros-valores#excelencia). Perseguimos la excelencia y aprendemos continuamente.
+- [Colaboración](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente.
+- [Crecimiento](nuestros-valores#crecimiento). Somos ambiciosos en crecer economicamente pero de manera sostenible.
 
 ## Nuestras Metas
 
@@ -49,7 +42,7 @@ Para más detalles, visita [Nuestros Valores](https://manual.23people.io/es/arti
 
 3. **Innovación digital mediante una cultura nativa en IA.** Crear nuevos productos y servicios digitales mediante una cultura nativa en IA.
 
-Para más detalles, visita [Nuestras Metas](https://manual.23people.io/es/articles/9014518-vision-y-metas).
+Para más detalles, visita [Nuestras Metas](nuestras-metas).
 
 ## Nuestra Historia
 
@@ -58,7 +51,7 @@ Para más detalles, visita [Nuestras Metas](https://manual.23people.io/es/articl
 
 - **Idea inicial:** Crear una empresa en donde a ellos mismos les hubiera gustado trabajar.
 
-Para más detalles, visita [Nuestra Historia](https://manual.23people.io/es/articles/9014518-vision-y-metas).
+Para más detalles, visita [Nuestra Historia](nuestra-historia).
 
 ## Nuestra Organización
 
@@ -78,7 +71,7 @@ Para más detalles, visita [Nuestra Historia](https://manual.23people.io/es/arti
 
 - Engineering
 
-Para más detalles, visita [Nuestra Organización](https://manual.23people.io/es/articles/8826527-organizacion).
+Para más detalles, visita [Nuestra Organización](nuestra-organizacion).
 
 ## Nuestro nombre
 
