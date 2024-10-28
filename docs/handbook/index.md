@@ -1,14 +1,11 @@
 ---
 created: 2024-01-09T09:40:45
 updated: 2024-01-09T09:43:48
-description: 
+description: Información publicamente compartida de lo que hacemos en 23people
 author: 5127711
-status: wip
-slug: acerca-del-manual
-legacy_url: https://manual.23people.io/es/articles/8795373-acerca-del-manual
 ---
 
-# Acerca del Manual
+# Acerca de este Manual
 
 ## Qué es el Manual
 
@@ -60,5 +57,3 @@ malinterpretación o confusión. Por favor, es necesario considerar esto, y
 levantar cualquier duda que pueda aparecer tal de arreglar cualquier problema
 relacionado con esto. Ante cualquier pregunta, por favor indícasela a la
 persona que mantiene la página o tu manager.
-
-

@@ -48,9 +48,10 @@ theme:
     - navigation.top
     - navigation.tracking
     - search.suggest
+    - search.share
     - toc.follow
     - navigation.sections
-    - content.action.edit
+    - content.action.view
   font:
     text: Roboto
     code: Roboto Mono
@@ -77,6 +78,13 @@ plugins:
         python:
           options:
             docstring_style: google
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-committers:
+      repository: 23people-io/23people-handbook
+      branch: main
+      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -89,7 +97,8 @@ markdown_extensions:
   - admonition
   - tables
   - toc:
-      permalink: "#"
+      permalink: true
+      toc_depth: 2
   - attr_list
   - pymdownx.arithmatex:
       generic: true
@@ -133,20 +142,13 @@ extra:
 
 nav:
   - Home:
-      - index.md
-      - Acerca de 23people: about-us/resumen.md
-      - Nuestros valores: about-us/nuestros-valores.md
-      - Nuestras metas: about-us/nuestras-metas.md
-      - Nuestros servicios: about-us/nuestros-servicios.md
-      - Nuestra organización: about-us/nuestra-organizacion.md
+      - 23people: about-us/index.md
+      - Este manual: handbook/index.md
 
-  - Comunidad:
-      - Comunidad:
-          - community/index.md
-          - Código de Conducta: community/code-of-conduct.md
-          - Diversidad e Inclusión: community/diversity-and-inclusion.md
-          - Eventos: community/events.md
-          - Voluntariado: community/volunteering.md
+  - "🍿 Comunidad":
+      - community/index.md
+      - Código de Conducta: community/code-of-conduct.md
+      - Eventos: community/events.md
 
   - Conocimiento:
       - "Flujos de Trabajo": knowledge/gestion-de-flujos-de-trabajo.md
