@@ -77,6 +77,10 @@ plugins:
         python:
           options:
             docstring_style: google
+  - git-committers:
+      repository: https://github.com/23people-io/23people-handbook
+      branch: dev
+      token: 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
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -133,20 +137,13 @@ extra:
 
 nav:
   - Home:
-      - about-us/index.md
-      - Nuestros valores: about-us/nuestros-valores.md
-      - Nuestras metas: about-us/nuestras-metas.md
-      - Nuestros servicios: about-us/nuestros-servicios.md
-      - Nuestra organización: about-us/nuestra-organizacion.md
-      - Acerca de este manual: handbook/index.md
+      - 23people: about-us/index.md
+      - Este manual: handbook/index.md
 
-  - Comunidad:
-      - Comunidad:
-          - community/index.md
-          - Código de Conducta: community/code-of-conduct.md
-          - Diversidad e Inclusión: community/diversity-and-inclusion.md
-          - Eventos: community/events.md
-          - Voluntariado: community/volunteering.md
+  - "🍿 Comunidad":
+      - community/index.md
+      - Código de Conducta: community/code-of-conduct.md
+      - Eventos: community/events.md
 
   - Conocimiento:
       - "Flujos de Trabajo": knowledge/gestion-de-flujos-de-trabajo.md

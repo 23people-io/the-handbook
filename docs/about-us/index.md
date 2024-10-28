@@ -6,9 +6,11 @@ author: 5127711
 
 # Acerca de 23people
 
-> **Somos la empresa detrás de 23people.**
->
-> Una consultora tecnológica fundada y compuesta por profesionales tecnológicos a los que realmente les apasiona lo que hacen.
+## Quienes somos
+
+**Somos la empresa detrás de 23people.**
+
+Una consultora tecnológica fundada y compuesta por profesionales tecnológicos a los que realmente les apasiona lo que hacen.
 
 ## Lo que hacemos
 

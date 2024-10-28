@@ -621,6 +621,22 @@ mkdocs = ">=0.17"
 PyGithub = ">=1.43"
 
 [[package]]
+name = "mkdocs-git-committers-plugin-2"
+version = "2.4.1"
+description = "An MkDocs plugin to create a list of contributors on the page. The git-committers plugin will seed the template context with a list of GitHub or GitLab committers and other useful GIT info such as last modified date"
+optional = false
+python-versions = "<4,>=3.8"
+files = [
+    {file = "mkdocs_git_committers_plugin_2-2.4.1-py3-none-any.whl", hash = "sha256:ec9c1d81445606c471337d1c4a1782c643b7377077b545279dc18b86b7362c6d"},
+    {file = "mkdocs_git_committers_plugin_2-2.4.1.tar.gz", hash = "sha256:ea1f80a79cedc42289e0b8e973276df04fb94f56e0ae3efc5385fb28547cf5cb"},
+]
+
+[package.dependencies]
+gitpython = "*"
+mkdocs = ">=1.0.3"
+requests = "*"
+
+[[package]]
 name = "mkdocs-git-revision-date-localized-plugin"
 version = "1.3.0"
 description = "Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file."
@@ -1345,4 +1361,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "99d3cfbe50c0199cddd71d566b9ce1f8fc8a119cb9e4bfcf55e80df41c376ab9"
+content-hash = "eff51b9276a5490b8741f1aab554822313a0f1408af8558cfa93d0859f691775"
