@@ -48,9 +48,10 @@ theme:
     - navigation.top
     - navigation.tracking
     - search.suggest
+    - search.share
     - toc.follow
     - navigation.sections
-    - content.action.edit
+    - content.action.view
   font:
     text: Roboto
     code: Roboto Mono
@@ -77,10 +78,13 @@ plugins:
         python:
           options:
             docstring_style: google
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
   - git-committers:
-      repository: https://github.com/23people-io/23people-handbook
-      branch: dev
-      token: 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
+      repository: 23people-io/23people-handbook
+      branch: main
+      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -93,7 +97,8 @@ markdown_extensions:
   - admonition
   - tables
   - toc:
-      permalink: "#"
+      permalink: true
+      toc_depth: 2
   - attr_list
   - pymdownx.arithmatex:
       generic: true
