@@ -157,22 +157,22 @@ nav:
       - De Servicios:
           - "IT Talent Services":
               - "Acerca de": departments/it-talent-services/index.md
-              - "KPIs y Métricas": departments/it-talent-services/kpis-and-metrics/index.md
+              - "Data & Analytics": departments/it-talent-services/data-analytics/index.md
               - "Glosario": departments/it-talent-services/glosario.md
           - "Digital Platforms, Data & AI":
-              - Acerca de: departments/digital-platforms-services/index.md
+              - "Acerca de": departments/digital-platforms-services/index.md
               - "KPIs y Métricas": departments/digital-platforms-services/kpis-and-metrics/index.md
       - Funcionales:
-          - People Growth:
-              - Acerca de: departments/people-growth/index.md
-              - "KPIs y Métricas": departments/people-growth/kpis/index.md
+          - "People Growth":
+              - "Acerca de": departments/people-growth/index.md
+              - "Data & Analytics": departments/people-growth/data-analytics/index.md
           - "Marketing & Strategic Growth":
-              - Acerca de: departments/marketing/index.md
-              - "KPIs y Métricas": departments/marketing/kpis-and-metrics/index.md
-              - Glosario: departments/marketing/glosario.md
-          - Finances:
+              - "Acerca de": departments/marketing/index.md
+              - "Data & Analytics": departments/marketing/data-analytics/index.md
+              - "Glosario": departments/marketing/glosario.md
+          - "Finances":
               - departments/finances/index.md
-          - Engineering:
+          - "Engineering":
               - departments/engineering/index.md
 
   - Blog:

@@ -57,11 +57,9 @@ Para más detalles, visita [Nuestra Historia](nuestra-historia).
 
 ## Nuestra Organización
 
-### Departamentos de Servicios
+Los siguientes, son los [valores](nuestros-valores) que compartimos como equipo-empresa:
 
-- IT Talent Services (ITTS)
-
-- Digital Platforms, Data & AI Services (DPS)
+- [Excelencia](nuestros-valores#excelencia). Perseguimos la excelencia y aprendemos continuamente.
 
 ### Departamentos Funcionales
 
