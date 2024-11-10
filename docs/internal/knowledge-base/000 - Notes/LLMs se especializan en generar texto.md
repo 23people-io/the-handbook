@@ -1,8 +1,0 @@
-#idea
-2024-04-16-16:57
-Status: #inmature
-Tags:  [[Inteligencia Artificial]]
-
-
-
-
