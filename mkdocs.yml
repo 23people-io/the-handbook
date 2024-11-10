@@ -19,20 +19,27 @@ site_dir: "site"
 theme:
   name: "material"
   palette:
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/lightbulb
+        name: "Switch to light mode"
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: pink
       accent: pink
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+        icon: material/lightbulb-outline
+        name: "Switch to dark mode"
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: pink
       accent: pink
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+        icon: material/lightbulb-auto-outline
+        name: "Switch to system preference"
   features:
     - content.tabs.link
     - content.code.annotate
@@ -62,12 +69,6 @@ theme:
 
 # Plugins
 plugins:
-  - blog:
-      post_dir: "{blog}/articles"
-      post_date_format: long
-      post_readtime: true
-      authors: true
-      authors_file: "{blog}/.authors.yml"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - "mkdocs-version-annotations":
@@ -91,6 +92,9 @@ markdown_extensions:
       linenums: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
   - pymdownx.snippets:
       restrict_base_path: false
@@ -137,24 +141,27 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-  status:
-    wip: Work in progress
 
 nav:
-  - Home:
-      - 23people: about-us/index.md
-      - Este manual: handbook/index.md
+  - Inicio:
+      - Bienvenidos a 23people: index.md
+      - Nuestras Metas: about-us/goals.md
+      - Cultura:
+          - Valores: about-us/values.md
+          - Prácticas: practices/index.md
+      - Servicios: about-us/services.md
+      - Métricas: about-us/metrics.md
+      - Nuestra Historia: about-us/history.md
 
-  - "🍿 Comunidad":
-      - community/index.md
-      - Código de Conducta: community/code-of-conduct.md
-      - Eventos: community/events.md
-
-  - Conocimiento:
-      - "Flujos de Trabajo": knowledge/gestion-de-flujos-de-trabajo.md
-
-  - Departamentos:
-      - De Servicios:
+  - "Organización":
+      - "Tribus":
+          - "Jarvis Tribe":
+              - "Acerca de": about-us/goals.md
+              - "Data & Analytics": tribes/jarvis/data-analytics/index.md
+          - "Drakkar Tribe":
+              - "Acerca de": tribes/drakkar/index.md
+              - "Data & Analytics": tribes/drakkar/data-analytics/index.md
+      - Backoffice:
           - "IT Talent Services":
               - "Acerca de": departments/it-talent-services/index.md
               - "Data & Analytics": departments/it-talent-services/data-analytics/index.md
@@ -162,7 +169,6 @@ nav:
           - "Digital Platforms, Data & AI":
               - "Acerca de": departments/digital-platforms-services/index.md
               - "KPIs y Métricas": departments/digital-platforms-services/kpis-and-metrics/index.md
-      - Funcionales:
           - "People Growth":
               - "Acerca de": departments/people-growth/index.md
               - "Data & Analytics": departments/people-growth/data-analytics/index.md
@@ -175,5 +181,12 @@ nav:
           - "Engineering":
               - departments/engineering/index.md
 
-  - Blog:
-      - blog/index.md
+  - "Comunidad":
+      - community/index.md
+      - Código de Conducta: community/code-of-conduct.md
+      - Eventos: community/events.md
+
+  - "Prácticas":
+      - practices/index.md
+
+  - Acerca de este Manual: the-handbook/index.md

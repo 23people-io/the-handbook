@@ -6,6 +6,7 @@ maintainers = [
   "Marcelo Ampuero <marcelo@23people.io>",
 ]
 name = "23people-handbook"
+package-mode = false
 readme = "README.md"
 repository = "https://github.com/23people-io/23people-handbook"
 version = "0.3.45a0"
@@ -14,6 +15,7 @@ version = "0.3.45a0"
 mkdocs = {extras = ["i18n"], version = "^1.6.1"}
 mkdocs-exclude = "^1.0.2"
 mkdocs-git-committers-plugin = "^0.2.3"
+mkdocs-git-committers-plugin-2 = "^2.4.1"
 mkdocs-git-revision-date-localized-plugin = "^1.2.7"
 mkdocs-material = "^9.5.34"
 mkdocs-minify-plugin = "^0.8.0"
@@ -23,7 +25,6 @@ mkdocstrings = "^0.25.2"
 mkdocstrings-python = "^1.10.9"
 python = "^3.12"
 python-dotenv = "^1.0.1"
-mkdocs-git-committers-plugin-2 = "^2.4.1"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"

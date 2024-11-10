@@ -3,34 +3,83 @@ created: 2024-08-10T14:30:00
 updated: 2024-08-10T14:30:00
 authors:
   - manu-reyes-23p
-slug: el-manual-de-23people
 description: >
   Compartimos información de manera fácil y eficiente entre las personas que 
   trabajan en la empresa (y quienes estén interesados en conocer más sobre nosotros).
 ---
 
-# El Manual de 23people
+# ¡Bienvenidos!  🎉
 
-El Manual de 23people apunta a compartir información de manera fácil y eficiente entre las personas que trabajan en 23people. La intención es tener una fuente de verdad única sobre qué, cómo y por qué lo hacemos así.
+En este manual compartimos todo lo que necesitas saber sobre **quiénes somos**, **cómo trabajamos** y **lo que perseguimos** como [23people](https://23people.io), tanto si ya eres parte de [nuestro equipo :material-heart:](teams) como si simplemente estás interesado en conocernos.
 
-## Por qué necesitamos esto
+## Lo que hacemos
 
-Somos una empresa en crecimiento y sabemos que las nuevas personas que ingresen no podrán acceder a emails, conversaciones o decisiones que se hayan tomado anteriormente. Por otro lado, muchos problemas por los que hemos pasado y sus soluciones, además de procedimientos que hemos armado para responder a ciertas necesidades, cuando vuelven a aparecer, es necesario comunicarlos nuevamente con el problema inherente que ya tiene la comunicación humana.
+**Potenciamos las capacidades humanas y digitales de nuestros clientes mediante la integración de Talento IT, Tecnologías Cloud y Herramientas IA en sus servicios y día a día.**
 
-¿Cómo poder enfocar nuestro esfuerzo intelectual en los problemas nuevos, en vez de en problemas ya conocidos?
+Somos una consultora tecnológica fundada y compuesta por profesionales tecnológicos a los que realmente les apasiona lo que hacen. Cocreamos soluciones junto a nuestros clientes, aprovechando nuestra probada _receta_ para seleccionar y retener talento IT de alto nivel, nuestra validada experiencia técnica y nuestros 10 años de trayectoria en esta industria. Nos enfocamos en:
 
-## Ventajas
+1. Modernizar y evolucionar plataformas digitales.
 
-En 23people creemos que es muy importante el poder compartir la información y conocimiento que es relevante a cada una de las personas que son parte de la empresa. Dado lo anterior, se ha considerado el disponer de un Manual dadas las siguientes ventajas:
+2. Madurar y empoderar el uso de datos.
 
-1. Escribir en el manual nos permite hacer trascender el conocimiento que vamos adquiriendo sobre los problemas y procedimientos ya conocidos.
-2. Leer es mucho más rápido y eficaz que escuchar a alguien.
-3. Escribir nos ayuda a ordenar nuestras ideas.
-4. Se puede leer en cualquier momento. No es necesario crear reuniones para comunicar cierta información relevante ni esperar la disponibilidad de la persona que sepa de esa información.
-5. Las personas que quieran ingresar a 23people, ya sean postulantes o profesionales en su etapa de Onboarding, sabrán como funcionamos internamente, por lo que podría hacer más fácil su incorporación.
-6. El trabajo de los distintos equipos se vuelve más fácil dado que se conoce como funciona la empresa.
-7. La modificación de procedimientos es más fácil dado que se puede leer como funcionan actualmente.
+3. Habilitar la implementación efectiva de la Inteligencia Artificial.
 
-## Consideraciones al leer el manual
+Nuestro objetivo es acelerar ágilmente el viaje de evolución digital de nuestros clientes, permitiéndoles aprovechar al máximo las tecnologías emergentes, incrementar su eficiencia operativa y mantener su competitividad en un mercado en constante evolución.
 
-Como todo lo escrito, el contenido del manual estará sujeto a interpretaciones de quien lo lee. Debemos hacer lo mejor posible por escribir el texto de manera sencilla y clara tal que se minimice algún problema de malinterpretación o confusión. Por favor, es necesario considerar esto, y levantar cualquier duda que pueda aparecer tal de arreglar cualquier problema relacionado con esto. Ante cualquier pregunta, por favor indícasela a la persona que mantiene la página o tu manager.
+Para más detalles, visita [Nuestros Servicios](nuestros-servicios).
+
+## Nuestros valores
+
+Los siguientes, son los [valores](nuestros-valores) que compartimos como equipo-empresa:
+
+- [Excelencia](nuestros-valores#excelencia). Perseguimos la excelencia y aprendemos continuamente.
+- [Colaboración](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente.
+- [Crecimiento](nuestros-valores#crecimiento). Somos ambiciosos en crecer economicamente pero de manera sostenible.
+
+## Nuestras Metas
+
+1. **Crecimiento económico y globalización.** Expandir nuestras operaciones y presencia a nivel latinoamericano y global.
+
+2. **Ser referentes en tecnología y desarrollo profesional en TI.** Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
+
+3. **Innovación digital mediante una cultura nativa en IA.** Crear nuevos productos y servicios digitales mediante una cultura nativa en IA.
+
+Para más detalles, visita [Nuestras Metas](nuestras-metas).
+
+## Nuestra Historia
+
+- **Fundación:** 23people fue fundada el 26 de noviembre de 2014 por Marcelo Ampuero y [Manuel Reyes](https://github.com/manu-reyes-23p)
+    , Ingenieros de Software.
+
+- **Idea inicial:** Crear una empresa en donde a ellos mismos les hubiera gustado trabajar.
+
+Para más detalles, visita [Nuestra Historia](nuestra-historia).
+
+## Nuestra Organización
+
+Los siguientes, son los [valores](nuestros-valores) que compartimos como equipo-empresa:
+
+- [Excelencia](nuestros-valores#excelencia). Perseguimos la excelencia y aprendemos continuamente.
+
+### Departamentos Funcionales
+
+- People Growth
+
+- Marketing & Strategic Growth
+
+- Finances
+
+- Engineering
+
+Para más detalles, visita [Nuestra Organización](nuestra-organizacion).
+
+## Nuestro nombre
+
+A diferencia de lo que se pueda pensar, nuestro nombre como empresa **_no es debido a que seamos 23 personas_** 😱. Nuestro nombre ha originado de un concepto destacado en la saga de películas [Matrix](https://es.wikipedia.org/wiki/Matrix)
+ y en particular desde un diálogo entre El Arquitecto y Neo en la película [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/?ref_=fn_al_tt_3)
+:
+
+!!! quote
+    _"La función del Elegido es ahora regresar a la fuente, permitiendo una diseminación temporal del código que llevas, reinsertando el programa principal. Después de lo cual se te requerirá seleccionar del matrix **23 individuos**, 16 mujeres, 7 hombres, para reconstruir Zion. El no cumplir con este proceso resultará en un colapso catastrófico del sistema matando a todos conectados al matrix, lo que junto con la exterminación de Zion resultará en la extinción de toda la raza humana."_
+
+    [**El Arquitecto - The Matrix Reloaded**](https://www.youtube.com/watch?v=LN8EE5JxSGQ)
