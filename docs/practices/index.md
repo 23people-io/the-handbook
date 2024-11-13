@@ -3,8 +3,6 @@ created: 2024-01-16T11:08:36
 updated: 2024-09-04T14:05:21
 description: Practicas que se siguen en 23people.
 author: 5127711
-status: wip
-slug: practices
 legacy_url: 
 ---
 

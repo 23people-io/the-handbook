@@ -3,9 +3,6 @@ created: 2024-09-12T12:15:10
 updated: 2024-09-12T14:30:00
 description: Mide el porcentaje de profesionales que han dejado la empresa en los últimos 12 meses.
 author: 5127711
-status: wip
-slug: tasa-rotacion-profesionales-12m-moviles
-legacy_url: 
 ---
 
 # Tasa de Rotación Profesionales (12 meses móviles)

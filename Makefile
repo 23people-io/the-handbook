@@ -36,5 +36,10 @@ version:
 	@scripts/version
 	@echo "$(MAGENT)✔ Versioning completed successfully.$(RESET)"
 
+prepatch:
+	@echo "$(MAGENT)Starting Prepatch...$(RESET)"
+	@scripts/prepatch
+	@echo "$(MAGENT)✔ Prepatch completed successfully.$(RESET)"
+
 # Phony targets
 .PHONY: run build test version

@@ -3,34 +3,75 @@ created: 2024-08-10T14:30:00
 updated: 2024-08-10T14:30:00
 authors:
   - manu-reyes-23p
-slug: el-manual-de-23people
 description: >
   Compartimos información de manera fácil y eficiente entre las personas que 
   trabajan en la empresa (y quienes estén interesados en conocer más sobre nosotros).
 ---
 
-# El Manual de 23people
+# ¡Bienvenidos!  🎉
 
-El Manual de 23people apunta a compartir información de manera fácil y eficiente entre las personas que trabajan en 23people. La intención es tener una fuente de verdad única sobre qué, cómo y por qué lo hacemos así.
+En este manual compartimos todo lo que necesitas saber sobre **quiénes somos**, **cómo trabajamos** y **lo que perseguimos** como [23people](https://23people.io), tanto si ya eres parte de [nuestro equipo :material-heart:](teams) como si simplemente estás interesado en conocernos.
 
-## Por qué necesitamos esto
+## Quienes somos
 
-Somos una empresa en crecimiento y sabemos que las nuevas personas que ingresen no podrán acceder a emails, conversaciones o decisiones que se hayan tomado anteriormente. Por otro lado, muchos problemas por los que hemos pasado y sus soluciones, además de procedimientos que hemos armado para responder a ciertas necesidades, cuando vuelven a aparecer, es necesario comunicarlos nuevamente con el problema inherente que ya tiene la comunicación humana.
+Somos una consultora tecnológica con cerca de una década de experiencia en la industria, fundada y conformada por profesionales a los que realmente [les apasiona lo que hacen :material-heart:](#nuestros-valores).
 
-¿Cómo poder enfocar nuestro esfuerzo intelectual en los problemas nuevos, en vez de en problemas ya conocidos?
+## Lo que hacemos
 
-## Ventajas
+!!! example ""
 
-En 23people creemos que es muy importante el poder compartir la información y conocimiento que es relevante a cada una de las personas que son parte de la empresa. Dado lo anterior, se ha considerado el disponer de un Manual dadas las siguientes ventajas:
+    **Somos facilitadores tecnológicos confiables, tanto técnica como profesionalmente, para empresas que buscan evolucionar sus negocios y servicios, impulsándose a través de sus datos, su conocimiento experto del negocio y la tecnología.**
 
-1. Escribir en el manual nos permite hacer trascender el conocimiento que vamos adquiriendo sobre los problemas y procedimientos ya conocidos.
-2. Leer es mucho más rápido y eficaz que escuchar a alguien.
-3. Escribir nos ayuda a ordenar nuestras ideas.
-4. Se puede leer en cualquier momento. No es necesario crear reuniones para comunicar cierta información relevante ni esperar la disponibilidad de la persona que sepa de esa información.
-5. Las personas que quieran ingresar a 23people, ya sean postulantes o profesionales en su etapa de Onboarding, sabrán como funcionamos internamente, por lo que podría hacer más fácil su incorporación.
-6. El trabajo de los distintos equipos se vuelve más fácil dado que se conoce como funciona la empresa.
-7. La modificación de procedimientos es más fácil dado que se puede leer como funcionan actualmente.
+Creemos que las organizaciones que desean dar un paso significativo en su madurez y crecimiento, deben apoyarse en sus datos y su conocimiento experto. Nuestros clientes son quienes mejor conocen su negocio pero los datos por sí solos no generarán valor. Es su conocimiento experto más el uso de estos datos, en casos de uso creíbles y relevantes para su negocio, lo que resultará en mejoras objetivas para sus operaciones. Esto es lo que realmente creará el valor.
 
-## Consideraciones al leer el manual
+Por lo anterior, en 23people facilitamos la evolución digital de las empresas a través de tres servicios complementarios:
 
-Como todo lo escrito, el contenido del manual estará sujeto a interpretaciones de quien lo lee. Debemos hacer lo mejor posible por escribir el texto de manera sencilla y clara tal que se minimice algún problema de malinterpretación o confusión. Por favor, es necesario considerar esto, y levantar cualquier duda que pueda aparecer tal de arreglar cualquier problema relacionado con esto. Ante cualquier pregunta, por favor indícasela a la persona que mantiene la página o tu manager.
+1. [**Digitalización, Automatización e Integracion**](). Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Seguridad y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
+2. [**Analítica y Pronósticos basados en Datos e IA**](). Habilitamos la toma de decisiones operativas y estratégicas apoyadas en datos, combinando tecnologías para grandes volúmenes de datos (BigData, DataLakes, Warehouses, Machine Learning), herramientas IA predictivas y generativas (Deep Learning y GenAI), y el conocimiento experto del negocio de nuestros clientes.
+3. [**Outsourcing, Subcontratación y Reclutamiento de Profesionales IT**](). Aportamos con Profesionales TI realmente seleccionados por nosotros y para cada necesidad específica que hemos madurado junto a nuestros clientes.
+
+Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos realmente confiables, tanto técnica como profesionalmente. Creemos que nuestra guía tecnológica, nuestra experiencia en la cultura TI y el conocimiento experto que solo nuestros clientes pueden aportar sobre su negocio permite a esta colaboración el concretar o ajustar las mejoras operativas y estratégicas que fortalecen la competitividad de las empresas en sus respectivos mercados.
+
+!!! tip "Cómo logramos hacer lo anterior"
+
+    **Nuestro principal diferenciador, y sobre la cual apoyamos todos los servicios que ofrecemos, es nuestra probada _receta_ para seleccionar y retener Profesionales TI de alto nivel**. 
+    
+    Buscamos a esos profesionales a los cuales realmente les apasiona lo que hacen y que tienen la experiencia que dicen que tienen. No son sencillos de encontrar en este mercado tan competitivo, pero una vez que los encontramos, buscamos retenerlos lo máximo posible tal que sientan que hubo un real crecimiento profesional y un desafío de mejora constante a sus habilidades mientras estuvieron en 23people. Lo anterior, lo combinamos junto a nuestra reconocida experiencia técnica y nuestro valorado servicio al cliente en estos 10 años de trayectoria.
+
+## Nuestros valores
+
+Los siguientes, son los [valores](nuestros-valores) que compartimos como equipo-empresa:
+
+- [Excelencia](nuestros-valores#excelencia). Perseguimos la excelencia y el aprender a aprender continuamente. Genuina curiosidad y mejora de habilidades de un eterno aprendiz. Existe una sana competencia necesaria para crecer pero siempre considerando el bien mayor para nuestros clientes y nuestra cultura en 23people.
+- [Colaboración](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación.
+- [Crecimiento](nuestros-valores#crecimiento). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, pero a un ritmo que sea sostenible en el tiempo y no a costa de nuestro equipo. Preferimos crecer de manera sistemática, por sobre esfuerzos aislados que no sean sostenibles.
+
+## Nuestras Metas
+
+1. **Crecimiento económico y globalización.** Expandir nuestras operaciones y presencia a nivel latinoamericano y global.
+
+2. **Ser referentes en tecnología y desarrollo profesional en TI.** Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
+
+3. **Innovación digital mediante una cultura nativa en IA.** Crear nuevos productos y servicios digitales mediante una cultura nativa en IA.
+
+Para más detalles, visita [Nuestras Metas](nuestras-metas).
+
+## Nuestra Historia
+
+- **Fundación:** 23people fue fundada el 26 de noviembre de 2014 por [Marcelo Ampuero](https://github.com/marceloat23) y [Manuel Reyes](https://github.com/manu-reyes-23p), Ingenieros de Software.
+
+- **Idea inicial:** Crear una empresa en donde a ellos mismos les hubiera gustado trabajar.
+
+Para más detalles, visita [Nuestra Historia](nuestra-historia).
+
+## Nuestro nombre
+
+A diferencia de lo que se pueda pensar, nuestro nombre como empresa **_no es debido a que seamos 23 personas_** 😱. Nuestro nombre ha originado de un concepto destacado en la saga de películas [Matrix](https://es.wikipedia.org/wiki/Matrix)
+ y en particular desde un diálogo entre El Arquitecto y Neo en la película [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/?ref_=fn_al_tt_3)
+:
+
+!!! example ""
+
+    _"La función del Elegido es ahora regresar a la fuente, permitiendo una diseminación temporal del código que llevas, reinsertando el programa principal. Después de lo cual se te requerirá seleccionar del matrix **23 individuos**, 16 mujeres, 7 hombres, para reconstruir Zion. El no cumplir con este proceso resultará en un colapso catastrófico del sistema matando a todos conectados al matrix, lo que junto con la exterminación de Zion resultará en la extinción de toda la raza humana."_
+
+    [**El Arquitecto - The Matrix Reloaded**](https://www.youtube.com/watch?v=LN8EE5JxSGQ)

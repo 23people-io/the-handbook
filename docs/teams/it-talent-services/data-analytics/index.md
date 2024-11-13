@@ -28,7 +28,6 @@ A continuación, se listan los KPIs que monitoreamos:
 
 A continuación, se listan las métricas operacionales más relevantes que monitoreamos en este departamento:
 
-* [Lead Time de Envío Candidatos](metrics/lead-time-candidatos)
-* [Forecasting de Envío de Candidatos](forecasting-candidatos)
+* [Lead Time de Envío de Candidatos](metrics/lead-time-candidatos)
 * [Total de Postulaciones](total-postulaciones)
 * [Tasa de Reasignación de Profesionales](tasa-reasignacion)

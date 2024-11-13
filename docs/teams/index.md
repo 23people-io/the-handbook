@@ -1,10 +1,10 @@
 ---
-created: 2024-09-06T14:39:48 (UTC -04:00)
-author: 5127711
-description: "Como nos organizamos internamente en 23people: Departamentos, Tribus y Equipos"
+created: 2024-09-10T14:30:00
+updated: 2024-09-10T14:30:00
+description: "Como organizamos internamente nuestros equipos en 23people."
 ---
 
-# Nuestra Organización
+# Organización de Equipos en 23people
 
 En 23people existen distintas **unidades organizacionales**.
 
@@ -12,7 +12,7 @@ Nuestros profesionales y sus funciones están organizados en equipos especializa
 
 A continuación, más detalles de nuestras unidades organizacionales:
 
-## ⭐ Departamentos
+## Departamentos
 
 Tenemos dos tipos de departamentos: de Servicios y Funcionales.
 
@@ -59,6 +59,6 @@ Este tipo de equipos tienen profesionales que provienen de varios departamentos,
 
 Son grandes grupos de equipos que están relacionados en una manera significativa para 23people. Tenemos 2 Tribus:
 
-- **Jarvis Tribe.** Todos los profesionales y equipos que pertenecen a un departamento de servicios o funcional en 23people.
+- **Iarvis Tribe.** Todos los profesionales y equipos que pertenecen a un departamento de servicios o funcional en 23people.
 
 - **Drakkar Tribe.** Todos los profesionales y equipos TI que trabajan en proyectos con clientes en modo subcontratación con 23people.
