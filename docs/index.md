@@ -12,29 +12,39 @@ description: >
 
 En este manual compartimos todo lo que necesitas saber sobre **quiénes somos**, **cómo trabajamos** y **lo que perseguimos** como [23people](https://23people.io), tanto si ya eres parte de [nuestro equipo :material-heart:](teams) como si simplemente estás interesado en conocernos.
 
+## Quienes somos
+
+Somos una consultora tecnológica con cerca de una década de experiencia en la industria, fundada y conformada por profesionales a los que realmente [les apasiona lo que hacen :material-heart:](#nuestros-valores).
+
 ## Lo que hacemos
 
-**Potenciamos las capacidades humanas y digitales de nuestros clientes mediante la integración de Talento IT, Tecnologías Cloud y Herramientas IA en sus servicios y día a día.**
+!!! example ""
 
-Somos una consultora tecnológica fundada y compuesta por profesionales tecnológicos a los que realmente les apasiona lo que hacen. Cocreamos soluciones junto a nuestros clientes, aprovechando nuestra probada _receta_ para seleccionar y retener talento IT de alto nivel, nuestra validada experiencia técnica y nuestros 10 años de trayectoria en esta industria. Nos enfocamos en:
+    **Somos facilitadores tecnológicos confiables, tanto técnica como profesionalmente, para empresas que buscan evolucionar sus negocios y servicios, impulsándose a través de sus datos, su conocimiento experto del negocio y la tecnología.**
 
-1. Modernizar y evolucionar plataformas digitales.
+Creemos que las organizaciones que desean dar un paso significativo en su madurez y crecimiento, deben apoyarse en sus datos y su conocimiento experto. Nuestros clientes son quienes mejor conocen su negocio pero los datos por sí solos no generarán valor. Es su conocimiento experto más el uso de estos datos, en casos de uso creíbles y relevantes para su negocio, lo que resultará en mejoras objetivas para sus operaciones. Esto es lo que realmente creará el valor.
 
-2. Madurar y empoderar el uso de datos.
+Por lo anterior, en 23people facilitamos la evolución digital de las empresas a través de tres servicios complementarios:
 
-3. Habilitar la implementación efectiva de la Inteligencia Artificial.
+1. [**Digitalización, Automatización e Integracion**](). Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Seguridad y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
+2. [**Analítica y Pronósticos basados en Datos e IA**](). Habilitamos la toma de decisiones operativas y estratégicas apoyadas en datos, combinando tecnologías para grandes volúmenes de datos (BigData, DataLakes, Warehouses, Machine Learning), herramientas IA predictivas y generativas (Deep Learning y GenAI), y el conocimiento experto del negocio de nuestros clientes.
+3. [**Outsourcing, Subcontratación y Reclutamiento de Profesionales IT**](). Aportamos con Profesionales TI realmente seleccionados por nosotros y para cada necesidad específica que hemos madurado junto a nuestros clientes.
 
-Nuestro objetivo es acelerar ágilmente el viaje de evolución digital de nuestros clientes, permitiéndoles aprovechar al máximo las tecnologías emergentes, incrementar su eficiencia operativa y mantener su competitividad en un mercado en constante evolución.
+Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos realmente confiables, tanto técnica como profesionalmente. Creemos que nuestra guía tecnológica, nuestra experiencia en la cultura TI y el conocimiento experto que solo nuestros clientes pueden aportar sobre su negocio permite a esta colaboración el concretar o ajustar las mejoras operativas y estratégicas que fortalecen la competitividad de las empresas en sus respectivos mercados.
 
-Para más detalles, visita [Nuestros Servicios](nuestros-servicios).
+!!! tip "Cómo logramos hacer lo anterior"
+
+    **Nuestro principal diferenciador, y sobre la cual apoyamos todos los servicios que ofrecemos, es nuestra probada _receta_ para seleccionar y retener Profesionales TI de alto nivel**. 
+    
+    Buscamos a esos profesionales a los cuales realmente les apasiona lo que hacen y que tienen la experiencia que dicen que tienen. No son sencillos de encontrar en este mercado tan competitivo, pero una vez que los encontramos, buscamos retenerlos lo máximo posible tal que sientan que hubo un real crecimiento profesional y un desafío de mejora constante a sus habilidades mientras estuvieron en 23people. Lo anterior, lo combinamos junto a nuestra reconocida experiencia técnica y nuestro valorado servicio al cliente en estos 10 años de trayectoria.
 
 ## Nuestros valores
 
 Los siguientes, son los [valores](nuestros-valores) que compartimos como equipo-empresa:
 
-- [Excelencia](nuestros-valores#excelencia). Perseguimos la excelencia y aprendemos continuamente.
-- [Colaboración](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente.
-- [Crecimiento](nuestros-valores#crecimiento). Somos ambiciosos en crecer economicamente pero de manera sostenible.
+- [Excelencia](nuestros-valores#excelencia). Perseguimos la excelencia y el aprender a aprender continuamente. Genuina curiosidad y mejora de habilidades de un eterno aprendiz. Existe una sana competencia necesaria para crecer pero siempre considerando el bien mayor para nuestros clientes y nuestra cultura en 23people.
+- [Colaboración](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación.
+- [Crecimiento](nuestros-valores#crecimiento). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, pero a un ritmo que sea sostenible en el tiempo y no a costa de nuestro equipo. Preferimos crecer de manera sistemática, por sobre esfuerzos aislados que no sean sostenibles.
 
 ## Nuestras Metas
 
@@ -48,30 +58,11 @@ Para más detalles, visita [Nuestras Metas](nuestras-metas).
 
 ## Nuestra Historia
 
-- **Fundación:** 23people fue fundada el 26 de noviembre de 2014 por Marcelo Ampuero y [Manuel Reyes](https://github.com/manu-reyes-23p)
-    , Ingenieros de Software.
+- **Fundación:** 23people fue fundada el 26 de noviembre de 2014 por [Marcelo Ampuero](https://github.com/marceloat23) y [Manuel Reyes](https://github.com/manu-reyes-23p), Ingenieros de Software.
 
 - **Idea inicial:** Crear una empresa en donde a ellos mismos les hubiera gustado trabajar.
 
 Para más detalles, visita [Nuestra Historia](nuestra-historia).
-
-## Nuestra Organización
-
-Los siguientes, son los [valores](nuestros-valores) que compartimos como equipo-empresa:
-
-- [Excelencia](nuestros-valores#excelencia). Perseguimos la excelencia y aprendemos continuamente.
-
-### Departamentos Funcionales
-
-- People Growth
-
-- Marketing & Strategic Growth
-
-- Finances
-
-- Engineering
-
-Para más detalles, visita [Nuestra Organización](nuestra-organizacion).
 
 ## Nuestro nombre
 
@@ -79,7 +70,8 @@ A diferencia de lo que se pueda pensar, nuestro nombre como empresa **_no es deb
  y en particular desde un diálogo entre El Arquitecto y Neo en la película [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/?ref_=fn_al_tt_3)
 :
 
-!!! quote
+!!! example ""
+
     _"La función del Elegido es ahora regresar a la fuente, permitiendo una diseminación temporal del código que llevas, reinsertando el programa principal. Después de lo cual se te requerirá seleccionar del matrix **23 individuos**, 16 mujeres, 7 hombres, para reconstruir Zion. El no cumplir con este proceso resultará en un colapso catastrófico del sistema matando a todos conectados al matrix, lo que junto con la exterminación de Zion resultará en la extinción de toda la raza humana."_
 
     [**El Arquitecto - The Matrix Reloaded**](https://www.youtube.com/watch?v=LN8EE5JxSGQ)
