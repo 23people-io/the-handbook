@@ -51,13 +51,12 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.path
-    - navigation.sections
     - navigation.top
     - navigation.tracking
+    - navigation.sections
     - search.suggest
     - search.share
     - toc.follow
-    - navigation.sections
     - content.action.view
   font:
     text: Roboto
@@ -127,13 +126,6 @@ extra:
       link: https://www.facebook.com/23people
   chatbot:
     url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
-  alternate:
-    - name: "English"
-      link: en/
-      lang: en
-    - name: "Español"
-      link: es/
-      lang: es
 nav:
   - Inicio:
       - Bienvenidos a 23people: index.md
@@ -146,32 +138,30 @@ nav:
       - Nuestra Historia: about-us/history.md
 
   - "Organización":
-      - "Tribus":
-          - "Jarvis Tribe":
-              - "Acerca de": about-us/goals.md
-              - "Data & Analytics": tribes/jarvis/data-analytics/index.md
-          - "Drakkar Tribe":
-              - "Acerca de": tribes/drakkar/index.md
-              - "Data & Analytics": tribes/drakkar/data-analytics/index.md
-      - Backoffice:
+      - organization/index.md
+      - Equipos:
           - "IT Talent Services":
-              - "Acerca de": departments/it-talent-services/index.md
-              - "Data & Analytics": departments/it-talent-services/data-analytics/index.md
-              - "Glosario": departments/it-talent-services/glosario.md
-          - "Digital Platforms, Data & AI":
-              - "Acerca de": departments/digital-platforms-services/index.md
-              - "KPIs y Métricas": departments/digital-platforms-services/kpis-and-metrics/index.md
+              - "Acerca de": organization/teams/it-talent-services/index.md
+              - "Data & Analytics": organization/teams/it-talent-services/data-analytics/index.md
+              - "Glosario": organization/teams/it-talent-services/glosario.md
+          - "Digital Platforms, Data & AI Services":
+              - functions/digital-platforms-services/index.md
+              - "KPIs y Métricas": functions/digital-platforms-services/kpis-and-metrics/index.md
+          - "Jarvis":
+              - organization/teams/jarvis/index.md
+              - "Data & Analytics": organization/teams/jarvis/data-analytics/index.md
+      - Funciones:
           - "People Growth":
-              - "Acerca de": departments/people-growth/index.md
-              - "Data & Analytics": departments/people-growth/data-analytics/index.md
-          - "Marketing & Strategic Growth":
-              - "Acerca de": departments/marketing/index.md
-              - "Data & Analytics": departments/marketing/data-analytics/index.md
-              - "Glosario": departments/marketing/glosario.md
+              - organization/functions/people-growth/index.md
+              - "Data & Analytics": organization/functions/people-growth/data-analytics/index.md
+          - "Marketing & Sales":
+              - organization/functions/marketing/index.md
+              - "Data & Analytics": organization/functions/marketing/data-analytics/index.md
+              - "Glosario": organization/functions/marketing/glosario.md
           - "Finances":
-              - departments/finances/index.md
+              - organization/functions/finances/index.md
           - "Engineering":
-              - departments/engineering/index.md
+              - organization/functions/engineering/index.md
 
   - "Comunidad":
       - community/index.md

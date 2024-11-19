@@ -9,13 +9,42 @@ description: >
 
 # ¡Bienvenidos!  🎉
 
-En este manual compartimos todo lo que necesitas saber sobre **quiénes somos**, **cómo trabajamos** y **lo que perseguimos** como [23people](https://23people.io), tanto si ya eres parte de [nuestro equipo :material-heart:](teams) como si simplemente estás interesado en conocernos.
+En este manual compartimos todo lo que necesitas saber sobre quiénes somos, cómo trabajamos y lo que perseguimos como [**23people**](https://23people.io), tanto si ya eres parte de [**nuestro equipo :material-heart:**](teams) como si simplemente estás interesado en conocernos.
 
-A continuación, un resumen de lo que debes saber de 23people.
+A continuación, **un resumen de lo que debes saber de 23people**.
 
 ## Quienes somos
 
-Somos una consultora tecnológica con cerca de **10 años** de existencia en la industria, fundada y conformada por profesionales [a los que realmente les apasiona lo que hacen y que buscan crear un lugar en donde a cualquiera le gustaría trabajar :material-heart:](#nuestros-valores).
+Somos una consultora tecnológica con cerca de **10 años** de existencia en la industria, fundada y conformada por profesionales: **_a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar_**.
+
+## Algunos datos y cifras importantes
+
+### Fundación
+
+- 23people SpA, fue fundada el 26 de noviembre de 2014 en Santiago, Chile.
+- Fundadores:
+    - [Marcelo Ampuero](https://github.com/marceloat23) (Actual Engineering Director, Lead Developer & Architect en 23people)
+    - [Manuel Reyes](https://github.com/manu-reyes-23p) (Actual Director & R&D Director en 23people)
+    - Ambos con formación como Software Engineers & Computer Scientists.
+
+### Nuestro Equipo
+
+- ~90 profesionales activos en roles técnicos y administrativos.
+- Roles técnicos principales: Software Engineers, Data Engineers, QA Engineers y SREs
+- Roles especializados: Data Scientists y DevOps Engineers
+- ~500 profesionales han formado parte del equipo en 10 años.
+- Indicadores de retención:
+    - Permanencia promedio: X meses
+    - Rotación voluntaria anual promedio: Y%
+  
+### Impacto en el Mercado
+
+- +10 grandes empresas cliente en ~10 países (Latinoamérica, Norteamérica y Europa).
+- ~100 proyectos ejecutados de diversa complejidad.
+- Beneficiarios indirectos: Cientos de empresas clientes de nuestros clientes.
+- Rendimiento Financiero:
+    - Ingresos anuales promedio: ~$4M USD
+    - Crecimiento anual promedio: ~34.5%
 
 ## Lo que hacemos y el por qué
 
@@ -31,13 +60,14 @@ Creemos que las organizaciones que desean dar un paso significativo en su madure
     
 En este camino, algunas empresas están recién comenzando, otras ya han avanzado bastante, pero todas tienen en común: que buscan mejorar y evolucionar sus procesos y servicios. Quizas buscan digitalizar sus procesos, automatizar tareas repetitivas, integrar sistemas, mejorar la experiencia de sus clientes, o bien, ya hacer uso de sus datos para tomar decisiones más informadas. Sea cual sea el caso, es en este camino donde sentimos que en 23people podemos aportar significativamente ya sea con Tecnologia o Talento TI.
 
-## Nuestros Servicios y Cómo nos diferenciamos
+## Nuestros servicios y el cómo nos diferenciamos
 
 Entendiendo lo anterior, y junto a nuestros clientes, en 23people perseguimos el facilitar este camino de Evolución Digital, a través de 3 servicios complementarios:
 
-1. [**Digitalización, Automatización e Integracion**](). Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Seguridad y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
+1. [**Digitalización, Automatización e Integraciones**](). Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Seguridad y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
 2. [**Analítica y Pronósticos basados en Datos e IA**](). Habilitamos la toma de decisiones operativas y estratégicas apoyadas en datos, combinando tecnologías para grandes volúmenes de datos (BigData, DataLakes, Warehouses, Machine Learning), herramientas IA predictivas y generativas (Deep Learning y GenAI), y el conocimiento experto del negocio de nuestros clientes.
-3. [**Outsourcing, Subcontratación y Reclutamiento de Profesionales IT**](). Aportamos con Profesionales TI realmente seleccionados por nosotros y para cada necesidad específica que hemos madurado junto a nuestros clientes.
+3. [**Inteligencia Artificial y Automatización Avanzada**](). Evaluamos e implementamos soluciones de IA que generen valor real, desde modelos de machine learning y sistemas RAG hasta agentes autónomos y gestión de conocimiento basados en LLMs, permitiendo aprovechar efectivamente estas tecnologías emergentes en sus operaciones diarias.
+4. [**Outsourcing, Subcontratación y Reclutamiento de Profesionales IT**](). Aportamos con Profesionales TI realmente seleccionados por nosotros y para cada necesidad específica que hemos madurado junto a nuestros clientes.
 
 Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos realmente confiables, tanto técnica como profesionalmente. Creemos que nuestra guía tecnológica, nuestra experiencia en la cultura TI y el conocimiento experto que solo nuestros clientes pueden aportar sobre su negocio permite a esta colaboración el concretar o ajustar las mejoras operativas y estratégicas que fortalecen la competitividad de las empresas en sus respectivos mercados.
 
@@ -57,8 +87,6 @@ Si eres parte de 23people, es necesario que compartas los siguientes [valores](n
 
 ## Nuestra Historia
 
-- **Fundación:** 23people fue fundada el 26 de noviembre de 2014 por [Marcelo Ampuero](https://github.com/marceloat23) y [Manuel Reyes](https://github.com/manu-reyes-23p), Ingenieros de Software.
-
 - **Idea inicial:** Crear una empresa en donde a ellos mismos les hubiera gustado trabajar.
 
 Para más detalles, visita [Nuestra Historia](nuestra-historia).
@@ -69,7 +97,7 @@ Para más detalles, visita [Nuestra Historia](nuestra-historia).
 
 2. [**Ser referentes en tecnología y desarrollo profesional en TI**](). Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
 
-3. [**Innovación digital mediante una cultura nativa en IA**](). Crear nuevos productos y servicios digitales mediante una cultura nativa en IA.
+3. [**Innovación digital mediante una cultura nativa basada en Datos e IA**](). Crear nuevos productos y servicios digitales mediante una cultura nativa en IA.
 
 Para más detalles, visita [Nuestras Metas](nuestras-metas).
 
