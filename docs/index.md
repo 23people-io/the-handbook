@@ -34,8 +34,8 @@ Somos una consultora tecnológica con cerca de **10 años** de existencia en la 
 - Roles especializados: Data Scientists y DevOps Engineers
 - ~500 profesionales han formado parte del equipo en 10 años.
 - Indicadores de retención:
-    - Permanencia promedio: X meses
-    - Rotación voluntaria anual promedio: Y%
+    - Permanencia promedio: ~16 meses
+    - Rotación voluntaria anual (2024): < 20%
   
 ### Impacto en el Mercado
 
