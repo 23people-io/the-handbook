@@ -51,9 +51,7 @@ Somos una consultora tecnológica con cerca de **10 años** de existencia en la 
 
     **Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar digitalmente sus productos y servicios. Multiplicamos las capacidades de los equipos empresariales mediante el uso efectivo de tecnologías consolidadas y emergentes, sus datos y su conocimiento experto del negocio.**
 
-Creemos que las organizaciones que desean dar un paso significativo en su madurez y crecimiento, deben apoyarse en sus datos y el conocimiento experto de su negocio. Si bien existe un concenso en que las decisiones deben ser basadas en datos, no es algo trivial el lograrlo. Además, **[los datos por si solos no generan ningun valor**; es la implementación exitosa de mejoras a los procesos actuales del negocio, y que se basaron en los datos recolectados, lo que generará el real valor.
-
-Actualmente, las organizaciones que desean dar un paso significativo en su madurez y crecimiento deben apoyarse en sus datos y en el conocimiento experto de su negocio. Sin embargo, aunque todos reconocen que las decisiones deben basarse en datos, lograrlo no es un camino trivial. [**Los datos por sí solos no generan valor**](https://www.youtube.com/watch?v=B2zCWJBnfuE&list=PLdnROWg7FtXd8s4O4Wlj9mUYjQ-s9xmB2); es la implementación exitosa de mejoras en los procesos del negocio, fundamentada en estos datos, lo que genera el verdadero impacto.
+Creemos que las organizaciones que desean dar un paso significativo en su madurez y crecimiento deben apoyarse en sus datos y en el conocimiento experto de su negocio. Sin embargo, aunque todos reconocen que las decisiones deben basarse en datos, lograrlo no es un camino trivial. [**Los datos por sí solos no generan valor**](https://www.youtube.com/watch?v=B2zCWJBnfuE&list=PLdnROWg7FtXd8s4O4Wlj9mUYjQ-s9xmB2); es la implementación exitosa de mejoras en los procesos del negocio, fundamentada en estos datos, lo que genera el verdadero impacto.
 
 El importante desafío para las empresas radica en identificar e implementar casos de uso que sean realmente valiosos, aquellos que, al ejecutarse satisfactoriamente, generarán un impacto significativo y medible en el negocio. Este no es un objetivo aislado o puntual, sino un proceso de mejora continua y evolución. **Es un camino de Evolución Digital que las empresas recorren a diferentes velocidades y en distintos niveles de avance**.
 
@@ -106,6 +104,8 @@ A partir de estas metas de largo plazo, hemos definido una serie de objetivos es
     _"La función del **Elegido** es ahora regresar a la fuente, permitiendo una diseminación temporal del código que llevas, reinsertando el programa principal. Después de lo cual se te requerirá seleccionar de la matrix a **23 personas: 16 mujeres y 7 hombres**, para reconstruir Zion. El no cumplir con este proceso resultará en un colapso catastrófico del sistema matando a todos conectados al matrix, lo que junto con la exterminación de Zion resultará en la extinción de toda la raza humana."_
 
     [**El Arquitecto - The Matrix Reloaded**](https://www.youtube.com/watch?v=LN8EE5JxSGQ)
+
+En resumen, somos el espiritu detrás de esas **23 personas fuera de la matrix**.
 
 ## ¿Por qué un manual?
 
