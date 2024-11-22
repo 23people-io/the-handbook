@@ -8,12 +8,15 @@ legacy_url:
 
 # Prácticas
 
-Las practicas son las reglas y costumbres que se siguen en una organización. Son una parte importante de la cultura de una organización. Para el caso de 23people, estas practicas siempre van a estar redactadas en la forma: "Preferir [algo] en lugar de [otra cosa]", se esta manera se muestran mas como una guía de como se deberían hacer las cosas en lugar de una regla estricta.
+Las practicas son las reglas y costumbres que se siguen en una organización y son parte de su cultura. Para el caso de 23people, estas prácticas siempre perseguirán un enfoque de: "Preferir [hacer esto] en lugar de [hacer esto otro]". No son reglas estrictas, pero si son una guía de como ya sabemos que funcionan mejor algunas cosas en general.
 
 Las prácticas que se siguen en 23people son:
 
-- [Preferir comunicación asincrónica en lugar de esperar respuestas inmediatas](company/practices/preferir-comunicacion-asincronica)
-- [Preferir comunicación escrita en lugar de comunicación oral](company/practices/preferir-comunicacion-escrita)
-- [Preferir documentar decisiones en lugar de dejarlas en la memoria de las personas](company/practices/preferir-documentar-decisiones)
-- [Preferir dar autonomía a los profesionales/equipos en lugar de micromanagement](company/practices/preferir-dar-autonomia-vs-micromanagement)
-- [Preferir usar flujos de trabajo para gestión del trabajo en lugar de asignar tareas](company/practices/preferir-flujos-de-trabajo)
+1. [Contextualizar aporte del trabajo](contextualizar-aporte-del-trabajo). Contextualizar el trabajo para que las personas entiendan el porque de lo que hacen.
+2. [Todo lo que hacemos es un servicio](todo-es-un-servicio). Todo lo que hacemos es un servicio a otro, ya sea externo como interno.
+3. [Comunicación asincrónica](comunicacion-asincronica). Trabajamos en general de manera asincrónica. No esperar respuestas inmediatas.
+4. [Escribir la idea, luego comunicarla](escribir-luego-comunicar). Escribir obliga a ordenar el como pensamos algo por lo que facilita la comunicación.
+5. [Documentar decisiones](documentar-decisiones). Buscar lo minimo necesario a documentar y hacerlo, por sobre dejarlas en la memoria de las personas
+6. [Autonomía mas que micromagement](autonomia-vs-micromanagement). Preferir dar autonomía a los profesionales/equipos en lugar de micromanagement a menos de que considere necesario.
+7. [Gestionar flujos de trabajo](gestionar-trabajo-con-flujos). Si algo debe pasar por etapas, gestionalo como un flujo de trabajo y aplicar practicas Kanban.
+8. [Estructurar la narrativa](estructurar-narrativa). Estructurar la narrativa de las iniciativas, resoluciones o respuestas a problemas en general, para que sea más efectiva de comunicar.

@@ -4,7 +4,7 @@ updated: 2024-08-10T14:30:00
 authors:
   - manu-reyes-23p
 description: >
-  Introducción a lo que es este manual y lo que debes saber de 23people.
+  Introducción a lo que debes saber de 23people y el propósito de este manual.
 ---
 
 # ¡Bienvenidos!  🎉
@@ -30,8 +30,7 @@ Somos una consultora tecnológica con cerca de **10 años** de existencia en la 
 ### Nuestro Equipo
 
 - ~90 profesionales activos en roles técnicos y administrativos.
-- Roles técnicos principales: Software Engineers, Data Engineers, QA Engineers y SREs
-- Roles especializados: Data Scientists y DevOps Engineers
+- Roles técnicos principales: Software Engineers, Data Engineers, Cloud Engineers, AI Engineers, QA Engineers. Basicamente, todo rol que parta de la base de un Developer.
 - ~500 profesionales han formado parte del equipo en 10 años.
 - Indicadores de retención:
     - Permanencia promedio: ~16 meses
@@ -43,31 +42,32 @@ Somos una consultora tecnológica con cerca de **10 años** de existencia en la 
 - ~100 proyectos ejecutados de diversa complejidad.
 - Beneficiarios indirectos: Cientos de empresas clientes de nuestros clientes.
 - Rendimiento Financiero:
-    - Ingresos anuales promedio: ~$4M USD
+    - Ingresos anuales promedio: ~$3.6M USD
     - Crecimiento anual promedio: ~34.5%
 
 ## Lo que hacemos y el por qué
 
 !!! tip "En unas lineas..."
 
-    **Somos facilitadores tecnológicos confiables, tanto técnica como profesionalmente, para empresas que buscan evolucionar sus negocios y servicios, impulsándose a través de sus datos, su conocimiento experto del negocio y la tecnología.**
+    **Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar digitalmente sus productos y servicios. Multiplicamos las capacidades de los equipos empresariales mediante el uso efectivo de tecnologías consolidadas y emergentes, sus datos y su conocimiento experto del negocio.**
 
-Creemos que las organizaciones que desean dar un paso significativo en su madurez y crecimiento, deben apoyarse en sus datos y el conocimiento experto de su negocio. Si bien existe un concenso en que las decisiones deben ser basadas en datos, no es algo trivial el lograrlo. Además, **[los datos por si solos no generan ningun valor](https://www.youtube.com/watch?v=B2zCWJBnfuE&list=PLdnROWg7FtXd8s4O4Wlj9mUYjQ-s9xmB2)**; es la implementación exitosa de mejoras a los procesos actuales del negocio, y que se basaron en los datos recolectados, lo que generará el real valor.
+Creemos que las organizaciones que desean dar un paso significativo en su madurez y crecimiento, deben apoyarse en sus datos y el conocimiento experto de su negocio. Si bien existe un concenso en que las decisiones deben ser basadas en datos, no es algo trivial el lograrlo. Además, **[los datos por si solos no generan ningun valor**; es la implementación exitosa de mejoras a los procesos actuales del negocio, y que se basaron en los datos recolectados, lo que generará el real valor.
 
-!!! example "La Evolución Digital de las Empresas"
+Actualmente, las organizaciones que desean dar un paso significativo en su madurez y crecimiento deben apoyarse en sus datos y en el conocimiento experto de su negocio. Sin embargo, aunque todos reconocen que las decisiones deben basarse en datos, lograrlo no es un camino trivial. [**Los datos por sí solos no generan valor**](https://www.youtube.com/watch?v=B2zCWJBnfuE&list=PLdnROWg7FtXd8s4O4Wlj9mUYjQ-s9xmB2); es la implementación exitosa de mejoras en los procesos del negocio, fundamentada en estos datos, lo que genera el verdadero impacto.
 
-    El desafío importante que tienen las empresas es el poder encontrar esos casos de uso que son realmente valiosos de implementar tal que si se realizan satisfactoriamente, el impacto al negocio será significativo y destacable. Lo anterior no es un objetivo puntual y aislado a lograr, sino mas bien, un proceso de mejora continua y evolución. Un camino de Evolución Digital que las empresas están recorriendo en distintos niveles de avance.
-    
-En este camino, algunas empresas están recién comenzando, otras ya han avanzado bastante, pero todas tienen en común: que buscan mejorar y evolucionar sus procesos y servicios. Quizas buscan digitalizar sus procesos, automatizar tareas repetitivas, integrar sistemas, mejorar la experiencia de sus clientes, o bien, ya hacer uso de sus datos para tomar decisiones más informadas. Sea cual sea el caso, es en este camino donde sentimos que en 23people podemos aportar significativamente ya sea con Tecnologia o Talento TI.
+El importante desafío para las empresas radica en identificar e implementar casos de uso que sean realmente valiosos, aquellos que, al ejecutarse satisfactoriamente, generarán un impacto significativo y medible en el negocio. Este no es un objetivo aislado o puntual, sino un proceso de mejora continua y evolución. **Es un camino de Evolución Digital que las empresas recorren a diferentes velocidades y en distintos niveles de avance**.
+
+En este camino, encontramos empresas que están dando sus primeros pasos, mientras otras ya han avanzado considerablemente. Sin embargo, todas comparten un objetivo común: buscan mejorar y evolucionar sus procesos y servicios. Ya sea que necesiten digitalizar sus procesos, automatizar tareas repetitivas, integrar sistemas, mejorar la experiencia de sus clientes, utilizar sus datos para tomar decisiones más informadas o hacer uso de tecnologias emergentes para apalancar las capacidades de su equipo, cada organización enfrenta sus propios retos y oportunidades.
+
+Es precisamente en este camino donde 23people encuentra su propósito, aportando significativamente con Tecnología, Experiencia y Talento TI para impulsar esta evolución digital de manera efectiva y sostenible.
 
 ## Nuestros servicios y el cómo nos diferenciamos
 
 Entendiendo lo anterior, y junto a nuestros clientes, en 23people perseguimos el facilitar este camino de Evolución Digital, a través de 3 servicios complementarios:
 
-1. [**Digitalización, Automatización e Integraciones**](). Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Seguridad y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
-2. [**Analítica y Pronósticos basados en Datos e IA**](). Habilitamos la toma de decisiones operativas y estratégicas apoyadas en datos, combinando tecnologías para grandes volúmenes de datos (BigData, DataLakes, Warehouses, Machine Learning), herramientas IA predictivas y generativas (Deep Learning y GenAI), y el conocimiento experto del negocio de nuestros clientes.
-3. [**Inteligencia Artificial y Automatización Avanzada**](). Evaluamos e implementamos soluciones de IA que generen valor real, desde modelos de machine learning y sistemas RAG hasta agentes autónomos y gestión de conocimiento basados en LLMs, permitiendo aprovechar efectivamente estas tecnologías emergentes en sus operaciones diarias.
-4. [**Outsourcing, Subcontratación y Reclutamiento de Profesionales IT**](). Aportamos con Profesionales TI realmente seleccionados por nosotros y para cada necesidad específica que hemos madurado junto a nuestros clientes.
+1. [Outsourcing y Reclutamiento de Profesionales TI](). Aportamos con Profesionales TI realmente seleccionados por nosotros y para cada necesidad específica que hemos madurado junto a nuestros clientes.
+2. [Digitalización, Automatización e Integraciones](). Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Cybersecurity y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
+3. [Analítica Avanzada de Datos e Inteligencia Artificial](). Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas. Combinamos tecnologías para grandes volúmenes de datos (BigData, DataLakes, Data Warehouses), herramientas de IA predictiva y generativa (Machine Learning, RAG, LLMs), y sistemas de automatización avanzada (AI Agents). Todo esto alineado con el conocimiento experto del negocio de nuestros clientes para generar valor real en sus operaciones diarias.
 
 Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos realmente confiables, tanto técnica como profesionalmente. Creemos que nuestra guía tecnológica, nuestra experiencia en la cultura TI y el conocimiento experto que solo nuestros clientes pueden aportar sobre su negocio permite a esta colaboración el concretar o ajustar las mejoras operativas y estratégicas que fortalecen la competitividad de las empresas en sus respectivos mercados.
 
@@ -81,25 +81,23 @@ Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos real
 
 Si eres parte de 23people, es necesario que compartas los siguientes [valores](nuestros-valores) en este equipo-empresa:
 
-- [**Excelencia**](nuestros-valores#excelencia). Perseguimos la excelencia y el aprender a aprender continuamente. Genuina curiosidad y mejora de habilidades de un eterno aprendiz. Existe una sana competencia necesaria para crecer pero siempre considerando el bien mayor para nuestros clientes y nuestra cultura en 23people.
-- [**Colaboración**](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación.
-- [**Crecimiento**](nuestros-valores#crecimiento). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, pero a un ritmo que sea sostenible en el tiempo y no a costa de nuestro equipo. Preferimos crecer de manera sistemática, por sobre esfuerzos aislados que no sean sostenibles.
+- [**Excelencia y curiosidad intelectual**](nuestros-valores#excelencia). Perseguimos la excelencia en lo que cada uno hacemos y el aprender a aprender continuamente. Somos eternos aprendices mejorando sus habilidades y conocimientos, siempre.
+- [**Colaboración y comunicación asertiva**](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación. Mejoramos nuestras habilidades humanas y profesionales en conjunto.
+- [**Crecer sosteniblemente y ser referentes**](nuestros-valores#crecimiento). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático y sostenible en el tiempo. No a costa de nuestro equipo.
 
-## Nuestra Historia
+## Metas que perseguimos
 
-- **Idea inicial:** Crear una empresa en donde a ellos mismos les hubiera gustado trabajar.
+Somos ambisiosos y sabemos que podemos lograr grandes cosas. Nuestras [metas](nuestras-metas) a largo plazo son:
 
-Para más detalles, visita [Nuestra Historia](nuestra-historia).
+1. [**Ser referentes en tecnología y desarrollo profesional en TI**](). Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
 
-## Nuestras Metas
+2. [**Crecimiento económico y globalización**](). Expandir nuestras operaciones y presencia a nivel latinoamericano y global.
 
-1. [**Crecimiento económico y globalización**](). Expandir nuestras operaciones y presencia a nivel latinoamericano y global.
+3. [**Innovación digital basada en datos e IA**](). Crear nuevos productos y servicios digitales mediante una cultura nativa en IA y decisiones basadas en datos.
 
-2. [**Ser referentes en tecnología y desarrollo profesional en TI**](). Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
+A partir de estas metas de largo plazo, hemos definido una serie de objetivos estratégicos, iniciativas y actividades, que nos habilitan a avanzar en esta dirección.
 
-3. [**Innovación digital mediante una cultura nativa basada en Datos e IA**](). Crear nuevos productos y servicios digitales mediante una cultura nativa en IA.
-
-Para más detalles, visita [Nuestras Metas](nuestras-metas).
+## Origen de nuestro nombre
 
 !!! tip "¿Porque nos llamamos 23people?"
 
@@ -108,3 +106,26 @@ Para más detalles, visita [Nuestras Metas](nuestras-metas).
     _"La función del **Elegido** es ahora regresar a la fuente, permitiendo una diseminación temporal del código que llevas, reinsertando el programa principal. Después de lo cual se te requerirá seleccionar de la matrix a **23 personas: 16 mujeres y 7 hombres**, para reconstruir Zion. El no cumplir con este proceso resultará en un colapso catastrófico del sistema matando a todos conectados al matrix, lo que junto con la exterminación de Zion resultará en la extinción de toda la raza humana."_
 
     [**El Arquitecto - The Matrix Reloaded**](https://www.youtube.com/watch?v=LN8EE5JxSGQ)
+
+## ¿Por qué un manual?
+
+Este manual busca ser una guía de referencia para todo lo que necesitas saber de 23people. Una brújula.
+Es un documento vivo y en constante evolución, que está soportado como un repositorio de documentos en formato Markdown en un repositorio de nuestra cuenta en [Github](https://github.com/23people-io).
+
+Estrategicamente, buscamos [documentar nuestro conocimiento](). Esto nos permite:
+
+- **Alinear el conocimiento** que se va adquiriendo a lo largo del tiempo y así poder transmitirlo a las personas de una manera más eficiente y efectiva.
+- **Facilitar la incorporación de nuevos miembros** al equipo, proporcionando una guía clara y completa sobre nuestra empresa, nuestros valores, nuestros servicios y nuestra cultura.
+- **Promover la transparencia y la colaboración** entre los miembros del equipo, permitiendo que todos tengan acceso a la misma información y puedan contribuir a su mejora continua.
+
+...y tambien:
+
+- **Alimentar nuestros Modelos de IA** con información relevante y actualizada sobre nosotros mismos. Con esto, mejoraramos la toma de decisiones y la eficiencia en la ejecución de nuestras operaciones dado que nos basamos en nuestros propios datos y contexto.
+
+!!! info "Nivel de Acceso"
+
+    Este manual es de acceso público y puede ser consultado por cualquier persona interesada en conocer más sobre 23people. Sin embargo, algunos contenidos pueden estar restringidos a ciertos miembros del equipo, por lo que es importante que cada uno de nosotros respete las políticas de privacidad y confidencialidad de la información.
+
+    Simplemente, si alguna información debe tener un nivel de acceso restringido, se referenciará a un documento en nuestros repositorios privados y con control de acceso.
+
+**We are 23people**, with love [**:material-heart:**](teams) and passion for technology. Happy Coding! 🚀
