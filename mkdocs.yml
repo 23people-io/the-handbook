@@ -51,13 +51,12 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.path
-    - navigation.sections
     - navigation.top
     - navigation.tracking
+    - navigation.sections
     - search.suggest
     - search.share
     - toc.follow
-    - navigation.sections
     - content.action.view
   font:
     text: Roboto
@@ -82,10 +81,10 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-  - git-committers:
-      repository: 23people-io/23people-handbook
-      branch: main
-      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  # - git-committers:
+  #     repository: 23people-io/23people-handbook
+  #     branch: main
+  #     token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -96,6 +95,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.snippets:
       restrict_base_path: false
   - admonition
@@ -127,21 +127,6 @@ extra:
       link: https://www.facebook.com/23people
   chatbot:
     url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
-  alternate:
-    - name: "English"
-      link: en/
-      lang: en
-    - name: "Español"
-      link: es/
-      lang: es
-  consent:
-    title: Cookie consent
-    description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-
 nav:
   - Inicio:
       - Bienvenidos a 23people: index.md
@@ -154,39 +139,36 @@ nav:
       - Nuestra Historia: about-us/history.md
 
   - "Organización":
-      - "Tribus":
-          - "Jarvis Tribe":
-              - "Acerca de": about-us/goals.md
-              - "Data & Analytics": tribes/jarvis/data-analytics/index.md
-          - "Drakkar Tribe":
-              - "Acerca de": tribes/drakkar/index.md
-              - "Data & Analytics": tribes/drakkar/data-analytics/index.md
-      - Backoffice:
+      - organization/index.md
+      - Servicios:
           - "IT Talent Services":
-              - "Acerca de": departments/it-talent-services/index.md
-              - "Data & Analytics": departments/it-talent-services/data-analytics/index.md
-              - "Glosario": departments/it-talent-services/glosario.md
-          - "Digital Platforms, Data & AI":
-              - "Acerca de": departments/digital-platforms-services/index.md
-              - "KPIs y Métricas": departments/digital-platforms-services/kpis-and-metrics/index.md
+              - "Acerca de": organization/teams/it-talent-services/index.md
+              - "Data & Analytics": organization/teams/it-talent-services/data-analytics/index.md
+              - "Glosario": organization/teams/it-talent-services/glosario.md
+          - "Digital Platforms, Data & AI Services":
+              - functions/digital-platforms-services/index.md
+              - "KPIs y Métricas": functions/digital-platforms-services/kpis-and-metrics/index.md
+          - "Jarvis":
+              - organization/teams/jarvis/index.md
+              - "Data & Analytics": organization/teams/jarvis/data-analytics/index.md
+      - Backoffice:
           - "People Growth":
-              - "Acerca de": departments/people-growth/index.md
-              - "Data & Analytics": departments/people-growth/data-analytics/index.md
-          - "Marketing & Strategic Growth":
-              - "Acerca de": departments/marketing/index.md
-              - "Data & Analytics": departments/marketing/data-analytics/index.md
-              - "Glosario": departments/marketing/glosario.md
+              - organization/functions/people-growth/index.md
+              - "Data & Analytics": organization/functions/people-growth/data-analytics/index.md
+          - "Marketing & Sales":
+              - organization/functions/marketing/index.md
+              - "Data & Analytics": organization/functions/marketing/data-analytics/index.md
+              - "Glosario": organization/functions/marketing/glosario.md
           - "Finances":
-              - departments/finances/index.md
+              - organization/functions/finances/index.md
           - "Engineering":
-              - departments/engineering/index.md
+              - organization/functions/engineering/index.md
+          - "Data & Analytics":
+              - organization/backoffice/data-analytics/index.md
 
   - "Comunidad":
       - community/index.md
       - Código de Conducta: community/code-of-conduct.md
       - Eventos: community/events.md
-
-  - "Prácticas":
-      - practices/index.md
 
   - Acerca de este Manual: the-handbook/index.md

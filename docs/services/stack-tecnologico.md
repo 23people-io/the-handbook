@@ -3,9 +3,6 @@ created: 2024-02-02T13:15:13
 updated: 2024-02-02T13:51:25
 description: Tecnologías, Servicios Cloud, Herramientas en las que tenemos experiencia validada y valorada en 23people.
 author: 5127711
-status: wip
-slug: stack-tecnologico
-legacy_url: https://manual.23people.io/es/articles/8899813-stack-tecnologico
 ---
 
 # Stack Tecnológico
@@ -21,49 +18,46 @@ tecnológico en el cual podemos participar junto a clientes.
 
 ### Planificación y Gestión de Proyectos
 
-  * **Jira** : Herramienta de gestión de proyectos que facilita la planificación, seguimiento, lanzamiento y soporte de software.
+* **Jira** : Herramienta de gestión de proyectos que facilita la planificación, seguimiento, lanzamiento y soporte de software.
 
-  * **Kanbanize** : Sistema de gestión Kanban para la planificación ágil y la visualización del trabajo.
+* **Kanbanize** : Sistema de gestión Kanban para la planificación ágil y la visualización del trabajo.
 
 ### Lenguajes y Frameworks
 
-  * **Java / Kotlin** : Incluyendo Spring, Quarkus, J2EE, y Graal VM.
+* **Java / Kotlin** : Incluyendo Spring, Quarkus, J2EE, y Graal VM.
 
-  * **Javascript** : Con frameworks y bibliotecas como NodeJs, ExpressJS, NestJs, Angular, React, y NodeRED.
+* **Javascript** : Con frameworks y bibliotecas como NodeJs, ExpressJS, NestJs, Angular, React, y NodeRED.
 
-  * **C#** : Enfocado en .Net Core, Entity Framework, y Api Web.
+* **C#** : Enfocado en .Net Core, Entity Framework, y Api Web.
 
-  * **Python** : Utilizando NumPy, PyTorch, y Django.
+* **Python** : Utilizando NumPy, PyTorch, y Django.
 
-  * **Dart** : Con énfasis en Flutter para desarrollo móvil.
+* **Dart** : Con énfasis en Flutter para desarrollo móvil.
 
 ### Bases de Datos
 
-  * Ofrecemos soluciones utilizando **Oracle, Sql Server, PostgreSql, MySql, MongoDB, Redis, Neo4J, Sql Lite, DynamoDB,** y **Cosmos DB**.
+* Ofrecemos soluciones utilizando **Oracle, Sql Server, PostgreSql, MySql, MongoDB, Redis, Neo4J, Sql Lite, DynamoDB,** y **Cosmos DB**.
 
 ### Gestión del Código Fuente
 
-  * Utilizamos **Github, Gitlab,** y **Bitbucket** para la gestión del código fuente y el control de versiones.
+* Utilizamos **Github, Gitlab,** y **Bitbucket** para la gestión del código fuente y el control de versiones.
 
 ### Configuración y Provisionamiento
 
-  * **Terraform, Chef,** y **Ansible** son herramientas clave en nuestra práctica de infraestructura como código.
+* **Terraform, Chef,** y **Ansible** son herramientas clave en nuestra práctica de infraestructura como código.
 
 ### Integración Continua
 
-  * Implementamos prácticas de CI/CD utilizando **Jenkins, Github Actions, Gitlab CI,** y **Travis CI**.
+* Implementamos prácticas de CI/CD utilizando **Jenkins, Github Actions, Gitlab CI,** y **Travis CI**.
 
 ### Servicios en la Nube
 
-  * Tenemos experiencia trabajando con plataformas en la nube como **GCP, AWS, Azure,** y **Cloudflare** , manejando servicios específicos como Compute Engine, Big Query, GKE, EC2, Lambda, Azure DevOps, y muchos más.
+* Tenemos experiencia trabajando con plataformas en la nube como **GCP, AWS, Azure,** y **Cloudflare** , manejando servicios específicos como Compute Engine, Big Query, GKE, EC2, Lambda, Azure DevOps, y muchos más.
 
 ### Operación y Monitorización
 
-  * **Kubernetes y Docker** son esenciales para nuestras operaciones de contenedores y orquestación.
+* **Kubernetes y Docker** son esenciales para nuestras operaciones de contenedores y orquestación.
 
-  * Para la monitorización, confiamos en herramientas como **Datadog, Sentry,** y **CloudWatch** para asegurar el rendimiento óptimo y la disponibilidad de nuestras aplicaciones.
+* Para la monitorización, confiamos en herramientas como **Datadog, Sentry,** y **CloudWatch** para asegurar el rendimiento óptimo y la disponibilidad de nuestras aplicaciones.
 
-  
 ​
-
-
