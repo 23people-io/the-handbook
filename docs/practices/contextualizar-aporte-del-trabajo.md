@@ -64,41 +64,41 @@ Las metas fundamentales de 23people incluyen:
 ## Principios de Implementación
 
 1. **Alineación Vertical**
-   - Cada nivel debe tener una conexión clara con el nivel superior
-   - Las tareas diarias deben poder rastrearse hasta los objetivos estratégicos
-   - Se mantiene la coherencia con nuestros servicios principales:
-     - Outsourcing y Reclutamiento de Profesionales IT
-     - Digitalización, Automatización e Integraciones
-     - Analítica y Pronósticos basados en Datos e IA
-     - Inteligencia Artificial y Automatización Avanzada
+      - Cada nivel debe tener una conexión clara con el nivel superior
+      - Las tareas diarias deben poder rastrearse hasta los objetivos estratégicos
+      - Se mantiene la coherencia con nuestros servicios principales:
+        - Outsourcing y Reclutamiento de Profesionales IT
+        - Digitalización, Automatización e Integraciones
+        - Analítica y Pronósticos basados en Datos e IA
+        - Inteligencia Artificial y Automatización Avanzada
 
 2. **Flexibilidad Horizontal**
-   - Las iniciativas pueden contribuir a múltiples objetivos
-   - Se fomenta la colaboración entre áreas
+      - Las iniciativas pueden contribuir a múltiples objetivos
+      - Se fomenta la colaboración entre áreas
 
 3. **Seguimiento y Ajuste**
-   - Revisiones periódicas de avance
-   - Ajustes basados en resultados y cambios del entorno
-   - Documentación de aprendizajes y mejores prácticas
+      - Revisiones periódicas de avance
+      - Ajustes basados en resultados y cambios del entorno
+      - Documentación de aprendizajes y mejores prácticas
 
 4. **Valores como Guía**
-   - Excelencia en la ejecución
-   - Colaboración efectiva
-   - Crecimiento sostenible
+      - Excelencia en la ejecución
+      - Colaboración efectiva
+      - Crecimiento sostenible
 
 ## Beneficios de esta Estructura
 
 1. **Para los Colaboradores**
-   - Clara comprensión de cómo su trabajo impacta en los objetivos mayores
-   - Facilita la priorización de tareas
-   - Provee contexto para la toma de decisiones
+      - Clara comprensión de cómo su trabajo impacta en los objetivos mayores
+      - Facilita la priorización de tareas
+      - Provee contexto para la toma de decisiones
 
 2. **Para la Empresa**
-   - Asegura que los recursos se utilizan en iniciativas estratégicas
-   - Facilita la medición del progreso
-   - Mejora la comunicación entre niveles y áreas
+      - Asegura que los recursos se utilizan en iniciativas estratégicas
+      - Facilita la medición del progreso
+      - Mejora la comunicación entre niveles y áreas
 
 3. **Para los Clientes**
-   - Garantiza que los servicios están alineados con objetivos claros
-   - Asegura la calidad y consistencia en la entrega
-   - Facilita la trazabilidad de las soluciones implementadas
+      - Garantiza que los servicios están alineados con objetivos claros
+      - Asegura la calidad y consistencia en la entrega
+      - Facilita la trazabilidad de las soluciones implementadas

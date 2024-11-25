@@ -1,6 +1,12 @@
 # 23people Handbook
 
-This repository is dedicated to storing all company consolidated public information in markdown files. This accumulated information will later be indexed in Vector Store Indexes and utilized by Large Language Models (LLMs) for various tasks related to 23people.
+This repository is dedicated to storing all company **public consolidated information** in markdown files. This accumulated information will later be indexed in Vector Store Indexes and utilized by Large Language Models (LLMs) for various tasks related to 23people.
+
+> [!IMPORTANT]
+> The **access level** of the files content is `public`, meaning it is accessible to everyone.
+
+> [!TIP]
+> Internal content should be in the [23people's Knowledge Base](https://github.com/23people-io/23people-knowledge-base).
 
 ## Use
 

@@ -140,7 +140,7 @@ nav:
 
   - "Organización":
       - organization/index.md
-      - Equipos:
+      - Servicios:
           - "IT Talent Services":
               - "Acerca de": organization/teams/it-talent-services/index.md
               - "Data & Analytics": organization/teams/it-talent-services/data-analytics/index.md
@@ -151,7 +151,7 @@ nav:
           - "Jarvis":
               - organization/teams/jarvis/index.md
               - "Data & Analytics": organization/teams/jarvis/data-analytics/index.md
-      - Funciones:
+      - Backoffice:
           - "People Growth":
               - organization/functions/people-growth/index.md
               - "Data & Analytics": organization/functions/people-growth/data-analytics/index.md
@@ -163,6 +163,8 @@ nav:
               - organization/functions/finances/index.md
           - "Engineering":
               - organization/functions/engineering/index.md
+          - "Data & Analytics":
+              - organization/backoffice/data-analytics/index.md
 
   - "Comunidad":
       - community/index.md
