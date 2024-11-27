@@ -37,18 +37,18 @@ Construyen, mantienen, modernizan y testean aplicaciones y sistemas de software.
 - Fullstack Engineers
 - QA Engineers
 
-### Data Engineers
+## Data Engineers
 
 Construyen sistemas para manejar grandes volúmenes y flujos de datos.
 
-### Cloud Engineers
+## Cloud Engineers
 
 Diseñan e implementan infraestructuras en la nube. Automatizan el monitoreo y gestionan los recursos en la nube.
 
 - DevOps Engineers
 - SRE Engineers
 
-### AI Engineers
+## AI Engineers
 
 Desarrollan algoritmos y modelos que permiten a las maquinas realizar tareas que requieran inteligencia artificial.
 

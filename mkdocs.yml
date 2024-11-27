@@ -4,6 +4,7 @@ site_author: 23people.io
 site_description: Nuestro manual público de lo que hacemos en 23people
 strict: false
 site_url: https://23people.io/
+site_favicon: https://23people.io/img/favicon.ico
 
 # Repository
 repo_name: 23people/handbook
@@ -78,9 +79,9 @@ plugins:
         python:
           options:
             docstring_style: google
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: timeago
   # - git-committers:
   #     repository: 23people-io/23people-handbook
   #     branch: main
@@ -131,34 +132,45 @@ extra:
       link: https://www.facebook.com/23people
   chatbot:
     url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
+
 nav:
-  - Inicio:
+  - "Inicio":
       - Bienvenidos a 23people: index.md
-      - Nuestras Metas: about-us/goals.md
+      - Lo que hacemos: 
+          - what-we-do/index.md
+          - Servicios: what-we-do/services.md
+          - Stack de Tecnologías: what-we-do/tech-stack.md
+          - Roles TI: what-we-do/it-roles.md
+          - Casos de Éxito: what-we-do/success-stories.md
+      - Estrategia: 
+          - strategy/index.md
+          - Metas: strategy/goals.md
+          - Objetivos: strategy/objectives.md
       - Cultura:
-          - Valores: about-us/values.md
-          - Prácticas: practices/index.md
-      - Servicios: about-us/services.md
-      - Métricas: about-us/metrics.md
-      - Nuestra Historia: about-us/history.md
+          - culture/index.md
+          - Valores: culture/values.md
+          - Prácticas: culture/index.md
+          - Métricas: culture/metrics.md
+      - Organización: 
+          - organization/index.md
+          - Equipos:
+              - organization/teams/index.md
+              - "IT Talent Services (ITTS)": organization/teams/it-talent-services/index.md
+              - "Growth Marketing & Sales (GMS)": organization/teams/growth-marketing-and-sales/index.md
+              - "Backoffice (BKO)": organization/teams/backoffice/index.md
+              - "Research & Development (R&D)": organization/teams/research-and-development/index.md
+          - Interacciones: 
+              - organization/interactions/index.md
+          - Roles: 
+              - organization/roles/index.md      
+      - Historia: 
+          - history/index.md      
 
-  - "Organización":
-      - organization/index.md
-      - "Equipos":
-          - organization/teams/index.md
-          - "IT Talent Services (ITTS)": organization/teams/it-talent-services/index.md
-          - "Growth Marketing & Sales (GMS)": organization/teams/growth-marketing-and-sales/index.md
-          - "Backoffice (BKO)": organization/teams/backoffice/index.md
-          - "Research & Development (R&D)": organization/teams/research-and-development/index.md
-      - "Interacciones": 
-          - organization/interactions/index.md
-      - "Roles": 
-          - organization/roles/index.md
-      
-
-  - "Comunidad":
+  - Comunidad:
       - community/index.md
       - Código de Conducta: community/code-of-conduct.md
       - Eventos: community/events.md
 
-  - Acerca de este Manual: the-handbook/index.md
+  - Este Manual: 
+      - the-handbook/index.md
+      - Contribuir: the-handbook/contribute.md

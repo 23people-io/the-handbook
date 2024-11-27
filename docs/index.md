@@ -4,55 +4,40 @@ updated: 2024-08-10T14:30:00
 authors:
   - manu-reyes-23p
 description: >
-  Introducción a lo que debes saber de 23people y el propósito de este manual.
+  Introducción a lo que debes saber de 23people.
 ---
 
 # ¡Bienvenidos!  🎉
 
-En este manual compartimos todo lo que necesitas saber sobre quiénes somos, cómo trabajamos y lo que perseguimos como [**23people**](https://23people.io), tanto si ya eres parte de [**nuestro equipo :material-heart:**](teams) como si simplemente estás interesado en conocernos.
+En este manual compartimos todo lo que necesitas saber sobre quiénes somos, cómo trabajamos y lo que perseguimos como equipo y empresa, tanto si ya eres parte de [**nuestro equipo**](organization) como si simplemente estás interesado en conocernos.
 
-A continuación, **un resumen de lo que debes saber de 23people**.
+A continuación, un resumen de lo que debes saber de [**23people :material-heart:**](https://23people.io).
 
 ## Quienes somos
 
-Somos una consultora tecnológica con cerca de **10 años** de existencia en la industria, fundada y conformada por profesionales: **_a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar_**.
+Somos una consultora tecnológica con cerca de 10 años de existencia en la industria, fundada y conformada por **profesionales a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar.**
 
-## Lo que hacemos y el por qué
+**23people SpA** nació en Santiago de Chile a fines de 2014, fundada por dos Software Engineers & Computer Scientists: [Marcelo Ampuero](https://github.com/marceloat23) y [Manuel Reyes](https://github.com/manu-reyes-23p), quienes continúan liderando la compañía como Engineering Director y General Director respectivamente.
 
-!!! tip "En unas lineas..."
+En la actualidad, [nuestro equipo](organization) está conformado por cerca de 90 profesionales activos, principalmente en roles técnicos como [Software Engineers](what-we-do/it-roles.md#software-engineers), [Data Engineers](what-we-do/it-roles.md#data-engineers), [Cloud Engineers](what-we-do/it-roles.md#cloud-engineers), [AI Engineers](what-we-do/it-roles.md#ai-engineers). Todos nuestros roles técnicos parten de una base sólida en desarrollo de software, lo que nos permite mantener un alto estándar de calidad en nuestros servicios. A lo largo de nuestra década de existencia, **más de 500 profesionales** han formado parte de [nuestra historia](history), manteniendo un destacable promedio de permanencia de **~16 meses**.
 
-    **Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar sus productos y servicios digitales. Potenciamos a los equipos empresariales, integrando tecnologías avanzadas y emergentes con su conocimiento del negocio y el poder de sus datos.**
+[Nuestro impacto en el mercado](what-we-do/success-stories) se refleja en la confianza que más de 10 grandes empresas de 3 continentes han depositado en nosotros, abarcando Latinoamérica, Norteamérica y Europa. Hemos ejecutado cerca de 100 proyectos de diversa complejidad, beneficiando indirectamente a cientos de empresas clientes de nuestros clientes. Este crecimiento sostenido se refleja en un promedio de crecimiento anual superior al 30%, demostrando la solidez y proyección de nuestro modelo de negocio.
 
-Creemos que las organizaciones que desean dar un paso significativo en su madurez y crecimiento deben apoyarse en sus datos y en el conocimiento experto que han ido adquiriendo en su negocio. Sin embargo, aunque todos reconocen que las decisiones deben basarse en datos, lograrlo no es un camino trivial.
+## Lo que hacemos
 
-### El camino de la Evolución Digital
+**Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar sus productos y servicios digitales.**
 
-[**Los datos por sí solos no generan valor**](https://www.youtube.com/watch?v=B2zCWJBnfuE&list=PLdnROWg7FtXd8s4O4Wlj9mUYjQ-s9xmB2); es la implementación exitosa de mejoras en los procesos del negocio, fundamentada en estos datos, lo que genera el verdadero impacto.
+Potenciamos a los equipos empresariales, integrando tecnologías avanzadas y emergentes con su conocimiento del negocio y el poder de sus datos.
 
-El importante desafío para las empresas radica en identificar e implementar casos de uso que sean realmente valiosos, aquellos que, al ejecutarse satisfactoriamente, generarán un impacto significativo y medible en el negocio. Este no es un objetivo aislado o puntual, sino un proceso de mejora continua y evolución. **Es un camino de Evolución Digital que las empresas recorren a diferentes velocidades y en distintos niveles de avance**.
+Nos especializamos en tres áreas complementarias que potencian la evolución de nuestros clientes:
 
-En este camino, encontramos empresas que están dando sus primeros pasos, mientras otras ya han avanzado considerablemente. Sin embargo, todas comparten un objetivo común: buscan mejorar y evolucionar sus procesos y servicios. Ya sea que necesiten digitalizar sus procesos, automatizar tareas repetitivas, integrar sistemas, mejorar la experiencia de sus clientes, utilizar sus datos para tomar decisiones más informadas o hacer uso de tecnologias emergentes para apalancar las capacidades de su equipo, cada organización enfrenta sus propios retos y oportunidades.
+1. [**Outsourcing y Reclutamiento de Profesionales TI**](): Proveemos talento TI de alto nivel, cuidadosamente seleccionado por nosotros, que destaca por su pasión y experiencia comprobada.
+2. [**Digitalización, Automatización e Integraciones**](): Co-creamos soluciones utilizando tecnologías Cloud, DevOps, QA Automation y Cybersecurity para modernizar y evolucionar plataformas digitales de manera efectiva y segura.
+3. [**Analítica Avanzada de Datos e Inteligencia Artificial**](): Habilitamos la toma de decisiones inteligente implementando soluciones de BigData, IA predictiva y generativa que generan valor real en las operaciones diarias.
 
-Es precisamente en este camino de evolución digital donde encontramos nuestro propósito como 23people:
+Lo que nos hace únicos es **nuestra capacidad para identificar y retener talento TI excepcional**. Durante nuestros 10 años de trayectoria, nos hemos enfocado en ser socios tecnológicos confiables, combinando el conocimiento experto de nuestros clientes con tecnologías avanzadas para generar mejoras operativas y estratégicas que crean valor real.
 
-!!! tip ""
-    **Acompañar y aportar significativamente al camino de evolución digital de las empresas, mediante Tecnología, Experiencia y Talento TI para facilitar la transformación de manera efectiva y sostenible en el tiempo.**
-
-## Nuestros servicios y el cómo nos diferenciamos
-
-Entendiendo lo anterior, y junto a nuestros clientes, en 23people perseguimos el facilitar este camino de Evolución Digital, a través de 3 servicios complementarios:
-
-1. [**Outsourcing y Reclutamiento de Profesionales TI**](). Proveemos Profesionales TI realmente seleccionados por nosotros y para cada necesidad específica que hemos madurado junto a nuestros clientes.
-2. [**Digitalización, Automatización e Integraciones**](). Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Cybersecurity y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
-3. [**Analítica Avanzada de Datos e Inteligencia Artificial**](). Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas. Combinamos tecnologías para grandes volúmenes de datos (BigData, DataLakes, Data Warehouses), herramientas de IA predictiva y generativa (Machine Learning, RAG, LLMs), y sistemas de automatización avanzada (AI Agents). Todo esto alineado con el conocimiento experto del negocio de nuestros clientes para generar valor real en sus operaciones diarias.
-
-Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos realmente confiables, tanto técnica como profesionalmente. Creemos que nuestra guía tecnológica, nuestra experiencia en la cultura TI y el conocimiento experto que solo nuestros clientes pueden aportar sobre su negocio permite a esta colaboración el concretar o ajustar las mejoras operativas y estratégicas que fortalecen la competitividad de las empresas en sus respectivos mercados.
-
-!!! tip "Cómo logramos hacer lo anterior"
-
-    **Nuestro principal diferenciador, y sobre la cual apoyamos todos los servicios que ofrecemos, es nuestra probada _receta_ para seleccionar y retener Profesionales TI de alto nivel**. 
-    
-    Buscamos a esos profesionales a los cuales realmente les apasiona lo que hacen y que tienen la experiencia que dicen que tienen. No son sencillos de encontrar en este mercado tan competitivo, pero una vez que los encontramos, buscamos retenerlos lo máximo posible tal que sientan que hubo un real crecimiento profesional y un desafío de mejora constante a sus habilidades mientras estuvieron en 23people. Lo anterior, lo combinamos junto a nuestra reconocida experiencia técnica y nuestro valorado servicio al cliente en estos 10 años de trayectoria.
+Nuestro compromiso es potenciar a los equipos empresariales integrando estas tecnologías con su conocimiento del negocio y el poder de sus datos, facilitando así una evolución digital efectiva y sostenible en el tiempo.
 
 ## Valores que compartimos
 
@@ -61,34 +46,6 @@ Si eres parte de 23people, es necesario que compartas los siguientes [valores](n
 - [**Excelencia y curiosidad intelectual**](nuestros-valores#excelencia). Perseguimos la excelencia en lo que hacemos y el aprender a aprender continuamente. Somos eternos aprendices, mejorando nuestras habilidades y conocimientos con genuina curiosidad.
 - [**Colaboración y comunicación asertiva**](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación. Mejoramos nuestras habilidades humanas y profesionales en conjunto.
 - [**Crecer sosteniblemente y ser referentes**](nuestros-valores#crecimiento). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático y sostenible en el tiempo. No a costa de nosotros mismos y nuestro equipo.
-
-## Algunos datos y cifras importantes
-
-### Fundación
-
-- **23people SpA**, fue fundada el 26 de noviembre de 2014 en Santiago, Chile.
-- Fundadores:
-    - [**Marcelo Ampuero**](https://github.com/marceloat23) (Actual Engineering Director, Lead Developer & Architect en 23people)
-    - [**Manuel Reyes**](https://github.com/manu-reyes-23p) (Actual Director & R&D Director en 23people)
-    - Ambos con formación como Software Engineers & Computer Scientists.
-
-### Nuestro Equipo
-
-- ~90 profesionales activos en roles técnicos y administrativos.
-- Roles técnicos principales: Software Engineers, Data Engineers, Cloud Engineers, AI Engineers, QA Engineers. Basicamente, todo rol que parta de la base de un Developer.
-- ~500 profesionales han formado parte del equipo en 10 años.
-- Indicadores de retención:
-    - Permanencia promedio: ~16 meses
-    - Rotación voluntaria anual (2024): < 20%
-  
-### Impacto en el Mercado
-
-- +10 grandes empresas cliente en ~10 países (Latinoamérica, Norteamérica y Europa).
-- ~100 proyectos ejecutados de diversa complejidad.
-- Beneficiarios indirectos: Cientos de empresas clientes de nuestros clientes.
-- Rendimiento Financiero:
-    - Ingresos anuales promedio: ~$3.6M USD
-    - Crecimiento anual promedio: ~34.5%
 
 ## Metas que perseguimos
 
@@ -113,29 +70,5 @@ A partir de estas metas de largo plazo, hemos definido una serie de objetivos es
     [**El Arquitecto - The Matrix Reloaded**](https://www.youtube.com/watch?v=LN8EE5JxSGQ)
 
 En resumen, somos el espíritu detrás de esas **23 personas fuera de la matrix**.
-
-## ¿Por qué tenemos un manual?
-
-Este manual busca ser una guía de referencia para todo lo que necesitas saber de 23people. Una brújula.
-
-Bbusca facilitar la incorporación de nuevos miembros al equipo, proporcionando una guía clara y completa sobre nuestra empresa,  sus valores, sus servicios y su cultura.
-
-Es un documento vivo y en constante evolución, que está soportado como un repositorio de documentos en formato Markdown en un repositorio de nuestra cuenta en [Github](https://github.com/23people-io).
-
-Estrategicamente, buscamos [documentar nuestro conocimiento](). Esto nos permite:
-
-- **Alinear el conocimiento** que se va adquiriendo a lo largo del tiempo y así poder transmitirlo a las personas de una manera más eficiente y efectiva.
-- **Facilitar la incorporación de nuevos miembros** al equipo, proporcionando una guía clara y completa sobre nuestra empresa, nuestros valores, nuestros servicios y nuestra cultura.
-- **Promover la transparencia y la colaboración** entre los miembros del equipo, permitiendo que todos tengan acceso a la misma información y puedan contribuir a su mejora continua.
-
-...y tambien:
-
-- **Alimentar nuestros Modelos de IA** con información relevante y actualizada sobre nosotros mismos. Con esto, mejoramos la toma de decisiones y la eficiencia en la ejecución de nuestras operaciones dado que nos basamos en nuestros propios datos y contexto.
-
-!!! info "Nivel de Acceso"
-
-    Este manual es de acceso público y puede ser consultado por cualquier persona interesada en conocer más sobre 23people. Sin embargo, algunos contenidos pueden estar restringidos a ciertos miembros del equipo, por lo que es importante que cada uno de nosotros respete las políticas de privacidad y confidencialidad de la información.
-
-    Simplemente, si alguna información debe tener un nivel de acceso restringido, se referenciará a un documento en nuestros repositorios privados y con control de acceso.
 
 **We are 23people**, with love [**:material-heart:**](teams) and passion for technology. Happy Coding! 🚀
