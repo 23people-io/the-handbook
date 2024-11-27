@@ -48,9 +48,9 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
-    - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.path
+    - navigation.indexes
     - navigation.top
     - navigation.tracking
     - navigation.sections
@@ -95,7 +95,11 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets:
       restrict_base_path: false
   - admonition
@@ -140,31 +144,17 @@ nav:
 
   - "Organización":
       - organization/index.md
-      - Servicios:
-          - "IT Talent Services":
-              - "Acerca de": organization/teams/it-talent-services/index.md
-              - "Data & Analytics": organization/teams/it-talent-services/data-analytics/index.md
-              - "Glosario": organization/teams/it-talent-services/glosario.md
-          - "Digital Platforms, Data & AI Services":
-              - functions/digital-platforms-services/index.md
-              - "KPIs y Métricas": functions/digital-platforms-services/kpis-and-metrics/index.md
-          - "Jarvis":
-              - organization/teams/jarvis/index.md
-              - "Data & Analytics": organization/teams/jarvis/data-analytics/index.md
-      - Backoffice:
-          - "People Growth":
-              - organization/functions/people-growth/index.md
-              - "Data & Analytics": organization/functions/people-growth/data-analytics/index.md
-          - "Marketing & Sales":
-              - organization/functions/marketing/index.md
-              - "Data & Analytics": organization/functions/marketing/data-analytics/index.md
-              - "Glosario": organization/functions/marketing/glosario.md
-          - "Finances":
-              - organization/functions/finances/index.md
-          - "Engineering":
-              - organization/functions/engineering/index.md
-          - "Data & Analytics":
-              - organization/backoffice/data-analytics/index.md
+      - "Equipos":
+          - organization/teams/index.md
+          - "IT Talent Services (ITTS)": organization/teams/it-talent-services/index.md
+          - "Growth Marketing & Sales (GMS)": organization/teams/growth-marketing-and-sales/index.md
+          - "Backoffice (BKO)": organization/teams/backoffice/index.md
+          - "Research & Development (R&D)": organization/teams/research-and-development/index.md
+      - "Interacciones": 
+          - organization/interactions/index.md
+      - "Roles": 
+          - organization/roles/index.md
+      
 
   - "Comunidad":
       - community/index.md
