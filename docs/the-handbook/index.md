@@ -1,59 +1,70 @@
 ---
 created: 2024-01-09T09:40:45
-updated: 2024-01-09T09:43:48
+updated: 2024-11-27T09:43:48
 description: Información publicamente compartida de lo que hacemos en 23people
-author: 5127711
 ---
 
 # Acerca de este Manual
 
-## Qué es el Manual
+## ¿Qué es el Manual?
 
-El Manual de 23people apunta a compartir información de manera fácil y
-eficiente entre las personas que trabajan en la empresa. La intención es tener
-una fuente de verdad única sobre qué, cómo y por qué lo hacemos así.
+**El Manual de 23people es nuestra fuente de verdad principal y brujula para acceder a la información y conocimientos sobre lo qué hacemos, cómo lo hacemos y por qué lo hacemos así en la empresa.**
 
-## Por qué necesitamos esto
+Es un documento vivo que evoluciona constantemente, mantenido como un repositorio de documentos en formato Markdown en nuestra cuenta de [Github](https://github.com/23people-io).
 
-Somos una empresa en crecimiento y sabemos que las nuevas personas que
-ingresen no podrán acceder a emails, conversaciones o decisiones que se hayan
-tomado anteriormente. Por otro lado, muchos problemas por los que hemos pasado
-y sus soluciones, además de procedimientos que hemos armado para responder a
-ciertas necesidades, cuando vuelven a aparecer, es necesario comunicarlos
-nuevamente con el problema inherente que ya tiene la comunicación humana.
+## ¿Por qué creamos este Manual?
 
-**¿Cómo poder enfocar nuestro esfuerzo intelectual en los problemas nuevos, en
-vez de en problemas ya conocidos?**
+En 23people, entendemos que el crecimiento trae consigo desafíos únicos en la gestión del conocimiento. A medida que nuevas personas se unen a nuestro equipo, surge la necesidad de preservar y compartir:
 
-## Ventajas
+- Quienes somos y lo que hacemos
+- Soluciones a problemas recurrentes y ya resueltos
+- Procedimientos establecidos
+- Decisiones históricas y su contexto
+- Conocimiento organizacional valioso
 
-En 23people creemos que es muy importante el poder compartir la información y
-conocimiento que es relevante a cada una de las personas que son parte de la
-empresa. Dado lo anterior, se ha considerado el disponer de un Manual dadas
-las siguientes ventajas:
+!!! success "Nuestra visión es simple"
 
-  1. Escribir en el manual nos permite hacer trascender el conocimiento que vamos adquiriendo sobre los problemas y procedimientos ya conocidos.
+    Queremos que nuestro equipo dedique su energía a resolver nuevos problemas y desafíos, no a redescubrir soluciones para problemas ya resueltos.
 
-  2. Leer es mucho más rápido y eficaz que escuchar a alguien.
+## Beneficios Clave
 
-  3. Escribir nos ayuda a ordenar nuestras ideas.
+El Manual fortalece nuestra operación en múltiples dimensiones:
 
-  4. Se puede leer en cualquier momento. No es necesario crear reuniones para comunicar cierta información relevante ni esperar la disponibilidad de la persona que sepa de esa información.
+1. **Compartir de Conocimiento**
 
-  5. Las personas que quieran ingresar a 23people, ya sean postulantes o profesionales en su etapa de On-boarding, sabrán como funcionamos internamente, por lo que podría hacer más fácil su incorporación.
+    - Documenta y preserva nuestro conocimiento institucional
+    - Facilita el acceso rápido a información crucial
+    - Permite actualizar procedimientos de manera sistemática
 
-  6. El trabajo de los distintos equipos se vuelve más fácil dado que se conoce como funciona la empresa.
+2. **Optimización del Tiempo**
 
-  7. La modificación de procedimientos es más fácil dado que se puede leer como funcionan actualmente.
+    - Reduce la necesidad de reuniones informativas
+    - Permite consultas independientes de información
+    - Agiliza la toma de decisiones
 
-  8. Usando esta herramienta, Readme.com, es posible lograr que todos puedan contribuir a la documentación simplemente haciendo solicitudes de cambios tal como funcionan los _Pull Request_ o _Merge Requests_.
+3. **Crecimiento y Desarrollo**
 
-## Consideraciones al leer el manual
+    - Acelera la incorporación de nuevos miembros
+    - Proporciona claridad sobre nuestra cultura y procesos
+    - Mantiene la consistencia operacional
 
-Como todo lo escrito, el contenido del manual estará sujeto a interpretaciones
-de quien lo lee. Debemos hacer lo mejor posible por escribir el texto de
-manera sencilla y clara tal que se minimice algún problema de
-malinterpretación o confusión. Por favor, es necesario considerar esto, y
-levantar cualquier duda que pueda aparecer tal de arreglar cualquier problema
-relacionado con esto. Ante cualquier pregunta, por favor indícasela a la
-persona que mantiene la página o tu manager.
+4. **Innovación y Mejora**
+
+    - Facilita la evolución de nuestros procesos
+    - Alimenta nuestros modelos de IA con información contextualizada
+    - Fomenta la transparencia y colaboración
+
+## Acceso y Confidencialidad
+
+Este manual es principalmente de acceso público. La información confidencial se maneja mediante referencias a repositorios privados con acceso controlado, asegurando un balance entre [transparencia](../culture/values.md) y seguridad.
+
+## Sobre la Interpretación
+
+Reconocemos que la comunicación escrita puede estar sujeta a diferentes interpretaciones. Por ello:
+
+- Mantenemos un estilo de escritura claro y directo
+- Invitamos a expresar dudas sobre cualquier contenido
+- Alentamos sugerencias para mejorar la claridad
+- Ofrecemos apoyo a través de los mantenedores del Manual o managers
+
+Este Manual es una herramienta dinámica que mejora continuamente con la participación activa de todo nuestro equipo.

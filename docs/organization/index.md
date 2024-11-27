@@ -15,7 +15,7 @@ En 23people nos organizamos en equipos multidisciplinarios, cada uno con un prop
 
 Los siguientes son los equipos operacionales de 23people.
 
-Cada uno entrega una gama de servicios a nuestros clientes externos y tambien a clientes internos. En su conjunto, están liderados por el rol de [**Global Operations Director**](roles/operations-director), quien es responsable de la entrega de los servicios globales de la organización.
+Cada uno entrega una gama de servicios a nuestros clientes externos y tambien a clientes internos. En su conjunto, están liderados por el rol de [**Operations Director**](roles/operations-director), quien es responsable de la entrega de los servicios globales de la organización.
 
 Esta tribu está conformado por:
 
