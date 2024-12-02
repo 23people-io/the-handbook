@@ -15,7 +15,7 @@ description: >
 
 Creemos que las organizaciones que desean dar un paso significativo en su madurez y crecimiento deben apoyarse en sus datos y en el conocimiento experto que han ido adquiriendo en su negocio. Sin embargo, aunque todos reconocen que las decisiones deben basarse en datos, lograrlo no es un camino trivial.
 
-### El camino de la Evolución Digital
+## El camino de la Evolución Digital
 
 [**Los datos por sí solos no generan valor**](https://www.youtube.com/watch?v=B2zCWJBnfuE&list=PLdnROWg7FtXd8s4O4Wlj9mUYjQ-s9xmB2); es la implementación exitosa de mejoras en los procesos del negocio, fundamentada en estos datos, lo que genera el verdadero impacto.
 
