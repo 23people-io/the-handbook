@@ -62,3 +62,7 @@ La transformación digital empresarial requiere un enfoque estructurado que inte
       - Actualización regular de objetivos y metas
 
 Este marco de evolución digital permite a las organizaciones avanzar de manera sistemática y sostenible, asegurando que cada paso en su transformación genere valor medible y contribuya al fortalecimiento general de sus operaciones.
+
+---
+
+## References
