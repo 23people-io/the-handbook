@@ -178,3 +178,7 @@ nav:
   - Este Manual: 
       - the-handbook/index.md
       - Contribuir: the-handbook/contribute.md
+
+  - Insights:
+      - insights/index.md
+      - Evolución Digital: insights/evolucion-digital.md
