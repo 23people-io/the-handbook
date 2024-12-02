@@ -153,7 +153,7 @@ nav:
           - Métricas: culture/metrics.md
       - Organización: 
           - organization/index.md
-          - Equipos:
+          - Equipos Operacionales:
               - organization/teams/index.md
               - "IT Talent Services (ITTS)": organization/teams/it-talent-services/index.md
               - "Growth Marketing & Sales (GMS)": organization/teams/growth-marketing-and-sales/index.md
@@ -162,7 +162,11 @@ nav:
           - Interacciones: 
               - organization/interactions/index.md
           - Roles: 
-              - organization/roles/index.md      
+              - organization/roles/index.md
+              - "Operations Director": organization/roles/operations-director.md
+              - "Service Delivery Manager": organization/roles/service-delivery-manager.md
+              - "Service Request Manager": organization/roles/service-request-manager.md
+              - "Key Account Manager": organization/roles/key-account-manager.md
       - Historia: 
           - history/index.md      
 

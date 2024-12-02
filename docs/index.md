@@ -15,7 +15,9 @@ A continuación, un resumen de lo que debes saber de [**23people :material-heart
 
 ## Quienes somos
 
-Somos una consultora tecnológica con cerca de 10 años de existencia en la industria, fundada y conformada por **profesionales a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar.**
+!!! example ""
+
+    Somos una consultora tecnológica con cerca de 10 años de existencia en la industria, fundada y conformada por **profesionales a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar.**
 
 **23people SpA** nació en Santiago de Chile a fines de 2014, fundada por dos Software Engineers & Computer Scientists: [Marcelo Ampuero](https://github.com/marceloat23) y [Manuel Reyes](https://github.com/manu-reyes-23p), quienes continúan liderando la compañía como Engineering Director y General Director respectivamente.
 
@@ -25,7 +27,9 @@ En la actualidad, [nuestro equipo](organization) está conformado por cerca de 9
 
 ## Lo que hacemos
 
-**Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar sus productos y servicios digitales.**
+!!! example ""
+
+    **Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar sus productos y servicios digitales.**
 
 Potenciamos a los equipos empresariales, integrando tecnologías avanzadas y emergentes con su conocimiento del negocio y el poder de sus datos.
 
@@ -61,14 +65,14 @@ A partir de estas metas de largo plazo, hemos definido una serie de objetivos es
 
 ## Origen de nuestro nombre
 
-!!! tip "¿Porque nos llamamos 23people?"
+A diferencia de lo que se pueda pensar, nuestro nombre como empresa **_no es debido a que seamos 23 personas_** 😱. Nuestro nombre ha originado de un concepto destacado en la saga de películas [Matrix](https://es.wikipedia.org/wiki/Matrix) y en particular a partir de un diálogo entre El Arquitecto y Neo en la película [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/?ref_=fn_al_tt_3).
 
-    A diferencia de lo que se pueda pensar, nuestro nombre como empresa **_no es debido a que seamos 23 personas_** 😱. Nuestro nombre ha originado de un concepto destacado en la saga de películas [Matrix](https://es.wikipedia.org/wiki/Matrix) y en particular a partir de un diálogo entre El Arquitecto y Neo en la película [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/?ref_=fn_al_tt_3)
+!!! example ""
 
-    _"La función del **Elegido** es ahora regresar a la fuente, permitiendo una diseminación temporal del código que llevas, reinsertando el programa principal. Después de lo cual se te requerirá seleccionar de la matrix a **23 personas: 16 mujeres y 7 hombres**, para reconstruir Zion. El no cumplir con este proceso resultará en un colapso catastrófico del sistema matando a todos conectados al matrix, lo que junto con la exterminación de Zion resultará en la extinción de toda la raza humana."_
+    _"Como **el Elegido**, tu deber es retornar a la fuente para permitir la temporal difusión del código que portas, lo cual reinsertará el programa primario. Posteriormente, deberás seleccionar de la Matrix **a veintitrés individuos - dieciséis mujeres y siete hombres -** para reconstruir Zion. Si no cumples con este proceso, el sistema colapsará catastróficamente, causando la muerte de todos los conectados a la Matrix. Esto, junto con la destrucción de Zion, llevará a la extinción de la especie humana.""_
 
     [**El Arquitecto - The Matrix Reloaded**](https://www.youtube.com/watch?v=LN8EE5JxSGQ)
 
-En resumen, somos el espíritu detrás de esas **23 personas fuera de la matrix**.
+En resumen: **Somos el espíritu detrás de esas 23 personas fuera de la matrix**.
 
 **We are 23people**, with love [**:material-heart:**](teams) and passion for technology. Happy Coding! 🚀

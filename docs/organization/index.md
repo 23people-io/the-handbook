@@ -9,22 +9,38 @@ description: >
 
 # Nuestra Organización
 
-En 23people nos organizamos en equipos multidisciplinarios, cada uno con un propósito definido y un conjunto de [servicios](../notes/servicio.md) que ofrecen a quienes necesitan algo y que estos equipos pueden ayudar. Independientemente del proposito, todo los equipos deben evolucionar sus servicios mediante toma de decisiones de mejora que se basen en datos y experimentación.
+En 23people nos organizamos en equipos multidisciplinarios. Cada equipo tiene un propósito claro y bien definido, y es responsable de la entrega de servicios a otros equipos internos o a clientes externos.
 
 ## Equipos Operacionales
 
-Los siguientes son los equipos operacionales de 23people.
+Los siguientes son los equipos operacionales de 23people y su propósito:
 
-Cada uno entrega una gama de servicios a nuestros clientes externos y tambien a clientes internos. En su conjunto, están liderados por el rol de [**Operations Director**](roles/operations-director), quien es responsable de la entrega de los servicios globales de la organización.
+- [**IT Talent Services Team**](teams/it-talent-services). Responsable de ofrecer y dar soporte a los servicios de Outsourcing y Reclutamiento de Profesionales TI. Su enfoque está en atraer, contratar y retener a los Profesionales TI.
+- [**Growth Marketing Team**](teams/growth-marketing). Responsable de hacer crecer la marca, presencia y participación de servicios de 23people. Su enfoque está en atraer y retener a los clientes, ademas de atraer y aportar a la comunidad de profesionales TI.
+- [**Backoffice Team**](teams/backoffice). Facilitar el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer. Es responsable de la administración y soporte de las funciones internas de la organización.
+- [**Research & Development Team**](teams/research-development). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
 
-Esta tribu está conformado por:
+### Principios
 
-- [**IT Talent Services Team**](teams/it-talent-services). Responsable de ofrecer y dar soporte a los servicios de [Outsourcing y Reclutamiento de Profesionales TI](/). Su enfoque está en atraer, contratar y retener a los Profesionales TI.
-- [**Growth Marketing Team**](teams/growth-marketing). Responsable en hacer crecer la marca y los servicios de 23people de manera sostenible mediante experimentación y optimización continua.
-- [**Backoffice Team**](teams/backoffice). Responsable de la administración y soporte de las funciones internas de la organización.
-- [**Research & Development Team**](teams/research-development). Responsable de la investigación y desarrollo de nuevas tecnologías y servicios que permitan a 23people mantenerse a la vanguardia en la evolución digital.
+Todos los equipos de 23people deben orientar sus actividades diarias según los siguientes principios:
 
-Cada equipo es liderado por un [Service Delivery Manager (SDM)](roles/service-delivery-manager) que es responsable de la entrega de servicios hacia clientes, ya sea externos como internos. Cuentan además con un [Service Request Manager (SRM)](roles/service-request-manager) que es responsable de la gestión de solicitudes de servicios mediante la aplicación de [prácticas de gestión de flujos](../practices/gestionar-trabajo-con-flujos.md). Complementariamente, este rol define a los miembros de confianza de él, que serán parte de la llamama [**Iarvis Council**](teams/iarvis-council) que se encargará en si de la coordinación y alineación de los equipos operacionales.
+- **Propósito claro y bien definido**: Cada equipo tiene un propósito que actúa como brújula en su día a día. Es su razón de existir en 23people y lo que motiva su avance.
+- **Autonomía en torno a su propósito**: Cada equipo es autónomo en la forma de avanzar hacia su propósito, alineándose con los [objetivos estratégicos](../strategy/goals.md), [valores](../culture/values.md) y [prácticas generales](../culture/practices/) de la organización.
+- **Cumplimiento del propósito mediante contratos de servicio**: Cada equipo persigue su propósito entregando servicios a otros equipos internos o a clientes externos. Estos servicios están bien definidos en forma de contrato de servicio (similar a una API). Toda la organización debe conocer qué esperar de cada equipo y cómo solicitar sus servicios.
+- **Mejora iterativa basada en datos**: Los equipos mejoran sus servicios implementando ideas que aportan de manera medible a la eficiencia operacional y calidad. Estas mejoras se fundamentan en su experiencia, datos recolectados y nuevas ideas que desean poner a prueba.
+
+### Gestión y Liderazgo
+
+Los equipos operacionales están liderados por el [**Operations Director**](roles/operations-director), responsable de:
+
+- La eficiencia operacional y calidad global de los servicios
+- La colaboración efectiva entre equipos, tanto interna como externamente
+- Definir los miembros del [**Iarvis Council**](teams/iarvis-council), encargado de la coordinación y alineación de los equipos operacionales
+
+Cada equipo cuenta con:
+
+- Un [Service Delivery Manager (SDM)](roles/service-delivery-manager), responsable de la entrega de servicios a equipos internos y clientes externos
+- Un [Service Request Manager (SRM)](roles/service-request-manager), responsable de gestionar las solicitudes de servicios aplicando las [prácticas de gestión de flujos](../practices/gestionar-trabajo-con-flujos.md)
 
 ## Equipo Estratégico
 
