@@ -1,11 +1,10 @@
 ---
 created: 2024-09-09T14:31:43
 updated: 2024-09-09T15:34:04
-description: Preferir dar autonomía a los colaboradores en lugar de micromanagement.
-author: 5127711
-status: wip
-slug: preferir-dar-autonomia-vs-micromanagement
-legacy_url: 
+authors:
+  - manu-reyes-23p
+description: >
+    Preferir dar autonomía a los colaboradores en lugar de micromanagement.
 ---
 
 # Preferir dar autonomía a los colaboradores en lugar de micromanagement

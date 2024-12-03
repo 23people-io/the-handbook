@@ -41,5 +41,10 @@ prepatch:
 	@scripts/prepatch
 	@echo "$(MAGENT)✔ Prepatch completed successfully.$(RESET)"
 
+claude:
+	@echo "$(MAGENT)Starting Claude files generation...$(RESET)"
+	@scripts/claude
+	@echo "$(MAGENT)✔ Claude files created successfully.$(RESET)"
+
 # Phony targets
-.PHONY: run build test version
+.PHONY: run build test version prepatch claude
