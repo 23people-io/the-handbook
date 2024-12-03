@@ -180,13 +180,14 @@ nav:
   - Comunidad:
       - community/index.md
       - Código de Conducta: community/code-of-conduct.md
-      - Eventos: community/events.md
-
-  - Este Manual: 
-      - the-handbook/index.md
-      - Contribuir: the-handbook/contribute.md
+      - Eventos: community/events.md  
 
   - Insights:
       - insights/index.md
       - La Evolución Digital Empresarial: insights/evolucion-digital-empresarial.md
+      - Jerarquía de Contribución del Trabajo: insights/jerarquia-contribucion-del-trabajo.md
       - Jerarquía de Conceptos Organizacionales: insights/jerarquia-conceptos-organizacionales.md
+
+  - Acerca del Manual: 
+      - the-handbook/index.md
+      - Contribuir: the-handbook/contribute.md
