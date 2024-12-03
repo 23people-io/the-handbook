@@ -37,6 +37,7 @@ Establecer y liderar la dirección estratégica de las operaciones en 23people, 
    - Diseñar la estructura operacional de la organización
 
 2. **Liderazgo Organizacional**
+   - Liderar por ejemplo y establecer la dirección operacional
    - Participar en el comité ejecutivo y toma de decisiones estratégicas
    - Establecer políticas y directrices operacionales
    - Definir marcos de trabajo y metodologías organizacionales
@@ -93,17 +94,3 @@ Establecer y liderar la dirección estratégica de las operaciones en 23people, 
    - Retención de personal clave
    - Clima organizacional
    - Efectividad de equipos
-
-## Requisitos del Cargo
-
-- **Educación:** Título profesional en Ingeniería, Tecnología o áreas afines
-- **Postgrado:** MBA o similar (deseable)
-- **Experiencia:** Mínimo 10 años en roles de liderazgo tecnológico
-- **Industria:** Experiencia demostrable en empresas de tecnología o consultoría
-- **Idiomas:** Español e inglés avanzado
-
-## Condiciones del Cargo
-
-- **Ubicación:** Santiago, Chile (con disponibilidad para viajes)
-- **Jornada:** Tiempo completo
-- **Modalidad:** Híbrido

@@ -4,10 +4,10 @@ updated: 2024-12-02T14:30:00
 authors:
   - manu-reyes-23p
 description: >
-  Niveles de Cargos y Capas Organizacionales
+  Niveles de Cargos y Responsabilidades en 23people.
 ---
 
-# Niveles de Cargos y Capas Organizacionales
+# Niveles de Cargos y Responsabilidades
 
 ## Propósito
 
@@ -15,142 +15,62 @@ Este documento define la estructura organizacional de 23people, estableciendo lo
 
 ## Niveles y Comportamientos Esperados
 
-La estructura organizacional de 23people se compone de tres capas principales: Direction, Management e Individual Contributors. Cada nivel tiene un enfoque específico:
+La estructura organizacional de 23people se compone de tres capas principales: Direction, Management y Operations. Cada nivel tiene un enfoque específico:
 
-- **Direction**: Define "qué" debe lograrse en su función completa.
-- **Management**: Implementa y gestiona "cómo" se logra con su(s) equipo(s) y recursos.
-- **Individual Contributor**: Ejecuta y contribuye a "hacer" el trabajo en su equipo.
+- **Direction**: Define "qué" debe lograrse en su función completa. Enfoque estratégico y metas de largo plazo.
+- **Management**: Implementa y gestiona "cómo" se logra con su(s) equipo(s) y recursos. Enfoque táctico y coordinación.
+- **Operations**: Ejecuta y contribuye a "hacer" el trabajo en su equipo. Enfoque en ejecución.
 
-| Capa                    | Nivel           | Comportamientos                                                                          |
-|-------------------------|-----------------|------------------------------------------------------------------------------------------|
-| Direction               | Executive Director | Define y ejecuta Objetivos Estratégicos que contribuyen a las metas globales             |
-| Direction               | Senior Director | Define y ejecuta Objetivos Estratégicos que contribuyen a las metas globales             |
-| Direction               | Director        | Define y ejecuta Iniciativas Estratégicas que contribuyen a los objetivos estratégicos   |
-| Management              | Senior Lead  | Define y ejecuta Actividades Claves que contribuyen a las iniciativas estratégicas       |
-| Management              | Lead         | Implementa actividades claves, funciones operacionales, gestiona y desarrolla equipos    |
-| Individual Contributors | Senior          | Lidera actividades, es referente en múltiples áreas y contribuye al crecimiento de otros |
-| Individual Contributors | Intermediate    | Contribuye a su equipo, crece y es referente de otros                                    |
-| Individual Contributors | Entry           | Aprende y se desarrolla                                                                  |
+| Capa       | Nivel              | Contribución Principal                                                                 |
+|------------|--------------------|----------------------------------------------------------------------------------------|
+| Direction  | Executive Director | Opinión y evidencia informada para la definición de las Metas de Largo Plazo (3+ años) |
+| Direction  | Senior Director    | Define y ejecuta Objetivos Estratégicos anuales                                        |
+| Direction  | Director           | Define y lidera Iniciativas Estratégicas                                               |
+| Management | Senior Coordinator | Define y ejecuta Actividades Clave que materializan iniciativas                        |
+| Management | Coordinator        | Implementa Actividades Clave y gestiona Actividades Operacionales                      |
+| Operations | Senior             | Lidera Actividades Operacionales y contribuye a Actividades Clave                      |
+| Operations | Intermediate       | Ejecuta Actividades Operacionales y Tareas complejas                                   |
+| Operations | Entry              | Desarrolla Tareas específicas bajo supervisión                                         |
 
-## Descripción de Capas y Niveles
+## Relación con los Roles
 
-### Direction
-
-Capa responsable de establecer la dirección estratégica y logro de las metas organizacionales por medio de objetivos e iniciativas estratégicas.
-
-#### Executive Director
-
-- **Propósito**: Establece y ejecuta objetivos estratégicos para áreas funcionales y líneas de servicio
-- **Impacto**: Áreas funcionales completas de la organización
-- **Decisiones**: Estratégicas que afectan recursos y dirección de áreas completas
-- **Comportamientos Clave**:
-    - Define metas organizacionales de largo plazo
-    - Alinea objetivos con la visión global
-    - Gestiona relaciones estratégicas
-
-#### Senior Director
-
-- **Propósito**: Establece y ejecuta objetivos estratégicos para áreas funcionales y líneas de servicio
-- **Impacto**: Áreas funcionales completas de la organización
-- **Decisiones**: Estratégicas que afectan recursos y dirección de áreas completas
-- **Comportamientos Clave**:
-    - Define metas organizacionales de largo plazo
-    - Alinea objetivos con la visión global
-    - Gestiona relaciones estratégicas
-
-#### Director
-
-- **Propósito**: Define y ejecuta iniciativas estratégicas alineadas con objetivos
-- **Impacto**: Áreas específicas y sus interacciones
-- **Decisiones**: Tácticas y asignación de recursos de área
-- **Comportamientos Clave**:
-    - Desarrolla iniciativas estratégicas
-    - Coordina ejecución entre equipos
-    - Establece métricas de éxito
-
-### Management
-
-Capa responsable de traducir la estrategia en acciones concretas y asegurar su implementación efectiva.
-
-#### Senior Lead
-
-- **Propósito**: Define y ejecuta actividades claves que materializan iniciativas estratégicas
-- **Impacto**: Múltiples equipos o subáreas
-- **Decisiones**: Operativas y mejores prácticas entre equipos
-- **Comportamientos Clave**:
-    - Diseña actividades claves
-    - Supervisa múltiples equipos
-    - Establece y promueve mejores prácticas
-
-#### Lead
-
-- **Propósito**: Implementa actividades claves y gestiona operaciones diarias
-- **Impacto**: Equipo directo y sus resultados
-- **Decisiones**: Operativas diarias y desarrollo de equipo
-- **Comportamientos Clave**:
-    - Ejecuta actividades claves
-    - Gestiona y desarrolla equipo
-    - Optimiza operaciones
-
-### Individual Contributors (IC)
-
-Capa responsable de la ejecución técnica y especializada del trabajo.
-
-#### Senior
-
-- **Propósito**: Lidera técnicamente y es referente en múltiples áreas
-- **Impacto**: Múltiples áreas técnicas
-- **Decisiones**: Técnicas y de implementación complejas
-- **Comportamientos Clave**:
-    - Lidera iniciativas técnicas
-    - Mentora a otros IC
-    - Resuelve problemas complejos
-
-#### Intermediate
-
-- **Propósito**: Contribuye independientemente y actúa como referente
-- **Impacto**: Proyectos y tareas asignadas
-- **Decisiones**: Técnicas en su ámbito de trabajo
-- **Comportamientos Clave**:
-    - Ejecuta tareas independientemente
-    - Guía a IC junior
-    - Propone mejoras técnicas
-
-#### Entry
-
-- **Propósito**: Aprende y desarrolla habilidades fundamentales
-- **Impacto**: Tareas específicas asignadas
-- **Decisiones**: Técnicas bajo supervisión
-- **Comportamientos Clave**:
-    - Desarrolla habilidades base
-    - Ejecuta tareas definidas
-    - Aprende de feedback
+Los cargos laborales, pueden tener asociados uno o mas roles.
 
 ## Progresión y Desarrollo
 
 La progresión entre niveles se basa en:
 
-1. Demostración consistente de comportamientos del siguiente nivel
+1. Demostración de capacidad para contribuir al siguiente nivel jerárquico
 2. Desarrollo de competencias técnicas y/o de gestión requeridas
 3. Impacto demostrado en el alcance correspondiente
 4. Capacidad de liderazgo acorde al nivel
+5. Comprensión y contribución efectiva a la jerarquía de trabajo
 
 ## Aspectos Organizacionales
 
 ### Autonomía y Responsabilidad
 
-- Cada nivel superior implica mayor autonomía
+- Cada nivel superior implica mayor autonomía estratégica
 - El alcance de responsabilidad aumenta progresivamente
 - El impacto de decisiones se amplía en niveles superiores
+- La contribución evoluciona de tareas específicas a metas organizacionales
 
 ### Alineación Organizacional
 
-- La estructura aplica dentro del modelo de tribus y equipos
-- Soporta desarrollo tanto en carreras técnicas como de gestión
-- Permite adaptación según necesidades organizacionales
+- La estructura soporta la jerarquía de contribución del trabajo
+- Permite desarrollo en carreras técnicas y de gestión
+- Facilita la trazabilidad desde tareas hasta metas de largo plazo
+- Soporta el modelo de tribus y equipos
 
 ### Evaluación y Promoción
 
-- Se basa en demostración sostenida de capacidades
-- Considera tanto impacto técnico como de liderazgo
+- Se basa en la demostración de capacidades del siguiente nivel
+- Considera impacto en la jerarquía de contribución
+- Evalúa tanto competencias técnicas como estratégicas
 - Requiere crecimiento consistente y verificable
+
+---
+
+## Notas
+
+- Se prefirió usar el termino "Coordinator" por sobre los terminos "Manager" y "Lead" en los niveles jerarquicos para evitar confusiones con roles que tambien pueden ser llamados "Manager" o "Lead" en la organización (ejemplo: "Account Manager", "Tech Lead", etc).

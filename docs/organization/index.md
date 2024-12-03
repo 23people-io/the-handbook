@@ -11,6 +11,8 @@ description: >
 
 En 23people nos organizamos en equipos multidisciplinarios. Cada equipo tiene un propósito claro y bien definido, y es responsable de la entrega de servicios a otros equipos internos o a clientes externos.
 
+Nos organizamos además en base a niveles de cargos y capas organizacionales, que definen las responsabilidades y comportamientos esperados de cada miembro de la organización. Cada cargo, puede tener uno o mas roles asginados, los cuales definen las responsabilidades y competencias necesarias para el cargo.
+
 ## Equipos Operacionales
 
 Los siguientes son los equipos operacionales de 23people y su propósito:
@@ -18,7 +20,7 @@ Los siguientes son los equipos operacionales de 23people y su propósito:
 - [**IT Talent Services Team**](teams/it-talent-services). Responsable de ofrecer y dar soporte a los servicios de Outsourcing y Reclutamiento de Profesionales TI. Su enfoque está en atraer, contratar y retener a los Profesionales TI.
 - [**Growth Marketing Team**](teams/growth-marketing). Responsable de hacer crecer la marca, presencia y participación de servicios de 23people. Su enfoque está en atraer y retener a los clientes, ademas de atraer y aportar a la comunidad de profesionales TI.
 - [**Backoffice Team**](teams/backoffice). Facilitar el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer. Es responsable de la administración y soporte de las funciones internas de la organización.
-- [**Research & Development Team**](teams/research-development). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
+- [**Research & Engineering Team**](teams/research-engineering). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
 
 ### Principios
 
