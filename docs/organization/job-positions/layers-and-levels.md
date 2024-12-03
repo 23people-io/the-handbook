@@ -32,9 +32,9 @@ La estructura organizacional de 23people se compone de tres capas principales: D
 | Operations | Intermediate       | Ejecuta Actividades Operacionales y Tareas complejas                                   |
 | Operations | Entry              | Desarrolla Tareas específicas bajo supervisión                                         |
 
-## Relación con los Roles
+## Relación entre Cargos y Roles
 
-Los cargos laborales, pueden tener asociados uno o mas roles.
+En la estructura organizacional de 23people. y con base en la [jerarquia de los conceptos organizacionales](../../insights/jerarquia-conceptos-organizacionales.md), los cargos se relacionan con roles específicos en la organización. Cada cargo tiene un conjunto de roles asociados que definen las responsabilidades y competencias requeridas.
 
 ## Progresión y Desarrollo
 
