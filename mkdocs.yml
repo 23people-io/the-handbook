@@ -186,8 +186,11 @@ nav:
       - insights/index.md
       - La Evolución Digital Empresarial: insights/evolucion-digital-empresarial.md
       - Autonomía de Equipos, APIs y Servicios: insights/autonomia-equipos-api-servicios.md
+      - Los Datos no tienen valor intrínseco: insights/datos-no-tienen-valor-intrinseco.md
+      - IA Generativa como conector entre Humanos y Sistemas: insights/ia-generativa-conector-humanos-sistemas.md
       - Jerarquía de Contribución del Trabajo: insights/jerarquia-contribucion-del-trabajo.md
       - Jerarquía de Conceptos Organizacionales: insights/jerarquia-conceptos-organizacionales.md
+      - Relación entre un SRM y un SDM: insights/relacion-entre-srm-sdm.md
 
 
   - Acerca del Manual: 

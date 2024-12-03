@@ -9,7 +9,7 @@ description: >
 
 # Relación entre Service Request Manager (SRM) y Service Delivery Manager (SDM)
 
-La relación entre estos dos roles es fundamental para la gestión de servicios en 23people.
+La relación entre estos dos roles es fundamental para la gestión de servicios.
 
 Cada equipo en 23people cuenta con un [Service Request Manager (SRM)](../organization/roles/service-request-manager.md) y un [Service Delivery Manager (SDM)](../organization/roles/service-delivery-manager.md) que trabajan en conjunto para gestionar las solicitudes de servicio y su entrega hacia los clientes internos o externos.
 
