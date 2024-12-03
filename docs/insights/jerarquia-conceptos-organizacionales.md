@@ -56,92 +56,23 @@ A continuación, se presentan ejemplos de cómo se relacionan estos conceptos en
 
 ### Ejemplo 1: Senior Software Engineer
 
-**Cargo:** Senior Software Engineer
-
-- **Rol: Technical Lead**
-    1. **Responsabilidad:** Diseño de arquitectura de servicios
-        - **Funciones:**
-            - Revisar diseños de arquitectura propuestos
-            - Liderar sesiones técnicas de diseño
-            - Documentar decisiones de arquitectura
-
-    2. **Responsabilidad:** Aseguramiento de calidad técnica
-        - **Funciones:**
-            - Validar estándares de código
-            - Supervisar implementación de patrones de diseño
-            - Realizar auditorías de calidad de código
-
-    3. **Responsabilidad:** Mentoring técnico del equipo
-        - **Funciones:**
-            - Realizar sesiones de mentoring programadas
-            - Proporcionar feedback técnico en code reviews
-            - Crear materiales de capacitación técnica
-
-- **Rol: Cloud Infrastructure Owner**
-    1. **Responsabilidad:** Gestión de infraestructura cloud
-        - **Funciones:**
-            - Diseñar arquitectura cloud de servicios
-            - Supervisar implementaciones de IaC
-            - Mantener documentación de infraestructura
-
-    2. **Responsabilidad:** Optimización de recursos y costos
-        - **Funciones:**
-            - Monitorear y analizar costos cloud mensuales
-            - Implementar estrategias de optimización
-            - Generar reportes de eficiencia de recursos
+| Rol                        | Responsabilidad                     | Funciones                                                                                                                               |
+|----------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Technical Lead             | Diseño de arquitectura de servicios | • Revisar diseños de arquitectura propuestos<br>• Liderar sesiones técnicas de diseño<br>• Documentar decisiones de arquitectura              |
+|                            | Aseguramiento de calidad técnica    | • Validar estándares de código<br>• Supervisar implementación de patrones de diseño<br>• Realizar auditorías de calidad de código             |
+|                            | Mentoring técnico del equipo        | • Realizar sesiones de mentoring programadas<br>• Proporcionar feedback técnico en code reviews<br>• Crear materiales de capacitación técnica |
+| Cloud Infrastructure Owner | Gestión de infraestructura cloud    | • Diseñar arquitectura cloud de servicios<br>• Supervisar implementaciones de IaC<br>• Mantener documentación de infraestructura              |
+|                            | Optimización de recursos y costos   | • Monitorear y analizar costos cloud mensuales<br>• Implementar estrategias de optimización<br>• Generar reportes de eficiencia de recursos   |
 
 ### Ejemplo 2: Senior People Manager
 
-**Cargo:** Senior People Manager
-
-- **Rol: Compensation & Benefits Administrator**
-    1. **Responsabilidad:** Gestión integral de remuneraciones
-        - **Funciones:**
-            - Supervisar proceso de payroll mensual
-            - Validar cálculos de remuneraciones
-            - Revisar declaraciones previsionales
-
-    2. **Responsabilidad:** Administración de beneficios corporativos
-        - **Funciones:**
-            - Gestionar programa de beneficios
-            - Actualizar políticas de beneficios
-            - Coordinar con proveedores de beneficios
-
-- **Rol: Labor Compliance Leader**
-    1. **Responsabilidad:** Asegurar cumplimiento normativo laboral
-        - **Funciones:**
-            - Supervisar proceso de contratos y anexos
-            - Gestionar auditorías laborales
-            - Mantener registro de cumplimiento normativo
-
-    2. **Responsabilidad:** Gestión de documentación legal
-        - **Funciones:**
-            - Validar documentación legal requerida
-            - Mantener actualización de políticas
-            - Coordinar con asesores legales externos
-
-- **Rol: Employee Experience Owner**
-    1. **Responsabilidad:** Gestión del ciclo de vida laboral
-        - **Funciones:**
-            - Liderar programa de onboarding
-            - Gestionar proceso de evaluaciones de desempeño
-            - Coordinar procesos de offboarding
-
-    2. **Responsabilidad:** Desarrollo de cultura organizacional
-        - **Funciones:**
-            - Coordinar actividades de cultura
-            - Implementar iniciativas de engagement
-            - Monitorear indicadores de clima laboral
-
-- **Rol: HR Analytics Lead**
-    1. **Responsabilidad:** Gestión de métricas e indicadores HR
-        - **Funciones:**
-            - Generar reportes mensuales de gestión HR
-            - Mantener dashboard de indicadores clave
-            - Analizar tendencias de personal
-
-    2. **Responsabilidad:** Optimización de procesos HR
-        - **Funciones:**
-            - Documentar procesos actuales
-            - Identificar oportunidades de mejora
-            - Implementar optimizaciones basadas en datos
+| Rol                                   | Responsabilidad                           | Funciones                                                                                                                 |
+|---------------------------------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Compensation & Benefits Administrator | Gestión integral de remuneraciones        | • Supervisar proceso de payroll mensual<br>• Validar cálculos de remuneraciones<br>• Revisar declaraciones previsionales        |
+|                                       | Administración de beneficios corporativos | • Gestionar programa de beneficios<br>• Actualizar políticas de beneficios<br>• Coordinar con proveedores de beneficios         |
+| Labor Compliance Leader               | Asegurar cumplimiento normativo laboral   | • Supervisar proceso de contratos y anexos<br>• Gestionar auditorías laborales<br>• Mantener registro de cumplimiento normativo |
+|                                       | Gestión de documentación legal            | • Validar documentación legal requerida<br>• Mantener actualización de políticas<br>• Coordinar con asesores legales externos   |
+| Employee Experience Owner             | Gestión del ciclo de vida laboral         | • Liderar programa de onboarding<br>• Gestionar proceso de evaluaciones de desempeño<br>• Coordinar procesos de offboarding     |
+|                                       | Desarrollo de cultura organizacional      | • Coordinar actividades de cultura<br>• Implementar iniciativas de engagement<br>• Monitorear indicadores de clima laboral      |
+| HR Analytics Lead                     | Gestión de métricas e indicadores HR      | • Generar reportes mensuales de gestión HR<br>• Mantener dashboard de indicadores clave<br>• Analizar tendencias de personal    |
+|                                       | Optimización de procesos HR               | • Documentar procesos actuales<br>• Identificar oportunidades de mejora<br>• Implementar optimizaciones basadas en datos        |
