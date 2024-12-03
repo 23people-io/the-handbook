@@ -185,8 +185,10 @@ nav:
   - Insights:
       - insights/index.md
       - La Evolución Digital Empresarial: insights/evolucion-digital-empresarial.md
+      - Autonomía de Equipos, APIs y Servicios: insights/autonomia-equipos-api-servicios.md
       - Jerarquía de Contribución del Trabajo: insights/jerarquia-contribucion-del-trabajo.md
       - Jerarquía de Conceptos Organizacionales: insights/jerarquia-conceptos-organizacionales.md
+
 
   - Acerca del Manual: 
       - the-handbook/index.md
