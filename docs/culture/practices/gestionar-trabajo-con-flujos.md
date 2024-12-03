@@ -1,18 +1,13 @@
 ---
 created: 2024-09-09T14:31:43
 updated: 2024-09-14T15:34:04
-description: Preferir hacer uso de flujos de trabajo para gestionar actividades, solicitudes generales, tareas y proyectos.
-author: 5127711
-status: wip
-slug: preferir-usar-flujos-trabajo
-legacy_url: 
+authors:
+  - manu-reyes-23p
+description: >
+    Preferir hacer uso de flujos de trabajo para gestionar actividades, solicitudes generales, tareas y proyectos.
 ---
 
 # Preferir usar flujos de trabajo en lugar de realizar tareas de manera aislada
-
-> 🚧 **Work in Progress**
->
-> Esta página es un trabajo en proceso.
 
 Basicamente, se apunta a considerar que: **Lo que que no se visualiza, no se puede gestionar**. Por lo tanto, es importante que todas las tareas, solicitudes generales, actividades y proyectos, preferiblemente, se gestionen a través de flujos de trabajo visuales y sistemáticos. Esto permite una mejor organización, seguimiento y control de las actividades.
 

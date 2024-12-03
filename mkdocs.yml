@@ -161,12 +161,19 @@ nav:
               - "Research & Development (R&D)": organization/teams/research-and-development/index.md
           - Interacciones: 
               - organization/interactions/index.md
+          - Cargos:
+              - organization/job-positions/index.md
+              - Capas y Niveles: organization/job-positions/layers-and-levels.md
+              - Descriptores de Cargos: 
+                  - organization/job-positions/descriptors/index.md
+                  - "Operations Director": organization/job-positions/descriptors/operations-director.md
           - Roles: 
               - organization/roles/index.md
-              - "Operations Director": organization/roles/operations-director.md
-              - "Service Delivery Manager": organization/roles/service-delivery-manager.md
-              - "Service Request Manager": organization/roles/service-request-manager.md
-              - "Key Account Manager": organization/roles/key-account-manager.md
+              - Descriptores de Roles: 
+                  - organization/roles/descriptors/index.md
+                  - "Service Delivery Manager": organization/roles/service-delivery-manager.md
+                  - "Service Request Manager": organization/roles/service-request-manager.md
+                  - "Key Account Manager": organization/roles/key-account-manager.md
       - Historia: 
           - history/index.md      
 
