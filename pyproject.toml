@@ -9,7 +9,7 @@ name = "23people-handbook"
 package-mode = false
 readme = "README.md"
 repository = "https://github.com/23people-io/23people-handbook"
-version = "0.3.73"
+version = "0.3.74"
 
 [tool.poetry.dependencies]
 mkdocs = {extras = ["i18n"], version = "^1.6.1"}
