@@ -23,7 +23,7 @@ La estructura general es circular tal de fomentar la colaboración y la comunica
 
 Los siguientes son los equipos operacionales de 23people y su propósito:
 
-- [**IT Talent Services Team**](teams/it-talent-services). Dar la mejor experiencia en selección, validación y retención de profesionales TI que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
+- [**Tech Talent Services Team**](teams/tech-talent-services). Dar la mejor experiencia en selección, validación y retención de Profesionales Tech que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
 - [**Growth Marketing Team**](teams/growth-marketing). Responsable de hacer crecer la marca, presencia y participación de servicios de 23people. Su enfoque está en atraer y retener a los clientes, ademas de atraer y aportar a la comunidad de profesionales TI.
 - [**Backoffice Team**](teams/backoffice). Facilitar el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer. Es responsable de la administración y soporte de las funciones internas de la organización.
 - [**Research & Engineering Team**](teams/research-engineering). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
@@ -53,7 +53,7 @@ Se persigue que cada equipo sea autónomo en el cómo avanza en su propósito, s
 A modo de organización de equipos y como una capa virtual sobre los equipos, estos se agrupan en Tribus:
 
 - [**Iarvis Tribe**](tribes/iarvis). Es el nombre del conjunto de equipos operacionales en 23people.
-- [**Drakkar Tribe**](tribes/drakkar). Es el nombre del conjunto de equipos de profesionales TI que están en modo subcontratación en 23people.
+- [**Drakkar Tribe**](tribes/drakkar). Es el nombre del conjunto de equipos de Profesionales Tech que están en modo subcontratación en 23people.
 
 ## Cargos y Roles
 

@@ -1,6 +1,13 @@
-# Catálogo
+---
+created: 2024-06-17T18:01:41
+updated: 2024-12-07T13:15:03
+authors:
+  - manu-reyes-23p
+description: >
+    Catálogo de tecnologías para Profesionales Tech en 23people.
+---
 
-## Perfiles Profesionales de TI
+# Catálogo de tecnologías para Profesionales Tech
 
 ## Tecnologías
 
@@ -8,7 +15,7 @@
 
 Corresponde a los lenguajes de programación, scripting y marcado que se utilizan en el desarrollo de software y aplicaciones.
 
-Estos son los lenguajes de programación, scripting y marcado que podrían ser solicitados en los perfiles profesionales de TI:
+Estos son los lenguajes de programación, scripting y marcado que podrían ser solicitados en los perfiles de Profesionales Tech:
 
 - Python
 - Java
@@ -18,7 +25,7 @@ Estos son los lenguajes de programación, scripting y marcado que podrían ser s
 
 Corresponde a las tecnologías de bases de datos que se utilizan en el desarrollo de software y aplicaciones.
 
-Estas son las tecnologías de bases de datos que podrían ser solicitadas en los perfiles profesionales de TI:
+Estas son las tecnologías de bases de datos que podrían ser solicitadas en los perfiles de Profesionales Tech:
 
 - MySQL
 - PostgreSQL
@@ -29,7 +36,7 @@ Estas son las tecnologías de bases de datos que podrían ser solicitadas en los
 
 Corresponde a las plataformas de nube que se utilizan en el desarrollo de software y aplicaciones.
 
-Estas son las plataformas de nube que podrían ser solicitadas en los perfiles profesionales de TI:
+Estas son las plataformas de nube que podrían ser solicitadas en los perfiles de Profesionales Tech:
 
 - AWS
 - Azure
@@ -43,7 +50,7 @@ Estas son las plataformas de nube que podrían ser solicitadas en los perfiles p
 
 Corresponde a los frameworks y tecnologías web que se utilizan en el desarrollo de software y aplicaciones.
 
-Estos son los frameworks y tecnologías web que podrían ser solicitados en los perfiles profesionales de TI:
+Estos son los frameworks y tecnologías web que podrían ser solicitados en los perfiles de Profesionales Tech:
 
 - Django
 - Node.js
@@ -63,7 +70,7 @@ Estos son los frameworks y tecnologías web que podrían ser solicitados en los 
 
 Corresponde a otros frameworks y librerías que se utilizan en el desarrollo de software y aplicaciones.
 
-Estos son otros frameworks y librerías que podrían ser solicitados en los perfiles profesionales de TI:
+Estos son otros frameworks y librerías que podrían ser solicitados en los perfiles de Profesionales Tech:
 
 - TensorFlow
 - PyTorch
@@ -80,7 +87,7 @@ Estos son otros frameworks y librerías que podrían ser solicitados en los perf
 
 Corresponde a otras herramientas que se utilizan en el desarrollo de software y aplicaciones.
 
-Estas son otras herramientas que podrían ser solicitadas en los perfiles profesionales de TI:
+Estas son otras herramientas que podrían ser solicitadas en los perfiles de Profesionales Tech:
 
 - Git
 - Docker
@@ -93,7 +100,7 @@ Estas son otras herramientas que podrían ser solicitadas en los perfiles profes
 
 Corresponde a los entornos de desarrollo integrados que se utilizan en el desarrollo de software y aplicaciones.
 
-Estos son los entornos de desarrollo integrados que podrían ser solicitados en los perfiles profesionales de TI:
+Estos son los entornos de desarrollo integrados que podrían ser solicitados en los perfiles de Profesionales Tech:
 
 - Visual Studio Code
 - PyCharm

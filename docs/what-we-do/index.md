@@ -23,11 +23,11 @@ A esto se suma un desafío particular en el mercado laboral TI actual: si bien e
 
 Nos especializamos en 3 lineas servicios que persiguen resolver los desafíos de talento capacitado, uso de tecnología y uso de datos que enfrentan las empresas en su camino de [Evolución Digital](../insights/evolucion-digital-empresarial.md)
 
-### Outsourcing y Reclutamiento de Profesionales TI
+### Outsourcing y Reclutamiento de Tech Talent
 
-Sabemos buscar, seleccionar y retener profesionales TI para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.
+Sabemos buscar, seleccionar y retener Profesionales Tech para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.
 
- De entre toda la oferta actual de profesionales TI, sabemos encontrar a aquellos que realmente les apasiona lo que hacen, que tienen la experiencia que dicen que tienen y que mejor se ajustan a las necesidades de nuestros clientes.
+De entre toda la oferta actual de Profesionales Tech, sabemos encontrar a aquellos que realmente les apasiona lo que hacen, que tienen la experiencia que dicen que tienen y que mejor se ajustan a las necesidades de nuestros clientes.
 
 ### Plataformas Digitales, Cloud y Modernización
 
@@ -47,6 +47,6 @@ Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos real
 
 !!! tip "Cómo logramos hacer lo anterior"
 
-    **Nuestro principal diferenciador, y sobre la cual apoyamos todos los servicios que ofrecemos, es nuestra probada _receta_ para seleccionar y retener Profesionales TI de alto nivel**. 
+    **Nuestro principal diferenciador, y sobre la cual apoyamos todos los servicios que ofrecemos, es nuestra probada _receta_ para seleccionar y retener Profesionales Tech de alto nivel**. 
     
 Buscamos a esos profesionales a los cuales realmente les apasiona lo que hacen y que tienen la experiencia que dicen que tienen. No son sencillos de encontrar en este mercado tan competitivo, pero una vez que los encontramos, buscamos retenerlos lo máximo posible tal que sientan que hubo un real crecimiento profesional y un desafío de mejora constante a sus habilidades mientras estuvieron en 23people. Lo anterior, lo combinamos junto a nuestra reconocida experiencia técnica y nuestro valorado servicio al cliente en estos 10 años de trayectoria.

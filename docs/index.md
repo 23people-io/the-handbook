@@ -29,11 +29,11 @@ De cara a nuestros clientes, nos definimos como:
 
 ## Lo que hacemos
 
-Potenciamos y Co-creamos junto a los equipos de aquellas empresas que están en el desafío constante de la [**Evolución Digital Empresarial**](what-we-do/index.md#el-desafío-en-que-buscamos-ayudar), y que necesitan integrar [Talento TI](how-we-do-it/devs-roles.md), [Ingenieria de Software](how-we-do-it/methodology.md) y [Tecnologías](how-we-do-it/technologies.md), junto al conocimiento experto de su negocio y el potencial de sus datos.
+Potenciamos y Co-creamos junto a los equipos de aquellas empresas que están en el desafío constante de la [**Evolución Digital Empresarial**](what-we-do/index.md#el-desafío-en-que-buscamos-ayudar), y que necesitan integrar [Talento Tech](how-we-do-it/devs-roles.md), [Ingeniería de Software](how-we-do-it/methodology.md) y [Tecnologías](how-we-do-it/technologies.md), junto al conocimiento experto de su negocio y el potencial de sus datos.
 
 [**Nuestras Lineas de Servicios**](what-we-do/index.md#nuestros-servicios) son:
 
-1. [Outsourcing y Reclutamiento de Profesionales TI](what-we-do/index.md#outsourcing-y-reclutamiento-de-profesionales-ti). Sabemos buscar, seleccionar y retener profesionales TI para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.
+1. [Outsourcing y Reclutamiento de Talento Tech](what-we-do/index.md#outsourcing-y-reclutamiento-de-profesionales-tech-talent). Sabemos buscar, seleccionar y retener Profesionales Tech para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.
 2. [Plataformas Digitales, Cloud y Modernización](what-we-do/index.md#plataformas-digitales-cloud-y-modernización). Co-creamos soluciones para las áreas de mejora continua de Digitalización, Automatización, Integraciones y Datos Operacionales.
 3. [Datos, Analítica Avanzada e IA](what-we-do/index.md#datos-analítica-e-ia). Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas.
 
@@ -61,11 +61,11 @@ En la actualidad, [nuestro equipo](organization) está conformado por cerca de 9
 
 Somos ambisiosos y sabemos que podemos lograr grandes cosas. Nuestras [**Metas**](strategy/goals.md) a largo plazo son:
 
-1. [Ser referentes en Tecnología y Desarrollo Profesional en TI](strategy/goals.md). Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
+1. [Ser Referentes en Tecnología y Crecimiento Profesional de Tech Talent](strategy/goals.md). Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
 
 2. [Crecimiento Económico Sostenible y Globalización](strategy/goals.md). Expandir nuestras operaciones y presencia a nivel latinoamericano y global.
 
-3. [Innovar son productos digitales basados en Datos e IA](strategy/goals.md). Crear nuevos productos y servicios digitales mediante una cultura nativa en IA y decisiones basadas en datos.
+3. [Innovar con Productos Digitales basados en Datos e IA](strategy/goals.md). Crear nuevos productos y servicios digitales mediante una cultura nativa en IA y decisiones basadas en datos.
 
 A partir de estas metas de largo plazo, hemos definido una serie de objetivos estratégicos, iniciativas y actividades, que nos habilitan a avanzar en esta dirección.
 

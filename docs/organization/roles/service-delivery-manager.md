@@ -7,7 +7,7 @@ description: >
   Descriptor de Rol: Service Delivery Manager (SDM)
 ---
 
-# Service Delivery Manager (SRM)
+# Service Delivery Manager (SDM)
 
 Lo siguiente es una descripción detallada del rol de Service Delivery Manager (SDM) en 23people.
 
@@ -72,9 +72,3 @@ Las responsabilidades y funciones del SDM están principalmente enfocadas en la 
     - Coordinar sesiones de conocimiento compartido
     - Facilitar mentorías técnicas
     - Promover la rotación de conocimiento
-
-## Medición del Éxito
-
-El éxito del rol se evidencia en la optimización sostenida de los siguientes indicadores y su impacto positivo en la eficiencia del equipo y satisfacción del cliente.
-
-(Pendiente de definir métricas específicas)
