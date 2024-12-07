@@ -13,20 +13,19 @@ description: >
 
 ## Propósito
 
-Dar la mejor experiencia en selección, validación y retención de profesionales que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con las necesidades de nuestros clientes.
+**Dar la mejor experiencia en selección, validación y retención de profesionales que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con las necesidades de nuestros clientes.**
 
-Aseguramos la excelencia técnica al validar las habilidades reales de los candidatos, brindando una asesoría precisa que ayuda a nuestros clientes a definir los perfiles que mejor se adaptan a sus necesidades y proyectos. Nos especializamos en aquellos roles TI que requieren dominar el arte de la programación, la ingeniería del desarrollo de software y las tecnologías maduras y emergentes.
+Aseguramos la excelencia técnica al validar las habilidades reales de los postulantes, respaldando con información precisa a quienes en el cliente deben dar su aprobación final para que un profesional ingrese a su equipo. No solo tomamos pedidos, sino que guiamos y acordamos los perfiles ideales. Nos especializamos en aquellos [Roles TI](../../../how-we-do-it/devs-roles.md) que requieren dominar el arte de la programación, el desarrollo de software y las tecnologías tanto maduras como emergentes.
 
-Lo hacemos cultivando una comunidad donde los profesionales encuentran un crecimiento técnico tan significativo que eligen quedarse por lo que aquí construyen y aprenden. Generamos un ambiente de aprendizaje continuo y desafíos técnicos donde la pasión por la tecnología se traduce en soluciones de valor para nuestros clientes.
+Lo hacemos cultivando una comunidad donde profesionales con hambre intelectual por aprender y mejorar sus habilidades experimentan un crecimiento técnico formidable. Es un ambiente de aprendizaje y colaboración donde la pasión por la tecnología se traduce en aportes concretos al valor que buscamos para nuestros clientes. Incluso ante atractivas oportunidades en empresas de renombre internacional, ponderan seriamente su decisión por el valor que encuentran en nuestra forma de hacer las cosas, pues quienes pasan por 23people sienten que hubo un antes y un después en su carrera.
 
-## Servicios que ofrece
+## API de Servicios que ofrece
 
 Los servicios que entrega este equipo, tienen un fuerte enfoque en el Talento TI. Los servicios que ofrece son:
 
 - **Asesorar a nuestros clientes en la búsqueda de profesionales TI**: Guiar y madurar los requerimientos de nuestros clientes para encontrar a los profesionales TI que mejor se adapten a sus necesidades.
 - **Busqueda de Profesionales TI**: Identificar y atraer a los mejores profesionales TI para cubrir las necesidades de nuestros clientes.
 - **Selección de Profesionales TI**: Evaluar y seleccionar a los profesionales TI más adecuados para los requerimientos de nuestros clientes.
-- **Retención de Profesionales TI**: Acompañar y retener a los profesionales TI en su crecimiento y desarrollo profesional.
 - **Resolución de Conflictos**: Apoyar en la resolución de conflictos y problemas laborales de nuestros profesionales TI.
 - **Apoyo al Crecimiento Profesional**: Acompañar a nuestros profesionales TI en su crecimiento y desarrollo profesional en base a las politicas e iniciativas que propone People Growth.
 
