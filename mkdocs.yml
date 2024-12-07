@@ -137,11 +137,15 @@ nav:
   - "Inicio":
       - Bienvenidos a 23people: index.md
       - Lo que hacemos: 
-          - what-we-do/index.md
-          - Servicios: what-we-do/services.md
-          - Stack de Tecnologías: what-we-do/tech-stack.md
-          - Roles TI: what-we-do/it-roles.md
+          - what-we-do/index.md                        
           - Casos de Éxito: what-we-do/success-stories.md
+      - Como lo hacemos:
+            - how-we-do-it/index.md
+            - Programadores y Software Engineers: how-we-do-it/devs-roles.md
+            - Búsqueda y Selección de Talento: how-we-do-it/talent-workflow.md
+            - Metodología de Desarrollo: how-we-do-it/methodology.md
+            - Stack Tecnológico: how-we-do-it/technologies.md
+            - Customer Service: how-we-do-it/customer-service.md
       - Estrategia: 
           - strategy/index.md
           - Metas: strategy/goals.md

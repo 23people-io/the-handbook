@@ -5,9 +5,7 @@ description: Tecnologías, Servicios Cloud, Herramientas en las que tenemos expe
 author: 5127711
 ---
 
-# Stack Tecnológico
-
-## Introducción
+# Stack: Manejamos tecnologías avanzadas y emergentes
 
 A continuación, se detallan las tecnologías específicas en las que tenemos
 experiencia validada y valorada a lo largo de los distintos proyectos en que

@@ -7,7 +7,7 @@ description: >
   Principales roles IT con los que trabajamos en 23people y como aportan a la estrategia digital.
 ---
 
-# Principales Roles IT
+# Roles Devs: Buscamos Programadores e Ingenieros de Software excepcionales y con potencial
 
 En 23people, trabajamos con una variedad de roles técnicos aunque principalmente nos enfocamos en algunas categorias que son las más comunes en la industria de la tecnología y que derivan directamente de las habilidades y competencias de cualquier Developer: **Saber Programar y construir Software Empresarial**.
 

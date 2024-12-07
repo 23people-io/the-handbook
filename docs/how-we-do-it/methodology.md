@@ -1,5 +1,7 @@
 
-# Software Squad
+# Metodología: Construimos ágil, evolutivamente y basados en datos
+
+## Software Squad
 
 ```mermaid
 flowchart TB
