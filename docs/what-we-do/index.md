@@ -13,40 +13,38 @@ Somos facilitadores y co-creadores tecnológicos confiables para empresas que bu
 
 ## El desafío de la evolución digital empresarial
 
-En el camino hacia la evolución digital, las empresas enfrentan una realidad fundamental: los datos y la tecnología por sí solos no generan valor. El verdadero valor emerge únicamente cuando se logra implementar mejoras concretas en los procesos y servicios del negocio, fundamentadas en estos datos y tecnologías. Esta distinción es crucial, ya que muchas organizaciones invierten significativamente en tecnología y datos sin tener claridad sobre cómo estas inversiones se traducirán en beneficios tangibles para el negocio, **lo que dificulta la justificación del retorno de inversión** y **la priorización de iniciativas**.
+En el camino de la [Evolución Digital](../insights/evolucion-digital-empresarial.md), las empresas persiguen el mejorar sus operaciones y resultados a través de la implementación de tecnologías avanzadas y el uso efectivo de sus datos. Sin embargo, enfrentan una realidad fundamental: **los datos y la tecnología por sí solos no generan valor**. El verdadero valor emerge únicamente cuando se logra implementar mejoras concretas en los procesos y servicios del negocio, fundamentadas en estos datos y tecnologías. Esta distinción es crucial, ya que muchas organizaciones invierten significativamente en tecnología y datos sin tener claridad sobre cómo estas inversiones se traducirán en beneficios tangibles para el negocio.
 
-Este desafío se magnifica por la necesidad de contar con **un partner tecnológico** que realmente comprenda esta dinámica y pueda guiar el proceso de evolución digital. Las empresas requieren un aliado que no solo domine la tecnología, sino que también entienda a profundidad sus objetivos de negocio y pueda acompañarlas en identificar e implementar aquellos casos de uso que generarán un impacto significativo y medible.
+### Justificación del Retorno de Inversión
 
-A esto se suma un desafío particular en el mercado laboral TI actual: si bien existe una amplia oferta de profesionales tecnológicos, identificar a aquellos que realmente marcan la diferencia se ha vuelto cada vez más complejo. El reto no está en encontrar profesionales TI, sino en **filtrar y seleccionar** a aquellos que genuinamente les apasiona lo que hacen, que constantemente mejoran sus habilidades, y que verdaderamente poseen la experiencia que declaran tener. Más complejo aún es asegurar que estos profesionales hagan match con las necesidades específicas de cada cliente y lograr retenerlos en un mercado altamente competitivo, donde el talento de calidad es constantemente solicitado.
+La justificación del retorno de inversión es un desafío particular en la evolución digital, ya que las inversiones en tecnología y datos suelen ser costosas y los beneficios asociados a menudo son difíciles de cuantificar. Las empresas necesitan identificar y priorizar aquellos casos de uso que generen un impacto significativo y medible en sus operaciones y resultados, y que justifiquen la inversión realizada. Esto requiere una comprensión profunda de los procesos y servicios del negocio, así como de las tecnologías y datos disponibles y la capacidad de conectar ambos mundos de manera efectiva y eficiente.
+
+### Necesidad de un Partner Tecnológico Confiable
+
+Este desafío se magnifica por **la necesidad de contar con partners tecnológicos** que realmente comprenda esta dinámica y pueda guiar el proceso de evolución digital. Las empresas requieren aliados que no solo dominen la tecnología, sino que también entienda a profundidad sus objetivos de negocio y pueda acompañarlas en identificar e implementar aquellos casos de uso que generarán un impacto significativo y medible.
+
+### Selección e Incorporación Profesionales Tech validado
+
+A lo anterior se suma un desafío particular en el mercado laboral TI actual: **si bien existe una amplia oferta de profesionales tecnológicos, identificar a aquellos que realmente marcan la diferencia se ha vuelto cada vez más complejo**. El reto no está en encontrar profesionales TI, sino en filtrar y seleccionar a aquellos que genuinamente les apasiona lo que hacen, que constantemente mejoran sus habilidades, y que verdaderamente poseen la experiencia que declaran tener. Más complejo aún es asegurar que estos profesionales hagan match con las necesidades específicas de cada cliente y lograr retenerlos en un mercado altamente competitivo, donde el talento de calidad es constantemente solicitado.
 
 ## Nuestros servicios
 
-Nos especializamos en 3 lineas servicios que persiguen resolver los desafíos de talento capacitado, uso de tecnología y uso de datos que enfrentan las empresas en su camino de [Evolución Digital](../insights/evolucion-digital-empresarial.md)
+Dado el desafío mencionado, **en 23people nos hemos especializado en tres líneas de servicios complementarios** que buscan resolver los desafíos de talento capacitado, uso de tecnología y uso de datos que enfrentan las empresas en su camino de Evolución Digital:
 
-### Outsourcing y Reclutamiento de Tech Talent
+1. [**Outsourcing y Reclutamiento de Tech Talent**](services.md#outsourcing-y-reclutamiento-de-tech-talent): Sabemos buscar, seleccionar y retener Profesionales Tech para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.
+2. [**Plataformas Digitales, Cloud y Modernización**](services.md#plataformas-digitales-cloud-y-modernización): Co-creamos soluciones para las áreas de mejora continua de Digitalización, Automatización, Integraciones y Datos Operacionales.
+3. [**Datos, Analítica Avanzada e IA**](services.md#datos-analítica-avanzada-e-ia): Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas.
 
-Sabemos buscar, seleccionar y retener Profesionales Tech para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.
+Ponemos enfasis en este trabajo en conjunto, nuestra experiencia y el ser partners tecnológicos realmente confiables tanto técnica como profesionalmente son diferenciadores al momento de describir el [cómo lo hacemos](../how-we-do-it/).
 
-De entre toda la oferta actual de Profesionales Tech, sabemos encontrar a aquellos que realmente les apasiona lo que hacen, que tienen la experiencia que dicen que tienen y que mejor se ajustan a las necesidades de nuestros clientes.
+## Nuestra relación con clientes
 
-### Plataformas Digitales, Cloud y Modernización
+Nuestros clientes persiguen objetivos de negocio específicos, inherentes a sus propias industrias y necesidades particulares. Avanzan siguiendo un camino estratégicamente planificado, fundamentado en la experiencia única de su equipo. Durante este recorrido, enfrentan una serie de desafíos tecnológicos específicos. Nuestros servicios están diseñados para abordar y resolver estos problemas, facilitando así que nuestros clientes alcancen sus metas. Entender este vínculo es crucial: nuestra capacidad para resolver sus problemas tecnológicos es directamente proporcional al valor que agregamos, ayudándoles a cumplir sus objetivos empresariales.
 
-Co-creamos soluciones para las áreas de mejora continua de Digitalización, Automatización, Integraciones y Datos Operacionales.
+## Casos de Éxito
 
-Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Cybersecurity y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
+Estos son algunos de los casos de exito que hemos tenido con nuestros clientes:
 
-### Datos, Analítica Avanzada e IA
+- **Equifax**: Modernizando la plataforma del Informe Platinum 360
 
-Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas.
-
-Combinamos tecnologías para grandes volúmenes de datos (BigData, DataLakes, Data Warehouses), herramientas de IA predictiva y generativa (Machine Learning, RAG, LLMs), y sistemas de automatización avanzada (AI Agents). Todo esto alineado con el conocimiento experto del negocio de nuestros clientes para generar valor real en sus operaciones diarias.
-
-Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos realmente confiables, tanto técnica como profesionalmente. Creemos que nuestra guía tecnológica, nuestra experiencia en la cultura TI y el conocimiento experto que solo nuestros clientes pueden aportar sobre su negocio permite a esta colaboración el concretar o ajustar las mejoras operativas y estratégicas que fortalecen la competitividad de las empresas en sus respectivos mercados.
-
-## Diferenciadores
-
-!!! tip "Cómo logramos hacer lo anterior"
-
-    **Nuestro principal diferenciador, y sobre la cual apoyamos todos los servicios que ofrecemos, es nuestra probada _receta_ para seleccionar y retener Profesionales Tech de alto nivel**. 
-    
-Buscamos a esos profesionales a los cuales realmente les apasiona lo que hacen y que tienen la experiencia que dicen que tienen. No son sencillos de encontrar en este mercado tan competitivo, pero una vez que los encontramos, buscamos retenerlos lo máximo posible tal que sientan que hubo un real crecimiento profesional y un desafío de mejora constante a sus habilidades mientras estuvieron en 23people. Lo anterior, lo combinamos junto a nuestra reconocida experiencia técnica y nuestro valorado servicio al cliente en estos 10 años de trayectoria.
+- **ACHS**: Manteniendo la Atención de Pacientes en Tiempos de Pandemia

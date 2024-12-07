@@ -1,7 +1,23 @@
+---
+created: 2024-11-20T14:30:00
+updated: 2024-11-20T14:30:00
+authors:
+  - manu-reyes-23p
+description: >
+    Metodología de trabajo en 23people.
+---
 
-# Metodología: Construimos ágil, evolutivamente y basados en datos
+# Metodología de Desarrollo de Software Ágil en 23people
 
-## Software Squad
+**Construimos ágil, evolutivamente y basados en datos.**
+
+Hemos adoptado una metodología de desarrollo de software ágil que nos permite construir productos digitales de alta calidad, evolutivos y basados en datos. Nuestro enfoque se basa en la colaboración, la transparencia y la iteración continua, permitiéndonos adaptarnos a los cambios y entregar valor de manera eficiente.
+
+## Principios
+
+..
+
+## Roles y Responsabilidades
 
 ```mermaid
 flowchart TB
@@ -49,3 +65,15 @@ flowchart TB
     class SDM,TL,Dev,D,Q,U squadNode
     class UXC,QSC,ARC consultingNode
 ```
+
+## Procesos
+
+..
+
+## Gestión Ágil de Proyectos
+
+..
+
+## Buenas prácticas
+
+...

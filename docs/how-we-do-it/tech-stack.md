@@ -7,7 +7,7 @@ description: >
 
 ---
 
-# Stack Tecnológico
+# Stack Tecnológico de 23people
 
 **Manejamos tecnologias maduras y emergentes para el desarrollo de software y aplicaciones.**
 
@@ -132,5 +132,3 @@ Corresponde a los entornos de desarrollo integrados que se utilizan en el desarr
 ### Operating system
 
 ### AI Search and Developer Tools
-
-## Idiomas

@@ -29,7 +29,7 @@ De cara a nuestros clientes, nos definimos como:
 
 ## Lo que hacemos
 
-Potenciamos y Co-creamos junto a los equipos de aquellas empresas que están en el desafío constante de la [**Evolución Digital Empresarial**](what-we-do/index.md#el-desafío-en-que-buscamos-ayudar), y que necesitan integrar [Talento Tech](how-we-do-it/devs-roles.md), [Ingeniería de Software](how-we-do-it/methodology.md) y [Tecnologías](how-we-do-it/technologies.md), junto al conocimiento experto de su negocio y el potencial de sus datos.
+Potenciamos y Co-creamos junto a los equipos de aquellas empresas que están en el desafío constante de la [**Evolución Digital Empresarial**](what-we-do/index.md#el-desafío-en-que-buscamos-ayudar), y que necesitan integrar [Talento Tech](how-we-do-it/tech-positions-roles-and-levels.md), [Ingeniería de Software](how-we-do-it/methodology.md) y [Tecnologías](how-we-do-it/tech-stack.md), junto al conocimiento experto de su negocio y el potencial de sus datos.
 
 [**Nuestras Lineas de Servicios**](what-we-do/index.md#nuestros-servicios) son:
 
@@ -45,9 +45,9 @@ Para más detalles, puedes acceder a nuestra sección de [Lo que hacemos](what-w
 
 Si eres parte de 23people, es necesario que compartas los siguientes [**Valores**](culture/values.md) que tenemos:
 
-- [Excelencia y curiosidad intelectual](culture/values.md#excelencia). Perseguimos la excelencia en lo que hacemos y el aprender a aprender continuamente. Somos eternos aprendices, mejorando nuestras habilidades y conocimientos con genuina curiosidad.
-- [Colaboración y comunicación asertiva](culture/values.md#colaboracion). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación. Mejoramos nuestras habilidades humanas y profesionales en conjunto.
-- [Crecer sosteniblemente y ser referentes](culture/values.md#crecimiento). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático y sostenible en el tiempo. No a costa de nosotros mismos y nuestro equipo.
+- [Excelencia y curiosidad intelectual](culture/values.md#excelencia-y-curiosidad-intelectual). Perseguimos la excelencia en lo que hacemos y el aprender a aprender continuamente. Somos eternos aprendices, mejorando nuestras habilidades y conocimientos con genuina curiosidad y buscando la excelencia técnica y profesional.
+- [Colaboración y comunicación asertiva](culture/values.md#colaboración-y-comunicación-asertiva). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación. Mejoramos nuestras habilidades humanas y profesionales en conjunto.
+- [Crecer sosteniblemente y ser referentes](culture/values.md#crecer-sosteniblemente-y-ser-referentes). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático y sostenible en el tiempo. No a costa de nosotros mismos y nuestro equipo.
 
 ## Cifras y Datos de Interés
 
