@@ -1,7 +1,10 @@
 ---
 created: 2024-09-06T14:39:48 (UTC -04:00)
-description: Los valores que compartimos en 23people
-author: 5127711
+updated: 2024-09-06T14:39:48 (UTC -04:00)
+author: manu-reyes-23p
+description: >
+  Valores que compartimos en 23people.
+
 ---
 
 # Nuestros Valores
@@ -10,17 +13,15 @@ Las personas que son parte de 23people se espera que compartan los siguientes va
 
 ## Valores que compartimos
 
-### Excelencia
+### Excelencia y Curiosidad Intelectual
 
-**Perseguimos la excelencia y aprendemos continuamente.**
+**Perseguimos la excelencia en lo que hacemos y el aprender a aprender continuamente. Somos eternos aprendices, mejorando nuestras habilidades y conocimientos con genuina curiosidad y buscando la excelencia técnica y profesional.**
 
-Valoramos el aprendizaje constante. Somos eternos aprendices buscando la excelencia técnica y profesional. Somos un equipo de "nerds" a los que les encanta lo que hacen.
+Somos un equipo de "nerds" a los que les encanta lo que hacen. A más sabemos, más nos damos cuenta de que menos sabemos. Dado esto, tenemos una mentalidad abierta a continuar aprendiendo. Perseguimos la excelencia y la perfección en lo que hacemos, al mismo tiempo de que sabemos de qué es un camino sin fin, pero digno de avanzar en él. Buscamos formas de trabajo iterativas, flexibles, metódicas y preferentemente basados en datos, para consolidar lo que aprendemos y enseñamos a otros.  
 
-A más sabemos, más nos damos cuenta de que menos sabemos. Dado esto, tenemos una mentalidad abierta a continuar aprendiendo. Perseguimos la excelencia y la perfección en lo que hacemos, al mismo tiempo de que sabemos de qué es un camino sin fin, pero digno de avanzar en él. Buscamos formas de trabajo iterativas, flexibles, metódicas y preferentemente basados en datos, para consolidar lo que aprendemos y enseñamos a otros.  
+### Colaboración y Comunicación Asertiva
 
-### Colaboración
-
-**Colaboramos y nos apoyamos genuinamente.**
+**Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación. Mejoramos nuestras habilidades humanas y profesionales en conjunto.**
 
 Enfatizamos el apoyo y la colaboración entre nuestros profesionales, así como con los profesionales y equipos de nuestros clientes. Cocreamos juntos.
 
@@ -34,9 +35,9 @@ Sabemos que la comunicación entre personas no es perfecta ni lo será, pero per
 
 Sabemos que no todo puede ser transparente, dado que puede generar ruidos si son malinterpretados o simplemente son ilegales de hacerlo. Sin embargo, perseguimos la transparencia dado que los beneficios de colaboración, confianza y productividad son mayores. A menos que sea explícito el no poder transparentar algo, preferimos canales de comunicación públicos sobre los cuales se pueda compartir lo que hacemos y por qué lo hacemos.
 
-### Crecimiento
+### Crecer sosteniblemente y ser referentes
 
-**Somos ambiciosos en crecer economicamente pero de manera sostenible.**
+**Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático y sostenible en el tiempo. No a costa de nosotros mismos y nuestro equipo.**
 
 Buscamos un crecimiento que sea económicamente viable y sostenible en el tiempo. Perseguimos ambiciosamente nuestros números, pero no a costa de nuestras personas. El fin no justifica los medios.
 

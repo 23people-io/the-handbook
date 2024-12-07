@@ -11,13 +11,45 @@ description: >
 
 En este manual compartimos todo lo que necesitas saber sobre quiénes somos, cómo trabajamos y lo que perseguimos como equipo y empresa, tanto si ya eres parte de [**nuestro equipo**](organization) como si simplemente estás interesado en conocernos.
 
-A continuación, un resumen de lo que debes saber de [**23people :material-heart:**](https://23people.io).
+A continuación, un resumen de lo que debes saber:
 
 ## Quienes somos
 
+[**23people :material-heart:**](<https://23people.io>) es una consultora tecnológica con cerca de 10 años de existencia en la industria, fundada y conformada por:
+
 !!! example ""
 
-    Somos una consultora tecnológica con cerca de 10 años de existencia en la industria, fundada y conformada por **profesionales a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar.**
+    **Profesionales a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar.**
+
+De cara a nuestros clientes, nos definimos como:
+
+!!! example ""
+
+    **Facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar sus productos y servicios digitales**.
+
+## Lo que hacemos
+
+Potenciamos y Co-creamos junto a los equipos de aquellas empresas que están en el desafío constante de la [**Evolución Digital Empresarial**](what-we-do/index.md#el-desafío-en-que-buscamos-ayudar), y que necesitan integrar [Talento Tech](how-we-do-it/tech-positions-roles-and-levels.md), [Ingeniería de Software](how-we-do-it/methodology.md) y [Tecnologías](how-we-do-it/tech-stack.md), junto al conocimiento experto de su negocio y el potencial de sus datos.
+
+[**Nuestras Lineas de Servicios**](what-we-do/index.md#nuestros-servicios) son:
+
+1. [Outsourcing y Reclutamiento de Talento Tech](what-we-do/index.md#outsourcing-y-reclutamiento-de-profesionales-tech-talent). Sabemos buscar, seleccionar y retener Profesionales Tech para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.
+2. [Plataformas Digitales, Cloud y Modernización](what-we-do/index.md#plataformas-digitales-cloud-y-modernización). Co-creamos soluciones para las áreas de mejora continua de Digitalización, Automatización, Integraciones y Datos Operacionales.
+3. [Datos, Analítica Avanzada e IA](what-we-do/index.md#datos-analítica-e-ia). Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas.
+
+[**Nos diferenciamos**](what-we-do/index.md#diferenciadores) en nuestra capacidad para identificar y retener talento TI excepcional, experiencia técnica comprobable y valorada atención a nuestros clientes en estos 10 años de trayectoria.
+
+Para más detalles, puedes acceder a nuestra sección de [Lo que hacemos](what-we-do).
+
+## Valores que compartimos
+
+Si eres parte de 23people, es necesario que compartas los siguientes [**Valores**](culture/values.md) que tenemos:
+
+- [Excelencia y curiosidad intelectual](culture/values.md#excelencia-y-curiosidad-intelectual). Perseguimos la excelencia en lo que hacemos y el aprender a aprender continuamente. Somos eternos aprendices, mejorando nuestras habilidades y conocimientos con genuina curiosidad y buscando la excelencia técnica y profesional.
+- [Colaboración y comunicación asertiva](culture/values.md#colaboración-y-comunicación-asertiva). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación. Mejoramos nuestras habilidades humanas y profesionales en conjunto.
+- [Crecer sosteniblemente y ser referentes](culture/values.md#crecer-sosteniblemente-y-ser-referentes). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático y sostenible en el tiempo. No a costa de nosotros mismos y nuestro equipo.
+
+## Cifras y Datos de Interés
 
 **23people SpA** nació en Santiago de Chile a fines de 2014, fundada por dos Software Engineers & Computer Scientists: [Marcelo Ampuero](https://github.com/marceloat23) y [Manuel Reyes](https://github.com/manu-reyes-23p), quienes continúan liderando la compañía como Engineering Director y General Director respectivamente.
 
@@ -25,41 +57,15 @@ En la actualidad, [nuestro equipo](organization) está conformado por cerca de 9
 
 [Nuestro impacto en el mercado](what-we-do/success-stories) se refleja en la confianza que más de 10 grandes empresas de 3 continentes han depositado en nosotros, abarcando Latinoamérica, Norteamérica y Europa. Hemos ejecutado cerca de 100 proyectos de diversa complejidad, beneficiando indirectamente a cientos de empresas clientes de nuestros clientes. Este crecimiento sostenido se refleja en un promedio de crecimiento anual superior al 30%, demostrando la solidez y proyección de nuestro modelo de negocio.
 
-## Lo que hacemos
-
-!!! example ""
-
-    **Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar sus productos y servicios digitales.**
-
-Potenciamos a los equipos empresariales, integrando tecnologías avanzadas y emergentes con su conocimiento del negocio y el poder de sus datos.
-
-Nos especializamos en tres áreas complementarias que potencian la evolución de nuestros clientes:
-
-1. [**Outsourcing y Reclutamiento de Profesionales TI**](): Proveemos talento TI de alto nivel, cuidadosamente seleccionado por nosotros, que destaca por su pasión y experiencia comprobada.
-2. [**Digitalización, Automatización e Integraciones**](): Co-creamos soluciones utilizando tecnologías Cloud, DevOps, QA Automation y Cybersecurity para modernizar y evolucionar plataformas digitales de manera efectiva y segura.
-3. [**Analítica Avanzada de Datos e Inteligencia Artificial**](): Habilitamos la toma de decisiones inteligente implementando soluciones de BigData, IA predictiva y generativa que generan valor real en las operaciones diarias.
-
-Lo que nos hace únicos es **nuestra capacidad para identificar y retener talento TI excepcional**. Durante nuestros 10 años de trayectoria, nos hemos enfocado en ser socios tecnológicos confiables, combinando el conocimiento experto de nuestros clientes con tecnologías avanzadas para generar mejoras operativas y estratégicas que crean valor real.
-
-Nuestro compromiso es potenciar a los equipos empresariales integrando estas tecnologías con su conocimiento del negocio y el poder de sus datos, facilitando así una evolución digital efectiva y sostenible en el tiempo.
-
-## Valores que compartimos
-
-Si eres parte de 23people, es necesario que compartas los siguientes [valores](nuestros-valores) que tenemos:
-
-- [**Excelencia y curiosidad intelectual**](nuestros-valores#excelencia). Perseguimos la excelencia en lo que hacemos y el aprender a aprender continuamente. Somos eternos aprendices, mejorando nuestras habilidades y conocimientos con genuina curiosidad.
-- [**Colaboración y comunicación asertiva**](nuestros-valores#colaboracion). Colaboramos y nos apoyamos genuinamente bajo una honesta transparencia y una asertiva comunicación. Mejoramos nuestras habilidades humanas y profesionales en conjunto.
-- [**Crecer sosteniblemente y ser referentes**](nuestros-valores#crecimiento). Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático y sostenible en el tiempo. No a costa de nosotros mismos y nuestro equipo.
-
 ## Metas que perseguimos
 
-Somos ambisiosos y sabemos que podemos lograr grandes cosas. Nuestras [metas](nuestras-metas) a largo plazo son:
+Somos ambisiosos y sabemos que podemos lograr grandes cosas. Nuestras [**Metas**](strategy/goals.md) a largo plazo son:
 
-1. [**Ser referentes en tecnología y desarrollo profesional en TI**](). Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
+1. [Ser Referentes en Tecnología y Crecimiento Profesional de Tech Talent](strategy/goals.md). Convertirnos en un referente al que otras empresas y profesionales puedan admirar y querer emular en cuanto a cómo hacemos las cosas.
 
-2. [**Crecimiento económico y globalización**](). Expandir nuestras operaciones y presencia a nivel latinoamericano y global.
+2. [Crecimiento Económico Sostenible y Globalización](strategy/goals.md). Expandir nuestras operaciones y presencia a nivel latinoamericano y global.
 
-3. [**Innovación digital basada en datos e IA**](). Crear nuevos productos y servicios digitales mediante una cultura nativa en IA y decisiones basadas en datos.
+3. [Innovar con Productos Digitales basados en Datos e IA](strategy/goals.md). Crear nuevos productos y servicios digitales mediante una cultura nativa en IA y decisiones basadas en datos.
 
 A partir de estas metas de largo plazo, hemos definido una serie de objetivos estratégicos, iniciativas y actividades, que nos habilitan a avanzar en esta dirección.
 

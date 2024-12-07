@@ -1,10 +1,9 @@
 # Project information
 site_name: Nuestro Manual
 site_author: 23people.io
-site_description: Nuestro manual público de lo que hacemos en 23people
+site_description: El Manual público de lo que hacemos en 23people
 strict: false
 site_url: https://23people.io/
-site_favicon: https://23people.io/img/favicon.ico
 
 # Repository
 repo_name: 23people/handbook
@@ -138,14 +137,18 @@ nav:
       - Bienvenidos a 23people: index.md
       - Lo que hacemos: 
           - what-we-do/index.md
-          - Servicios: what-we-do/services.md
-          - Stack de Tecnologías: what-we-do/tech-stack.md
-          - Roles TI: what-we-do/it-roles.md
+          - Servicios: what-we-do/services.md              
           - Casos de Éxito: what-we-do/success-stories.md
+      - Como lo hacemos:
+            - how-we-do-it/index.md
+            - Cargos y Roles Tech: how-we-do-it/tech-positions-and-roles.md
+            - Proceso de Selección de Tech Talent: how-we-do-it/tech-talent-recruitment.md
+            - Metodología de Desarrollo de Software: how-we-do-it/methodology.md
+            - Stack Tecnológico: how-we-do-it/tech-stack.md
+            - Satisfacción de Clientes: how-we-do-it/customer-success.md
       - Estrategia: 
           - strategy/index.md
           - Metas: strategy/goals.md
-          - Objetivos: strategy/objectives.md
       - Cultura:
           - culture/index.md
           - Valores: culture/values.md
@@ -155,25 +158,11 @@ nav:
           - organization/index.md
           - Equipos Operacionales:
               - organization/teams/index.md
-              - "IT Talent Services (ITTS)": organization/teams/it-talent-services/index.md
+              - "Tech Talent Services (TTS)": organization/teams/tech-talent-services/index.md
               - "Growth Marketing & Sales (GMS)": organization/teams/growth-marketing-and-sales/index.md
               - "Backoffice (BKO)": organization/teams/backoffice/index.md
               - "Research & Development (R&D)": organization/teams/research-and-development/index.md
-          - Interacciones: 
-              - organization/interactions/index.md
-          - Cargos:
-              - organization/job-positions/index.md
-              - Capas y Niveles: organization/job-positions/layers-and-levels.md
-              - Descriptores de Cargos: 
-                  - organization/job-positions/descriptors/index.md
-                  - "Operations Director": organization/job-positions/descriptors/operations-director.md
-          - Roles: 
-              - organization/roles/index.md
-              - Descriptores de Roles: 
-                  - organization/roles/descriptors/index.md
-                  - "Service Delivery Manager": organization/roles/service-delivery-manager.md
-                  - "Service Request Manager": organization/roles/service-request-manager.md
-                  - "Key Account Manager": organization/roles/key-account-manager.md
+          - Cargos y Roles Generales: organization/positions-and-roles/index.md
       - Historia: 
           - history/index.md      
 
