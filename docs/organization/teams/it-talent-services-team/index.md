@@ -13,9 +13,9 @@ description: >
 
 ## Propósito
 
-**Dar la mejor experiencia en selección, validación y retención de profesionales que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con las necesidades de nuestros clientes.**
+**Dar la mejor experiencia en reclutamiento, validación y retención de Profesionales TI que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.**
 
-Aseguramos la excelencia técnica al validar las habilidades reales de los postulantes, respaldando con información precisa a quienes en el cliente deben dar su aprobación final para que un profesional ingrese a su equipo. No solo tomamos pedidos, sino que guiamos y acordamos los perfiles ideales. Nos especializamos en aquellos [Roles TI](../../../how-we-do-it/devs-roles.md) que requieren dominar el arte de la programación, el desarrollo de software y las tecnologías tanto maduras como emergentes.
+Aseguramos la excelencia técnica al validar las habilidades y experiencia reales de los postulantes, respaldando la toma de decisiones de nuestras contrapartes, con información precisa y confiable. Entendemos que cada incorporación es una decisión crítica que impacta en la credibilidad de quienes en el cliente deben dar su aprobación final para que un profesional buscado por nosotros u otra empresa asesora, ingrese a su equipo. De esta manera, no solo tomamos pedidos, sino que guiamos y acordamos los perfiles adecuados. Nos especializamos en aquellos [Roles TI](../../../how-we-do-it/devs-roles.md) que requieren dominar el arte de la programación, la ingeniería del desarrollo de software y las tecnologías tanto maduras como emergentes.
 
 Lo hacemos cultivando una comunidad donde profesionales con hambre intelectual por aprender y mejorar sus habilidades experimentan un crecimiento técnico formidable. Es un ambiente de aprendizaje y colaboración donde la pasión por la tecnología se traduce en aportes concretos al valor que buscamos para nuestros clientes. Incluso ante atractivas oportunidades en empresas de renombre internacional, ponderan seriamente su decisión por el valor que encuentran en nuestra forma de hacer las cosas, pues quienes pasan por 23people sienten que hubo un antes y un después en su carrera.
 
