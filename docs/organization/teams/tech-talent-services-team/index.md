@@ -36,7 +36,7 @@ El equipo está compuesto por:
 - [**Service Request Manager**](team-roles/service-request-manager-tts.md).
 - [**Service Delivery Manager**](team-roles/service-delivery-manager-tts.md).
 - [**Tech Recruiters**](team-roles/tech-recruiter-tts.md): Profesionales encargados de identificar y atraer a los mejores profesionales TI para cubrir las necesidades de nuestros clientes.
-- [**Tech Lead**]: Profesional encargado de asesorar y evaluar las factibilidades técnicas de los perfiles TI que se maduran junto a los clientes.
+- [**Tech Lead**](team-roles/tech-lead-tts.md): Profesional encargado de asesorar y evaluar las factibilidades técnicas de los perfiles TI que se maduran junto a los clientes.
 - [**Developer Relations**](team-roles/developer-relations-tts.md): Profesional encargado de fortalecer la capacidad del equipo IT Talent Services para atraer, retener y desarrollar profesionales TI apasionados por la tecnología, actuando como puente entre 23people y su comunidad de desarrolladores.
 
 ## Interacción con otros Equipos

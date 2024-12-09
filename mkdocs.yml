@@ -158,10 +158,11 @@ nav:
           - organization/index.md
           - Equipos Operacionales:
               - organization/teams/index.md
-              - "Tech Talent Services (TTS)": organization/teams/tech-talent-services/index.md
-              - "Growth Marketing & Sales (GMS)": organization/teams/growth-marketing-and-sales/index.md
-              - "Backoffice (BKO)": organization/teams/backoffice/index.md
-              - "Research & Development (R&D)": organization/teams/research-and-development/index.md
+              - "Tech Talent Services (TTS)": organization/teams/tech-talent-services-team/index.md
+              - "Growth Marketing (GMK)": organization/teams/growth-marketing-and-sales-team/index.md
+              - "Sales & Customer Success (SCS)": organization/teams/sales-and-customer-success-team/index.md
+              - "Backoffice (BKO)": organization/teams/backoffice-team/index.md
+              - "Research & Development (R&D)": organization/teams/research-and-development-team/index.md
           - Cargos y Roles Generales: organization/positions-and-roles/index.md
       - Historia: 
           - history/index.md      
