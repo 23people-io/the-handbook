@@ -22,10 +22,9 @@ La estructura general es circular tal de fomentar la colaboración y la comunica
 Los siguientes son los equipos operacionales de 23people y su propósito:
 
 - [**Tech Talent Services Team**](teams/tech-talent-services-team). Dar la mejor experiencia en selección, validación y retención de Profesionales Tech que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
-- [**Growth Marketing Team**](teams/growth-marketing-team). Responsable de hacer crecer la marca, presencia y participación de servicios de 23people. Su enfoque está en atraer y retener a los clientes, ademas de atraer y aportar a la comunidad de profesionales TI.
-- [**Sales & Customer Success Team**](teams/sales-and-customer-success-team). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales.
+- [**Sales & Growth Marketing Team**](teams/sales-and-customer-success-team). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
 - [**Backoffice Team**](teams/backoffice). Facilitar el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer. Es responsable de la administración y soporte de las funciones internas de la organización.
-- [**Research & Engineering Team**](teams/research-engineering). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
+- [**Research & Development Team**](teams/research-engineering). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
 
 ### Modelo Interno
 
