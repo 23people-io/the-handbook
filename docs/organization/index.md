@@ -17,9 +17,7 @@ La estructura general es circular tal de fomentar la colaboración y la comunica
 
 ![Esquema de organización de equipos y capas](../_assets/teams-organization.svg)
 
-## Equipos
-
-### Equipos Operacionales
+## Equipos Operacionales
 
 Los siguientes son los equipos operacionales de 23people y su propósito:
 
@@ -29,9 +27,15 @@ Los siguientes son los equipos operacionales de 23people y su propósito:
 - [**Backoffice Team**](teams/backoffice). Facilitar el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer. Es responsable de la administración y soporte de las funciones internas de la organización.
 - [**Research & Engineering Team**](teams/research-engineering). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
 
-#### Gestión y Liderazgo
+### Modelo Interno
 
-Los equipos operacionales están liderados por el [**Operations Director**](roles/operations-director), responsable de:
+Cada equipo tiene autonomía entorno a un próposito bien definido y un contrato de servicios que se compromete a entregar. Estos contratos funcionan similar a como funcionan las [API]() y se espera que se especifique: que entrega, que esperar del servicio y como se solicita. Cada equipo debe medir constantemente la calidad de sus servicios y su eficiencial operacional, para luego mejorarlos de manera iterativa basandose en datos y experiencia acumulada.
+
+![Esquema del modelo interno de un equipo](../_assets/team-model.svg)
+
+### Gestión y Liderazgo
+
+Los equipos operacionales están liderados por el rol de [**Global Operations Manager**](roles/global-operations-manager), responsable de:
 
 - La eficiencia operacional y calidad global de los servicios
 - La colaboración efectiva entre equipos, tanto interna como externamente
