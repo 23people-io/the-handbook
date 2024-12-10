@@ -15,7 +15,7 @@ En 23people nos organizamos en equipos multidisciplinarios. Cada equipo tiene un
 
 La estructura general es circular tal de fomentar la colaboración y la comunicación entre los equipos y capas organizacionales.
 
-[Agregar diagrama de la estructura organizacional circular]
+![Esquema de organización de equipos y capas](../_assets/teams-organization.svg)
 
 ## Equipos
 

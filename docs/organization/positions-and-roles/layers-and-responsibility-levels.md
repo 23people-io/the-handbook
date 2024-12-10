@@ -9,9 +9,7 @@ description: >
 
 # Niveles de Cargos y Responsabilidades
 
-## Propósito
-
-Este documento define la estructura organizacional de 23people, estableciendo los niveles de cargos, sus responsabilidades y comportamientos esperados. Esta estructura soporta tanto el crecimiento profesional como la alineación organizacional.
+A continuación se definen los niveles de cargos que existen en 23people, junto a responsabilidades y comportamientos esperados. Esta estructura soporta tanto el crecimiento profesional como la alineación organizacional.
 
 ## Niveles y Comportamientos Esperados
 

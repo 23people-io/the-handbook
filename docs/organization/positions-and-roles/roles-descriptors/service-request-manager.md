@@ -67,9 +67,3 @@ Las responsabilidades y funciones del SRM están principalmente enfocadas en la 
     - Generar alertas tempranas de desviaciones
     - Coordinar acciones correctivas cuando sea necesario
     - Reportar tendencias de cumplimiento
-
-## Medición del Éxito
-
-El éxito del rol se evidencia en la optimización sostenida de los siguientes indicadores y su impacto positivo en la eficiencia del equipo y satisfacción del cliente.
-
-(Pendiente de definir métricas específicas)
