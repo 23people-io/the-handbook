@@ -170,8 +170,8 @@ nav:
   - Cultura:
       - culture/index.md
       - Valores: culture/values.md
-      - Prácticas: culture/practices/index.md
-      - Métricas: culture/metrics.md
+      - Prácticas: 
+          - culture/practices/index.md
 
   - Insights:
       - insights/index.md
