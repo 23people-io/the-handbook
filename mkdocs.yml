@@ -148,12 +148,7 @@ nav:
             - Satisfacción de Clientes: how-we-do-it/customer-success.md
       - Estrategia: 
           - strategy/index.md
-          - Metas: strategy/goals.md
-      - Cultura:
-          - culture/index.md
-          - Valores: culture/values.md
-          - Prácticas: culture/index.md
-          - Métricas: culture/metrics.md
+          - Metas: strategy/goals.md      
       - Organización: 
           - organization/index.md
           - Equipos Operacionales:
@@ -171,6 +166,12 @@ nav:
       - community/index.md
       - Código de Conducta: community/code-of-conduct.md
       - Eventos: community/events.md  
+
+  - Cultura:
+      - culture/index.md
+      - Valores: culture/values.md
+      - Prácticas: culture/practices/index.md
+      - Métricas: culture/metrics.md
 
   - Insights:
       - insights/index.md
