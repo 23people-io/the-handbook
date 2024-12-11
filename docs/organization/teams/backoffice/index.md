@@ -27,6 +27,8 @@ Lo siguiente, es el foco principal de Backoffice:
 
 3. **People Management:** Gestionar y administrar los procesos de People Management de la empresa tales como onboarding, offboarding, contrato de trabajo, salarios, beneficios, certificados, resolución de conflictos, entre otros.
 
+4. **Compliance:** Gestionar y administrar los procesos de cumplimiento de la empresa.
+
 ## API de Servicios
 
 !!! warning "Nota"
