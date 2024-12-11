@@ -21,20 +21,20 @@ La estructura general es circular tal de fomentar la colaboración y la comunica
 
 Los siguientes son los equipos operacionales de 23people y su propósito:
 
-- [**Tech Talent Services Team**](teams/tech-talent-services-team). Dar la mejor experiencia en selección, validación y retención de Profesionales Tech que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
-- [**Sales & Growth Marketing Team**](teams/sales-and-growth-marketing-team). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
-- [**Backoffice Team**](teams/backoffice-team). Facilitar el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer. Es responsable de la administración y soporte de las funciones internas de la organización.
-- [**Research & Development Team**](teams/research-and-development-team). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
+- [**Tech Talent Services Team**](teams/tech-talent-services). Dar la mejor experiencia en selección, validación y retención de Profesionales Tech que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
+- [**Sales & Growth Marketing Team**](teams/sales-and-growth-marketing). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
+- [**Backoffice Services Team**](teams/backoffice). Dar la mejor experiencia en soporte administrativo empresarial, facilitanto el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer.
+- [**Research & Development Services Team**](teams/research-and-development). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
 
 ### Modelo Interno
 
-Cada equipo tiene autonomía entorno a un próposito bien definido y un contrato de servicios que se compromete a entregar. Estos contratos funcionan similar a como funcionan las [API]() y se espera que se especifique: que entrega, que esperar del servicio y como se solicita. Cada equipo debe medir constantemente la calidad de sus servicios y su eficiencial operacional, para luego mejorarlos de manera iterativa basandose en datos y experiencia acumulada.
+Cada equipo tiene autonomía entorno a un próposito bien definido y un contrato de servicios que se compromete a entregar. Estos contratos funcionan similar a como funcionan las [API](https://aws.amazon.com/what-is/api/) y se espera que se especifique: que entrega, que esperar del servicio y como se solicita. Cada equipo debe medir constantemente la calidad de sus servicios y su eficiencial operacional, para luego mejorarlos de manera iterativa basandose en datos y experiencia acumulada.
 
 ![Esquema del modelo interno de un equipo](../_assets/team-model.svg)
 
 ### Gestión y Liderazgo
 
-Los equipos operacionales están liderados por el rol de [**Global Operations Manager**](roles/global-operations-manager), responsable de:
+Los equipos operacionales están liderados por el rol de [**Global Operations Manager**](positions-and-roles/roles-descriptors/global-operations-manager), responsable de:
 
 - La eficiencia operacional y calidad global de los servicios
 - La colaboración efectiva entre equipos, tanto interna como externamente
@@ -42,8 +42,8 @@ Los equipos operacionales están liderados por el rol de [**Global Operations Ma
 
 Cada equipo cuenta con:
 
-- Un [Service Request Manager (SRM)](roles/service-request-manager), responsable de ser el puente entre el cliente y la gestión de la solicitud, facilitando la gestión del trabajo y la satisfacción de las expectativas. Enfocado al **qué** y **cuándo** se debe hacer.
-- Un [Service Delivery Manager (SDM)](roles/service-delivery-manager), responsable de gestionar las solicitudes de servicios aplicando las [prácticas de gestión de flujos](../practices/gestionar-trabajo-con-flujos.md). Enfocado al **cómo** y **quién** lo debe hacer.
+- Un [Service Request Manager (SRM)](positions-and-roles/roles-descriptors/service-request-manager.md), responsable de ser el puente entre el cliente y la gestión de la solicitud, facilitando la gestión del trabajo y la satisfacción de las expectativas. Enfocado al **qué** y **cuándo** se debe hacer.
+- Un [Service Delivery Manager (SDM)](positions-and-roles/roles-descriptors/service-delivery-manager), responsable de gestionar las solicitudes de servicios aplicando las [prácticas de gestión de flujos](../practices/gestionar-trabajo-con-flujos.md). Enfocado al **cómo** y **quién** lo debe hacer.
 
 ### Equipo Estratégico
 
