@@ -24,6 +24,8 @@ Corresponde a los lenguajes de programación, scripting y marcado que se utiliza
 - JavaScript
 - TypeScript
 - C#
+- Go
+- Rust
 
 ### Databases
 
@@ -40,6 +42,11 @@ Corresponde a las tecnologías de bases de datos que se utilizan en el desarroll
     - Amazon RDS
     - Google Cloud SQL
     - Azure SQL Database
+- Bases de Datos de Objetos:
+    - Amazon S3
+    - Google Cloud Storage
+    - Azure Blob Storage
+    - R2 (Cloudflare)
 - Bases de datos Key-Value:
     - Redis
     - Amazon DynamoDB
@@ -56,6 +63,7 @@ Corresponde a las tecnologías de bases de datos que se utilizan en el desarroll
     - Azure Cosmos DB
 - Bases de datos de Vectores:
     - ChromaDB
+    - Vectorize (Cloudflare)
 
 ### Cloud Platforms
 
@@ -67,40 +75,72 @@ Corresponde a las plataformas de nube que se utilizan en el desarrollo de softwa
 - IBM Cloud
 - Oracle Cloud
 - DigitalOcean
+- Cloudflare
 - Heroku
 
 ### Web frameworks and technologies
 
 Corresponde a los frameworks y tecnologías web que se utilizan en el desarrollo de software y aplicaciones:
 
-- Django
-- Node.js
 - Next.js
-- ASP.NET
 - Spring Boot
 - FastAPI
 - Flask
 - React
 - Angular
+- Django
+- Node.js
 - Vue.js
 - Bootstrap
 - Tailwind CSS
 - HTML
+- ASP.NET
+- [Astro](https://astro.build/)
+- [Streamlit](https://streamlit.io/)
+
+### AI Tools & Frameworks
+
+Corresponde a las herramientas de inteligencia artificial que se utilizan en el desarrollo de software y aplicaciones:
+
+- [Vectorize](https://developers.cloudflare.com/vectorize/) (Cloudflare)
+- [Workers AI](https://developers.cloudflare.com/workers-ai/) (Cloudflare)
+- [LlamaIndex Framework](https://docs.llamaindex.ai/en/stable/)
+- [LlamaParse](https://docs.cloud.llamaindex.ai/llamaparse/getting_started) (LlamaCloud)
+- [OLlama](https://ollama.com/)
+- [OpenAI API](https://platform.openai.com/docs/overview)
+- [Anthropic API](https://www.anthropic.com/api)
+- [Github Copilot](https://github.com/features/copilot)
+- [Hugging Face](https://huggingface.co/)
+- [TensorFlow](https://www.tensorflow.org/)
+
+### AI Arquitectures & Techniques
+
+Corresponde a las arquitecturas y técnicas de inteligencia artificial que se utilizan en el desarrollo de software y aplicaciones:
+
+- Transformers
+- RAG (Retrieval-Augmented Generation)
+- AI Agents
+
+### Data Engineering & Science Tools
+
+Corresponde a las herramientas de ingeniería y ciencia de datos que se utilizan en el desarrollo de software y aplicaciones:
+
+- PyTorch
+- NumPy
+- Pandas
+- Scikit-learn
 
 ### Other frameworks and libraries
 
 Corresponde a otros frameworks y librerías que se utilizan en el desarrollo de software y aplicaciones:
 
-- TensorFlow
-- PyTorch
-- NumPy
-- Pandas
-- Scikit-learn
 - Apache Spark
 - Flutter
 - .NET Framework
-- Spring Framework
+- [Spring Framework](https://spring.io/projects/spring-framework)
 - .NET
+- [Xcode](https://developer.apple.com/xcode/)
+- [Android SDK](https://developer.android.com/)
 
 ### Other tools
 
@@ -117,7 +157,8 @@ Corresponde a otras herramientas que se utilizan en el desarrollo de software y 
 
 Corresponde a los entornos de desarrollo integrados que se utilizan en el desarrollo de software y aplicaciones:
 
-- Visual Studio Code
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Cursor](https://www.cursor.com/)
 - PyCharm
 - IntelliJ IDEA
 - Eclipse
@@ -125,10 +166,29 @@ Corresponde a los entornos de desarrollo integrados que se utilizan en el desarr
 - Jupyter Notebook
 - Android Studio
 
-### Asynchronous tools
+### AI LLMs
 
-### Synchronous tools
+Corresponde a los modelos grandes de lenguaje de que se utilizan en el desarrollo de software y aplicaciones basadas en inteligencia artificial:
+
+[**Anthropic Models**](https://docs.anthropic.com/en/docs/about-claude/models)
+
+- Claude 3.5 Sonnet
+- Claude 3.5 Haiku
+- Claude 3 Opus
+
+[**OpenAI Models**](https://platform.openai.com/docs/models/gp)
+
+- GPT-4o
+- GPT-4
+- GPT-3.5
 
 ### Operating system
 
-### AI Search and Developer Tools
+Corresponde a los sistemas operativos que se utilizan en el desarrollo de software y aplicaciones:
+
+- Windows
+- Linux
+- macOS
+- Android
+- iOS
+- Chrome OS

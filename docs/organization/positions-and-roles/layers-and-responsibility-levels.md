@@ -24,8 +24,8 @@ La estructura organizacional de 23people se compone de tres capas principales: D
 | Direction  | Executive Director | Opinión y evidencia informada para la definición de las Metas de Largo Plazo (3+ años) |
 | Direction  | Senior Director    | Define y ejecuta Objetivos Estratégicos anuales                                        |
 | Direction  | Director           | Define y lidera Iniciativas Estratégicas                                               |
-| Management | Senior Coordinator | Define y ejecuta Actividades Clave que materializan iniciativas                        |
-| Management | Coordinator        | Implementa Actividades Clave y gestiona Actividades Operacionales                      |
+| Management | Senior Head of     | Define y ejecuta Actividades Clave que materializan iniciativas                        |
+| Management | Head of            | Implementa Actividades Clave y gestiona Actividades Operacionales                      |
 | Operations | Senior             | Lidera Actividades Operacionales y contribuye a Actividades Clave                      |
 | Operations | Intermediate       | Ejecuta Actividades Operacionales y Tareas complejas                                   |
 | Operations | Entry              | Desarrolla Tareas específicas bajo supervisión                                         |
