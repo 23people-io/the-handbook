@@ -141,10 +141,10 @@ nav:
           - Casos de Éxito: what-we-do/success-stories.md
       - Como lo hacemos:
             - how-we-do-it/index.md
-            - Cargos y Roles Tech: how-we-do-it/tech-positions-and-roles.md
-            - Proceso de Selección de Tech Talent: how-we-do-it/tech-talent-recruitment.md
+            - Foco en Roles Tech: how-we-do-it/tech-roles.md
+            - Reclutamiento de Tech Talent: how-we-do-it/talent-recruitment.md
             - Metodología de Desarrollo de Software: how-we-do-it/methodology.md
-            - Stack Tecnológico: how-we-do-it/tech-stack.md
+            - Stack Tecnológico: how-we-do-it/stack.md
             - Satisfacción de Clientes: how-we-do-it/customer-success.md
       - Estrategia: 
           - strategy/index.md
