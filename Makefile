@@ -4,8 +4,12 @@ SHELL=/bin/bash
 PYTHON_VERSION=3.12.3
 export PYTHON_VERSION
 
-APP_PORT = 2300
-export APP_PORT
+
+DOCS_APP_PORT = 2300
+export DOCS_APP_PORT
+
+CHATBOT_APP_PORT = 2301
+export CHATBOT_APP_PORT
 
 # ANSI color codes
 MAGENT=$(shell tput -Txterm setaf 5)
@@ -19,6 +23,10 @@ RESET=$(shell tput -Txterm sgr0)
 run:
 	@echo "$(MAGENT)Running...$(RESET)"
 	@scripts/run
+
+run-chatbot:
+	@echo "$(MAGENT)Running Chatbot...$(RESET)"
+	@scripts/run-chatbot
 
 build:
 	@echo "$(MAGENT)Starting build...$(RESET)"
