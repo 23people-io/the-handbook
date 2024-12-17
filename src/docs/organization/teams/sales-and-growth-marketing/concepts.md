@@ -5,7 +5,7 @@ description: Conceptos, expresiones y acuerdos de definiciones que se usen en la
 author: 5127711
 ---
 
-# Glosario de Marketing y Ventas
+# Conceptos usados en Sales and Growth Marketing
 
 ## Introducción
 
@@ -20,7 +20,7 @@ eficiente y efectiva.
 **NOTA**: A menos que se indique explícitamente, todos los conceptos siguientes serán
 comunes a todas las líneas de servicios.
 
-## Listado
+## Conceptos
 
 ### Oportunidad de Negocio
 

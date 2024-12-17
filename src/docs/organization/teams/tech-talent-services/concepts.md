@@ -5,7 +5,7 @@ description: Conceptos, expresiones y acuerdos de definiciones que se usan en la
 author: 5127711
 ---
 
-# Glosario de Conceptos usados en Tech Talent Services
+# Conceptos usados en Tech Talent Services
 
 Este es el registro oficial de todos aquellos conceptos, expresiones y
 acuerdos de definición que se usen en la comunicación diaria en temas
@@ -56,46 +56,46 @@ condiciones:
 
     - La designación como Candidato no es permanente y puede variar según cambios en el perfil profesional o en los requisitos de las ofertas laborales.
 
-### Perfil Profesional Tech
+`Perfil Profesional Tech`
 
-Referir al [Glosario de Marketing y Ventas](/departments/marketing/glosario/#perfil-profesional-ti)
+:   Referir a los [Conceptos usados en Sales and Growth Marketing](../sales-and-growth-marketing/concepts.md)
 
-### Profesional Tech
+`Profesional Tech`
 
-Referir al [Glosario de Marketing y Ventas](/departments/marketing/glosario/#profesional-ti)
+:   Referir a los [Conceptos usados en Sales and Growth Marketing](../sales-and-growth-marketing/concepts.md)
 
-### Pedido
+`Pedido`
 
-Referir al [Glosario de Marketing y Ventas](/departments/marketing/glosario/#pedido-it-talent)
+:   Referir a los [Conceptos usados en Sales and Growth Marketing](../sales-and-growth-marketing/concepts.md)
 
-### Requerimiento de Perfil Tech
+`Requerimiento de Perfil Tech`
 
-Referir al [Glosario de Marketing y Ventas](/departments/marketing/glosario/#requerimiento-de-perfil-ti-it-talent)
+:   Referir a los [Conceptos usados en Sales and Growth Marketing](../sales-and-growth-marketing/concepts.md)
 
-### Vacantes Tech
+`Vacantes Tech`
 
-Referir al [Glosario de Marketing y Ventas](/departments/marketing/glosario/#vacantes-ti-it-talent)
+:   Referir a los [Conceptos usados en Sales and Growth Marketing](../sales-and-growth-marketing/concepts.md)
 
-### Relación entre Pedidos, Requerimientos y Vacantes de Perfiles Tech
+`Relación entre Pedidos, Requerimientos y Vacantes de Perfiles Tech`
 
-Un Pedido (o Solicitud) es una petición formal que incluye uno o más Requerimientos de Perfil Tech. Cada Requerimiento especifica las características y habilidades técnicas necesarias para un determinado rol. A su vez, cada Requerimiento indica el número de Vacantes Tech a cubrir, es decir, la cantidad de profesionales que se necesitan contratar con ese perfil específico.
+:   Un Pedido (o Solicitud) es una petición formal que incluye uno o más Requerimientos de Perfil Tech. Cada Requerimiento especifica las características y habilidades técnicas necesarias para un determinado rol. A su vez, cada Requerimiento indica el número de Vacantes Tech a cubrir, es decir, la cantidad de profesionales que se necesitan contratar con ese perfil específico.
 
-**Ejemplo**:
+    **Ejemplo**:
 
-Un cliente puede hacer un Pedido que incluya:
+    Un cliente puede hacer un Pedido que incluya:
 
-- Un Requerimiento para perfil "Senior Backend Developer" con 2 vacantes
-- Un Requerimiento para perfil "Data Engineer" con 1 vacante
-- Un Requerimiento para perfil "QA Automation" con 3 vacantes
+    - Un Requerimiento para perfil "Senior Backend Developer" con 2 vacantes
+    - Un Requerimiento para perfil "Data Engineer" con 1 vacante
+    - Un Requerimiento para perfil "QA Automation" con 3 vacantes
 
-### Niveles de Experiencia de Profesionales Tech
+`Niveles de Experiencia de Profesionales Tech`
 
-Corrensponden al grado de experiencia y conocimientos que un Profesional Tech. Estos niveles son:
+:   Corrensponden al grado de experiencia y conocimientos que un Profesional Tech. Estos niveles son:
 
-- **Entry**: Profesionales con poca o ninguna experiencia laboral en el campo de Tech.
+    - **Entry**: Profesionales con poca o ninguna experiencia laboral en el campo de Tech.
 
-- **Entry Avanzado**: Profesionales con experiencia laboral limitada en el campo de Tech.
+    - **Entry Avanzado**: Profesionales con experiencia laboral limitada en el campo de Tech.
 
-- **Midlevel**: Profesionales con experiencia laboral moderada en el campo de Tech.
+    - **Midlevel**: Profesionales con experiencia laboral moderada en el campo de Tech.
 
-- **Senior**: Profesionales con amplia experiencia laboral y conocimientos avanzados en el campo de Tech.
+    - **Senior**: Profesionales con amplia experiencia laboral y conocimientos avanzados en el campo de Tech.
