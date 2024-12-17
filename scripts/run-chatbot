@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# script/run: Launch the application and any extra required processes locally.
+# script/run-chatbot: Launch the streamlit chatbot locally.
 
 set -e
 
@@ -15,7 +15,7 @@ RED=$(tput -Txterm setaf 1)
 BLUE=$(tput -Txterm setaf 6)
 RESET=$(tput -Txterm sgr0)
 
-echo "${MAGENT}Starting Docs app...${RESET}"
-mkdocs serve -a 127.0.0.1:${DOCS_APP_PORT}
+echo "${MAGENT}Starting Chatbot app...${RESET}"
+poetry run python -m streamlit run src/chatbot/app.py --server.port=${CHATBOT_APP_PORT} --server.address=0.0.0.0
 
 
