@@ -8,9 +8,9 @@ slug: certificaciones-internacionales
 legacy_url: https://manual.23people.io/es/articles/8862987-certificaciones-internacionales
 ---
 
-# Certificaciones Internacionales
+# 🎓 Exámenes de Certificaciones Internacionales
 
-### **Descripción**
+## **Descripción**
 
 Las certificaciones internacionales son acreditaciones reconocidas a nivel
 mundial que validan las competencias y habilidades de un profesional en un

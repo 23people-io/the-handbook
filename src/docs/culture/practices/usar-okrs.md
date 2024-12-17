@@ -9,4 +9,8 @@ description: >
 
 # Usar OKRs (Objectives and Key Results)
 
-...
+!!! warning "WIP"
+
+    Esta página es un trabajo en proceso.
+
+## Referencias

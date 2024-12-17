@@ -9,9 +9,9 @@ description: >
 
 # Preferir Comunicación Escrita por sobre Oral
 
-> 🚧 **Work in Progress**
->
-> Esta página es un trabajo en proceso.
+!!! warning "WIP"
+
+    Esta página es un trabajo en proceso.
 
 - Si no tienes tus ideas claras, se recomienda que primero las escribas y luego las compartas.
 - Permite a los colaboradores gestionar su tiempo y energía de manera más eficiente.
@@ -19,3 +19,5 @@ description: >
 - Facilita la colaboración y la toma de decisiones informadas.
 - Proporciona un registro de las conversaciones y decisiones.
 - Fomenta la reflexión y la elaboración de respuestas más cuidadosas.
+
+## Referencias

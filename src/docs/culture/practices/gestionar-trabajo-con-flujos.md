@@ -9,7 +9,11 @@ description: >
 
 # Preferir usar flujos de trabajo en lugar de realizar tareas de manera aislada
 
-Basicamente, se apunta a considerar que: **Lo que que no se visualiza, no se puede gestionar**. Por lo tanto, es importante que todas las tareas, solicitudes generales, actividades y proyectos, preferiblemente, se gestionen a través de flujos de trabajo visuales y sistemáticos. Esto permite una mejor organización, seguimiento y control de las actividades.
+!!! warning "WIP"
+
+    Esta página es un trabajo en proceso.
+
+Basicamente, se apunta a considerar que: **Lo que que no se visualiza, no se puede gestionar**. Por lo tanto, es importante que todas las tareas, solicitudes de servicios, actividades y proyectos, preferiblemente, se gestionen a través de flujos de trabajo visuales y sistemáticos. Esto permite una mejor organización, seguimiento y control de las actividades.
 
 Otros beneficios de usar flujos de trabajo son:
 
@@ -36,3 +40,5 @@ Pueden existir situaciones en las que no sea necesario o conveniente usar flujos
 ## Políticas comunes de uso
 
 1. **No retroceder tareas a una etapa anterior**: Una vez que una tarea ha avanzado a una etapa, no debe retroceder a una etapa anterior. En estos casos, se recomienda marcar la tarjeta como "Bloqueada" e indicar el motivo de este bloqueo. Un motivo válido podria ser: "Por cambio de foco". La intención es visualizar correctamente el estado en que está el trabajo.
+
+## Referencias

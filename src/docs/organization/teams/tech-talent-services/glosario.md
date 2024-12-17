@@ -15,46 +15,46 @@ El objetivo es el poder alinear el conocimiento que se va adquiriendo a lo
 largo del tiempo y así poder transmitirlo a las personas de una manera más
 eficiente y efectiva.
 
-## Listado
+## Conceptos
 
-### Postulación
+`Postulación`
 
-Se define como el proceso mediante el cual un Profesional Tech se presenta como
+:   Se define como el proceso mediante el cual un Profesional Tech se presenta como
 una opción a considerar para un puesto de trabajo específico anunciado por
 23people.
 
-Características clave:
+    Características clave:
 
-* Un Profesional Tech puede tener múltiples postulaciones registradas con nuestra empresa.
+    - Un Profesional Tech puede tener múltiples postulaciones registradas con nuestra empresa.
 
-* Cada postulación está vinculada a una oferta laboral específica y profesional.
+    - Cada postulación está vinculada a una oferta laboral específica y profesional.
 
-* La postulación marca el inicio del proceso de selección para el perfil del profesional.
+    - La postulación marca el inicio del proceso de selección para el perfil del profesional.
 
-### Postulante
+`Postulante`
 
-Se considera Postulante a todo Profesional Tech que ha presentado su postulación a una oferta laboral nuestra.
+:   Se considera Postulante a todo Profesional Tech que ha presentado su postulación a una oferta laboral nuestra.
 
-### Candidato
+`Candidato`
 
-Se considera Candidato a todo Profesional Tech que cumple con las siguientes
+:   Se considera Candidato a todo Profesional Tech que cumple con las siguientes
 condiciones:
 
-  1. Ha postulado a una o más ofertas laborales de 23people.
+    1. Ha postulado a una o más ofertas laborales de 23people.
 
-  2. Ha completado satisfactoriamente nuestro Flujo de Selección.
+    2. Ha completado satisfactoriamente nuestro Flujo de Selección.
 
-  3. Ha sido evaluado por nuestro equipo de Reclutamiento y Selección como apto para ser presentado a entrevista con un cliente.
+    3. Ha sido evaluado por nuestro equipo de Reclutamiento y Selección como apto para ser presentado a entrevista con un cliente.
 
-  4. Su perfil profesional actual se ajusta a los requisitos de una oferta laboral específica.
+    4. Su perfil profesional actual se ajusta a los requisitos de una oferta laboral específica.
 
-Características importantes:
+    Características importantes:
 
-* El estado de Candidato es dinámico y depende del perfil profesional actual del individuo en relación con las ofertas laborales disponibles.
+    - El estado de Candidato es dinámico y depende del perfil profesional actual del individuo en relación con las ofertas laborales disponibles.
 
-* Un Profesional Tech puede ser considerado Candidato para múltiples ofertas laborales y/o clientes, siempre que su perfil se ajuste a los requisitos específicos de cada caso.
+    - Un Profesional Tech puede ser considerado Candidato para múltiples ofertas laborales y/o clientes, siempre que su perfil se ajuste a los requisitos específicos de cada caso.
 
-* La designación como Candidato no es permanente y puede variar según cambios en el perfil profesional o en los requisitos de las ofertas laborales.
+    - La designación como Candidato no es permanente y puede variar según cambios en el perfil profesional o en los requisitos de las ofertas laborales.
 
 ### Perfil Profesional Tech
 
@@ -84,18 +84,18 @@ Un Pedido (o Solicitud) es una petición formal que incluye uno o más Requerimi
 
 Un cliente puede hacer un Pedido que incluya:
 
-* Un Requerimiento para perfil "Senior Backend Developer" con 2 vacantes
-* Un Requerimiento para perfil "Data Engineer" con 1 vacante
-* Un Requerimiento para perfil "QA Automation" con 3 vacantes
+- Un Requerimiento para perfil "Senior Backend Developer" con 2 vacantes
+- Un Requerimiento para perfil "Data Engineer" con 1 vacante
+- Un Requerimiento para perfil "QA Automation" con 3 vacantes
 
 ### Niveles de Experiencia de Profesionales Tech
 
 Corrensponden al grado de experiencia y conocimientos que un Profesional Tech. Estos niveles son:
 
-* **Entry**: Profesionales con poca o ninguna experiencia laboral en el campo de Tech.
+- **Entry**: Profesionales con poca o ninguna experiencia laboral en el campo de Tech.
 
-* **Entry Avanzado**: Profesionales con experiencia laboral limitada en el campo de Tech.
+- **Entry Avanzado**: Profesionales con experiencia laboral limitada en el campo de Tech.
 
-* **Midlevel**: Profesionales con experiencia laboral moderada en el campo de Tech.
+- **Midlevel**: Profesionales con experiencia laboral moderada en el campo de Tech.
 
-* **Senior**: Profesionales con amplia experiencia laboral y conocimientos avanzados en el campo de Tech.
+- **Senior**: Profesionales con amplia experiencia laboral y conocimientos avanzados en el campo de Tech.

@@ -12,7 +12,7 @@ Las practicas son las reglas y costumbres que se siguen en una organización y s
 
 Las prácticas que se siguen en 23people son:
 
-1. [Contextualizar aporte del trabajo](contextualizar-aporte-del-trabajo). Contextualizar el trabajo para que las personas entiendan el porque de lo que hacen.
+1. [Contextualizar como nuestro trabajo contribuye a las metas de 23people](contextualizar-nuestro-trabajo-y-metas). Contextualizar el trabajo para que las personas entiendan el porque de lo que hacen.
 2. [Todo lo que hacemos es un servicio a otro](todo-es-un-servicio). Todo lo que hacemos es un servicio a otro, ya sea externo como interno.
 3. [Comunicación asincrónica](comunicacion-asincronica). Trabajamos en general de manera asincrónica. No esperar respuestas inmediatas.
 4. [Escribir la idea, luego comunicarla](escribir-luego-comunicar). Escribir obliga a ordenar el como pensamos algo por lo que facilita la comunicación.

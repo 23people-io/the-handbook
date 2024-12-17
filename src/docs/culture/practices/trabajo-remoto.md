@@ -9,4 +9,10 @@ description: >
 
 # Trabajo Remoto
 
+!!! warning "WIP"
+
+    Esta página es un trabajo en proceso.
+
 Balance de vida. Queremos que nuestras esten con nosotros por mucho tiempo, por lo que es importante que tengan un balance de vida y el trabajo remoto aporta bastante a esto.
+
+## Referencias

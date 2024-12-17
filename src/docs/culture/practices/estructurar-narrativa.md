@@ -9,6 +9,10 @@ description: >
 
 # Guía para Estructurar y Presentar Iniciativas en 23people
 
+!!! warning "WIP"
+
+    Esta página es un trabajo en proceso.
+
 ## Propósito
 
 Este documento proporciona una estructura de narrativa estandarizada para presentar iniciativas, propuestas o resoluciones de problemas en cualquier área de 23people, asegurando una comunicación clara y efectiva.

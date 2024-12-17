@@ -35,7 +35,7 @@ El trabajo que es realizado por los distintos equipos y profesionales se estruct
 - Tienen un alcance, responsables y marco de tiempo definido
 - Se priorizan según su impacto esperado y recursos disponibles
 
-### 4. Actividades Clave
+### 4. Actividades Estratégicas
 
 - Componentes específicos y accionables de contribuyen mediblemente a las iniciativas estratégicas
 - Involucran a una o más funciones dentro de la empresa:

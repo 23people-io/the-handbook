@@ -10,6 +10,9 @@ env:
   DEPLOY_ENVIRONMENT: "staging"
 
 jobs:
+
+  index_rebuild:
+    
   deploy:
     runs-on: ubuntu-latest
     environment: staging

@@ -9,9 +9,9 @@ description: >
 
 # Preferir Comunicación Asincrónica
 
-> 🚧 **Work in Progress**
->
-> Esta página es un trabajo en proceso.
+!!! warning "WIP"
+
+    Esta página es un trabajo en proceso.
 
 - Permite a los colaboradores gestionar su tiempo y energía de manera más eficiente.
 - Reduce la interrupción y el ruido en la comunicación.
@@ -19,3 +19,5 @@ description: >
 - Permite la participación de personas en diferentes zonas horarias.
 - Proporciona un registro de las conversaciones y decisiones.
 - Fomenta la reflexión y la elaboración de respuestas más cuidadosas.
+
+## Referencias

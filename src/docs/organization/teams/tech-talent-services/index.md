@@ -45,6 +45,10 @@ El equipo está compuesto por:
 - [Tech Lead](team-roles/tech-lead-tts.md): Profesional encargado de asesorar y evaluar las factibilidades técnicas de los perfiles TI que se maduran junto a los clientes.
 - [Developer Relations](team-roles/developer-relations-tts.md): Profesional encargado de fortalecer la capacidad del equipo IT Talent Services para atraer, retener y desarrollar profesionales TI apasionados por la tecnología, actuando como puente entre 23people y su comunidad de desarrolladores.
 
+## Glosario
+
+Para entender mejor los conceptos que se manejan en este equipo, te recomendamos revisar el [Glosario](glosario.md).
+
 ## Contacto
 
 Si tienes alguna duda o necesitas ayuda, no dudes en contactar a **Tech Talent Services** a través de [tech.talent.team@23people.io](mailto:tech.talent.team@23people.io) o por medio de nuestros canales en Discord y WhatsApp.

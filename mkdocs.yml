@@ -110,6 +110,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.arithmatex:
       generic: true
+  - def_list
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -163,8 +164,11 @@ nav:
 
   - Comunidad:
       - community/index.md
+      - Beneficios: community/benefits/index.md
+      - Procedimientos Administrativos: community/administrative-procedures/index.md
+      - Eventos: community/events/index.md 
+      - Playlist Spotify: community/spotify-playlist.md
       - Código de Conducta: community/code-of-conduct.md
-      - Eventos: community/events.md  
 
   - Cultura:
       - culture/index.md
