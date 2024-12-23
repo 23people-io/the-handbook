@@ -1,0 +1,36 @@
+#!/bin/sh
+
+# script/prepatch: Create a prepatch version of the project and not create a tag. Example: 0.1.0 -> 0.1.1a0
+set -e
+
+cd "$(dirname "$0")/.."
+
+# ANSI color codes
+MAGENT=$(tput -Txterm setaf 5)
+GREEN=$(tput -Txterm setaf 2)
+YELLOW=$(tput -Txterm setaf 3)
+WHITE=$(tput -Txterm setaf 7)
+RED=$(tput -Txterm setaf 1)
+BLUE=$(tput -Txterm setaf 6)
+RESET=$(tput -Txterm sgr0)
+
+# Check for changes in the repository
+if [ -z "$(git status --porcelain)" ]; then
+  echo "${YELLOW}No changes detected. Exiting...${RESET}"
+  exit 0
+fi
+
+# If changes are detected, run the following commands
+
+## Lint the project
+echo "${YELLOW}Linting...${RESET}"
+scripts/lint
+
+## Make a prepatch version|
+echo "${YELLOW}Making prepatch...${RESET}"
+poetry version prepatch
+poetry version
+git add .
+git commit -m "$(poetry version): ${m:-}"
+git push
+poetry version

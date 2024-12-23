@@ -1,7 +1,7 @@
 # Project information
 site_name: Nuestro Manual
 site_author: 23people.io
-site_description: Nuestro manual público de lo que hacemos en 23people
+site_description: El Manual público de lo que hacemos en 23people
 strict: false
 site_url: https://23people.io/
 
@@ -19,20 +19,27 @@ site_dir: "site"
 theme:
   name: "material"
   palette:
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/lightbulb
+        name: "Switch to light mode"
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: pink
       accent: pink
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+        icon: material/lightbulb-outline
+        name: "Switch to dark mode"
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: pink
       accent: pink
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+        icon: material/lightbulb-auto-outline
+        name: "Switch to system preference"
   features:
     - content.tabs.link
     - content.code.annotate
@@ -41,16 +48,16 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
-    - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.path
-    - navigation.sections
+    - navigation.indexes
     - navigation.top
     - navigation.tracking
-    - search.suggest
-    - toc.follow
     - navigation.sections
-    - content.action.edit
+    - search.suggest
+    - search.share
+    - toc.follow
+    - content.action.view
   font:
     text: Roboto
     code: Roboto Mono
@@ -61,12 +68,6 @@ theme:
 
 # Plugins
 plugins:
-  - blog:
-      post_dir: "{blog}/articles"
-      post_date_format: long
-      post_readtime: true
-      authors: true
-      authors_file: "{blog}/.authors.yml"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - "mkdocs-version-annotations":
@@ -77,22 +78,39 @@ plugins:
         python:
           options:
             docstring_style: google
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: timeago
+  # - git-committers:
+  #     repository: 23people-io/23people-handbook
+  #     branch: main
+  #     token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets:
       restrict_base_path: false
   - admonition
   - tables
   - toc:
-      permalink: "#"
+      permalink: true
+      toc_depth: 2
   - attr_list
   - pymdownx.arithmatex:
       generic: true
+  - def_list
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -114,60 +132,61 @@ extra:
       link: https://www.facebook.com/23people
   chatbot:
     url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
-  alternate:
-    - name: "English"
-      link: en/
-      lang: en
-    - name: "Español"
-      link: es/
-      lang: es
-  consent:
-    title: Cookie consent
-    description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-  status:
-    wip: Work in progress
 
 nav:
-  - Home:
-      - index.md
-      - Acerca de 23people: about-us/resumen.md
-      - Nuestros valores: about-us/nuestros-valores.md
-      - Nuestras metas: about-us/nuestras-metas.md
-      - Nuestros servicios: about-us/nuestros-servicios.md
-      - Nuestra organización: about-us/nuestra-organizacion.md
+  - "Inicio":
+      - Bienvenidos a 23people: index.md
+      - Lo que hacemos: 
+          - what-we-do/index.md
+          - Servicios: what-we-do/services.md              
+          - Casos de Éxito: what-we-do/success-stories.md
+      - Como lo hacemos:
+            - how-we-do-it/index.md
+            - Foco en Roles Tech: how-we-do-it/tech-roles.md
+            - Reclutamiento de Tech Talent: how-we-do-it/talent-recruitment.md
+            - Metodología de Desarrollo de Software: how-we-do-it/methodology.md
+            - Stack Tecnológico: how-we-do-it/stack.md
+            - Satisfacción de Clientes: how-we-do-it/customer-success.md
+      - Estrategia: 
+          - strategy/index.md
+          - Metas: strategy/goals.md      
+      - Organización: 
+          - organization/index.md
+          - Equipos:
+              - organization/teams/index.md
+              - "Tech Talent Services (TTS)": organization/teams/tech-talent-services/index.md
+              - "Sales & Growth Marketing (SGM)": organization/teams/sales-and-growth-marketing/index.md
+              - "Backoffice (BKO)": organization/teams/backoffice/index.md
+              - "Research & Development (R&D)": organization/teams/research-and-development/index.md
+          - Cargos y Roles Generales: organization/positions-and-roles/index.md
+      - Historia: 
+          - history/index.md      
 
   - Comunidad:
-      - Comunidad:
-          - community/index.md
-          - Código de Conducta: community/code-of-conduct.md
-          - Diversidad e Inclusión: community/diversity-and-inclusion.md
-          - Eventos: community/events.md
-          - Voluntariado: community/volunteering.md
+      - community/index.md
+      - Beneficios: community/benefits/index.md
+      - Procedimientos Administrativos: community/administrative-procedures/index.md
+      - Eventos: community/events/index.md 
+      - Playlist Spotify: community/spotify-playlist.md
+      - Código de Conducta: community/code-of-conduct.md
 
-  - Conocimiento:
-      - "Flujos de Trabajo": knowledge/gestion-de-flujos-de-trabajo.md
+  - Cultura:
+      - culture/index.md
+      - Valores: culture/values.md
+      - Prácticas: 
+          - culture/practices/index.md
 
-  - Departamentos:
-      - De Servicios:
-          - "IT Talent Services":
-              - Acerca de: departments/it-talent-services/index.md
-              - KPIs: departments/it-talent-services/kpis/index.md
-          - "Digital Platforms, Data & AI":
-              - departments/digital-platforms-services/index.md
-      - Core:
-          - People Growth:
-              - Acerca de: departments/people-growth/index.md
-              - KPIs: departments/people-growth/kpis/index.md
-          - "Marketing & Strategic Growth":
-              - departments/marketing/index.md
-          - Finances:
-              - departments/finances/index.md
-          - Engineering:
-              - departments/engineering/index.md
+  - Insights:
+      - insights/index.md
+      - La Evolución Digital Empresarial: insights/evolucion-digital-empresarial.md
+      - Autonomía de Equipos, APIs y Servicios: insights/autonomia-equipos-api-servicios.md
+      - Los Datos no tienen valor intrínseco: insights/datos-no-tienen-valor-intrinseco.md
+      - IA Generativa como conector entre Humanos y Sistemas: insights/ia-generativa-conector-humanos-sistemas.md
+      - Jerarquía de Contribución del Trabajo: insights/jerarquia-contribucion-del-trabajo.md
+      - Jerarquía de Conceptos Organizacionales: insights/jerarquia-conceptos-organizacionales.md
+      - Relación entre un SRM y un SDM: insights/relacion-entre-srm-sdm.md
 
-  - Blog:
-      - blog/index.md
+
+  - Acerca del Manual: 
+      - the-handbook/index.md
+      - Contribuir: the-handbook/contribute.md

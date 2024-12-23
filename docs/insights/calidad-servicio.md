@@ -1,0 +1,1 @@
+Se entiende como calidad de servicio a la capacidad de un equipo para cumplir con las expectativas de sus clientes internos o externos. La calidad de servicio se mide en términos de eficacia y satisfacción del cliente respecto de necesidades a ser satisfechas.
