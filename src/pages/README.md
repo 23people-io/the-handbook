@@ -1,4 +1,4 @@
-# 23people Handbook (global)
+# 23people Handbook
 
 This repository is dedicated to storing all company **public consolidated information** in markdown files. This accumulated information will later be indexed in Vector Store Indexes and utilized by Large Language Models (LLMs) for various tasks related to 23people.
 

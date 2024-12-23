@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# script/run-chatbot: Launch the streamlit chatbot locally.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+# ANSI color codes
+MAGENT=$(tput -Txterm setaf 5)
+GREEN=$(tput -Txterm setaf 2)
+YELLOW=$(tput -Txterm setaf 3)
+WHITE=$(tput -Txterm setaf 7)
+RED=$(tput -Txterm setaf 1)
+BLUE=$(tput -Txterm setaf 6)
+RESET=$(tput -Txterm sgr0)
+
+echo "${MAGENT}Starting Chatbot app...${RESET}"
+poetry run python -m streamlit run src/chatbot/app.py --server.port=${CHATBOT_APP_PORT} --server.address=0.0.0.0
+
+
