@@ -47,10 +47,11 @@ theme:
     - announce.dismiss
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.expand
     - navigation.instant
     - navigation.instant.progress
     - navigation.path
-    - navigation.indexes
+    - navigation.prune
     - navigation.top
     - navigation.tracking
     - navigation.sections
@@ -136,33 +137,26 @@ extra:
 nav:
   - "Inicio":
       - Bienvenidos a 23people: index.md
-      - Lo que hacemos: 
-          - what-we-do/index.md
-          - Servicios: what-we-do/services.md              
-          - Casos de Éxito: what-we-do/success-stories.md
-      - Como lo hacemos:
-            - how-we-do-it/index.md
-            - Foco en Roles Tech: how-we-do-it/tech-roles.md
-            - Reclutamiento de Tech Talent: how-we-do-it/talent-recruitment.md
-            - Metodología de Desarrollo de Software: how-we-do-it/methodology.md
-            - Stack Tecnológico: how-we-do-it/stack.md
-            - Satisfacción de Clientes: how-we-do-it/customer-success.md
+      - Lo qué hacemos:           
+          - El desafío: what-we-do/challenge.md   
+          - Servicios: what-we-do/services.md                     
+          - Casos de éxito: what-we-do/success-stories.md
+      - Cómo lo hacemos:
+          - Especialización en Roles Tech: how-we-do-it/tech-roles.md
+          - Optimización en Reclutamiento Tech: how-we-do-it/talent-recruitment.md
+          - Madures de desarrollo de software: how-we-do-it/methodology.md
+          - Manejo de tecnologías empresariales y emergentes: how-we-do-it/stack.md
+          - Satisfacción de clientes: how-we-do-it/customer-success.md
+      - Cultura:
+          - Valores: culture/values.md
+          - Prácticas: 
+              - culture/practices/index.md
       - Estrategia: 
-          - strategy/index.md
-          - Metas: strategy/goals.md      
-      - Organización: 
-          - organization/index.md
-          - Cargos y Roles: organization/workforce/index.md
-          - Equipos:
-              - organization/teams/index.md
-              - "Tech Talent Services (TTS)": organization/teams/tech-talent-services/index.md
-              - "Sales & Growth Marketing (SGM)": organization/teams/sales-and-growth-marketing/index.md
-              - "Backoffice (BKO)": organization/teams/backoffice/index.md
-              - "Research & Development (R&D)": organization/teams/research-and-development/index.md
-          
+          - Metas: strategy/goals.md 
+          - Principios y Prácticas: strategy/principles-and-practices.md
       - Historia: 
-          - history/index.md      
-
+          - history/index.md
+  
   - Comunidad:
       - community/index.md
       - Beneficios: community/benefits/index.md
@@ -171,11 +165,15 @@ nav:
       - Playlist Spotify: community/spotify-playlist.md
       - Código de Conducta: community/code-of-conduct.md
 
-  - Cultura:
-      - culture/index.md
-      - Valores: culture/values.md
-      - Prácticas: 
-          - culture/practices/index.md
+  - Organización: 
+      - Resúmen: organization/index.md
+      - Cargos y Roles: organization/workforce/index.md
+      - Equipos:
+          - organization/teams/index.md
+          - "Tech Talent Services (TTS)": organization/teams/tech-talent-services/index.md
+          - "Sales & Growth Marketing (SGM)": organization/teams/sales-and-growth-marketing/index.md
+          - "Backoffice (BKO)": organization/teams/backoffice/index.md
+          - "Research & Development (R&D)": organization/teams/research-and-development/index.md      
 
   - Insights:
       - insights/index.md

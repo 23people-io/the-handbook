@@ -7,9 +7,11 @@ description: >
 
 ---
 
-# Stack Tecnológico de 23people
+# Dominio de Tecnologías empresariales y emergentes
 
-**Manejamos tecnologias maduras y emergentes para el desarrollo de software y aplicaciones.**
+!!! example ""
+
+    Tenemos experiencia y dominio en **tecnologias maduradas empresarialmente** y asi como tambien en las **tecnologías que emergen** en la industria.
 
 A continuación, se listan las tecnologías en las que tenemos experiencia validada y valorada a lo largo de los distintos proyectos en que hemos participado. También sirve como una guia de las posibles tecnologías que podrian ser solicitadas en los perfiles de Profesionales Tech y que satisfactoriamente podemos validar.
 

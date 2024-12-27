@@ -4,12 +4,14 @@ updated: 2024-11-20T14:30:00
 authors:
   - manu-reyes-23p
 description: >
-  Tech Talent en 23people. A quienes buscamos y sus Cargos, Roles y Niveles en 23people.
+    Nos especializamos en buscar Programadores e Ingenieros de Software excepcionales y con potencial. Profesionales a los que realmente les apasiona lo que hacen y que tienen la experiencia que dicen tener.
 ---
 
-# Cargos y Roles Tech
+# Especialización en Roles Tech
 
-**Nos especializamos en buscar Programadores e Ingenieros de Software excepcionales y con potencial - profesionales a los que realmente les apasiona lo que hacen y que tienen la experiencia que dicen tener.**
+!!! example ""
+
+    Nos especializamos en buscar **Programadores e Ingenieros de Software excepcionales y con potencial**: Profesionales a los que realmente les apasiona lo que hacen y que tienen la experiencia que dicen tener.
 
 Si bien no son sencillos de encontrar en este mercado laboral tan competitivo, una vez que los identificamos, nos enfocamos en retenerlos, asegurando que experimenten un real crecimiento profesional y un desafío constante para mejorar sus habilidades durante su tiempo con nosotros.
 
@@ -17,7 +19,7 @@ Si bien no son sencillos de encontrar en este mercado laboral tan competitivo, u
 
 En 23people trabajamos con una variedad de roles técnicos, aunque principalmente nos enfocamos en categorías fundamentales de la industria tecnológica que derivan de una competencia esencial: saber programar y construir software empresarial.
 
-### Software Engineers
+### 1. Software Engineers
 
 Construyen, mantienen, modernizan y prueban aplicaciones y sistemas de software empresarial, asegurando su calidad y escalabilidad.
 
@@ -28,11 +30,11 @@ Roles comunes en esta categoría son:
 - [Backend Engineers]()
 - [QA Engineers]()
 
-### Data Engineers
+### 2. Data Engineers
 
 Diseñan e implementan sistemas para procesar, almacenar y gestionar grandes volúmenes de y flujos de datos, garantizando su calidad y accesibilidad.
 
-### Cloud Engineers
+### 3. Cloud Engineers
 
 Diseñan, implementan y optimizan infraestructuras en la nube, automatizando procesos de despliegue y asegurando la disponibilidad de los servicios.
 
@@ -42,7 +44,7 @@ Roles comunes en esta categoría son:
 - [Site Reliability Engineers (SRE)]()
 - [Cloud Architects]()
 
-### AI Engineers
+### 4. AI Engineers
 
 Desarrollan algoritmos y modelos que permiten a las máquinas realizar tareas que requieren inteligencia artificial, transformando datos en soluciones predictivas y adaptativas.
 

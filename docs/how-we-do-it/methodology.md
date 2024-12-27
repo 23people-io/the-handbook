@@ -7,9 +7,11 @@ description: >
     Metodología de trabajo en 23people.
 ---
 
-# Metodología de Desarrollo de Software Ágil en 23people
+# Madures en desarrollo de software
 
-**Construimos ágil, evolutivamente y basados en datos.**
+!!! example ""
+
+    **Co-construimos software empresarial** en una manera ágil, evolutiva y basados en datos.
 
 Hemos adoptado una metodología de desarrollo de software ágil que nos permite construir productos digitales de alta calidad, evolutivos y basados en datos. Nuestro enfoque se basa en la colaboración, la transparencia y la iteración continua, permitiéndonos adaptarnos a los cambios y entregar valor de manera eficiente.
 
