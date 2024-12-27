@@ -7,6 +7,8 @@ description: >
     Proceso de Selección de Tech Talent en 23people.
 ---
 
-# Proceso de Selección de Tech Talent en 23people
+# Optimización en Reclutamiento Tech
 
-**Tenemos una _receta_ madurada para encontrar y seleccionar Talentos Tech.**
+!!! example ""
+
+    Tenemos una **_receta_ madurada** para encontrar y seleccionar Talentos Tech.
