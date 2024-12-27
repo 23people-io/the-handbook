@@ -11,9 +11,7 @@ description: >
 
 A continuación, encontrarás una lista de los cargos laborales y roles en equipos que se manejan en general dentro de 23people. Si tienes dudas sobre lo que entendemos por estos conceptos, puedes revisar la sección de [Entendiendo la Relación entre Cargos y Roles](#entendiendo-la-relación-entre-cargos-y-roles).
 
-## Listado de Cargos y Roles
-
-### Cargos
+## Listado de Cargos
 
 A continuación, encontrarás una lista de los cargos en 23people. Puedes acceder a cada uno de ellos para obtener más información sobre sus responsabilidades y funciones.
 
@@ -24,7 +22,7 @@ A continuación, encontrarás una lista de los cargos en 23people. Puedes accede
 - **Cargos de Operaciones**
     - [Tech Relations Specialist (Intermediate)](./positions/tech-relations-specialist-intermediate)
 
-### Roles
+## Listado de Roles
 
 A continuación, encontrarás una lista de los roles en los distintos equipos de 23people. Puedes acceder a cada uno de ellos para obtener más información sobre sus responsabilidades y funciones.
 
@@ -65,7 +63,7 @@ De esta menera, los roles tienen estas características clave:
 - Tienen KPIs y entregables específicos
 - Pueden evolucionar según las necesidades del equipo
 
-### Relación con los Equipos
+## Relación con los Equipos
 
 Los cargos no están limitados a un equipo específico. Un mismo cargo puede existir en diferentes equipos de 23people (Tech Talent Services, Sales & Growth Marketing, Backoffice Services, Research & Development), y el profesional puede desempeñar distintos roles según el equipo donde se encuentre. Por ejemplo:
 
