@@ -7,11 +7,13 @@ description: >
   El rol de Developer Relations (DevRel) para el equipo de Tech Talent Services en 23people.
 ---
 
-# Developer Relations (DevRel) en Tech Talent Services
+# Developer Relations (DevRel) para Tech Talent Services
+
+El rol de **Developer Relations (DevRel)** para el equipo de [Tech Talent Services](../index.md) en 23people.
 
 ## Propósito
 
-Fortalecer la capacidad de Tech Talent Services para brindar la mejor experiencia en retención y crecimiento de Profesionales TI, cultivando un ambiente donde profesionales motivados por el aprendizaje continuo experimentan un crecimiento técnico formidable. El rol se centra en dos ejes fundamentales: facilitar el desarrollo y permanencia del talento interno actual para que, desde su satisfacción profesional, refieran naturalmente a otros profesionales de alto nivel de sus redes, y complementar esto mediante una comunidad tech que amplifique el alcance de estas recomendaciones.
+Fortalecer la capacidad de [Tech Talent Services](../index.md) para brindar la mejor experiencia en retención y crecimiento de Profesionales TI, cultivando un ambiente donde profesionales motivados por el aprendizaje continuo experimentan un crecimiento técnico formidable. El rol se centra en dos ejes fundamentales: facilitar el desarrollo y permanencia del talento interno actual para que, desde su satisfacción profesional, refieran naturalmente a otros profesionales de alto nivel de sus redes, y complementar esto mediante una comunidad tech que amplifique el alcance de estas recomendaciones.
 
 ## Responsabilidades y Funciones
 

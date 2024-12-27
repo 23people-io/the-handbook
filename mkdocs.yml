@@ -166,10 +166,9 @@ nav:
       - Código de Conducta: community/code-of-conduct.md
 
   - Organización: 
-      - Resúmen: organization/index.md
+      - Estructura general: organization/index.md
       - Cargos y Roles: organization/workforce/index.md
       - Equipos:
-          - organization/teams/index.md
           - "Tech Talent Services (TTS)": organization/teams/tech-talent-services/index.md
           - "Sales & Growth Marketing (SGM)": organization/teams/sales-and-growth-marketing/index.md
           - "Backoffice (BKO)": organization/teams/backoffice/index.md
