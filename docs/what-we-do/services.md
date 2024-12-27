@@ -9,11 +9,19 @@ description: >
 
 # Nuestros servicios
 
-Dado el desafío mencionado, **en 23people nos hemos especializado en tres líneas de servicios complementarios** que buscan resolver los desafíos de talento capacitado, uso de tecnología y uso de datos que enfrentan las empresas en su camino de Evolución Digital:
+**Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar sus productos y servicios digitales.**
 
-## Outsourcing y Reclutamiento de Tech Talent
+Potenciamos a los equipos empresariales, integrando tecnologías avanzadas y emergentes con su conocimiento del negocio y el poder de sus datos.
 
-**Sabemos buscar, seleccionar y retener Profesionales Tech para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.**
+## Lineas de Servicios
+
+En 23people nos hemos especializado en **tres líneas de servicios complementarios** que buscan resolver los desafíos de talento capacitado, uso de tecnología y uso de datos que enfrentan las empresas en su camino de Evolución Digital:
+
+### 1. Outsourcing y Reclutamiento de Tech Talent
+
+!!! example ""
+
+    **Sabemos buscar, seleccionar y retener Profesionales Tech para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.**
 
 De entre toda la oferta actual de Profesionales Tech, sabemos encontrar a aquellos que realmente les apasiona lo que hacen, que tienen la experiencia que dicen que tienen y que mejor se ajustan a las necesidades de nuestros clientes.
 
@@ -24,9 +32,11 @@ Para lo anterior, ofrecemos los siguientes servicios:
 - **Outsourcing TI**. Si se necesita que los profesionales trabajen para el proyecto de nuestro cliente pero no se quiere contratar y administrar directamente, ofrecemos la posibilidad de que trabajen para el cliente bajo nuestra figura legal.
 - **Hunting TI**. Si nuestro cliente necesita contratar directamente a un profesional TI pero se requiere ayuda y guia para la busqueda y selección de los profesionales TI, ofrecemos este servicio.
 
-## Plataformas Digitales, Cloud y Modernización
+### 2. Plataformas Digitales, Cloud y Modernización
 
-**Co-creamos soluciones para las áreas de mejora continua de Digitalización, Automatización, Integraciones y Datos Operacionales.**
+!!! example ""
+
+    **Co-creamos soluciones para las áreas de mejora continua de Digitalización, Automatización, Integraciones y Datos Operacionales.**
 
 Haciendo uso de tecnologías Cloud, DevOps, QA Automation, Cybersecurity y Prácticas ágiles, co-creamos junto a nuestros clientes, la modernización y evolución de plataformas digitales que sean efectivas, seguras y eficientes.
 
@@ -42,10 +52,22 @@ Para lo anterior, ofrecemos los siguientes servicios:
 
 - **QA Automatizado**. Implementamos procesos de control de calidad automatizados para asegurar la efectividad y seguridad de los proyectos de desarrollo de software, facilitando la mantención de estos en el tiempo.
 
-## Datos, Analítica Avanzada e IA
+### 3. Datos, Analítica Avanzada e IA
 
-**Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas.**
+!!! example ""
+
+    **Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas.**
 
 Combinamos tecnologías para grandes volúmenes de datos (BigData, DataLakes, Data Warehouses), herramientas de IA predictiva y generativa (Machine Learning, RAG, LLMs), y sistemas de automatización avanzada (AI Agents). Todo esto alineado con el conocimiento experto del negocio de nuestros clientes para generar valor real en sus operaciones diarias.
 
-Ponemos enfasis en este trabajo en conjunto y el ser partners tecnológicos realmente confiables, tanto técnica como profesionalmente. Creemos que nuestra guía tecnológica, nuestra experiencia en la cultura TI y el conocimiento experto que solo nuestros clientes pueden aportar sobre su negocio permite a esta colaboración el concretar o ajustar las mejoras operativas y estratégicas que fortalecen la competitividad de las empresas en sus respectivos mercados.
+## Cómo lo hacemos
+
+**Nos direferenciamos en el cómo hacemos las cosas.**
+
+En 23people, nos enfocamos en **5 pilares fundamentales** que nos permiten diferenciarnos en el mercado y ofrecer un servicio de calidad a nuestros clientes:
+
+1. [Especialización en Roles Tech](tech-roles.md): Nos especializamos en buscar Programadores e Ingenieros de Software excepcionales y con potencial.
+2. [Optimización en Reclutamiento Tech](talent-recruitment.md): Tenemos una _receta_ madurada para encontrar y seleccionar Talentos Tech.
+3. [Madures en desarrollo de software](methodology.md): Construimos ágil, evolutivamente y basados en datos.
+4. [Manejo de tecnologías empresariales y emergentes](stack.md): Tenemos experiencia en un listado de tecnologias maduras y emergentes, con las que construimos software empresarial y que podemos validar en los perfiles de Profesionales Tech.
+5. [Satisfacción de clientes](customer-success.md): Ayudamos y acompañamos a nuestros clientes. Siempre.
