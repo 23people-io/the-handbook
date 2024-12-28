@@ -22,6 +22,7 @@ Finalmente, las funciones son las actividades específicas y tangibles que permi
 ## Diagrama de Relación
 
 ```mermaid
+%%{init: {'theme':'neutral'}}%%
 graph TB
     CARGO[Cargo] -->|se espera que tenga un conjunto de| COMP[Competencias]
     CARGO --> |es contenedor de| ROL[Roles]
@@ -33,12 +34,7 @@ graph TB
     COMP -->|permiten hacerse cargo de| RESP
     HAB -->|permiten ejecutar| FUNC
 
-    style CARGO fill:#f9f,stroke:#333,stroke-width:4px
-    style COMP fill:#bbf,stroke:#333,stroke-width:2px
-    style HAB fill:#fbb,stroke:#333,stroke-width:2px
-    style ROL fill:#bfb,stroke:#333,stroke-width:2px
-    style RESP fill:#ffb,stroke:#333,stroke-width:2px
-    style FUNC fill:#bff,stroke:#333,stroke-width:2px
+    
 ```
 
 ## Detalles por Concepto
