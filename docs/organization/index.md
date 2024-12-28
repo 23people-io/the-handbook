@@ -15,7 +15,8 @@ En 23people nos organizamos en equipos multidisciplinarios. Cada equipo tiene un
 
 La estructura general es circular tal de fomentar la colaboración y la comunicación entre los equipos y capas organizacionales.
 
-![Esquema de organización de equipos y capas](../_assets/teams-organization.svg)
+![Esquema de organización de equipos y capas](../_assets/teams-organization-light.svg#only-light)
+![Esquema de organización de equipos y capas](../_assets/teams-organization-dark.svg#only-dark)
 
 ## Equipos Operacionales
 
@@ -30,7 +31,8 @@ Los siguientes son los equipos operacionales de 23people y su propósito:
 
 Cada equipo tiene autonomía entorno a un próposito bien definido y un contrato de servicios que se compromete a entregar. Estos contratos funcionan similar a como funcionan las [API](https://aws.amazon.com/what-is/api/) y se espera que se especifique: que entrega, que esperar del servicio y como se solicita. Cada equipo debe medir constantemente la calidad de sus servicios y su eficiencial operacional, para luego mejorarlos de manera iterativa basandose en datos y experiencia acumulada.
 
-![Esquema del modelo interno de un equipo](../_assets/team-model.svg)
+![Esquema del modelo interno de un equipo](../_assets/team-model-light.svg#only-light)
+![Esquema del modelo interno de un equipo](../_assets/team-model-dark.svg#only-dark)
 
 ### Gestión y Liderazgo
 
