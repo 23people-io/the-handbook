@@ -23,8 +23,13 @@ El Tech Relations Specialist (Intermediate) es un cargo enfocado en la generaci�
 
 El cargo aplicará sus competencias en los siguientes roles:
 
-- [Developer Relations para Tech Talent Services](../../teams/tech-talent-services/team-roles/developer-relations-for-tts.md)
-- [Iarvis Tribe Member (Operations)](../roles/iarvis-tribe-member.md#operations)
+- [Developer Relations for Tech Talent Services](../../teams/tech-talent-services/roles/tts-developer-relations.md)
+
+En la medida que se requiera, el cargo podrá desempeñar roles complementarios en otros equipos, como:
+
+- [People Manager for Iarvis](../../tribes/iarvis-tribe/roles/iarvis-people-manager.md)
+- [Iarvis Council Member](../../tribes/iarvis-tribe/roles/iarvis-council-member.md)
+- [Iarvis Member](../../tribes/iarvis-tribe/roles/iarvis-member.md)
 
 ## Requerimientos del Cargo
 
