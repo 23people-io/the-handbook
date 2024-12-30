@@ -43,7 +43,7 @@ El equipo está compuesto por:
 - [Service Delivery Manager para TTS](team-roles/service-delivery-manager-tts.md).
 - [Tech Recruiters](team-roles/tech-recruiter-tts.md): Profesionales encargados de identificar y atraer a los mejores profesionales Tech para cubrir las necesidades de nuestros clientes.
 - [Tech Lead](team-roles/tech-lead-tts.md): Profesional encargado de asesorar y evaluar las factibilidades técnicas de los perfiles Tech que se maduran junto a los clientes.
-- [Developer Relations](team-roles/developer-relations-tts.md): Profesional encargado de fortalecer la capacidad del equipo Tech Talent Services para atraer, retener y desarrollar profesionales Tech que son parte de la empresa, además de actuar como puente entre 23people y la comunidad de desarrolladores en el ecosistema.
+- [Developer Relations](team-roles/developer-relations-for-tts.md): Profesional encargado de fortalecer la capacidad del equipo Tech Talent Services para atraer, retener y desarrollar profesionales Tech que son parte de la empresa, además de actuar como puente entre 23people y la comunidad de desarrolladores en el ecosistema.
 
 ## Conceptos usados en Tech Talent Services
 
