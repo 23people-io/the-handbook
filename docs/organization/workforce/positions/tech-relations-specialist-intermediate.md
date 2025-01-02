@@ -25,11 +25,14 @@ El cargo aplicará sus competencias en los siguientes roles:
 
 - [Developer Relations for Tech Talent Services](../../teams/tech-talent-services/roles/tts-developer-relations.md)
 
-En la medida que se requiera, el cargo podrá desempeñar roles complementarios en otros equipos, como:
+En la medida que se requiera, el cargo podría desempeñar funciones complementarias en los siguientes roles:
 
-- [People Manager for Iarvis](../../tribes/iarvis-tribe/roles/iarvis-people-manager.md)
+- [Iarvis People Manager Support](../../tribes/iarvis-tribe/roles/iarvis-people-manager-support.md)
 - [Iarvis Council Member](../../tribes/iarvis-tribe/roles/iarvis-council-member.md)
 - [Iarvis Member](../../tribes/iarvis-tribe/roles/iarvis-member.md)
+
+![Relación entre cargo y roles](../../../_assets/tech-relations-specialist-light.svg#only-light)
+![Relación entre cargo y roles](../../../_assets/tech-relations-specialist-dark.svg#only-dark)
 
 ## Requerimientos del Cargo
 
