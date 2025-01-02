@@ -1,10 +1,10 @@
 ---
 created: 2024-11-26T14:30:00
-updated: 2024-12-02T14:30:00
+updated: 2025-01-02T14:30:00
 authors:
   - manu-reyes-23p
 description: >
-  Descriptor de Rol: Global Operations Manager
+  Descriptor de Rol: Iarvis Global Operations Manager
 ---
 
 # Global Operations Manager
