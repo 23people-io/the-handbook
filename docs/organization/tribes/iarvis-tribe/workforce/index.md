@@ -16,20 +16,20 @@ A continuación, encontrarás una lista de los cargos laborales y roles en equip
 A continuación, encontrarás una lista de los cargos en 23people. Puedes acceder a cada uno de ellos para obtener más información sobre sus responsabilidades y funciones.
 
 - **Cargos de Dirección**
-    - [Operations Director](./positions/operations-director)
+    - [Senior Operations Director](./positions/senior-operations-director)
 - **Cargos de Management**
     - [Services Coordinator](./positions/services-coordinator)
 - **Cargos de Operaciones**
-    - [Tech Relations Specialist (Intermediate)](./positions/tech-relations-specialist-intermediate)
+    - [Intermediate Tech Relations Specialist](./positions/Intermediate-tech-relations-specialist)
 
 ## Listado de Roles
 
 A continuación, encontrarás una lista de los roles en los distintos equipos de 23people. Puedes acceder a cada uno de ellos para obtener más información sobre sus responsabilidades y funciones.
 
-- [Roles en el equipo de Tech Talent Services](../teams/tech-talent-services/team-roles)
-- [Roles en el equipo de Research & Development](../teams/research-development/team-roles)
-- [Roles en el equipo de Sales & Growth Marketing](../teams/sales-growth-marketing/team-roles)
-- [Roles en el equipo de Backoffice](../teams/backoffice-services/team-roles)
+- [Roles en el equipo de Tech Talent Services](../teams/tech-talent-services/#roles)
+- [Roles en el equipo de Research & Development](../teams/research-development/#roles)
+- [Roles en el equipo de Sales & Growth Marketing](../teams/sales-growth-marketing/#roles)
+- [Roles en el equipo de Backoffice](../teams/backoffice-services/#roles)
 
 Además, se listan los roles que son transversales a la organización:
 

@@ -7,7 +7,7 @@ description: >
     Preferir una comunicación escrita por sobre una comunicación oral para permitir a los colaboradores gestionar su tiempo y energía de manera más eficiente.
 ---
 
-# Preferir Comunicación Escrita por sobre Oral
+# Escribe tus ideas antes de compartirlas
 
 !!! warning "WIP"
 

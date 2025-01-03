@@ -2,10 +2,6 @@
 created: 2024-05-23T13:24:17
 updated: 2024-08-30T16:58:57
 description: Listado de procedimientos para solicitudes administrativas como del tipo Vacaciones, Registro de Asistencia, Reembolsos, Rendiciones, etc.
-author: 5127711
-status: wip
-slug: procedimientos-para-solicitudes-administrativas
-legacy_url: https://manual.23people.io/es/articles/9369088-procedimientos-para-solicitudes-administrativas
 ---
 
 # Procedimientos para Solicitudes Administrativas
@@ -44,5 +40,3 @@ Solicitud de Vacaciones |  People Growth |  Jarvis Tribe
 ---|---|---  
 [Rendición de Fondos](https://docs.google.com/document/d/1bD8kUk5Hos0272CqYKjYJ6Owk6ZF_VAzhyumUbBK9-M/edit?usp=drive_link) |  Finances |  Todos en 23people  
 [Reembolso de Gastos](https://docs.google.com/document/d/1A0TgdVysk-1Xq_i_7R-QSQGHed3eToELLR5qa7MvqYI/edit?usp=drive_link) |  Finances |  Todos en 23people
-
-
