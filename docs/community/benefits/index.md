@@ -11,49 +11,43 @@ description: >
 
 En esta página se indican los distintos beneficios que se tienen en 23people. Se indica el cómo hacerlos efectivo y las restricciones que aplican.
 
-## Propósito de los beneficios
+**Buscamos tener más y mejores beneficios para que todos en 23people, estemos mejor física, mental y profesionalmente 😉.**
 
-Buscamos tener más y mejores beneficios para que todos en 23people, estemos mejor física, mental y profesionalmente 😉.
+Puedes ver las condiciones y reglas de aplicabilidad en la sección de "[Letra chica](#la-letra-chica)".
 
-## Los beneficios actuales de 23people
+## Listado
+
+A continuación, el listado actual de Beneficios 🥳.
 
 !!! info "Fecha de actualización"
 
     ✅ Estos beneficios están actualizados al 31 de mayo de 2024.
 
-A continuación, el listado actual de Beneficios 🥳. En general, los clasificamos en: [Incentivos](#incentivos-económicos), [Reembolsos](#reembolsos), [Convenios](#convenios) y [Capacitaciones](#capacitaciones).
+### Incentivos económicos
 
-### Incentivos Económicos
-
-Este tipo de beneficios son para reconocer a los colaboradores como parte de la comunidad 23people.
-
-- [🏖️ Apoyo económico por Vacaciones](incentives/vacaciones.md)
-- [💰 Fiestas Patrias y Navidad](incentives/fiestas-patrias-y-navidad.md)
-- [👩🏻‍🍼 Baby Shower](incentives/baby-shower.md)
-- [🎂 Regalo personalizado para tu Cumpleaños](incentives/regalo-cumpleanios.md)
-<!-- - [🎂 Día libre de cumpleaños](incentives/dia-libre-cumpleanios.md) -->
+- [🏖️ Incentivo para Vacaciones](./incentives/vacaciones.md). Se te entregarán un incentivo económico por cada semana de vacaciones que
+tomes.
+- [🎓 Incentivo para Exámenes de Certificaciones Internacionales](./incentives/certificaciones-internacionales.md). Reembolsamos los gastos asociados a los exámenes de certificación internacional 😉.
+- [💰 Incentivos de Fiestas Patrias y Navidad](./incentives/fiestas-patrias-y-navidad.md). En estas fechas especiales de Fiestas Patrias y Navidad, te entregaremos un incentivo económico.
+- [👩🏻‍🍼 Incentivo por Baby Shower](./incentives/baby-shower.md). Luego de estar 1 año con 23people, si tienes la felicidad de ser un/a futuro papá/mamá, se te entregará un regalo de parte de todo 23people en forma de incentivo económico.
+- [🎉 Regalo personalizado para tu Cumpleaños](./incentives/regalo-cumpleanios.md). Recibirás un regalo con base en tus gustos y preferencias.
+- [🎂 Día libre de cumpleaños](./incentives/dia-libre-cunpleanios.md). Día libre por tu cumpleaños.
 
 ### Reembolsos
 
-Este tipo de beneficios son para ayudar a los colaboradores a cubrir gastos que se puedan presentar en su vida personal y profesional.
-
-- [🎓 Exámenes de Certificaciones Internacionales](incentives/certificaciones-internacionales.md)
-- [💉 Gastos para Vacuna Influenza](refunds/vacuna-influenza.md)
-- [💻 Gastos para Mejora espacio de trabajo](refunds/mejora-espacio-trabajo.md)
+- [💉 Reembolso de gastos para Vacuna Influenza](./refunds/iniciativa-para-vacunacion-influenza.md). Te reembolsamos el gasto de la Vacuna contra la Influenza.
+- [💻 Reembolso de gastos para Mejora espacio de trabajo](./refunds/mejora-espacio-de-trabajo.md). Con el fin de que trabajes cómodo desde tu hogar, te reembolsamos gastos asociados a mejoras de tu espacio de trabajo.
 
 ### Convenios
 
-Este tipo de beneficios son para apoyar a los colaboradores en aspectos de su vida personal y profesional.
-
-- [🏥 Seguros Complementarios](agreements/seguros-complementarios.md)
-- [🏦 Convenio Banco de Chile](agreements/banco-de-chile.md)
-- [🚵‍♀️ Betterfly](agreements/betterfly.md)
+- [🏥 Seguros complementarios](./agreements/seguros-complementarios.md). Contamos con un Seguro Complementario, el cual funciona con base en reembolsos. Válido para consultas médicas y odontológicas en tus centros de preferencia.
+- [🏦 Convenio Banco de Chile](./agreements/cuenta-bancaria-banco-de-chile.md). Cuando ya tengas tu primera liquidación de sueldo, podrás solicitar una cuenta corriente sin costo de mantenimiento en Banco de Chile.
+- [🚵‍♀️ Betterfly](./agreements/betterfly.md). Betterfly es una App de Bienestar Integral. A través de tus hábitos saludables
+podrás realizar donativos a fundaciones sin fines de lucro, donar a comedores en Haití y Venezuela o también puedes plantar un árbol. También te brinda acceso a: Telemedicina, Asesoría financiera, Asesoría legal, Fitness y mucho más.
 
 ### Capacitaciones
 
-Este tipo de beneficios son para brindarles una oferta de capacitación que sea amplia y de fácil acceso para todos independientemente de su área o nivel de expertise. Es por ello que se generan los siguiente lineamientos.
-
-- [📚 Clases de Inglés](professional-development/clases-de-ingles.md)
+- [📚 Clases de Inglés](./trainings/clases-de-ingles.md). Cursos de inglés desde A2 hasta C1.
 
 ## La letra chica
 

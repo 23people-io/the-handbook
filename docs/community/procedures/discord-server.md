@@ -3,9 +3,6 @@ created: 2024-01-30T10:14:26
 updated: 2024-01-30T10:44:26
 description: Paso a paso para añadir nuevos miembros al servidor de Discord de 23people y asignarles roles predefinidos.
 author: 5127711
-status: wip
-slug: guia-para-incorporar-nuevos-miembros-en-el-servidor-de-discord-de-23people
-legacy_url: https://manual.23people.io/es/articles/8886134-guia-para-incorporar-nuevos-miembros-en-el-servidor-de-discord-de-23people
 ---
 
 # Guía para Incorporar Nuevos Miembros en el Servidor de Discord de 23people
@@ -37,19 +34,14 @@ persona nueva a nuestro servidor de Discord y asignarle el rol adecuado.
 
 ### Buenas Prácticas
 
-  * **Comunicación Clara** : Asegúrese de explicar al nuevo miembro el propósito de cada canal y cómo pueden contribuir.
+* **Comunicación Clara** : Asegúrese de explicar al nuevo miembro el propósito de cada canal y cómo pueden contribuir.
 
-  * **Actualizaciones de Roles** : Revise y actualice periódicamente los roles para reflejar cambios en las funciones o estructuras del equipo.
+* **Actualizaciones de Roles** : Revise y actualice periódicamente los roles para reflejar cambios en las funciones o estructuras del equipo.
 
-  * **Privacidad y Seguridad** : Mantenga las normas de seguridad al compartir enlaces de invitación y asignar roles.
+* **Privacidad y Seguridad** : Mantenga las normas de seguridad al compartir enlaces de invitación y asignar roles.
 
 ## Conclusión
 
-Siguiendo estos pasos, podemos garantizar que los nuevos miembros se integren
-de manera efectiva en nuestro servidor de Discord, facilitando una
-comunicación y colaboración fluidas desde el inicio.
+Siguiendo estos pasos, podemos garantizar que los nuevos miembros se integren de manera efectiva en nuestro servidor de Discord, facilitando una comunicación y colaboración fluidas desde el inicio.
 
-  
 ​
-
-

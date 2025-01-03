@@ -7,11 +7,11 @@ description: >
   Jerarquía de Contribución del Trabajo en 23people, desde las Metas de Largo Plazo hasta las Tareas Diarias.
 ---
 
-# Jerarquía de Contribución del Trabajo
+# Contribución y Tipos de Trabajo
 
 El trabajo que es realizado por los distintos equipos y profesionales se estructura en una jerarquía que va desde las **Metas de Largo Plazo** hasta las **Tareas Diarias**. Esta estructura permite contextualizar el aporte de cada tarea con la visión a largo plazo de la organización, asegurando que cada esfuerzo contribuya realmente a los objetivos estratégicos y metas globales.
 
-## Estrucutra Jerárquica de Contribución del Trabajo
+## Estructura Jerárquica de Contribución Estratégica
 
 ### 1. Metas de Largo Plazo
 
@@ -24,6 +24,8 @@ El trabajo que es realizado por los distintos equipos y profesionales se estruct
 ### 2. Objetivos Estratégicos
 
 - Son de alcance anual y contribuyen a las metas de largo plazo
+- Definidas por el [Equipo Fundador](../organization/teams/founders/) en colaboración con el [High Council](../organization/roles/high-council/)
+- Tienen un OKR asociado que define los resultados esperados
 - Se definen al cierre de cada año para el período siguiente
 - Representan hitos específicos y medibles que acercan a la empresa a sus metas de largo plazo
 - Consideran el contexto actual del mercado, la industria TI y la experiencia adquirida
@@ -31,6 +33,8 @@ El trabajo que es realizado por los distintos equipos y profesionales se estruct
 ### 3. Iniciativas Estratégicas
 
 - Programas y proyectos concretos que materializan los objetivos estratégicos
+- Definidas por el [High Council](../organization/roles/high-council/) e implementadas por el [Iarvis Council]](../../)
+- Tienen un OKR asociado que define los resultados esperados
 - Pueden contribuir a múltiples objetivos simultáneamente
 - Tienen un alcance, responsables y marco de tiempo definido
 - Se priorizan según su impacto esperado y recursos disponibles
@@ -38,6 +42,7 @@ El trabajo que es realizado por los distintos equipos y profesionales se estruct
 ### 4. Actividades Estratégicas
 
 - Componentes específicos y accionables de contribuyen mediblemente a las iniciativas estratégicas
+- Tienen una Definición de Listo (DoD: Definition of Done) clara y establecida
 - Involucran a una o más funciones dentro de la empresa:
     - Mejora de Servicios
     - Innovación y Desarrollo Tecnológico
@@ -48,20 +53,6 @@ El trabajo que es realizado por los distintos equipos y profesionales se estruct
     - Operaciones y Administración
 - Tienen responsables y plazos definidos
 - Incluyen métricas de éxito claras
-
-### 5. Actividades Operacionales
-
-- Conjunto de tareas diarias y rutinarias que se realizan para mantener la operación de la empresa
-- Tienen una razon de ser, aunque puede que no estén directamente relacionadas con las iniciativas estratégicas
-- Se realizan para mantener la operación de la empresa
-- En general, no tienen un inicio y fin definidos dados que son continuas y recurrentes
-
-### 6. Tareas
-
-- Unidades básicas de trabajo
-- Tienen un alcance específico y acotado
-- Se asignan a individuos o equipos pequeños
-- Son monitoreables y tienen criterios de completitud claros
 
 ## Principios de Implementación
 

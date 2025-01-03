@@ -7,7 +7,7 @@ description: >
   Descriptor del cargo de Tech Relations Specialist (Intermediate) en 23people.
 ---
 
-# Tech Relations Specialist (Intermediate)
+# Intermediate Tech Relations Specialist
 
 ## Descripción del Cargo
 

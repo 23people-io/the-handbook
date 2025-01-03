@@ -7,15 +7,9 @@ description: >
   Práctica para estructurar la narrativa usada al presentar iniciativas, propuestas o resoluciones de problemas en cualquier área de 23people
 ---
 
-# Guía para Estructurar y Presentar Iniciativas en 23people
+# Estructurar narrativa para presentar iniciativas o problemas
 
-!!! warning "WIP"
-
-    Esta página es un trabajo en proceso.
-
-## Propósito
-
-Este documento proporciona una estructura de narrativa estandarizada para presentar iniciativas, propuestas o resoluciones de problemas en cualquier área de 23people, asegurando una comunicación clara y efectiva.
+Estructurar la narrativa que se usa para para presentar iniciativas, propuestas o resoluciones de problemas en cualquier área de 23people, para asegurar una comunicación clara y efectiva.
 
 !!! note "Nota"
 
@@ -25,21 +19,21 @@ Este documento proporciona una estructura de narrativa estandarizada para presen
 
 ### 1. Contexto
 
-Esta sección debe proporcionar toda la información necesaria para entender la iniciativa o problema, siguiendo estos componentes:
+Esta sección debe proporcionar toda la información necesaria para entender la iniciativa o problema en su contexto. Debe contener los siguientes componentes redactados en un texto cohesionado:
 
-#### Situación Actual
+**Situación Actual.**
 
 - Describe el estado actual del área, proceso o sistema
 - Incluye métricas o datos relevantes que ayuden a establecer el punto de partida
 - Menciona a los stakeholders involucrados
 
-#### Complicación o Cambio
+**Complicaciones o Cambios detectados.**
 
 - Identifica qué ha cambiado o qué necesita cambiar
 - Explica por qué la situación actual requiere atención
 - Destaca las consecuencias de no abordar la situación
 
-#### Pregunta Central
+**Pregunta Central.**
 
 - Formula claramente la pregunta que necesita respuesta
 - Asegura que la pregunta sea específica y accionable
@@ -75,19 +69,19 @@ Estructura la respuesta siguiendo el principio de la pirámide comunicacional:
 
 ## Buenas Prácticas
 
-### Para el Contexto
+### 1. Para el Contexto
 
 - Mantén la información relevante y concisa
 - Usa datos actualizados y verificables
 - Incluye solo el contexto necesario para entender la situación
 
-### Para la Respuesta
+### 2. Para la Respuesta
 
 - Comienza con la conclusión más importante
 - Respalda cada afirmación con evidencia
 - Mantén una estructura jerárquica clara
 
-### Generales
+### 3. Generales
 
 - Usa lenguaje claro y directo
 - Incluye visualizaciones cuando sea apropiado

@@ -151,28 +151,35 @@ nav:
           - Valores: culture/values.md
           - Prácticas: 
               - culture/practices/index.md
+              - Todo es un servicio a otro: culture/practices/everything-is-a-service.md
+              - Comunicación asincrónica: culture/practices/asynchronous-communication.md
+              - Escribir y luego comunicar: culture/practices//write-then-communicate.md
+              - Gestionar trabajo y no las personas: culture/practices/manage-work-not-people.md
+              - Estructurar la narrativa: culture/practices/structure-the-narrative.md
+              - Notificar los avances: culture/practices/notify-progress.md
       - Estrategia: 
           - Metas: strategy/goals.md 
-          - Principios y Prácticas: strategy/principles-and-practices.md
+          - Principios: strategy/principles.md
+          - Jerarquía de Contribución: strategy/contribution.md
       - Historia: 
           - history/index.md
   
   - Comunidad:
-      - community/index.md
-      - Beneficios: community/benefits/index.md
-      - Procedimientos Administrativos: community/administrative-procedures/index.md
+      - Beneficios: community/benefits/index.md      
       - Eventos: community/events/index.md 
       - Playlist Spotify: community/spotify-playlist.md
-      - Código de Conducta: community/code-of-conduct.md
+      - Procedimientos: 
+          - Administrativos: community/procedures/administratives.md
+          - Servidor de Discord: community/procedures/discord-server.md
 
   - Organización: 
       - Estructura general: organization/index.md
-      - Cargos y Roles: organization/workforce/index.md
+      - Cargos y Roles: organization/tribes/iarvis-tribe/workforce/index.md
       - Equipos:
-          - "Tech Talent Services (TTS)": organization/teams/tech-talent-services/index.md
-          - "Sales & Growth Marketing (SGM)": organization/teams/sales-and-growth-marketing/index.md
-          - "Backoffice (BKO)": organization/teams/backoffice/index.md
-          - "Research & Development (R&D)": organization/teams/research-and-development/index.md      
+          - "Tech Talent Services (TTS)": organization/tribes/iarvis-tribe/teams/tech-talent-services/index.md
+          - "Sales & Growth Marketing (SGM)": organization/tribes/iarvis-tribe/teams/sales-and-growth-marketing/index.md
+          - "Backoffice (BKO)": organization/tribes/iarvis-tribe/teams/backoffice/index.md
+          - "Research & Development (R&D)": organization/tribes/iarvis-tribe/teams/research-and-development/index.md      
 
   - Insights:
       - insights/index.md
