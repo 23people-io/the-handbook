@@ -79,13 +79,13 @@ plugins:
         python:
           options:
             docstring_style: google
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-  - git-committers:
-      repository: 23people-io/23people-handbook
-      branch: main
-      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: timeago
+  # - git-committers:
+  #     repository: 23people-io/23people-handbook
+  #     branch: main
+  #     token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -139,7 +139,7 @@ nav:
       - Bienvenidos a 23people: index.md
       - Lo qué hacemos:           
           - El desafío: what-we-do/challenge.md   
-          - Servicios: what-we-do/services.md                     
+          - Nuestros Servicios: what-we-do/services.md                     
           - Casos de éxito: what-we-do/success-stories.md
       - Cómo lo hacemos:
           - Especialización en Roles Tech: how-we-do-it/tech-roles.md
@@ -149,14 +149,6 @@ nav:
           - Satisfacción de clientes: how-we-do-it/customer-success.md
       - Cultura:
           - Valores: culture/values.md
-          - Prácticas: 
-              - culture/practices/index.md
-              - Todo es un servicio a otro: culture/practices/everything-is-a-service.md
-              - Comunicación asincrónica: culture/practices/asynchronous-communication.md
-              - Escribir y luego comunicar: culture/practices//write-then-communicate.md
-              - Gestionar trabajo y no las personas: culture/practices/manage-work-not-people.md
-              - Estructurar la narrativa: culture/practices/structure-the-narrative.md
-              - Notificar los avances: culture/practices/notify-progress.md
       - Estrategia: 
           - Metas: strategy/goals.md 
           - Principios: strategy/principles.md
@@ -179,7 +171,16 @@ nav:
           - "Tech Talent Services (TTS)": organization/tribes/iarvis-tribe/teams/tech-talent-services/index.md
           - "Sales & Growth Marketing (SGM)": organization/tribes/iarvis-tribe/teams/sales-and-growth-marketing/index.md
           - "Backoffice (BKO)": organization/tribes/iarvis-tribe/teams/backoffice/index.md
-          - "Research & Development (R&D)": organization/tribes/iarvis-tribe/teams/research-and-development/index.md      
+          - "Research & Development (R&D)": organization/tribes/iarvis-tribe/teams/research-and-development/index.md 
+          
+  - Prácticas: 
+      - Nuestras prácticas: culture/practices/index.md
+      - Gestionar trabajo y no las personas: culture/practices/manage-work-not-people.md
+      - Todo es un servicio a otro: culture/practices/everything-is-a-service.md
+      - Comunicación asincrónica: culture/practices/asynchronous-communication.md
+      - Escribir y luego comunicar: culture/practices//write-then-communicate.md      
+      - Estructurar la narrativa: culture/practices/structure-the-narrative.md
+      - Notificar los avances: culture/practices/notify-progress.md
 
   - Insights:
       - insights/index.md
