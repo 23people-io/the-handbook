@@ -9,11 +9,7 @@ description: >
 
 # Entregar Acknowledge de un mensaje tan pronto sea posible
 
-!!! warning "WIP"
-
-    Esta página es un trabajo en proceso.
-
-Dar acknowledge tan pronto sea posible para ayudar a bajar la ansiedad.
+Dar acknowledge (avisar que se recibió un mensaje) tan pronto sea posible para ayudar a bajar la ansiedad.
 
 Puede sonar vanal, pero tiene sustento en la neurociencia.
 
