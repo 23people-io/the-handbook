@@ -11,13 +11,9 @@ description: >
 
 Considerar que: **Lo que que no se visualiza, no se puede gestionar**. Con base en lo anterior, es importante que todas las tareas, solicitudes de servicios, actividades y proyectos, preferiblemente, se gestionen a través de flujos de trabajo visuales y sistemáticos.
 
-!!! note "La importancia de los flujos de trabajo"
-
-    Este tipo de trabajo corresponde a uno de las principales contribuciones de los [equipos](../../organization/teams/), por lo que es necesario mantener un control y seguimiento adecuado de las tareas y proyectos en curso. Los flujos de trabajo permiten visualizar el estado de las tareas, identificar cuellos de botella, priorizar actividades y mejorar la eficiencia en la entrega de valor.
+Este tipo de trabajo corresponde a uno de las principales contribuciones de los [equipos](/organization#equipos-operacionales), por lo que es necesario mantener un control y seguimiento adecuado de las tareas y proyectos en curso. Los flujos de trabajo permiten visualizar el estado de las tareas, identificar cuellos de botella, priorizar actividades y mejorar la eficiencia en la entrega de valor.
 
 ## Beneficios de usar flujos de trabajo
-
-Otros beneficios de usar flujos de trabajo son:
 
 - Evitar la sobrecarga de trabajo y la multitarea.
 - Evitar depender de la memoria de las personas. Nuestra memoria es frágil y puede fallar.
