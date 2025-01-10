@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# script/lint: Run the linter to check for any linting errors in the codebase.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+# ANSI color codes
+GREEN=$(tput -Txterm setaf 2)
+
+ruff check --fix
+
+echo "${GREEN}✔ Lint completed successfully.${RESET}"
