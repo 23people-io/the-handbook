@@ -1,0 +1,16 @@
+name: Vector Indexer Worker
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  echo-input:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const script = require('./scripts/index-docs.js')
+            await script({github, context})
