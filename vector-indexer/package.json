@@ -1,6 +1,6 @@
 {
 	"name": "23people-handbook-vector-indexer",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"type": "module",
 	"private": true,
 	"scripts": {
