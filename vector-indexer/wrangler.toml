@@ -113,8 +113,6 @@ binding = "HANDBOOK_INDEX" # available in your Worker on env.HANDBOOK_INDEX
 index_name = "handbook-index" # the name of the index
 
 [vars]
-GITHUB_API_URL = "https://api.github.com"
-REPO_NAME = "23people-handbook"
-REPO_OWNER = "23people-io"
-VECTOR_STORE_WORKER_BASE_URL = "https://23people-handbook-vector-store.cloudflare-23people-io-account.workers.dev"
-VECTOR_STORE_WORKER_ENDPOINT = "api/vectors"
+HANDBOOK_REPO_FILTER_PATH = "docs/docs"
+HANDBOOK_REPO_NAME = "23people-handbook"
+HANDBOOK_REPO_OWNER = "23people-io"
