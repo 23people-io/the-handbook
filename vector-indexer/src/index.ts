@@ -1,12 +1,12 @@
 import { Hono } from "hono";
 import vectors from './endpoints/vectors'
-import repo_pushes from './endpoints/repo/pushes'
+import webhooks_pushes from './endpoints/github-repo/webhooks'
 
 // Start a Hono app
 const app = new Hono<{ Bindings: Env }>().basePath('/api');
 
 app.route('/vectors', vectors);
-app.route('/repo/pushes', repo_pushes);
+app.route('/github-repo/webhooks', webhooks_pushes);
 
 app.onError((err, c) => {
 	console.error(`${err}`);

@@ -1,8 +1,8 @@
 import { Hono } from 'hono'
-import upsert_documents from './upsert-documents';
+import new_push_event from './new_push_event';
 
 const app = new Hono<{ Bindings: Env }>()
 
-app.post('/', ...upsert_documents);
+app.post('/pushes', ...new_push_event);
 
 export default app;
