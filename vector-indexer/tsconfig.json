@@ -43,5 +43,5 @@
 	"include": [
 		"worker-configuration.d.ts",
 		"src/**/*.ts"
-	]
+, "src/index.ts.old"	]
 }

@@ -1,14 +1,15 @@
 {
 	"name": "23people-handbook-vector-indexer",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"deploy": "wrangler deploy",
+		"deploy": "t=patch npm run new-version && wrangler deploy",
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
 		"test": "vitest",
-		"cf-typegen": "wrangler types"
+		"cf-typegen": "wrangler types",
+		"new-version": "./scripts/version.sh"
 	},
 	"dependencies": {
 		"axios": "^1.7.9",

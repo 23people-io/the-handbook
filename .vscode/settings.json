@@ -21,4 +21,5 @@
         "**/.pytest_cache": true,
         "**/.ruff_cache": true
     },
+    "vitest.disableWorkspaceWarning": true,
 }

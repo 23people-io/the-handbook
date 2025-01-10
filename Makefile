@@ -39,10 +39,10 @@ test:
 	@scripts/test
 	@echo "$(MAGENT)✔ Tests passed.$(RESET)"
 
-version:
-	@echo "$(MAGENT)Starting Versioning...$(RESET)"
-	@scripts/version
-	@echo "$(MAGENT)✔ Versioning completed successfully.$(RESET)"
+git:
+	@echo "$(MAGENT)Starting Commit and Push to Github Repo...$(RESET)"
+	@scripts/git.sh
+	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
 
 prepatch:
 	@echo "$(MAGENT)Starting Prepatch...$(RESET)"
