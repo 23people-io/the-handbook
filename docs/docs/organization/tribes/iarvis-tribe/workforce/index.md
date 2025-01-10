@@ -20,7 +20,7 @@ A continuación, encontrarás una lista de los cargos en 23people. Puedes accede
 - **Cargos de Management**
     - [Services Coordinator](./positions/services-coordinator)
 - **Cargos de Operaciones**
-    - [Intermediate Tech Relations Specialist](./positions/Intermediate-tech-relations-specialist)
+    - [Intermediate Tech Relations Specialist](./positions/intermediate-tech-relations-specialist.md)
 
 ## Listado de Roles
 
