@@ -1,12 +1,12 @@
 import { Hono } from "hono";
 import vectors from './endpoints/vectors'
-import repo_commits from './endpoints/repo/commits'
+import repo_pushes from './endpoints/repo/pushes'
 
 // Start a Hono app
 const app = new Hono<{ Bindings: Env }>().basePath('/api');
 
 app.route('/vectors', vectors);
-app.route('/repo/commits', repo_commits);
+app.route('/repo/pushes', repo_pushes);
 
 app.onError((err, c) => {
 	console.error(`${err}`);
