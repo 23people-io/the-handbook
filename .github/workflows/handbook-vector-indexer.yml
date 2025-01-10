@@ -15,9 +15,9 @@ jobs:
         uses: actions/script@v7
         with:
           script: |
-            const branch = await github.rest.repos.getBranch({
+            const content = await github.rest.repos.getContent({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              branch: `main`
+              path: 'docs/docs/about-us/',
             });
-            console.log(branch.data);
+            console.log(content.data);
