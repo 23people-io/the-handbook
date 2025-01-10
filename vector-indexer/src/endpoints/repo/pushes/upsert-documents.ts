@@ -4,7 +4,7 @@ import { logger } from 'hono/logger'
 const factory = createFactory<{ Bindings: Env }>()
 
 const upsert_documents = factory.createHandlers(logger(), async (c) => {
-    const { input_data } = await c.req.json();
+    const input_data = await c.req.json();
     if (!input_data) {
         return c.text("Missing input data", 400);
     }
