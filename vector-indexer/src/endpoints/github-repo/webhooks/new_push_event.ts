@@ -1,39 +1,39 @@
-import { createFactory } from 'hono/factory'
-import { logger } from 'hono/logger'
-import { upsert_vectors } from '../../../services/vectorize-indexer'
+import { Context } from 'hono';
+import { createFactory } from 'hono/factory';
+import { logger } from 'hono/logger';
+import { delete_vectors, upsert_vectors } from '../../../services/vectorize-indexer';
 
-const factory = createFactory<{ Bindings: Env }>()
+const factory = createFactory<{ Bindings: Env }>();
 
-const upsert_documents = factory.createHandlers(logger(), async (c) => {
-    const { commits } = await c.req.json();
-    const results = [];
+const process_documents = factory.createHandlers(logger(), async (c) => {
+	const { commits } = await c.req.json();
 
-    if (!commits) {
-        return c.text("Missing input data (commits)", 400);
-    }
+	if (!commits) {
+		return c.text('Missing input data (commits)', 400);
+	}
 
-    const { added, removed, modified } = commits[0];
+	const results = await Promise.all(commits.map(process_commited_files));
 
-    if (added) {
-        // index new files
-        const added_results = await upsert_vectors(added, c);
-        results.push(added_results);
-    }
-
-    if (modified) {
-        // index modified files
-        const modified_results = await upsert_vectors(modified, c);
-        results.push(modified_results);
-    }
-
-    if (removed) {
-        // remove deleted files from index
-        const removed_results = await upsert_vectors(removed, c);
-        results.push(removed_results);
-
-    }
-
-    return c.json(results);
+	return c.json(results);
 });
 
-export default upsert_documents;
+const process_commited_files = async (commit: any, c: Context) => {
+	const { added, removed, modified } = commit;
+	const results = [];
+
+	// index new files
+	const added_results = await upsert_vectors(added, c);
+	results.push(added_results);
+
+	// handle modified files
+	const modified_results = await upsert_vectors(modified, c);
+	results.push(modified_results);
+
+	// handle removed files
+	const removed_results = await delete_vectors(removed, c);
+	results.push(removed_results);
+
+	return results;
+};
+
+export default process_documents;

@@ -16,10 +16,41 @@
         "editor.formatOnType": true,
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.rulers": [
+            {
+                "column": 120,
+                "color": "#ff002b55"
+            }
+        ],
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.rulers": [
+            {
+                "column": 120,
+                "color": "#ff002b55"
+            }
+        ],
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
     "files.exclude": {
         "**/__pycache__": true,
         "**/.pytest_cache": true,
         "**/.ruff_cache": true
     },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "vitest.disableWorkspaceWarning": true,
 }
