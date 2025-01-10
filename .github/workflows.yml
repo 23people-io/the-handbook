@@ -1,4 +1,4 @@
-name: Vector Indexer Worker
+name: Handbook Vector Indexer Worker
 on:
   push:
     branches:
