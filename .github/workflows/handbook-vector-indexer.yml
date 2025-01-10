@@ -11,10 +11,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          path: main
-
-      - uses: actions/github-script@v7
-        with:
-          script: |
-            sparse-checkout: |
-              docs
+          sparse-checkout: |
+            docs
