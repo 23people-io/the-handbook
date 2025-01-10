@@ -10,5 +10,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Process Docs
+        uses: actions/script@v7
         with:
-          path: docs
+          script: |
+            const branch = await github.rest.repos.getBranch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              branch: `main`
+            });
+            console.log(branch.data);
