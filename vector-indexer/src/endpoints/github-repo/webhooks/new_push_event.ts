@@ -1,7 +1,7 @@
 import { Context } from 'hono';
 import { createFactory } from 'hono/factory';
 import { logger } from 'hono/logger';
-import { delete_vectors, upsert_vectors } from '../../../services/vectorize-indexer';
+import { delete_vectors, upsert_vectors } from '../../../services/vectorize';
 
 const factory = createFactory<{ Bindings: Env }>();
 
