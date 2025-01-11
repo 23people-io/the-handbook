@@ -1,6 +1,6 @@
 ---
 created: 2024-01-09T09:40:45
-updated: 2024-11-27T09:43:48
+updated: 2025-01-11T00:00:00
 description: Información publicamente compartida de lo que hacemos en 23people
 ---
 

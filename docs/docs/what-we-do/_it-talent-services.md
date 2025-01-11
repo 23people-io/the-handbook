@@ -1,6 +1,6 @@
 ---
 created: 2024-02-02T12:55:41
-updated: 2024-07-12T08:23:05
+updated: 2025-01-11T00:00:00
 description: Detalles de los servicios que ofrecemos en IT Talent Services
 author: 5127711
 status: wip

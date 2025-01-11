@@ -1,6 +1,6 @@
 ---
 created: 2024-01-24T13:20:14
-updated: 2024-01-24T13:30:42
+updated: 2025-01-11T00:00:00
 description: Acreditaciones globales que validan competencias profesionales en diversas áreas, esenciales para la calidad y competitividad en 23people.
 author: 5127711
 status: wip
@@ -81,5 +81,3 @@ consideramos:
   6. **ISTQB Certified Tester** : Para profesionales en testing de software, disponible en niveles Foundation, Advanced y Expert.
 
   7. **Certified Software Quality Engineer (CSQE) - ASQ** : Acreditación para ingenieros enfocados en la calidad del software.
-
-

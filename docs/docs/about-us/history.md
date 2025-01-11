@@ -1,6 +1,6 @@
 ---
 created: 2023-10-06T13:21:47
-updated: 2024-08-02T16:24:17
+updated: 2025-01-11T00:00:00
 description: Una breve historia de 23people desde sus inicios en 2014.
 author: 5127711
 ---

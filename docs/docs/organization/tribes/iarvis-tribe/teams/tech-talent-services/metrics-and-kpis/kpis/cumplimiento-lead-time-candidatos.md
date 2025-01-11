@@ -1,6 +1,6 @@
 ---
 created: 2024-10-25T11:43:54
-updated: 2024-10-25T14:36:38
+updated: 2025-01-11T00:00:00
 description: Mide el porcentaje de cumplimiento entre el Lead Time real vs el Lead Time objetivo establecido para el envío de candidatos IT al cliente.
 author: 5127711
 ---

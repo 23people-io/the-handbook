@@ -1,6 +1,6 @@
 ---
 created: 2023-09-24T13:21:47
-updated: 2024-09-24T13:21:47
+updated: 2025-01-11T00:00:00
 description: Integración de 23people con la Industria TI.
 author: 5127711
 ---

@@ -1,6 +1,6 @@
 ---
 created: 2024-08-21T18:03:41
-updated: 2024-08-22T15:05:48
+updated: 2025-01-11T00:00:00
 description: KPI de Oportunidades de Venta Calificadas (QSO)
 author: 5127711
 status: wip
@@ -22,14 +22,12 @@ Se entiende por **Calificada** que se cumplan los siguientes criterios:
 
   2. [Muestra interés](https://docs.google.com/document/d/1XBdxztlImvuINt1NjNpRbZSEeXeKg39FeuJjbEVd9xI/edit#heading=h.ynyyxvlncm5v) en nuestros productos y/o servicios.
 
-  3. Se ha podido escuchar y entender la(s) problemática(s) en particular que expresa como negocio, función, departamento y/o área en su empresa. 
+  3. Se ha podido escuchar y entender la(s) problemática(s) en particular que expresa como negocio, función, departamento y/o área en su empresa.
 
-  4. Los servicios que ofrecemos como 23people, pueden resolver el (los) problemas que tiene. 
+  4. Los servicios que ofrecemos como 23people, pueden resolver el (los) problemas que tiene.
 
   5. Consideramos que tiene el presupuesto para poder contratar nuestros servicios.
 
 ### Fórmula
 
 **QSO** = Número total de oportunidades de venta calificadas al final del mes.
-
-

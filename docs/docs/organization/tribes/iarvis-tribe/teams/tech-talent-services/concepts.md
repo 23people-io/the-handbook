@@ -1,6 +1,6 @@
 ---
 created: 2024-10-21T12:46:17
-updated: 2024-10-21T14:57:46
+updated: 2025-01-11T00:00:00
 description: Conceptos, expresiones y acuerdos de definiciones que se usan en la comunicación diaria en temas asociados a los servicios de IT Talent Services.
 author: 5127711
 ---

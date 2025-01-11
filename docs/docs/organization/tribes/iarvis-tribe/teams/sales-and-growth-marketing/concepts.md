@@ -1,6 +1,6 @@
 ---
 created: 2024-05-03T12:46:17
-updated: 2024-08-22T14:57:46
+updated: 2025-01-11T00:00:00
 description: Conceptos, expresiones y acuerdos de definiciones que se usen en la comunicación diaria en temas asociados a Marketing y Ventas.
 author: 5127711
 ---

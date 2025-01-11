@@ -1,6 +1,6 @@
 ---
 created: 2024-01-08T17:57:58
-updated: 2024-08-23T13:44:00
+updated: 2025-01-11T00:00:00
 description: Porcentaje que representa el EBITDA sobre los ingresos totales.
 author: 5127711
 status: wip

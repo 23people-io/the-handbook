@@ -1,6 +1,6 @@
 ---
 created: 2024-10-23T11:43:54
-updated: 2024-10-23T14:36:38
+updated: 2025-01-11T00:00:00
 description: Esta métrica mide el tiempo (en días hábiles) que toma enviar candidatos TI a un cliente, desde la aprobación de un requerimiento.
 ---
 

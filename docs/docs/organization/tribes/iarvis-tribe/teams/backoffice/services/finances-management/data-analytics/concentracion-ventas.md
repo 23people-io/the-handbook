@@ -1,6 +1,6 @@
 ---
 created: 2024-09-10T12:15:10
-updated: 2024-09-10T14:30:00
+updated: 2025-01-11T00:00:00
 description: Mide el grado de concentración de las ventas entre los clientes de la empresa.
 author: 5127711
 status: wip
@@ -46,17 +46,17 @@ Este KPI debe poder desagregado en las siguientes dimensiones temporales:
 Además, se debe considerar la posibilidad de desagregar el KPI por las siguientes dimensiones:
 
 - Departamento de Servicios:
-  - IT Talent Services (ITTS)
-  - Digital Platforms, Data & AI Services (DPS)
+    - IT Talent Services (ITTS)
+    - Digital Platforms, Data & AI Services (DPS)
 - Geografía: País o región asociados al cliente, independientemente de donde se facture
 
 - Cliente: Nombre del cliente
 - Servicio:
-  - Outsourcing TI
-  - Hunting TI
-  - Integración
-  - Modernización y Evolución
-  - Otros servicios específicos
+    - Outsourcing TI
+    - Hunting TI
+    - Integración
+    - Modernización y Evolución
+    - Otros servicios específicos
 - Contacto del Cliente: Manager o representante del cliente asociado a los proyectos
 
 ## Cálculo

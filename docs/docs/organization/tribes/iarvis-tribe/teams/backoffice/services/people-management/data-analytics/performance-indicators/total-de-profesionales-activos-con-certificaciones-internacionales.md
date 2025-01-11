@@ -1,6 +1,6 @@
 ---
 created: 2024-01-24T13:16:07
-updated: 2024-06-06T13:32:50
+updated: 2025-01-11T00:00:00
 description: Total de profesionales de 23people que cuentan con certificaciones internacionales
 author: 5127711
 status: wip
@@ -48,9 +48,9 @@ equipo del [Departamento de People Growth](/people-growth).
 
 ## Dimensiones de comparación
 
-  * Comparación mensual, trimestral y anual.
+* Comparación mensual, trimestral y anual.
 
-  * Comparación por tipo de certificación (Inglés, Metodologías, Habilidades).
+* Comparación por tipo de certificación (Inglés, Metodologías, Habilidades).
 
 ## Cómo calcularlo
 
@@ -59,5 +59,3 @@ El cálculo se realiza contabilizando el número total de empleados activos en
 en un mes hay 120 empleados y de ellos, 45 tienen certificaciones en Inglés,
 30 en Metodologías y 25 en Tecnología, el total de Profesionales Activos
 Certificados Internacionalmente sería 100.
-
-

@@ -1,6 +1,6 @@
 ---
 created: 2024-01-08T17:52:02
-updated: 2024-01-09T12:10:37
+updated: 2025-01-11T00:00:00
 description: Número de profesionales empleados activamente en Chile
 author: 5127711
 status: wip
@@ -31,5 +31,3 @@ de cada mes.
 
 Si al final de un mes, la empresa cuenta con 150 profesionales activos
 localmente, ese es el valor del KPI.
-
-

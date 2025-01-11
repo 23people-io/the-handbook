@@ -1,6 +1,6 @@
 ---
 created: 2024-08-22T15:08:58
-updated: 2024-08-22T15:09:36
+updated: 2025-01-11T00:00:00
 description: KPI para las Oportunidades de Venta Listas para Facturar (RISO)
 author: 5127711
 status: wip
@@ -9,7 +9,3 @@ legacy_url: https://manual.23people.io/es/articles/9773868-oportunidades-de-vent
 ---
 
 # Oportunidades de Venta Listas para Facturar (RISO)
-
-
-
-

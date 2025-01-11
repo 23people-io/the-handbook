@@ -1,6 +1,6 @@
 ---
 created: 2024-01-09T12:01:21
-updated: 2024-08-23T13:03:20
+updated: 2025-01-11T00:00:00
 description: Mide el crecimiento de las ventas a lo largo del tiempo
 author: 5127711
 status: wip

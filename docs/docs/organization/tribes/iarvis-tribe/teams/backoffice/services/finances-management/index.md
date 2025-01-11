@@ -1,6 +1,6 @@
 ---
 created: 2024-01-24T17:38:41
-updated: 2024-08-23T13:46:10
+updated: 2025-01-11T00:00:00
 description: El departamento de Finances en 23people.
 author: 5127711
 slug: acerca-de-finances

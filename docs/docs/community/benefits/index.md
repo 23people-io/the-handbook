@@ -1,6 +1,6 @@
 ---
 created: 2024-09-06T14:39:48 (UTC -04:00)
-updated: 2024-12-17T14:39:48 (UTC -04:00)
+updated: 2025-01-11T00:00:00 (UTC -04:00)
 author: manu-reyes-23p
 description: >
   Se indican los distintos beneficios que se tienen en 23people. Se indica el cómo hacerlos efectivo y las restricciones que aplican.

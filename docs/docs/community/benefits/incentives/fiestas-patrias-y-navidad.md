@@ -1,6 +1,6 @@
 ---
 created: 2024-06-19T12:12:30
-updated: 2024-06-19T12:13:55
+updated: 2025-01-11T00:00:00
 description: Te entregamos un bono en dinero en septiembre y diciembre.
 author: 7130085
 status: wip
@@ -23,7 +23,4 @@ mediante transferencia.
 Podrán optar las personas que tengan tres meses cumplidos tanto al 15 de
 septiembre como al 15 de diciembre, según corresponda.
 
-  
 ​
-
-

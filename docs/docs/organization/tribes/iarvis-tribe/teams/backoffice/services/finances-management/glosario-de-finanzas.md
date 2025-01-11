@@ -1,6 +1,6 @@
 ---
 created: 2024-09-04T12:31:47
-updated: 2024-09-04T13:03:05
+updated: 2025-01-11T00:00:00
 description: Conceptos, expresiones y acuerdos de definiciones que se usen en la comunicación diaria en temas asociados a Finanzas.
 author: 5127711
 status: wip
@@ -52,7 +52,7 @@ ofrecidos. No incluye depreciación ni amortización.
 
 #### Características de estos Costos Indirectos
 
-  1. **No Directamente Atribuibles** : No se pueden identificar y asignar directamente a un único servicio. En lugar de eso, apoyan varias actividades o servicios dentro de la empresa. 
+  1. **No Directamente Atribuibles** : No se pueden identificar y asignar directamente a un único servicio. En lugar de eso, apoyan varias actividades o servicios dentro de la empresa.
 
   2. **Distribución Necesaria** : Deben ser repartidos entre los distintos servicios utilizando algún método de asignación razonable, como el uso de una base de prorrateo (horas trabajadas, número de empleados, ingresos, etc.).
 
@@ -60,17 +60,17 @@ ofrecidos. No incluye depreciación ni amortización.
 
 #### Ejemplos de Costos Indirectos de un Servicio
 
-  * **Salarios del Personal Administrativo** : Su trabajo beneficia a toda la organización, no a un servicio específico.
+* **Salarios del Personal Administrativo** : Su trabajo beneficia a toda la organización, no a un servicio específico.
 
-  * **Costos de Infraestructura** : Alquiler de oficinas, servicios públicos, mantenimiento de instalaciones, etc.
+* **Costos de Infraestructura** : Alquiler de oficinas, servicios públicos, mantenimiento de instalaciones, etc.
 
-  * **Equipo de Recursos Humanos** : Gastos relacionados con la contratación, entrenamiento, y manejo del personal.
+* **Equipo de Recursos Humanos** : Gastos relacionados con la contratación, entrenamiento, y manejo del personal.
 
-  * **Servicios Generales** : Servicios de limpieza, seguridad, y suministros de oficina.
+* **Servicios Generales** : Servicios de limpieza, seguridad, y suministros de oficina.
 
-  * **Tecnología y Comunicaciones** : Costos de software de gestión, sistemas de comunicación, y servicios de TI que son utilizados por múltiples áreas de la empresa.
+* **Tecnología y Comunicaciones** : Costos de software de gestión, sistemas de comunicación, y servicios de TI que son utilizados por múltiples áreas de la empresa.
 
-  * **Gestión Financiera y Contabilidad** : Costos asociados con la administración de las finanzas y la contabilidad de la empresa.
+* **Gestión Financiera y Contabilidad** : Costos asociados con la administración de las finanzas y la contabilidad de la empresa.
 
 ### Costos Operacionales (CO)
 
@@ -130,5 +130,3 @@ globales de la empresa.
 Porcentaje de ingresos que queda como beneficio operativo después de
 considerar todos los gastos, incluyendo la asignación de gastos
 administrativos.
-
-

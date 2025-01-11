@@ -1,6 +1,6 @@
 ---
 created: 2024-06-19T12:06:31
-updated: 2024-12-17T12:07:52
+updated: 2025-01-11T00:00:00
 author: manu-reyes-23p
 description: >
   El beneficio consiste en entregar un incentivo económico al momento de que tomes vacaciones.

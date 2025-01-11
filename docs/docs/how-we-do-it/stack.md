@@ -1,6 +1,6 @@
 ---
 created: 2024-02-02T13:15:13
-updated: 2024-12-07T13:51:25
+updated: 2025-01-11T00:00:00
 author: manu-reyes-23p
 description: >
   Stack Tecnológico de 23people. Listado de tecnologías en que tenemos experiencia y que podemos validar en los perfiles de Profesionales Tech.

@@ -1,6 +1,6 @@
 ---
 created: 2024-01-26T12:07:24
-updated: 2024-06-05T12:42:17
+updated: 2025-01-11T00:00:00
 description: Equifax moderniza su Informe Platinum 360 con metodologías ágiles, logrando eficiencia y un impacto duradero en el producto.
 author: 5127711
 status: wip
@@ -48,5 +48,3 @@ Este caso destaca cómo la colaboración efectiva y la adopción de metodología
 ágiles pueden llevar a una transformación exitosa en proyectos tecnológicos
 complejos, asegurando resultados duraderos y un impacto significativo en el
 negocio del cliente.
-
-

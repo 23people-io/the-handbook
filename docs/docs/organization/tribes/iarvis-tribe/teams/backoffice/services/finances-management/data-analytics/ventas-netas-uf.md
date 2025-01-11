@@ -1,6 +1,6 @@
 ---
 created: 2024-01-11T12:15:10
-updated: 2024-09-10T13:14:43
+updated: 2025-01-11T00:00:00
 description: Mide el total de ingresos mensuales generados por la venta de servicios, expresado en Unidades de Fomento (UF).
 author: 5127711
 status: wip
@@ -45,16 +45,16 @@ Este KPI debe poder desagregado en las siguientes dimensiones temporales:
 Además, se debe considerar la posibilidad de desagregar el KPI por las siguientes dimensiones no temporales:
 
 - Departamento de Servicios:
-  - IT Talent Services (ITTS)
-  - Digital Platforms, Data & AI Services (DPS)
+    - IT Talent Services (ITTS)
+    - Digital Platforms, Data & AI Services (DPS)
 - Geografía: País o región asociados al cliente, independientemente de donde se facture
 - Cliente: Nombre del cliente
 - Servicio:
-  - Outsourcing TI
-  - Hunting TI
-  - Integración
-  - Modernización y Evolución
-  - Otros servicios específicos
+    - Outsourcing TI
+    - Hunting TI
+    - Integración
+    - Modernización y Evolución
+    - Otros servicios específicos
 - Contacto del Cliente: Manager o representante del cliente asociado a los proyectos
 
 ## Cálculo

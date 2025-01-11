@@ -1,6 +1,6 @@
 ---
 created: 2024-06-19T16:09:47
-updated: 2024-06-19T16:10:52
+updated: 2025-01-11T00:00:00
 description: Cursos de inglés desde A2 hasta C1.
 author: 7130085
 status: wip
@@ -43,5 +43,3 @@ oportunidad debido a que estos cupos son limitados.
 ### ¿Cada cuanto se abren las inscripciones?
 
 Cada cuatro meses aproximadamente.
-
-

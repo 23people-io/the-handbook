@@ -1,6 +1,6 @@
 ---
 created: 2024-09-12T12:15:10
-updated: 2024-09-12T14:30:00
+updated: 2025-01-11T00:00:00
 description: Mide el porcentaje de profesionales que han dejado la empresa en los últimos 12 meses.
 author: 5127711
 ---

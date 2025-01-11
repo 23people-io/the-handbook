@@ -1,6 +1,6 @@
 ---
 created: 2024-08-21T18:14:42
-updated: 2024-08-22T15:07:38
+updated: 2025-01-11T00:00:00
 description: KPI para las Postulaciones Calificadas (QAJO)
 author: 5127711
 status: wip

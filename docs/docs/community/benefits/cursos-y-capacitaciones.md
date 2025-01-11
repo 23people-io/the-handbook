@@ -1,6 +1,6 @@
 ---
 created: 2024-06-19T16:15:20
-updated: 2024-06-19T16:19:32
+updated: 2025-01-11T00:00:00
 description: Descripción e instructivo de uso del beneficio de capacitaciones.
 author: 7130085
 status: wip
@@ -14,34 +14,34 @@ Queremos brindarles una oferta de capacitación que sea amplia y de fácil
 acceso para todos independientemente de su área o nivel de expertise. Es por
 ello que se generan los siguiente lineamientos:
 
-## Definición de conceptos:
+## Definición de conceptos
 
-### Cursos y Capacitaciones:
+### Cursos y Capacitaciones
 
 Se entiende por cursos y capacitaciones todas aquellas instancias de
 aprendizaje que se realicen a través de alguna plataforma de estudios online
 (Udemy, Coursera, Platzi, etc.), generalmente de corta duración y que concluya
 en algún certificado o diploma de culminación.
 
-### Certificaciones:
+### Certificaciones
 
 Se entiende por certificación todas aquellas de carácter técnico e
 internacional. Estos son algunos de los ejemplos de certificaciones
 internacionales que aplican dentro de la política de capacitación:
 
-  * Amazon AWS
+* Amazon AWS
 
-  * Google Cloud
+* Google Cloud
 
-  * Oracle
+* Oracle
 
-  * Azure
+* Azure
 
-  * Scrum.org
+* Scrum.org
 
-  * Kansan University
+* Kansan University
 
-  * TOEIC
+* TOEIC
 
 Toda la información sobre las certificaciones la puedes encontrar
 [aquí](https://manual.23people.io/docs/certificaciones-internacionales)
@@ -52,15 +52,15 @@ Puedes tomar el curso que quieras siempre y cuando esté alineado a tu plan de
 carrera e impacte en tu crecimiento profesional (no puedes tomar un curso de
 tejido o de cocina).
 
-  * Ubica el curso que quieres hacer.
+* Ubica el curso que quieres hacer.
 
-  * Verifica su contenido.
+* Verifica su contenido.
 
-  * Adquiere el curso con tu usuario personal en la plataforma y guarda tu comprobante de pago.
+* Adquiere el curso con tu usuario personal en la plataforma y guarda tu comprobante de pago.
 
-  * Al finalizar el curso descarga el certificado de culminación.
+* Al finalizar el curso descarga el certificado de culminación.
 
-  * Ve al siguiente [link](https://23people.typeform.com/to/DO1IJ1a2) y solicita el reembolso correspondiente, deberás adjuntar el comprobante de pago y el certificado de culminación.
+* Ve al siguiente [link](https://23people.typeform.com/to/DO1IJ1a2) y solicita el reembolso correspondiente, deberás adjuntar el comprobante de pago y el certificado de culminación.
 
 🚧**Nota:**
 
@@ -117,5 +117,3 @@ Se tienen 60 días corridos desde la fecha del certificado.
 Si, puedes enviarnos la boleta de la inscripción y se aplicarán las mismas
 condiciones que para las certificaciones internacionales, es decir, 200 USD
 como tope de reembolso.
-
-

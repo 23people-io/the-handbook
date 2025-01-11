@@ -1,6 +1,6 @@
 ---
 created: 2024-01-08T18:31:44
-updated: 2024-06-06T13:48:26
+updated: 2025-01-11T00:00:00
 description: Evaluación global de 23people en Glassdoor.
 author: 5127711
 status: wip
@@ -33,19 +33,19 @@ Calificación promedio (escala de 1 a 5).
 
 ## Rangos esperables
 
-  * Excelente: 4.5 - 5.0
+* Excelente: 4.5 - 5.0
 
-  * Muy bueno: 4.0 - 4.49
+* Muy bueno: 4.0 - 4.49
 
-  * Bueno: 3.5 - 3.99
+* Bueno: 3.5 - 3.99
 
-  * Regular: 3.0 - 3.49
+* Regular: 3.0 - 3.49
 
-  * Mejorable: menos de 3.0
+* Mejorable: menos de 3.0
 
 ## Dimensiones de Comparación
 
-  * Comparación mensual, trimestral y anual.
+* Comparación mensual, trimestral y anual.
 
 ## Fuente de datos y actualización
 
@@ -64,5 +64,3 @@ en la plataforma de Glassdoor.
 
 Si la página de 23people en el perfil de Glassdoor indica 4.6 para un cierto
 mes, ese es el valor del KPI.
-
-

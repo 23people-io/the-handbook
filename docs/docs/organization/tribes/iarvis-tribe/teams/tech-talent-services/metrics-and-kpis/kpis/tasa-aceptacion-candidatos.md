@@ -1,6 +1,6 @@
 ---
 created: 2024-01-24T11:43:54
-updated: 2024-10-03T14:36:38
+updated: 2025-01-11T00:00:00
 description: Mide la calidad del servicio mediante la aprobación de candidatos por parte de los clientes.
 author: 5127711
 ---

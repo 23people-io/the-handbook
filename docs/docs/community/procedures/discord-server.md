@@ -1,6 +1,6 @@
 ---
 created: 2024-01-30T10:14:26
-updated: 2024-01-30T10:44:26
+updated: 2025-01-11T00:00:00
 description: Paso a paso para añadir nuevos miembros al servidor de Discord de 23people y asignarles roles predefinidos.
 author: 5127711
 ---

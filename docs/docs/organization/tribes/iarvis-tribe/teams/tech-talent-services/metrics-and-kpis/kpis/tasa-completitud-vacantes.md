@@ -1,6 +1,6 @@
 ---
 created: 2024-10-09T11:43:54
-updated: 2024-10-09T14:36:38
+updated: 2025-01-11T00:00:00
 description: Mide retrospectivamente la proporción de vacantes TI cubiertas exitosamente por 23people en relación al número total de posiciones solicitadas por los clientes en requerimientos completados.
 author: 5127711
 legacy_url: 

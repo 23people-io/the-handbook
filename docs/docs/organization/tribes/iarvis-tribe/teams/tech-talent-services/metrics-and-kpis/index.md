@@ -1,6 +1,6 @@
 ---
 created: 2024-06-17T18:01:41
-updated: 2024-10-03T13:15:03
+updated: 2025-01-11T00:00:00
 description: KPIs y Métricas de IT Talent Services
 author: 5127711
 legacy_url: 

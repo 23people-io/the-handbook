@@ -1,6 +1,6 @@
 ---
 created: 2024-08-23T12:54:45
-updated: 2024-08-23T13:03:45
+updated: 2025-01-11T00:00:00
 description: 
 author: 5127711
 status: wip
@@ -19,5 +19,3 @@ gastos de marketing y ventas en un período determinado. Esta métrica es
 crucial para evaluar la eficiencia de las estrategias de adquisición de
 clientes y determinar el retorno de inversión en actividades de marketing y
 ventas.
-
-

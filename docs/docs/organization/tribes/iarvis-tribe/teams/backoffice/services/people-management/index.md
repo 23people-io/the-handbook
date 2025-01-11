@@ -1,6 +1,6 @@
 ---
 created: 2024-01-16T11:08:36
-updated: 2024-09-26T14:05:21
+updated: 2025-01-11T00:00:00
 description: El departamento de People Growth en 23people, apoya a todos los/las profesionales de 23people a lo largo de todo su ciclo de vida.
 author: 5127711
 slug: people-growth

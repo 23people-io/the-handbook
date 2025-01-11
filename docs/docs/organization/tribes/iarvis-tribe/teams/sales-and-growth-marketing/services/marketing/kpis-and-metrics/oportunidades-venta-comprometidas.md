@@ -1,6 +1,6 @@
 ---
 created: 2024-08-21T18:10:55
-updated: 2024-08-22T15:06:12
+updated: 2025-01-11T00:00:00
 description: KPI de Oportunidades de Venta Comprometidas (CSO)
 author: 5127711
 status: wip
@@ -18,11 +18,9 @@ formal del cliente.
 Por **compromiso formal** , entendemos que sirva que suceda alguno de los
 siguientes criterios:
 
-  * En IT Talent, se considera como aquellas oportunidades comerciales (pedidos) que están en la etapa de "Por Facturar".
+* En IT Talent, se considera como aquellas oportunidades comerciales (pedidos) que están en la etapa de "Por Facturar".
 
 ### Fórmula
 
 **CSO** = Número total de oportunidades de venta con compromisos formales al
 final del mes
-
-

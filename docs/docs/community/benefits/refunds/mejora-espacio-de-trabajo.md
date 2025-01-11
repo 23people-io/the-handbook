@@ -1,6 +1,6 @@
 ---
 created: 2024-06-19T12:14:34
-updated: 2024-06-19T12:15:38
+updated: 2025-01-11T00:00:00
 description: Reembolso para mejora de espacio de trabajo en la casa.
 author: 7130085
 status: wip

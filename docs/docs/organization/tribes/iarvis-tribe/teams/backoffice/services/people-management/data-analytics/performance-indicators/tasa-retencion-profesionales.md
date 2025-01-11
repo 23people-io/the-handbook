@@ -1,6 +1,6 @@
 ---
 created: 2024-01-09T12:19:02
-updated: 2024-05-31T17:18:33
+updated: 2025-01-11T00:00:00
 description: Porcentaje de retención del equipo en un periodo de 12 meses.
 author: 5127711
 status: wip

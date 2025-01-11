@@ -1,6 +1,6 @@
 ---
 created: 2024-01-15T10:16:42
-updated: 2024-06-06T13:48:19
+updated: 2025-01-11T00:00:00
 description: Mide la capacidad de la empresa para reasignar profesionales a nuevos proyectos una vez que sus proyectos actuales concluyen.
 author: 5127711
 status: wip
@@ -50,8 +50,6 @@ nuevos proyectos por el número total de profesionales cuyos proyectos
 concluyeron en el mismo período, y luego multiplicando por 100 para obtener el
 porcentaje.
 
-    
-    
     Reasignación de Profesionales en nuevos proyectos = (Número de Profesionales Reasignados/Número Total de Profesionales con Proyectos Concluidos) x 100
 
 **💡 Ejemplo**
@@ -59,8 +57,6 @@ porcentaje.
 Si en un mes determinado, 50 profesionales concluyen sus proyectos y 40 de
 ellos son reasignados a nuevos proyectos, el KPI se calcularía como:
 
-    
-    
     Reasignación de Profesionales en nuevos proyectos = (40/50) x 100= 80%
 
 Esto indica que hay un 80% de probabilidad de que un profesional sea
@@ -70,5 +66,3 @@ oportunidades de continuidad dentro de la empresa. Este indicador es un dato
 valioso para los profesionales que consideran la posibilidad de unirse a la
 empresa o que ya forman parte de ella y desean entender sus perspectivas de
 empleo a largo plazo.
-
-

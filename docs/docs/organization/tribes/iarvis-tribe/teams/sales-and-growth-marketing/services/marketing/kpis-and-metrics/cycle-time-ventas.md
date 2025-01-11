@@ -1,6 +1,6 @@
 ---
 created: 2024-08-21T18:14:10
-updated: 2024-08-22T15:08:26
+updated: 2025-01-11T00:00:00
 description: KPI para el Tiempo de Ciclo de Venta (SCL)
 author: 5127711
 status: wip
@@ -19,5 +19,3 @@ una venta facturada, ayudando a entender la eficiencia del proceso de ventas.
 
 **SCL** = Suma de (Fecha de facturación - Fecha de calificación) para todas
 las ventas facturadas en el mes / Número de ventas facturadas en el mes
-
-

@@ -1,6 +1,6 @@
 ---
 created: 2024-02-02T12:57:40
-updated: 2024-06-05T12:40:06
+updated: 2025-01-11T00:00:00
 description: Los servicios que ofrecemos en la división de Digital Platforms, Data, Cloud e AI
 author: 5127711
 status: wip
@@ -49,5 +49,3 @@ Ofrecemos estrategias personalizadas para cada cliente, asegurando una
 transformación digital alineada con sus objetivos de negocio. El valor
 agregado es una hoja de ruta clara y efectiva para la digitalización, lo que
 impulsa la innovación y el crecimiento sostenible.
-
-

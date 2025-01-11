@@ -1,6 +1,6 @@
 ---
 created: 2024-01-16T11:08:36
-updated: 2024-12-03T14:05:21
+updated: 2025-01-11T00:00:00
 authors:
   - manu-reyes-23p
 description: Practicas que se siguen en 23people.

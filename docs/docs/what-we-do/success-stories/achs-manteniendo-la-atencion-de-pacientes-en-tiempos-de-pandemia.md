@@ -1,6 +1,6 @@
 ---
 created: 2024-01-26T12:28:03
-updated: 2024-01-26T12:50:58
+updated: 2025-01-11T00:00:00
 description: 23people desarrolló una plataforma de telemedicina para ACHS durante la pandemia, asegurando la atención continua a pacientes.
 author: 5127711
 status: wip
@@ -45,5 +45,3 @@ crear soluciones tecnológicas que cumplen con regulaciones complejas.
 Posteriormente, 23people fue contratada nuevamente por ACHS para expandir y
 mejorar la plataforma, lo que refleja la confianza y satisfacción del cliente
 con nuestro trabajo y los resultados obtenidos.
-
-

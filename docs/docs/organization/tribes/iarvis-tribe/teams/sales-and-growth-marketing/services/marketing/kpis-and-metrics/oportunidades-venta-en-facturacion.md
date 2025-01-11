@@ -1,6 +1,6 @@
 ---
 created: 2024-08-21T18:11:33
-updated: 2024-08-22T15:08:52
+updated: 2025-01-11T00:00:00
 description: KPI para Oportunidades de Venta en Facturación (ISO)
 author: 5127711
 status: wip
@@ -18,5 +18,3 @@ han sido facturadas, indicando la conversión final a ingresos.
 ### Fórmula
 
 **ISO** = Número total de oportunidades de venta facturadas durante el mes
-
-

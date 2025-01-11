@@ -1,6 +1,6 @@
 ---
 created: 2024-01-09T12:10:48
-updated: 2024-01-09T12:13:38
+updated: 2025-01-11T00:00:00
 description: Cantidad de profesionales activos fuera de Chile.
 author: 5127711
 status: wip
@@ -31,5 +31,3 @@ internacionales al cierre de cada mes.
 
 Si se tienen 80 profesionales activos en el extranjero, ese es el valor del
 KPI.
-
-

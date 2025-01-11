@@ -1,6 +1,6 @@
 ---
 created: 2024-01-08T17:59:28
-updated: 2024-02-06T12:20:48
+updated: 2025-01-11T00:00:00
 description: Mide la rentabilidad obtenida de las ventas después de restar los costos directos de los servicios prestados.
 author: 5127711
 status: wip

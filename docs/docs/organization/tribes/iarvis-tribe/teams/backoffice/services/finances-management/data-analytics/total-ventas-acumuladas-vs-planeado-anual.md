@@ -1,6 +1,6 @@
 ---
 created: 2024-01-08T17:46:08
-updated: 2024-01-11T13:20:01
+updated: 2025-01-11T00:00:00
 description: Compara las ventas netas acumuladas de la empresa con las ventas proyectadas para el año hasta la fecha.
 author: 5127711
 status: wip

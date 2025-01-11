@@ -1,6 +1,6 @@
 ---
 created: 2024-06-19T12:27:07
-updated: 2024-06-19T16:04:08
+updated: 2025-01-11T00:00:00
 description: Nuestra app de Wellnes
 author: 7130085
 status: wip

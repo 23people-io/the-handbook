@@ -1,6 +1,6 @@
 ---
 created: 2024-01-09T12:15:31
-updated: 2024-08-21T18:21:54
+updated: 2025-01-11T00:00:00
 description: Porcentaje de clientes retenidos en el mes.
 author: 5127711
 status: wip
@@ -19,5 +19,3 @@ en un período determinado, indicando la fidelidad y satisfacción del cliente.
 
 **CRR** = (Número de clientes al final del mes - Nuevos clientes adquiridos
 durante el mes) / Número de clientes al inicio del mes x 100
-
-

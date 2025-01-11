@@ -1,10 +1,10 @@
 {
 	"name": "23people-handbook-vector-indexer",
-	"version": "0.0.11",
+	"version": "1.0.0",
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"deploy": "t=patch npm run new-version && wrangler deploy",
+		"deploy": "npm run new-version && wrangler deploy",
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
 		"test": "vitest",
