@@ -109,10 +109,10 @@ binding = "AI" # available in your Worker on env.AI
 # Bind a Vectorize index. Use to store and query vector embeddings for semantic search, classification and other vector search use-cases.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#vectorize-indexes
 [[vectorize]]
-binding = "HANDBOOK_INDEX" # available in your Worker on env.HANDBOOK_INDEX
-index_name = "handbook-index" # the name of the index
+binding = "COMPANY_HANDBOOK_INDEX" # available in your Worker on env.COMPANY_HANDBOOK_INDEX
+index_name = "company-handbook-index" # the name of the index
 
 [vars]
-HANDBOOK_REPO_FILTER_PATH = "docs/docs"
-HANDBOOK_REPO_NAME = "23people-handbook"
-HANDBOOK_REPO_OWNER = "23people-io"
+COMPANY_HANDBOOK_REPO_FILTER_PATH = "docs/docs"
+COMPANY_HANDBOOK_REPO_NAME = "23people-handbook"
+COMPANY_HANDBOOK_REPO_OWNER = "23people-io"

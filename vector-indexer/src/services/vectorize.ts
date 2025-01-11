@@ -1,8 +1,8 @@
 import { Document } from '../types';
 
 interface Indexer {
-	index_documents(documents: Document[]): Promise<{ id: string; inserted: any }[]>;
-	remove_documents(documents: Document[]): Promise<{ id: string }[]>;
+	index_documents(documents: Document[]): Promise<{ id: string; metadata: any; inserted: any }[]>;
+	remove_documents(documents: Document[]): Promise<{ id: string; removed: any }[]>;
 }
 
 class VectorizeService implements Indexer {
@@ -15,7 +15,7 @@ class VectorizeService implements Indexer {
 		this.vectorize_index = vectorize_index;
 	}
 
-	async index_documents(documents: Document[]): Promise<{ id: string; inserted: any }[]> {
+	async index_documents(documents: Document[]): Promise<{ id: string; metadata: any; inserted: any }[]> {
 		if (!documents.length) {
 			return [];
 		}
@@ -28,7 +28,7 @@ class VectorizeService implements Indexer {
 		return results;
 	}
 
-	async remove_documents(documents: Document[]): Promise<{ id: string }[]> {
+	async remove_documents(documents: Document[]): Promise<{ id: string; removed: any }[]> {
 		if (!documents.length) {
 			return [];
 		}
@@ -45,14 +45,16 @@ class VectorizeService implements Indexer {
 		const values = await this.generate_vector_embedding(document);
 
 		const id = document.id;
+		const metadata = document.metadata || {};
 		const inserted = await this.vectorize_index.upsert([
 			{
-				id: id,
+				id,
 				values,
+				metadata,
 			},
 		]);
 
-		return { id, inserted };
+		return { id, metadata, inserted };
 	}
 
 	private async remove_document(document: any): Promise<any> {
