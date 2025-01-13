@@ -23,30 +23,16 @@ run:
 	@echo "$(MAGENT)Running...$(RESET)"
 	@scripts/run
 
-run-chatbot:
-	@echo "$(MAGENT)Running Chatbot...$(RESET)"
-	@scripts/run-chatbot
-
 build:
 	@echo "$(MAGENT)Starting build...$(RESET)"
 	@scripts/bootstrap
 	@scripts/setup
 	@echo "$(MAGENT)✔ Build completed successfully.$(RESET)"
 
-test:
-	@echo "$(MAGENT)Starting tests...$(RESET)"
-	@scripts/test
-	@echo "$(MAGENT)✔ Tests passed.$(RESET)"
-
 new-version:
 	@echo "$(MAGENT)Starting Versioning...$(RESET)"
 	@scripts/version
 	@echo "$(MAGENT)✔ Versioning completed successfully.$(RESET)"
-
-prepatch:
-	@echo "$(MAGENT)Starting Prepatch...$(RESET)"
-	@scripts/prepatch
-	@echo "$(MAGENT)✔ Prepatch completed successfully.$(RESET)"
 
 claude:
 	@echo "$(MAGENT)Starting Claude files generation...$(RESET)"
@@ -54,4 +40,4 @@ claude:
 	@echo "$(MAGENT)✔ Claude files created successfully.$(RESET)"
 
 # Phony targets
-.PHONY: run build test version prepatch claude
+.PHONY: run build new-version claude
