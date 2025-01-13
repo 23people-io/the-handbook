@@ -1,9 +1,8 @@
 SHELL=/bin/bash
 
 # Default Python version
-PYTHON_VERSION=3.12.3
+PYTHON_VERSION=3.12.4
 export PYTHON_VERSION
-
 
 DOCS_APP_PORT = 2300
 export DOCS_APP_PORT
@@ -39,7 +38,7 @@ test:
 	@scripts/test
 	@echo "$(MAGENT)✔ Tests passed.$(RESET)"
 
-version:
+new-version:
 	@echo "$(MAGENT)Starting Versioning...$(RESET)"
 	@scripts/version
 	@echo "$(MAGENT)✔ Versioning completed successfully.$(RESET)"

@@ -85,14 +85,16 @@ binding = "AI" # available in your Worker on env.AI
 
 # Bind a Queue producer. Use this binding to schedule an arbitrary task that may be processed later by a Queue consumer.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#queues
-# [[queues.producers]]
-# binding = "MY_QUEUE"
-# queue = "my-queue"
+[[queues.producers]]
+binding = "COMPANY_DOCUMENTS_TO_INDEX_QUEUE" # available in your Worker on env.COMPANY_DOCUMENTS_TO_INDEX_QUEUE
+queue = "company-documents-to-index-queue"
+delivery_delay = 60 # delay every message delivery by 1 minute
 
 # Bind a Queue consumer. Queue Consumers can retrieve tasks scheduled by Producers to act on them.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#queues
-# [[queues.consumers]]
-# queue = "my-queue"
+[[queues.consumers]]
+queue = "company-documents-to-index-queue"
+retry_delay = 300 # delay any retried message by 5 minutes before re-attempting delivery
 
 # Bind an R2 Bucket. Use R2 to store arbitrarily large blobs of data, such as files.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#r2-buckets

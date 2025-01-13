@@ -35,11 +35,5 @@ echo "${YELLOW}Testing...${RESET}"
 echo "${YELLOW}Making version...${RESET}"
 poetry version "${t}"
 poetry version
-git add .
-git commit -m "$(poetry version -s): ${m:-}"
-git tag "$(poetry version -s)"
-git push
-git push --tags
-poetry version
 
 echo "${GREEN}✔ Git Tag Version created successfully...${RESET}"

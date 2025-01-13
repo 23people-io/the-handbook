@@ -4,24 +4,17 @@ import { logger } from 'hono/logger';
 import { GithubService } from '../../../services/github';
 import { VectorizeService } from '../../../services/vectorize';
 import { Document } from '../../../types';
-import { Commit } from './types';
 
 const factory = createFactory<{ Bindings: Env }>();
 
 const process_documents = factory.createHandlers(logger(), async (c) => {
-	const { commits } = await c.req.json();
+	const { head_commit } = await c.req.json();
 
-	if (!commits) {
-		return c.text('Missing input data (commits)', 400);
+	if (!head_commit) {
+		return c.text('Missing input data (head_commit)', 400);
 	}
 
-	const results: any[] = await Promise.all(
-		commits.map(async (commit: Commit): Promise<any[]> => {
-			const results = await process_commit(commit, c);
-			return results;
-		})
-	);
-
+	const results = await process_commit(head_commit, c);
 	return c.json(results.flat());
 });
 

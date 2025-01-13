@@ -42,15 +42,6 @@ else
     exit 1
 fi
 
-## Check Docker
-echo "${YELLOW}Checking Docker installation...${RESET}"
-if command -v docker > /dev/null; then
-    echo "${GREEN}✔ $(docker --version) is already installed.${RESET}"
-else
-    echo "${RED}Docker is not installed. Please install Docker to continue.${RESET}"
-    exit 1
-fi
-
 ## Check Poetry
 echo "${YELLOW}Checking Poetry installation...${RESET}"
 if command -v poetry > /dev/null; then

@@ -1,7 +1,0 @@
-# ------------------------------------------------------------------------------
-# Chatbot Settings
-# ------------------------------------------------------------------------------
-name: 23people's Handbook Chatbot
-summary: AI-based Chatbot for the 23people's Handbook
-purpose: |
-  You are aiding a user to contextualize the answers of his questions about 23people using the 23people's Handbook.

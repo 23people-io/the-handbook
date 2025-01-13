@@ -31,8 +31,8 @@ En la medida que se requiera, el cargo podría desempeñar funciones complementa
 - [Iarvis Council Member](../../tribes/iarvis-tribe/roles/iarvis-council-member.md)
 - [Iarvis Member](../../tribes/iarvis-tribe/roles/iarvis-member.md)
 
-![Relación entre cargo y roles](../../../_assets/tech-relations-specialist-light.svg#only-light)
-![Relación entre cargo y roles](../../../_assets/tech-relations-specialist-dark.svg#only-dark)
+![Relación entre cargo y roles](../../../_assets/images/tech-relations-specialist-light.svg#only-light)
+![Relación entre cargo y roles](../../../_assets/images/tech-relations-specialist-dark.svg#only-dark)
 
 ## Requerimientos del Cargo
 
