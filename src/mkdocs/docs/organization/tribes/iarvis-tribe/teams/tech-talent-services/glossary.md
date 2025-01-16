@@ -121,20 +121,6 @@ de Perfil Tech específico.
 
     - Indica el número de profesionales que el cliente está dispuesto a contratar para un perfil específico.
 
-`Relación entre Pedidos, Requerimientos y Vacantes de Perfiles Tech`
-
-:   Un Pedido (o Solicitud) es una petición formal que incluye uno o más Requerimientos de Perfil Tech. Cada Requerimiento especifica las características y habilidades técnicas necesarias para un determinado rol. A su vez, cada Requerimiento indica el número de Vacantes Tech a cubrir, es decir, la cantidad de profesionales que se necesitan contratar con ese perfil específico.
-
-    **Ejemplo**:
-
-    Un cliente puede hacer un Pedido que incluya:
-
-    - Un Requerimiento para perfil "Senior Backend Developer" con 2 vacantes
-    - Un Requerimiento para perfil "Data Engineer" con 1 vacante
-    - Un Requerimiento para perfil "QA Automation" con 3 vacantes
-
-    En este caso, el Pedido tiene 3 Requerimientos de Perfil Tech y un total de 6 Vacantes Tech a cubrir.
-
 ## Conceptos de Selección de Profesionales
 
 ```mermaid
