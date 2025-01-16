@@ -58,6 +58,18 @@ específico de su carrera.
 
 ## Conceptos Comerciales
 
+```mermaid
+flowchart TD
+    ON[Oportunidad de Negocio]
+    P[Pedido]
+    R[Requerimiento de Perfil Tech]
+    V[Vacante]
+    
+    ON --> |"tiene un"| P
+    P --> |"que contiene uno o más"| R
+    R --> |"incluye una o más"| V
+```
+
 [`Oportunidad de Negocio`](){#oportunidad-negocio}
 
 :   Corresponde a un pedido específico de Perfiles de Profesionales Tech realizado por un cliente
@@ -113,18 +125,6 @@ de Perfil Tech específico.
 
 :   Un Pedido (o Solicitud) es una petición formal que incluye uno o más Requerimientos de Perfil Tech. Cada Requerimiento especifica las características y habilidades técnicas necesarias para un determinado rol. A su vez, cada Requerimiento indica el número de Vacantes Tech a cubrir, es decir, la cantidad de profesionales que se necesitan contratar con ese perfil específico.
 
-    ```mermaid
-    flowchart TD
-        ON[Oportunidad de Negocio]
-        P[Pedido]
-        R[Requerimiento de Perfil Tech]
-        V[Vacante]
-        
-        ON --> |"tiene un"| P
-        P --> |"contiene uno o más"| R
-        R --> |"incluye una o más"| V
-    ```
-
     **Ejemplo**:
 
     Un cliente puede hacer un Pedido que incluya:
@@ -136,6 +136,20 @@ de Perfil Tech específico.
     En este caso, el Pedido tiene 3 Requerimientos de Perfil Tech y un total de 6 Vacantes Tech a cubrir.
 
 ## Conceptos de Selección de Profesionales
+
+```mermaid
+flowchart TD
+    OL[Oferta Laboral]
+    PS[Postulación]
+    PT[Postulante]
+    FS[Flujo de Selección]
+    C[Candidato]
+    
+    OL --> |"recibe"| PS
+    PS --> |"realizada por un"| PT
+    PT --> |"quien completa un"| FS
+    FS --> |"al aprobar se convierte en"| C
+```
 
 [`Oferta Laboral`](){#oferta-laboral}
 
@@ -199,3 +213,5 @@ condiciones:
     - Un Profesional Tech puede ser considerado Candidato para múltiples ofertas laborales y/o clientes, siempre que su perfil se ajuste a los requisitos específicos de cada caso.
 
     - La designación como Candidato no es permanente y puede variar según cambios en el perfil profesional o en los requisitos de las ofertas laborales.
+  
+    
