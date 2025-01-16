@@ -5,7 +5,7 @@ description: Conceptos, expresiones y acuerdos de definiciones que se usen en la
 author: 5127711
 ---
 
-# Conceptos usados en Sales and Growth Marketing
+# Conceptos usados en Growth Marketing
 
 ## Introducción
 
@@ -27,24 +27,6 @@ comunes a todas las líneas de servicios.
 Corresponde a un pedido realizado por un cliente (nuevo o existente) y que
 representa la posibilidad de concretar una venta de nuestros servicios. Cada
 oportunidad es única y puede pasar por las etapas del Flujo de Ventas General.
-
-### Oportunidad de Negocio (IT Talent)
-
-Corresponde a un Pedido específico de Perfiles TI realizado por un cliente
-(nuevo o existente) y que representa la posibilidad de concretar una venta de
-nuestros servicios de Outsourcing TI o Hunting TI en IT Talent.
-
-Características clave:
-
-  1. Se materializa a través de un Pedido concreto.
-
-  2. Puede implicar múltiples perfiles y posiciones de TI.
-
-### Oportunidad de Negocio (Digital Platforms)
-
-Corresponde a un pedido específico realizado por un cliente (nuevo o
-existente) que representa la posibilidad de concretar una venta de nuestros
-servicios de Digital Platforms, Data & AI.
 
 ### Flujo de Ventas General
 
@@ -133,74 +115,3 @@ oportunidad a esta etapa. Esto puede deberse a diversas razones, como:
   4. No se logró llegar a un acuerdo en términos comerciales o técnicos.
 
   5. El proyecto o la necesidad del cliente fue cancelada o pospuesta indefinidamente.
-
-### Postulación
-
-Referir al [Glosario de IT Talent](/departments/it-talent-services/glosario/#postulacion)
-
-### Candidato
-
-Referir al [Glosario de IT Talent](/departments/it-talent-services/glosario/#candidato)
-
-### Perfil Profesional TI
-
-Se define como el conjunto de características, habilidades, conocimientos y
-experiencias profesionales que describen a un Profesional TI en un momento
-específico de su carrera.
-
-### Profesional TI
-
-Se define como un individuo con formación, experiencia y/o habilidades
-especializadas en el campo de las Tecnologías de la Información (TI).
-
-Características clave:
-
-* Posee conocimientos técnicos en una o más áreas de TI, como desarrollo de software, administración de sistemas, seguridad informática, análisis de datos, inteligencia artificial, entre otras.
-
-* Puede tener formación académica formal en campos relacionados con TI (como ingeniería informática, ciencias de la computación, sistemas de información, etc.) y/o certificaciones profesionales relevantes.
-
-* Cuenta con experiencia práctica en proyectos o roles relacionados con TI.
-
-* Puede especializarse en tecnologías, lenguajes de programación o metodologías específicas.
-
-### Pedido (IT Talent)
-
-Se define como la solicitud formal de un cliente que engloba uno o más
-Requerimientos de Perfiles TI.
-
-Características clave:
-
-* Está asociado a una Oportunidad de Negocio específica.
-
-* Contiene uno o más Requerimientos de Perfiles TI.
-
-* Representa la necesidad total de talento TI del cliente en un momento dado.
-
-### Requerimiento de Perfil TI (IT Talent)
-
-Se define como una solicitud específica de un tipo de Perfil Profesional TI
-dentro de un Pedido de IT Talent. Ejemplos de estos pueden ser: Senior Full
-Stack, Midlevel Scrum Master, Entry QA, Senior Data Engineer, etc.
-
-Características clave:
-
-* Forma parte de un Pedido hecho a IT Talent.
-
-* Describe un perfil profesional específico solicitado por el cliente.
-
-* Puede incluir una o más Vacantes TI a ser cubiertas.
-
-* Define las características y habilidades requeridas para un rol particular.
-
-### Vacantes TI (IT Talent)
-
-Se define como una posición individual disponible dentro de un Requerimiento
-de Perfil TI específico.
-
-Características clave:
-
-* Representa una oportunidad laboral concreta para un Profesional TI.
-
-* Puede haber múltiples Vacantes TI idénticas dentro de un mismo Requerimiento TI.
-
-* Indica el número de profesionales que el cliente está dispuesto a contratar para un perfil específico.

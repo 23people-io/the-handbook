@@ -42,6 +42,7 @@ theme:
         icon: material/lightbulb-auto-outline
         name: "Switch to system preference"
   features:
+    - toc.integrate
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
@@ -140,7 +141,7 @@ extra:
 
 nav:
   - "Inicio":
-      - Bienvenidos a 23people: index.md
+      - Bienvenido: index.md
       - Lo qué hacemos:
           - El desafío: what-we-do/challenge.md
           - Nuestros Servicios: what-we-do/services.md
@@ -172,7 +173,9 @@ nav:
       - Estructura general: organization/index.md
       - Cargos y Roles: organization/tribes/iarvis-tribe/workforce/index.md
       - Equipos:
-          - "Tech Talent Services (TTS)": organization/tribes/iarvis-tribe/teams/tech-talent-services/index.md
+          - "Tech Talent Services (TTS)":
+              - "Resumen": organization/tribes/iarvis-tribe/teams/tech-talent-services/index.md
+              - "Glosario": organization/tribes/iarvis-tribe/teams/tech-talent-services/glossary.md
           - "Sales & Growth Marketing (SGM)": organization/tribes/iarvis-tribe/teams/sales-and-growth-marketing/index.md
           - "Backoffice (BKO)": organization/tribes/iarvis-tribe/teams/backoffice/index.md
           - "Research & Development (R&D)": organization/tribes/iarvis-tribe/teams/research-and-development/index.md

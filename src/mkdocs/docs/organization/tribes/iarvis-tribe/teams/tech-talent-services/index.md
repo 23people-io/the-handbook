@@ -47,7 +47,7 @@ El equipo está compuesto por:
 
 ## Conceptos usados en Tech Talent Services
 
-Para entender mejor los conceptos que se manejan en este equipo, te recomendamos revisar [Conceptos usados en Tech Talent Services](concepts.md).
+Para entender mejor los conceptos que se manejan en este equipo, te recomendamos revisar el [Glosario de Tech Talent Services](glossary.md).
 
 ## Contacto
 

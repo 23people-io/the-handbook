@@ -4,12 +4,12 @@ updated: 2025-01-11T00:00:00
 authors:
   - manu-reyes-23p
 description: >
-    El equipo de Sales & Growth Marketing (SGM) de 23people.
+    El equipo de Growth Marketing (GMK) de 23people.
 ---
 
-# Sales & Growth Marketing Team
+# Growth Marketing Team
 
-¡Bienvenido al Equipo de **Sales & Growth Marketing (SGM)** de 23people! Aquí encontrarás respuestas a la mayoría de tus preguntas relacionadas con este equipo y sus funciones.
+¡Bienvenido al Equipo de **Growth Marketing (SGM)** de 23people! Aquí encontrarás respuestas a la mayoría de tus preguntas relacionadas con este equipo y sus funciones.
 
 ## Propósito
 
