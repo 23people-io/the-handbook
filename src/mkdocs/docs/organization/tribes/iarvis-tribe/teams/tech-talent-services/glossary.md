@@ -200,4 +200,32 @@ condiciones:
 
     - La designación como Candidato no es permanente y puede variar según cambios en el perfil profesional o en los requisitos de las ofertas laborales.
   
-    
+[`Prueba Técnica`](){#prueba-tecnica}
+
+:   Es una prueba que evalua las competencias de programación y resolución cognitiva de problemas de un Profesional Tech.
+
+    Características clave:
+
+    - Consiste de una serie de ejercicios prácticos de programación en las que se tiene que usar la técnica de recursividad.
+    - Tiene que ser completada en un tiempo determinado.
+    - Debe ser de manera sincrona y en tiempo real la evaluación. Puede ser remotamente o presencial.
+
+[`Entrevista Técnica`](){#entrevista-tecnica}
+
+:   Es una entrevista personalizada en donde se evalua la experiencia, habilidades técnicas requeridas por el perfil solicitado.
+
+    Características clave:
+
+    - Se evalua la experiencia laboral: Que tenga la experiencia que dice que tiene
+    - Consiste de un conjunto de preguntas que son asociadas a lo tecnico y las formas de trabajo. Determinar si le gusta o no lo que hace.
+    - Se genera una conversación técnica para evaluar la experiencia y conocimientos del profesional. Con base en esto se realizan mas preguntas.
+    - Se evalua experiecnia sobre tecnologias especificas, y si profundizo en los conceptos. Los que profundizan en general son mejores desarrolladores (e.g. Leer manuales, guias, tutoriales, videos, etc.).
+    - Se preguntan temas sobre cosas que ya se han probado antes por parte de los entrevistadores. 
+    - Se deben hacer contrapreguntas sobre las tecnologias que indica que maneja para saber si realmente las maneja.
+    - Si las personas mencionan las versiones de las tecnologías, es un indicador de que realmente las maneja. Dado que han enfrentado problemas con las versiones anteriores o compatibilidad con otras tecnologias.
+    - Deben conocer lo requerido y acordado en el requerimiento de perfil tech junto al cliente.
+    - Si los profesionales no saben algo, deben decirlo. No mentir sobre lo que saben o no saben.
+    - Si los profesionales hablan sobre patrones de diseño y buenas practicas, es un indicador de que han trabajado en proyectos grandes y complejos. Quizas han llegado a esos conceptos o compartirlos luego de mucho tiempo
+    - Se puede preguntar por programacion funcional. Se busca si hay interes por estos temas.
+    - Es el perfil de la persona lo que se evalua, no la persona en si misma. Se evalua si la persona es capaz de hacer el trabajo que se le esta solicitando. La misma persona puede ser rechazada en una oferta laboral y aceptada en otra.
+    - Antes de la entrevista, se deberia revisar y tener claro el como se desempeñó en la prueba técnica.
