@@ -1,6 +1,0 @@
-default: true
-no-hard-tabs: false
-MD013: false
-MD042: false
-MD007:
-  indent: 4
