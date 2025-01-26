@@ -1,7 +1,7 @@
 SHELL=/bin/bash
 
 # Default Python version
-PYTHON_VERSION=3.12.3
+PYTHON_VERSION=3.11.5
 export PYTHON_VERSION
 
 DOCS_APP_PORT = 2300
