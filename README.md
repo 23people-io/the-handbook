@@ -64,6 +64,6 @@ To push a new version, create and push a tag in the `vX.Y.Z` format as per [Sema
 
 ## Contact
 
-If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or leave an issue [here](https://github.com/23people-io/23people-company-handbook/issues).
+If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or leave an issue [here](https://github.com/23people-io/23people-handbook/issues).
 
 We are always happy to help! :smile:
