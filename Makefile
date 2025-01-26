@@ -31,5 +31,10 @@ version:
 	@scripts/version.sh
 	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
 
+date-updater:
+	@echo "$(MAGENT)Starting Date Updater...$(RESET)"
+	@scripts/date-updater.sh
+	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
+
 # Phony targets
-.PHONY: git
+.PHONY: git build version
