@@ -1,6 +1,6 @@
 ---
 created: 2024-01-07T14:30:00
-updated: 2025-01-26T19:59:45
+updated: 2025-01-26T20:04:54
 authors:
   - manu-reyes-23p
 description: >
@@ -13,3 +13,4 @@ Seleccion de profesionales Tech
 
 1. Validar competencias de programacion: Sabe programar? Tiene pensamiento abstracto? Sabe aprender a aprender?
 2. Validar habilidades y experiencias especificas: Tiene la experiencia que dice tener en las habilidades especficias del rol?
+3.

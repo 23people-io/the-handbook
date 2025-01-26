@@ -21,19 +21,10 @@ build:
 	@scripts/build.sh
 	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
 
-git:
-	@echo "$(MAGENT)Starting Commit and Push to Github Repo...$(RESET)"
-	@scripts/git.sh
-	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
-
-version:
+new-version:
 	@echo "$(MAGENT)Starting Versioning...$(RESET)"
-	@scripts/version.sh
-	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
-
-date-updater:
-	@echo "$(MAGENT)Starting Date Updater...$(RESET)"
-	@scripts/date-updater.sh
+	@scripts/new-version.sh
+	@scripts/git.sh
 	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
 
 # Phony targets
