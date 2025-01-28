@@ -1,6 +1,6 @@
 ---
 created: 2024-06-17T18:01:41
-updated: 2025-01-11T00:00:00
+updated: 2025-01-28T13:44:01
 authors:
   - manu-reyes-23p
 description: >
@@ -15,29 +15,21 @@ description: >
 
 !!! example ""
 
-    **Dar la mejor experiencia en soporte administrativo empresarial, facilitanto el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer.**
-
-Es responsable de la administración y soporte de las funciones internas de la organización.
-
-Lo siguiente, es el foco principal de Backoffice:
-
-1. **Administración de Empresa:** Gestionar y administrar los procesos administrativos de la empresa asi como también temas de Office Management.
-
-2. **Gestión Contable y Financiera:** Gestionar y administrar los procesos contables y financieros de la empresa.
-
-3. **People Management:** Gestionar y administrar los procesos de People Management de la empresa tales como onboarding, offboarding, contrato de trabajo, salarios, beneficios, certificados, resolución de conflictos, entre otros.
-
-4. **Compliance:** Gestionar y administrar los procesos de cumplimiento de la empresa.
+    **Dar la mejor experiencia en soporte administrativo empresarial, facilitanto el éxito de los equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer.**
 
 ## API de Servicios
 
-!!! warning "Nota"
+Los siguientes son los tipos de servicios principales que entrega Backoffice:
 
-    WIP: Se debe formalizar la API de Servicios de Backoffice. Buscando que sea similar al espiritu de documentación de una API de servicios.
+1. **Administración de Empresa:** Gestionar y administrar los procesos administrativos de la empresa asi como también temas de Office Management, pago a proveedores, cobranzas y obligaciones.
 
-...
+2. **Gestión Contable y Financiera:** Gestionar y administrar los procesos contables y financieros de la empresa, asi como también las obligaciones tributarias.
 
-## Roles
+3. **People Management:** Gestionar y administrar los procesos de People Management de la empresa tales como onboarding, offboarding, contratos de trabajo, salarios, beneficios, certificados, resolución de conflictos, asi tambien como obligaciones de materia laboral, entre otros.
+
+Para el detalle de como se solicita cada servicio y que se puede esperar de cada uno, se puede revisar la [siguiente documentación interna](https://docs.google.com/document/d/1gI3qPv6deKH0auZ7eXrBcVDIIPAS7eLhC-mLdLPomAs/edit?usp=drive_link).
+
+## Roles en el equipo
 
 El equipo está compuesto por:
 
@@ -46,4 +38,4 @@ El equipo está compuesto por:
 
 ## Contacto
 
-Si tienes alguna duda o necesitas ayuda, no dudes en contactar a **Backoffice** a través de [backoffice.team@23people.io](mailto:backoffice.team@23people.io) o por medio de nuestros canales en Discord y WhatsApp.
+Si tienes alguna duda o necesitas ayuda, no dudes en contactar a **Backoffice** a través de [backoffice@23people.io](mailto:backoffice@23people.io) o por medio de nuestros canales en Discord y WhatsApp.

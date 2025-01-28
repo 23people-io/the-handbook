@@ -12,6 +12,10 @@ cd "$(dirname "$0")/.."
 # time. Or things needed to be run to to reset the application back to first
 # use experience. These things are scoped to the application's domain.
 
+# Install dependencies
+echo "${WHITE}Installing dependencies...${RESET}"
+poetry install
+
 # Activate virtual environment
 echo "${WHITE}Activating virtual environment...${RESET}"
 poetry shell

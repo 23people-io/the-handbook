@@ -16,6 +16,11 @@ BLUE=$(shell tput -Txterm setaf 6)
 RESET=$(shell tput -Txterm sgr0)
 
 # Default target. Run the app
+run: 
+	@echo "$(MAGENT)Starting the app...$(RESET)"
+	@scripts/run.sh
+	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
+
 build:
 	@echo "$(MAGENT)Building the app...$(RESET)"
 	@scripts/build.sh
