@@ -1,6 +1,6 @@
 ---
 created: 2024-09-09T14:31:43
-updated: 2025-01-11T00:00:00
+updated: 2025-01-29T17:41:08
 authors:
   - manu-reyes-23p
 description: >
@@ -9,99 +9,169 @@ description: >
 
 # Gestionar el trabajo, no las personas
 
-Considerar que: **Lo que que no se visualiza, no se puede gestionar**. Con base en lo anterior, es importante que todas las tareas, solicitudes de servicios, actividades y proyectos, preferiblemente, se gestionen a través de flujos de trabajo visuales y sistemáticos.
+Considerar que: **Lo que que no se visualiza, no se puede gestionar**. Con base en lo anterior, es importante que todas los items de trabajo que se realizan, preferiblemente, se gestionen a través de flujos de trabajo visuales y sistemáticos.
 
-Este tipo de trabajo corresponde a uno de las principales contribuciones de los [equipos](/organization#equipos-operacionales), por lo que es necesario mantener un control y seguimiento adecuado de las tareas y proyectos en curso. Los flujos de trabajo permiten visualizar el estado de las tareas, identificar cuellos de botella, priorizar actividades y mejorar la eficiencia en la entrega de valor.
+## Tipos de Items de Trabajo
 
-## Beneficios de usar flujos de trabajo
+Los siguientes son los tipos de actividades principales (items de trabajo) que se gestionan en los flujos de trabajo:
 
-- Evitar la sobrecarga de trabajo y la multitarea.
-- Evitar depender de la memoria de las personas. Nuestra memoria es frágil y puede fallar.
-- Permitir la visualización del estado de las tareas y proyectos en tiempo real.
-- Facilitar la priorización de tareas y la asignación de recursos.
-- Mejorar la eficiencia y la efectividad en la entrega de valor.
-- Asegurar la transparencia y la trazabilidad de las actividades.
-- Facilitar la colaboración y la comunicación entre los miembros del equipo.
-- Permitir la identificación de cuellos de botella y la optimización de los procesos.
-- Proporcionar una base para la mejora continua y el aprendizaje organizacional.
-- Facilitar la gestión del cambio y la adaptación a nuevas circunstancias.
-- Permitir la medición y el análisis de la productividad y el rendimiento.
-- Facilitar la toma de decisiones informadas y basadas en datos.
-- Mejorar la satisfacción y el compromiso de los miembros del equipo.
+1. **Actividades de Solicitud de Servicios**
+   - Tareas específicas con inicio y fin definido
+   - Responden a necesidades puntuales de los clientes
+   - Ejemplo: Generación de un informe de antigüedad laboral para un período específico
 
-## Tipos de Trabajo a Gestionar
+2. **Actividades de Servicios Recurrentes**
+   - Tareas que se repiten cada mes
+   - Parten de un acuerdo inicial de servicio continuo
+   - Ejemplo: Proceso mensual de remuneraciones, declaración mensual de impuestos
 
-Gestionamos tres tipos principales de trabajo, cada uno con características y requerimientos específicos. Esta clasificación nos permite organizar mejor nuestros recursos y establecer los procesos adecuados para cada tipo de solicitud.
+3. **Actividades de Resolución de Problemas**
+   - Abordan situaciones donde algo no salió según lo esperado
+   - Requieren corrección y prevención de situaciones similares
+   - Ejemplo: Corrección de un pago erróneo y las acciones necesarias para regularizar la situación
 
-Son 3 tipos de trabajo principales:
+4. **Actividades de Mejora Continua**
+   - Iniciativas que surgen del propio equipo para mejorar su trabajo
+   - Nacen de las reuniones de retrospectiva donde analizamos cómo mejorar
+   - Buscan hacer nuestro trabajo más eficiente o prevenir problemas futuros
 
-1. [Solicitudes de Servicio Puntuales](#solicitudes-de-servicio-puntuales)
-2. [Servicios Recurrentes Mensuales](#servicios-recurrentes-mensuales)
-3. [Gestión de Contingencias](#gestión-de-contingencias)
+## Organización del Tablero
 
-### Solicitudes de Servicio Puntuales
+Todos los items de trabajo, independiente de su tipo, siguen un flujo común en el tablero.
 
-Son trabajos que se inician a partir de una solicitud específica, ya sea de un cliente u otro equipo externo, con un inicio y fin claramente definibles. Estas solicitudes requieren una Definición de Listo (DoD - Definition of Done) específica.
+Existen 5 tipos de areas en un flujo de trabajo y que son comunes a todos los flujos de trabajo para todos los equipos de 23people:
 
-**Características principales**:
+1. **Backlog Area**: Actividades que aún necesitan ser refinadas.
+2. **Requested Area**: Actividades listas para ser ejecutadas y que el equipo se **compromete** a realizar apenas se libere capacidad.
+3. **In Progress Area**: Actividades en las que el equipo está trabajando actualmente. Políticas de gestión del [WIP Limit](), aplican aquí.
+4. **Done Area**: Actividades completadas. Cumplen con la "Definición de Listo" de lo indicado en el item de trabajo y además con los "Criterios de Aceptación" del equipo.
+5. **Ready to Archive Area**: Actividades que ya han sido completadas y que están listas para ser archivadas. Estas se usarán para mantener un registro histórico de las actividades realizadas y poder hacer analisis de mejoras.
 
-- Tienen un solicitante claramente identificado
-- Poseen un alcance definido
-- Cuentan con una fecha de inicio y término estimada
-- Requieren entregables específicos
-- Necesitan una validación final del solicitante
+Dentro de cada area, el equipo define las etapas que considere necesarias para el flujo de trabajo. Se propone la siguiente estructura de etapas como plantilla:
 
-**Ejemplos**:
+- **Inmaduro** (Backlog Area): Ideas o solicitudes que aún necesitan ser refinadas.
+- **Por Hacer** (Requested Area): Una cola de actividades listas para ser ejecutadas. El equipo ha revisado el contenido y cumple con lo "suficientemente maduro" para que el equipo pueda trabajar en ello apenas tenga capacidad.
+- **Ejecución** (In Progress Area): El equipo está trabajando actualmente en estas actividades.  Tiene las siguientes sub-etapas:
+    - **En Progreso**: Trabajo que se está realizando activamente.
+    - **Terminado**: Una cola en donde quedan los items de trabajo que se han completado y están listo para ser revisado.
+- **Validación** (In Progress Area): Actividades que han sido completadas y que están en proceso de validación.
+- **Listo**: Una cola en donde quedan las actividades que han sido completadas y validadas. Estas actividades cumplen con la "Definición de Listo" y los "Criterios de Aceptación" del equipo.
 
-- Contratación de un nuevo colaborador
-- Emisión de certificados laborales
-- Gestión de contratos con proveedores
+Para distinguir fácilmente los distintos tipos de actividades, se suguiere mantener un código de colores en las tarjetas. Esto permitirá visualizar rápidamente la naturaleza de cada actividad mientras se mantiene un flujo de trabajo simple y efectivo.
 
-### Servicios Recurrentes Mensuales
+## Algoritmo para Daily Meetings
 
-Trabajos que se ejecutan de manera periódica, típicamente mensual, con procesos establecidos y fechas predefinidas. Estos servicios son parte fundamental de la operación continua de la empresa.
+Esta es una de las practicas más importantes para el equipo. Dia a dia, el equipo debe revisar el tablero de trabajo y asegurarse de que todas las actividades estén en el estado correcto y avanzando a ser efectivamente terminadas. Se deben aplicar los principios de "Preferir terminar algo antes de empezar algo nuevo" y "Limitar el trabajo en progreso".
 
-**Características principales**:
+Existe una receta para la gestión diaria del trabajo que se puede seguir haciendo uso del tablero:
 
-- Tienen una periodicidad establecida
-- Cuentan con fechas límite predefinidas
-- Siguen procedimientos estandarizados
-- Requieren validaciones específicas
-- Generan documentación de respaldo
+### Pre-requisitos
 
-**Ejemplos**:
+1. Tablero Kanban configurado con las áreas establecidas
+2. Todos los miembros del equipo presentes
+3. Moderador designado
+4. Duración máxima: 15 minutos
 
-- Procesamiento de nóminas
-- Declaración y pago de impuestos mensuales
-- Conciliaciones bancarias
+### Algoritmo Principal
 
-### Gestión de Contingencias
+1. Inicio
 
-Trabajos que surgen de manera imprevista y requieren atención inmediata o en corto plazo. Pueden ser emergencias críticas o situaciones que, sin ser urgentes, necesitan ser resueltas para mantener la operación normal.
+    1.1. Bienvenida y verificación de asistencia
+    1.2. Compartir tablero visual
 
-**Características principales**:
+2. Celebración de logros
 
-- Surgen de manera inesperada
-- Pueden tener diferentes niveles de urgencia
-- Requieren respuesta rápida
-- Necesitan documentación del incidente y su resolución
-- Deben generar aprendizajes para prevención futura
+    2.1. Reconocer items completados desde la última daily
 
-**Ejemplos**:
+3. Actualización del Estado del Trabajo
 
-- Rectificación de pagos erróneos
-- Resolución de multas tributarias
-- Gestión de auditorías no programadas
+    Por cada columna, desde la más cercana a "Listo" hacia atrás:
 
-## Mejores Prácticas de Gestión
+    3.1. Para cada item en la columna actual:
+      - Preguntar: "¿Quién puede compartir el estado actual de esta actividad?"
+      - Documentar avances y obstáculos encontrados
+      - Actualizar subtareas si es necesario
 
-Para cada tipo de trabajo, se recomienda:
+    3.2. Verificar capacidad de la columna:
+      - Si hay capacidad disponible, evaluar items de la columna anterior
+      - Mover los items elegibles que cumplen criterios para avanzar
 
-1. **Documentación clara**: Mantener registros detallados de cada solicitud, proceso y resolución.
-2. **Comunicación efectiva**: Establecer canales y protocolos de comunicación según el tipo de trabajo.
-3. **Priorización adecuada**: Utilizar matrices de urgencia/importancia para asignar recursos.
-4. **Seguimiento sistemático**: Implementar herramientas de tracking para cada tipo de trabajo.
-5. **Mejora continua**: Documentar lecciones aprendidas y actualizar procesos regularmente.
+4. Determinación del Foco del Día (4 minutos)
+
+    4.1. Evaluar prioridades:
+      - Identificar items urgentes si existen
+      - Revisar estado general de los items ya actualizados
+      - Identificar items que, al completarse, desbloquearán otros trabajos
+
+    4.2. Establecer el foco:
+          - Comunicar los items prioritarios del día
+          - Reorganizar al equipo para trabajo en "enjambre" si es necesario
+          - Marcar como "Bloqueado - Cambio de Foco" los items que no se trabajarán
+
+5. Cierre:
+    5.1. Confirmar entendimiento del foco del día
+    5.2. Programar conversaciones necesarias para resolver impedimentos
+
+## Gestión de Bloqueos
+
+### Tipos de Bloqueo
+
+1. **Bloqueado - Cambio de Foco**
+   - Cuando el item debe pausarse para priorizar otro trabajo
+   - Cuando el equipo decide trabajar en modo "enjambre" en otro item
+
+2. **Bloqueado - Dependencia Externa**
+   - Esperando respuesta/acción de un stakeholder
+   - Dependencia de otro equipo o sistema
+   - Esperando aprobación necesaria
+
+3. **Bloqueado - Impedimento Técnico**
+   - Problemas técnicos que impiden el progreso
+   - Falta de accesos o permisos
+   - Problemas de infraestructura
+
+4. **Bloqueado - Falta de Información**
+   - Requerimientos incompletos o poco claros
+   - Falta de criterios de aceptación
+   - Necesidad de clarificación del cliente
+
+### Cuándo Marcar un Item como Bloqueado
+
+1. Criterios para Bloqueo:
+   - El impedimento no puede resolverse en las próximas 4 horas
+   - Se requiere intervención de alguien fuera del equipo
+   - No hay trabajo alternativo que pueda avanzarse en el item
+   - El riesgo de continuar es mayor que el beneficio
+
+2. Proceso de Bloqueo:
+   - Identificar y documentar la razón específica
+   - Asignar un responsable de seguimiento
+   - Establecer próxima fecha de revisión
+   - Mover el item a la columna correspondiente (si aplica)
+
+3. Gestión de Items Bloqueados:
+   - Revisar diariamente el estado del bloqueo
+   - Documentar acciones tomadas para resolver
+   - Desbloquear inmediatamente cuando se resuelve el impedimento
+
+## Métricas Clave
+
+1. Flujo de Trabajo
+   - Cantidad de items completados
+   - Tiempo promedio de bloqueo por tipo
+   - Efectividad del trabajo en "enjambre"
+
+2. Bloqueos
+   - Número de items bloqueados por tipo
+   - Tiempo promedio de resolución
+   - Patrones recurrentes de bloqueo
+
+## Señales de Advertencia
+
+- Items bloqueados por más de 3 días sin actualización
+- Más del 25% de items bloqueados en una columna
+- Cambios frecuentes de foco que generan múltiples bloqueos
+- Bloqueos recurrentes del mismo tipo
 
 ## Cuando preferir no usar flujos de trabajo
 
