@@ -4,10 +4,10 @@ updated: 2025-01-11T00:00:00
 authors:
   - manu-reyes-23p
 description: >
-  Descriptor de Rol: Iarvis Global Operations Manager
+  Descriptor de Rol: Global Operations Manager
 ---
 
-# Iarvis Global Operations Manager
+# Global Operations Manager
 
 Lo siguiente es una descripción detallada del rol de Global Operations Manager en 23people.
 

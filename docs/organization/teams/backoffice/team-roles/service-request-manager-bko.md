@@ -17,4 +17,5 @@ Este rol hereda las responsabilidades generales que tiene un [Service Request Ma
 
 ## Responsabilidades y Funciones
 
-1.
+1. Determinar la prioridad de las solicitudes de servicio en función de las necesidades del cliente y la capacidad del equipo.
+2. Crear las tarjetas de trabajo en el tablero de gestión de servicios, con la información necesaria para su ejecución.

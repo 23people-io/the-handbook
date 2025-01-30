@@ -1,6 +1,6 @@
 ---
 created: 2024-08-10T14:30:00
-updated: 2025-01-11T00:00:00
+updated: 2025-01-30T18:22:39
 authors:
   - manu-reyes-23p
 description: >
@@ -22,10 +22,10 @@ La estructura general es circular tal de fomentar la colaboración y la comunica
 
 Los siguientes son los equipos operacionales de 23people y su propósito:
 
-- [**Tech Talent Services Team**](./tribes/iarvis-tribe/teams/tech-talent-services). Dar la mejor experiencia en selección, validación y retención de Profesionales Tech que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
-- [**Sales & Growth Marketing Team**](./tribes/iarvis-tribe/teams/sales-and-growth-marketing). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
-- [**Backoffice Services Team**](./tribes/iarvis-tribe/teams/backoffice). Dar la mejor experiencia en soporte administrativo empresarial, facilitanto el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer.
-- [**Research & Development Services Team**](./tribes/iarvis-tribe/teams/research-and-development). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
+- [**Tech Talent Services Team (TTS)**](teams/tech-talent-services). Dar la mejor experiencia en selección, validación y retención de Profesionales Tech que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
+- [**Sales & Growth Marketing Team (SMKT)**](/sales-and-growth-marketing). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
+- [**Backoffice Services Team (BKO)**](teams/backoffice). Dar la mejor experiencia en soporte administrativo empresarial, facilitanto el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer.
+- [**Research & Development Services Team (R&D)**](teams/research-and-development). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
 
 ### Modelo Interno
 
@@ -36,11 +36,11 @@ Cada equipo tiene autonomía entorno a un próposito bien definido y un contrato
 
 ### Gestión y Liderazgo
 
-Los equipos operacionales están liderados por el rol de [**Iarvis Global Operations Manager**](./tribes/iarvis-tribe/workforce/roles/iarvis-global-operations-manager.md), responsable de:
+Los equipos operacionales están liderados por el rol de [**Global Operations Manager**](workforce/roles/iarvis-global-operations-manager.md), responsable de:
 
 - La eficiencia operacional y calidad global de los servicios
 - La colaboración efectiva entre equipos, tanto interna como externamente
-- Definir los miembros del [**Iarvis Council**](./tribes/iarvis-tribe/councils/iarvis-council.md), encargado de la coordinación y alineación de los equipos operacionales
+- Definir los miembros del [**Iarvis Council**](councils/iarvis-council.md), encargado de la coordinación y alineación de los equipos operacionales
 
 Cada equipo cuenta con:
 
@@ -49,18 +49,18 @@ Cada equipo cuenta con:
 
 ### Equipo Estratégico
 
-Se persigue que cada equipo sea autónomo en el cómo avanza en su propósito, sin embargo se busca también que estén alineados con los objetivos estrategicos de la organización. Para ello, se cuenta con un equipo estratégico llamado [High Council](./tribes/iarvis-tribe/councils/high-council.md) que se encarga de definir y comunicar la estrategia de la organización y de asegurar que los equipos operacionales estén alineados con ella.
+Se persigue que cada equipo sea autónomo en el cómo avanza en su propósito, sin embargo se busca también que estén alineados con los objetivos estrategicos de la organización. Para ello, se cuenta con un equipo estratégico llamado [High Council](councils/high-council.md) que se encarga de definir y comunicar la estrategia de la organización y de asegurar que los equipos operacionales estén alineados con ella.
 
 ## Tribus
 
 A modo de organización de equipos y como una capa virtual sobre los equipos, estos se agrupan en Tribus:
 
-- [**Iarvis Tribe**](./tribes/iarvis-tribe/index.md). Es el nombre del conjunto de equipos operacionales en 23people.
-- [**Drakkar Tribe**](./tribes/drakkar-tribe/index.md). Es el nombre del conjunto de equipos de Profesionales Tech que están en modo subcontratación en 23people.
+- [**Iarvis Tribe**](tribes.md#iarvis-tribe). Es el nombre del conjunto de equipos operacionales en 23people.
+- [**Drakkar Tribe**](tribes.md#drakkar-tribe). Es el nombre del conjunto de equipos de Profesionales Tech que están en modo subcontratación en 23people.
 
 ## Cargos y Roles
 
-Nos organizamos además en base a [niveles de cargos y capas organizacionales](./tribes/iarvis-tribe/workforce/responsibility-levels.md), que definen las responsabilidades y comportamientos esperados de cada miembro de la organización. Cada cargo, puede tener uno o mas asignados, los cuales definen las responsabilidades y funciones necesarias para el cargo.
+Nos organizamos además en base a [niveles de cargos y capas organizacionales](workforce/responsibility-levels.md), que definen las responsabilidades y comportamientos esperados de cada miembro de la organización. Cada cargo, puede tener uno o mas asignados, los cuales definen las responsabilidades y funciones necesarias para el cargo.
 
 ## Principios
 

@@ -1,6 +1,6 @@
 ---
 created: 2024-09-09T14:31:43
-updated: 2025-01-29T17:41:08
+updated: 2025-01-30T18:22:39
 authors:
   - manu-reyes-23p
 description: >
@@ -16,28 +16,30 @@ Considerar que: **Lo que que no se visualiza, no se puede gestionar**. Con base 
 Los siguientes son los tipos de actividades principales (items de trabajo) que se gestionan en los flujos de trabajo:
 
 1. **Actividades de Solicitud de Servicios**
-   - Tareas específicas con inicio y fin definido
-   - Responden a necesidades puntuales de los clientes
-   - Ejemplo: Generación de un informe de antigüedad laboral para un período específico
+      - Tareas específicas con inicio y fin definido
+      - Responden a necesidades puntuales de los clientes
+      - Ejemplo: Generación de un informe de antigüedad laboral para un período específico
 
 2. **Actividades de Servicios Recurrentes**
-   - Tareas que se repiten cada mes
-   - Parten de un acuerdo inicial de servicio continuo
-   - Ejemplo: Proceso mensual de remuneraciones, declaración mensual de impuestos
+      - Tareas que se repiten cada mes
+      - Parten de un acuerdo inicial de servicio continuo
+      - Ejemplo: Proceso mensual de remuneraciones, declaración mensual de impuestos
 
 3. **Actividades de Resolución de Problemas**
-   - Abordan situaciones donde algo no salió según lo esperado
-   - Requieren corrección y prevención de situaciones similares
-   - Ejemplo: Corrección de un pago erróneo y las acciones necesarias para regularizar la situación
+      - Abordan situaciones donde algo no salió según lo esperado
+      - Requieren corrección y prevención de situaciones similares
+      - Ejemplo: Corrección de un pago erróneo y las acciones necesarias para regularizar la situación
 
 4. **Actividades de Mejora Continua**
-   - Iniciativas que surgen del propio equipo para mejorar su trabajo
-   - Nacen de las reuniones de retrospectiva donde analizamos cómo mejorar
-   - Buscan hacer nuestro trabajo más eficiente o prevenir problemas futuros
+      - Iniciativas que surgen del propio equipo para mejorar su trabajo
+      - Nacen de las reuniones de retrospectiva donde analizamos cómo mejorar
+      - Buscan hacer nuestro trabajo más eficiente o prevenir problemas futuros
 
 ## Organización del Tablero
 
 Todos los items de trabajo, independiente de su tipo, siguen un flujo común en el tablero.
+
+### Areas de un Flujo de Trabajo
 
 Existen 5 tipos de areas en un flujo de trabajo y que son comunes a todos los flujos de trabajo para todos los equipos de 23people:
 
@@ -46,6 +48,8 @@ Existen 5 tipos de areas en un flujo de trabajo y que son comunes a todos los fl
 3. **In Progress Area**: Actividades en las que el equipo está trabajando actualmente. Políticas de gestión del [WIP Limit](), aplican aquí.
 4. **Done Area**: Actividades completadas. Cumplen con la "Definición de Listo" de lo indicado en el item de trabajo y además con los "Criterios de Aceptación" del equipo.
 5. **Ready to Archive Area**: Actividades que ya han sido completadas y que están listas para ser archivadas. Estas se usarán para mantener un registro histórico de las actividades realizadas y poder hacer analisis de mejoras.
+
+### Plantilla de Etapas recomendadas
 
 Dentro de cada area, el equipo define las etapas que considere necesarias para el flujo de trabajo. Se propone la siguiente estructura de etapas como plantilla:
 
@@ -57,11 +61,13 @@ Dentro de cada area, el equipo define las etapas que considere necesarias para e
 - **Validación** (In Progress Area): Actividades que han sido completadas y que están en proceso de validación.
 - **Listo**: Una cola en donde quedan las actividades que han sido completadas y validadas. Estas actividades cumplen con la "Definición de Listo" y los "Criterios de Aceptación" del equipo.
 
-Para distinguir fácilmente los distintos tipos de actividades, se suguiere mantener un código de colores en las tarjetas. Esto permitirá visualizar rápidamente la naturaleza de cada actividad mientras se mantiene un flujo de trabajo simple y efectivo.
+!!! tip "Colores de Tarjetas"
+
+    Para distinguir fácilmente los distintos tipos de actividades, se suguiere mantener un código de colores en las tarjetas. Esto permitirá visualizar rápidamente la naturaleza de cada actividad mientras se mantiene un flujo de trabajo simple y efectivo.
 
 ## Algoritmo para Daily Meetings
 
-Esta es una de las practicas más importantes para el equipo. Dia a dia, el equipo debe revisar el tablero de trabajo y asegurarse de que todas las actividades estén en el estado correcto y avanzando a ser efectivamente terminadas. Se deben aplicar los principios de "Preferir terminar algo antes de empezar algo nuevo" y "Limitar el trabajo en progreso".
+Esta es una de las practicas más importantes para el equipo. Dia a dia, el equipo debe revisar el tablero de trabajo y asegurarse de que todas las actividades estén en el estado correcto y avanzando a ser efectivamente terminadas. Se deben aplicar los principios de **"Preferir terminar algo antes de empezar algo nuevo"** y **"Limitar el trabajo en progreso"**.
 
 Existe una receta para la gestión diaria del trabajo que se puede seguir haciendo uso del tablero:
 

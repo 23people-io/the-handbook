@@ -58,7 +58,7 @@ Para el detalle de cada rol, sus responsabilidades y competencias requeridas, pu
 
 El equipo visualiza y gestiona sus actividades diarias a través de un tablero en [Businessmap](https://23peoplespa.kanbanize.com/ctrl_board/96). Este tablero nos permite ver todo el trabajo en curso y organizarlo de manera efectiva.
 
-Como base, se siguen las prácticas indicadas en la sección de [Gestionar el trabajo, no las personas](../../culture/practices/manage-work-not-people.md), adaptadas a las necesidades y particularidades del equipo.
+Como base, se siguen las prácticas indicadas en la sección de [Gestionar el trabajo, no las personas](/culture/practices/manage-work-not-people), adaptadas a las necesidades y particularidades del equipo.
 
 ## Contacto
 
