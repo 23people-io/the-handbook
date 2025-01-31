@@ -42,10 +42,10 @@ theme:
         icon: material/lightbulb-auto-outline
         name: "Switch to system preference"
   features:
-    - toc.integrate
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
+    - content.action.view
     - announce.dismiss
     - navigation.tabs
     - navigation.tabs.sticky
@@ -57,10 +57,10 @@ theme:
     - navigation.top
     - navigation.tracking
     - navigation.sections
+    - navigation.indexes
     - search.suggest
     - search.share
     - toc.follow
-    - content.action.view
   font:
     text: Roboto
     code: Roboto Mono
@@ -119,6 +119,9 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
+extra_css:
+  - _assets/stylesheets/extra.css
+
 extra:
   version:
     provider: mike
@@ -140,26 +143,25 @@ extra:
       do_no_index: This page will not be indexed in vector stores
 
 nav:
-  - "Inicio":
-      - Bienvenido: index.md
-      - Lo qué hacemos:
-          - El desafío: what-we-do/challenge.md
-          - Nuestros Servicios: what-we-do/services.md
-          - Casos de éxito: what-we-do/success-stories.md
-      - Cómo lo hacemos:
-          - Especialización en Roles Tech: how-we-do-it/tech-roles.md
-          - Optimización en Reclutamiento Tech: how-we-do-it/talent-recruitment.md
-          - Madures de desarrollo de software: how-we-do-it/methodology.md
-          - Manejo de tecnologías empresariales y emergentes: how-we-do-it/stack.md
-          - Satisfacción de clientes: how-we-do-it/customer-success.md
-      - Cultura:
-          - Valores: culture/values.md
-      - Estrategia:
-          - Metas: strategy/goals.md
-          - Principios: strategy/principles.md
-          - Jerarquía de Contribución: strategy/contribution.md
-      - Historia:
-          - history/index.md
+  - "Hello there.":
+      - index.md
+      - "Lo que hacemos":
+          - about-us/what-we-do/index.md
+          - Desafíos: about-us/what-we-do/challenges.md
+          - Servicios: about-us/what-we-do/services.md
+          - Clientes: about-us/about-us/what-we-do/clients.md
+          - Casos de éxito: about-us/what-we-do/success-stories.md
+      - "Lo que nos diferencia":
+          - about-us/how-we-work/index.md
+          - Especialización en Roles Tech: about-us/how-we-work/tech-roles.md
+          - Optimización en Reclutamiento Tech: about-us/how-we-work/talent-recruitment.md
+          - Madures de desarrollo de software: about-us/how-we-work/methodology.md
+          - Manejo de tecnologías empresariales y emergentes: about-us/how-we-work/stack.md
+          - Satisfacción de clientes: about-us/how-we-work/customer-success.md
+      - "Lo que perseguimos":
+          - about-us/what-we-pursue/index.md
+          - Metas: about-us/what-we-pursue/goals.md
+          - Principios: about-us/what-we-pursue/principles.md
 
   - Comunidad:
       - Beneficios: community/benefits/index.md
@@ -185,13 +187,13 @@ nav:
           - "Research & Development (R&D)": organization/teams/research-and-development/index.md
 
   - Prácticas:
-      - Nuestras prácticas: culture/practices/index.md
-      - Gestionar trabajo y no las personas: culture/practices/manage-work-not-people.md
-      - Todo es un servicio a otro: culture/practices/everything-is-a-service.md
-      - Comunicación asincrónica: culture/practices/asynchronous-communication.md
-      - Escribir y luego comunicar: culture/practices//write-then-communicate.md
-      - Estructurar la narrativa: culture/practices/structure-the-narrative.md
-      - Notificar los avances: culture/practices/notify-progress.md
+      - Resúmen: culture/practices/index.md
+      - "Gestionar el trabajo, no las personas": culture/practices/manage-work-not-people.md
+      - "Todo es un servicio a otros": culture/practices/everything-is-a-service.md
+      - "Comunicación asincrónica": culture/practices/asynchronous-communication.md
+      - "Escribir, luego comunicar": culture/practices//write-then-communicate.md
+      - "Estructurar la narrativa": culture/practices/structure-the-narrative.md
+      - "Notificar los avances": culture/practices/notify-progress.md
 
   # - Insights:
   #     - insights/index.md
