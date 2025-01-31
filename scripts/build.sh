@@ -15,6 +15,7 @@ cd "$(dirname "$0")/.."
 # Install dependencies
 echo "${WHITE}Installing dependencies...${RESET}"
 poetry install
+poetry export --without-hashes --format=requirements.txt > requirements.txt
 
 # Activate virtual environment
 echo "${WHITE}Activating virtual environment...${RESET}"
