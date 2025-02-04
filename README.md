@@ -3,10 +3,7 @@
 This repository is dedicated to storing all company **public consolidated information** in markdown files. This accumulated information will later be indexed in Vector Store Indexes and utilized by Large Language Models (LLMs) for various tasks related to 23people.
 
 > [!IMPORTANT]
-> The **access level** of the files content is `public`, meaning it is accessible to everyone.
-
-> [!TIP]
-> Internal content should be in the [23people's Knowledge Base](https://github.com/23people-io/23people-knowledge-base).
+> The **access level** of the files content is `public`, meaning it is accessible to everyone. The content is **not confidential** and can be shared with anyone.
 
 ## Use
 
@@ -27,32 +24,22 @@ To open the app in Visual Studio Code, you can use the following command:
 code .
 ```
 
-### Running with Docker
-
-You can also run the project using Docker. To do this, you can use the following commands:
-
-```bash
-docker compose up
-```
-
-The project will be available at `http://localhost:2300` by default.
-
 ## Technical Information
 
 The project is built using the following technologies:
 
-- **Python 3.12.x**
+- **Python 3.11.x**
 - [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
 - Markdown
 
 ### Requirements
 
-- [Python 3.12.x](https://www.python.org/)
+- [Python 3.11.x](https://www.python.org/)
 - [Poetry Dependency Manager](https://python-poetry.org/)
   
 ## Versioning
 
-To push a new version, create and push a tag in the `vX.Y.Z` format as per [Semantic Versioning](https://semver.org/). Use the following commands to increment versions:
+Run `make new-version` to create a new version of the handbook. It will create a new tag with a version under the `vX.Y.Z` format as per [Semantic Versioning](https://semver.org/). Use the following commands to increment versions:
 
 - **Patch** (`Z`): `make version t=patch`
 - **Minor** (`Y`): `make version t=minor`
