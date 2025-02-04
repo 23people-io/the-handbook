@@ -43,7 +43,7 @@ Run `make new-version` to create a new version of the handbook and push it to th
 
 ## Deployment
 
-The deployment is done automatically when you push a new version to the `main` branch. The deployment is done using [Cloudflare Pages](https://pages.cloudflare.com/). The associated Cloudflare Worker is [23people-handbook](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/pages/view/23people-handbook).
+The deployment is done automatically when you push a new version to the `main` branch. The deployment is done using [Cloudflare Pages](https://pages.cloudflare.com/). The associated Cloudflare Worker is [23people-handbook](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/pages/view/23people-handbook). You should be able to see the changes in the production environment after a few minutes under [https://manual.23people.io/](https://manual.23people.io/).
 
 ## References
 
