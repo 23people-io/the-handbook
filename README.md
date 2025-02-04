@@ -39,15 +39,16 @@ The project is built using the following technologies:
   
 ## Versioning
 
-Run `make new-version` to create a new version of the handbook. It will create a new tag with a version under the `vX.Y.Z` format as per [Semantic Versioning](https://semver.org/). Use the following commands to increment versions:
+Run `make new-version` to create a new version of the handbook and push it to the remote repo. It will create a new tag with a version under the `vX.Y.Z` format as per [Semantic Versioning](https://semver.org/).
 
-- **Patch** (`Z`): `make version t=patch`
-- **Minor** (`Y`): `make version t=minor`
-- **Major** (`X`): `make version t=major`
+## Deployment
+
+The deployment is done automatically when you push a new version to the `main` branch. The deployment is done using [Cloudflare Pages](https://pages.cloudflare.com/). The associated Cloudflare Worker is [23people-handbook](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/pages/view/23people-handbook).
 
 ## References
 
 - [Getting started](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ## Contact
 
