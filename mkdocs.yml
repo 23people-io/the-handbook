@@ -187,13 +187,13 @@ nav:
           - "Research & Development (R&D)": organization/teams/research-and-development/index.md
 
   - Prácticas:
-      - Resúmen: culture/practices/index.md
-      - "Gestionar el trabajo, no las personas": culture/practices/manage-work-not-people.md
-      - "Todo es un servicio a otros": culture/practices/everything-is-a-service.md
-      - "Comunicación asincrónica": culture/practices/asynchronous-communication.md
-      - "Escribir, luego comunicar": culture/practices//write-then-communicate.md
-      - "Estructurar la narrativa": culture/practices/structure-the-narrative.md
-      - "Notificar los avances": culture/practices/notify-progress.md
+      - "Resúmen": practices/index.md
+      - "Gestionar el trabajo, no las personas": practices/manage-work-not-people.md
+      - "Todo es un servicio a otros": practices/everything-is-a-service.md
+      - "Comunicación asincrónica": practices/asynchronous-communication.md
+      - "Escribir, luego comunicar": practices//write-then-communicate.md
+      - "Estructurar la narrativa": practices/structure-the-narrative.md
+      - "Notificar los avances": practices/notify-progress.md
 
   # - Insights:
   #     - insights/index.md

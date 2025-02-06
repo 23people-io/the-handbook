@@ -1,6 +1,6 @@
 ---
 created: 2024-10-21T12:46:17
-updated: 2025-01-11T00:00:00
+updated: 2025-02-06T16:03:27
 authors:
   - manu-reyes-23p
 description: >
@@ -19,24 +19,20 @@ eficiente y efectiva.
 
 ## Conceptos Generales
 
-[`Profesional Tech`](){#profesional-tech}
+[`Developer`](){#developer}
 
-:   Se define como un individuo (persona) con formación, experiencia y/o habilidades
+:  Se define como un individuo (persona) con formación, experiencia y/o habilidades
 especializadas en el campo de las Tecnologías de la Información (TI).
 
     Características clave:
 
     - Tiene competencias desarrolladas en programación.
-
     - Posee conocimientos técnicos en una o más áreas de TI, como desarrollo de software, administración de sistemas, seguridad informática, análisis de datos, inteligencia artificial, entre otras.
-
     - Puede tener formación académica formal en campos relacionados con TI (como ingeniería informática, ciencias de la computación, sistemas de información, etc.) y/o certificaciones profesionales relevantes.
-
     - Cuenta con experiencia práctica en proyectos o roles relacionados con TI.
-
     - Puede especializarse en tecnologías, lenguajes de programación o metodologías específicas.
 
-[`Perfil de Profesional Tech (o Perfil Tech)`](){#perfil-tech}
+[`Perfil Developer (o Perfil Tech)`](){#perfil-tech}
 
 :   Se define como el conjunto de características, habilidades, conocimientos y
 experiencias profesionales que describen a un Profesional Tech en un momento
@@ -44,7 +40,7 @@ específico de su carrera.
 
     Un profesional puede desarrollar múltiples perfiles Tech a lo largo de su trayectoria.
 
-[`Niveles de Experiencia de Profesionales Tech`](){#niveles-experiencia-profesionales-tech}
+[`Niveles de Experiencia de Developers`](){#niveles-experiencia-developers}
 
 :   Corrensponden al grado de experiencia y conocimientos que un Profesional Tech. Estos niveles son:
 
@@ -61,8 +57,8 @@ específico de su carrera.
 ```mermaid
 flowchart TD
     ON[Oportunidad de Negocio]
-    P[Pedido]
-    R[Requerimiento de Perfil Tech]
+    P[Pedido de Developers]
+    R[Requerimiento de Perfil Developer]
     V[Vacante]
     
     ON --> |"tiene un"| P
@@ -80,7 +76,7 @@ nuestros servicios de Outsourcing o Hunting Tech.
 
     - Una Oportunidad de Negocio tiene uno y sólo un [Pedido](#pedido) asociado.
 
-[`Pedido`](){#pedido}
+[`Pedido de Developers`](){#pedido-developers}
 
 :   Se define como la solicitud formal de un cliente que engloba uno o más
 Requerimientos de Perfiles Tech.
@@ -93,7 +89,7 @@ Requerimientos de Perfiles Tech.
 
     - Representa la necesidad total de talento Tech del cliente en un momento dado.
 
-[`Requerimiento de Perfil Tech`](){#requerimiento-perfil-tech}
+[`Requerimiento de Perfil Developer`](){#requerimiento-perfil-developer}
 
 :   Se define como una solicitud específica de un tipo de Perfil Tech
 dentro de un Pedido.
@@ -121,7 +117,7 @@ de Perfil Tech específico.
 
     - Indica el número de profesionales que el cliente está dispuesto a contratar para un perfil específico.
 
-## Conceptos de Selección de Profesionales
+## Conceptos de Selección de Developers
 
 ```mermaid
 flowchart TD
@@ -137,7 +133,7 @@ flowchart TD
     FS --> |"al aprobar se convierte en"| C
 ```
 
-[`Oferta Laboral`](){#oferta-laboral}
+[`Oferta Laboral para Developers`](){#oferta-laboral-developers}
 
 :   Se define como una propuesta formal de empleo que describe las condiciones y requisitos de un puesto de trabajo específico.
 
@@ -149,52 +145,52 @@ flowchart TD
 
     - Puede ser anunciada públicamente o presentada directamente a un Profesional Tech.
 
-[`Flujo de Selección`](){#flujo-seleccion}
+[`Flujo de Selección de Developers`](){#flujo-seleccion-developers}
 
-:   Se define como el conjunto de etapas y actividades desarrolladas por 23people, para evaluar y seleccionar Profesionales Tech, cuyo Perfil se ajuste a los requisitos de una [oferta laboral](#oferta-laboral) específica.
+:   Conjunto de etapas y actividades establecidas por 23people para evaluar a los desarrolladores que postulan a nuestras [ofertas laborales](#oferta-laboral-developers). A través de este proceso, el equipo de Tech Talent Services (TTS) valida que los candidatos cumplan con nuestros estándares de calidad antes de presentarlos a nuestros clientes para entrevistas.
 
-    Características clave:
+    Incluye las etapas de: 
+  
+        1. **Nueva Postulación**. Se recibe una nueva postulación a una oferta laboral.
+        2. **Filtro Curricular**. Se evalua a priori si el perfil del developer se ajusta a los requisitos de la oferta laboral.
+        3. **Evaluación Técnica**.
+           1. **Desafío Técnico**. Consiste en la realización de una Prueba Tecnica, que busca evaluar la capacidad de programación y resolución de problemas algorítmicos.
+           2. **Validación de Experiencia Técnica**. Consiste en una entrevista de caracter tecnico, en donde se busca validar la experiencia laboral y conocimientos técnicos del postulante.
+        4. **Evaluación de Nivel de Idiomas**. Se evalua el nivel de idiomas del profesional.
+        5. **Listo como Candidato**. Se ha completado satisfactoriamente el flujo de selección y se ha evaluado como apto para ser presentado a entrevista con el cliente como uno de nuestros [Candidatos](#candidato).
+   
+    !!! warning "Nota"
 
-    - Incluye las etapas de: 
-        1. Filtro de Perfil Curricular
-        2. Evaluación de Competencias Técnicas
-        3. Evaluación de Experiencia Profesional
-        4. Evaluación de Idiomas
-        5. Entrevista Final
-    - Lo que se evalúa es el perfil del profesional en ese momento determinado. El mismo profesional puede postular a otra oferta laboral en el futuro en donde se necesite otro perfil tech. De esta manera, no se filtra a profesionales, sino que al perfil que presentó en esa oferta laboral.
+        Lo que se evalúa es el perfil del profesional en ese momento determinado. El mismo profesional puede postular a otra oferta laboral en el futuro en donde se necesite otro perfil tech. De esta manera, no se filtra a profesionales, sino que al perfil que presentó en esa [oferta laboral](#oferta-laboral-developers).
 
 [`Postulación`](){#postulacion}
 
-:   Se define como el proceso mediante el cual un [Profesional Tech](#profesional-tech) voluntariamente se presenta para ser evaluado como una opción para un puesto de trabajo específico anunciado por 23people.
+:   Se define como el proceso mediante el cual un [Developer](#developer) voluntariamente se presenta para ser evaluado como una opción para una de las vacantes de una oferta laboral anunciada por 23people.
 
     Características clave:
 
-    - Un Profesional Tech puede tener múltiples postulaciones registradas con nuestra empresa.
+    - Un Developer puede tener múltiples postulaciones registradas con nuestra empresa.
 
-    - Cada postulación relaciona una [oferta laboral](#oferta-laboral) específica y profesional especifico en un momento determinado.
+    - Cada postulación relaciona una [oferta laboral](#oferta-laboral-developers) específica y un profesional especifico en un momento determinado.
 
-    - La postulación marca el inicio del [flujo de selección](#flujo-seleccion) para el [perfil](#perfil-tech) del profesional.
+    - La postulación marca el inicio del [flujo de selección](#flujo-seleccion-developers) para el [perfil](#perfil-dev) del profesional.
 
 [`Postulante`](){#postulante}
 
-:   Se considera Postulante a todo Profesional Tech que ha presentado su postulación a una oferta laboral nuestra.
+:   Se considera Postulante a Developer que ha presentado su postulación a una oferta laboral nuestra.
 
 [`Candidato`](){#candidato}
 
-:   Se considera Candidato a todo Profesional Tech que cumple con las siguientes
+:   Se considera Candidato a todo Developer que cumple con las siguientes
 condiciones:
 
     1. Ha postulado a una o más ofertas laborales de 23people.
 
-    2. Ha completado satisfactoriamente nuestro Flujo de Selección.
-
-    3. Ha sido evaluado por nuestro equipo de Reclutamiento y Selección como apto para ser presentado a entrevista con un cliente.
-
-    4. Su perfil profesional actual se ajusta a los requisitos de una oferta laboral específica.
+    2. Ha completado satisfactoriamente nuestro [Flujo de Selección de Developers](#oferta-laboral-developers).
 
     Características importantes:
 
-    - El estado de Candidato es dinámico y depende del [perfil profesional](#perfil-tech) actual del individuo en relación con las ofertas laborales disponibles.
+    - El estado de Candidato es dinámico y depende del [perfil profesional](#perfil-developer) actual del individuo en relación con las ofertas laborales disponibles.
 
     - Un Profesional Tech puede ser considerado Candidato para múltiples ofertas laborales y/o clientes, siempre que su perfil se ajuste a los requisitos específicos de cada caso.
 
@@ -202,7 +198,7 @@ condiciones:
   
 [`Prueba Técnica`](){#prueba-tecnica}
 
-:   Es una prueba que evalua las competencias de programación y resolución cognitiva de problemas de un Profesional Tech.
+:   Es una prueba que evalua las competencias de programación y resolución cognitiva de problemas que tiene un Developer.
 
     Características clave:
 
@@ -229,3 +225,28 @@ condiciones:
     - Se puede preguntar por programacion funcional. Se busca si hay interes por estos temas.
     - Es el perfil de la persona lo que se evalua, no la persona en si misma. Se evalua si la persona es capaz de hacer el trabajo que se le esta solicitando. La misma persona puede ser rechazada en una oferta laboral y aceptada en otra.
     - Antes de la entrevista, se deberia revisar y tener claro el como se desempeñó en la prueba técnica.
+
+## Conceptos Técnicos
+
+[`Recursividad`](){#recursividad}
+
+:   Técnica de programación donde una función se llama a sí misma para resolver un problema dividiéndolo en problemas más pequeños del mismo tipo. Por ejemplo, obtener cubos de hielo individuales a partir de un bloque grande requiere repetir el proceso de división en bloques más pequeños hasta alcanzar el tamaño deseado.
+
+    Características clave:
+
+    - Permite resolver problemas complejos de manera más simple y elegante.
+    - Requiere un caso base que detenga la recursión.
+    - Puede ser más eficiente que otras técnicas de programación en ciertos casos.
+    - No es algo que se deba usar siempre en las actividades de desarrollo, pero el manejo de esta técnica es un indicador de habilidad.
+
+[`Algoritmo`](){#algoritmo}
+
+:   Conjunto de instrucciones o reglas definidas y ordenadas que describen un proceso o cálculo que se lleva a cabo para resolver un problema específico. Los algoritmos son la base de la programación y la informática, y se utilizan para diseñar software, sistemas y aplicaciones. Se puede considerar como algo similar a una receta de cocina.
+
+[`Abstracción`](){#abstraccion}
+
+:   Proceso de simplificación y reducción de la complejidad de un sistema o problema mediante la identificación y aislamiento de los elementos esenciales y la omisión de los detalles innecesarios. En programación, la abstracción se utiliza para representar conceptos y datos de manera simplificada y estructurada, lo que facilita la comprensión y el manejo de la información.
+
+[`Complejidad de un ejercicio de programación`](){#complejidad-ejercicio-programacion}
+
+:   Se define por la dificultad que el equipo reclutador de 23people tuvo al momento de resolver ellos mismos el ejercicio. También se puede usar las estadísticas que se han generado en la plataforma de apoyo para realizar pruebas online de programación, respecto de las tendencias de tiempos que los postulantes han usado para resolver el ejercicio.
