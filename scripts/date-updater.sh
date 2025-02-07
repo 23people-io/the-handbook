@@ -6,8 +6,8 @@ set -e
 
 cd "$(dirname "$0")/.."
 
-# Current date in the desired format (YYYY-MM-DDTHH:MM:SS)
-CURRENT_DATE=$(date -u +"%Y-%m-%dT%H:%M:%S")
+# Current date in the desired format (YYYY-MM-DDTHH:MM:SSZ)
+CURRENT_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
 echo -e "${YELLOW}Updating modification date of modified files...${RESET}"
 
