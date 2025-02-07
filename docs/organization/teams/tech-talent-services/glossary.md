@@ -1,6 +1,6 @@
 ---
 created: 2024-10-21T12:46:17
-updated: 2025-02-06T16:03:27
+updated: 2025-02-07T13:41:55
 authors:
   - manu-reyes-23p
 description: >
@@ -151,14 +151,36 @@ flowchart TD
 
     Incluye las etapas de: 
   
-        1. **Nueva Postulación**. Se recibe una nueva postulación a una oferta laboral.
-        2. **Filtro Curricular**. Se evalua a priori si el perfil del developer se ajusta a los requisitos de la oferta laboral.
-        3. **Evaluación Técnica**.
-           1. **Desafío Técnico**. Consiste en la realización de una Prueba Tecnica, que busca evaluar la capacidad de programación y resolución de problemas algorítmicos.
-           2. **Validación de Experiencia Técnica**. Consiste en una entrevista de caracter tecnico, en donde se busca validar la experiencia laboral y conocimientos técnicos del postulante.
-        4. **Evaluación de Nivel de Idiomas**. Se evalua el nivel de idiomas del profesional.
-        5. **Listo como Candidato**. Se ha completado satisfactoriamente el flujo de selección y se ha evaluado como apto para ser presentado a entrevista con el cliente como uno de nuestros [Candidatos](#candidato).
-   
+    1. **Nueva Postulación**. Se recibe una nueva postulación a una oferta laboral.
+    2. **Filtro Curricular**. Se evalua a priori si el perfil del developer se ajusta a los requisitos de la oferta laboral.
+    3. **Evaluación Técnica**.
+          1. **Desafío Técnico**. Consiste en la realización de una Prueba Tecnica, que busca evaluar la capacidad de programación y resolución de problemas algorítmicos.
+          2. **Validación de Experiencia Técnica**. Consiste en una entrevista de caracter tecnico, en donde se busca validar la experiencia laboral y conocimientos técnicos del postulante.
+    4. **Evaluación de Nivel de Idiomas**. Se evalua el nivel de idiomas del profesional.
+    5. **Listo como Candidato**. Se ha completado satisfactoriamente el flujo de selección y se ha evaluado como apto para ser presentado a entrevista con el cliente como uno de nuestros [Candidatos](#candidato).
+
+    ```mermaid
+    ---
+    config:
+        kanban:
+            ticketBaseUrl: '<https://mermaidchart.atlassian.net/browse/#TICKET#>'
+    ---
+    kanban
+        Nueva Postulación
+            [Postulación D]        
+        Filtro Curricular
+            [Postulación E]
+            [Postulación F]
+            [Postulación H]
+        Evaluación Técnica
+            [Postulación A]
+            [Postulación B]
+        Evaluación de Idiomas
+        Listo como Candidato
+            [Postulación C]
+            [Postulación G]
+    ```
+
     !!! warning "Nota"
 
         Lo que se evalúa es el perfil del profesional en ese momento determinado. El mismo profesional puede postular a otra oferta laboral en el futuro en donde se necesite otro perfil tech. De esta manera, no se filtra a profesionales, sino que al perfil que presentó en esa [oferta laboral](#oferta-laboral-developers).
