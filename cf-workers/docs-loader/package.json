@@ -1,0 +1,24 @@
+{
+    "name": "23people-handbook-repo-reader",
+    "version": "1.8.1",
+    "scripts": {
+        "dev": "npx wrangler dev --experimental-vectorize-bind-to-prod",
+        "start": "npm run dev",
+        "typegen": "npx wrangler types",
+        "deploy": "npm run new-version && npx wrangler deploy",
+        "new-version": "./scripts/bump-version.sh && ./scripts/push-changes.sh"
+    },
+    "dependencies": {
+        "hono": "^4.6.20",
+        "llamaindex": "^0.8.32",
+        "octokit": "^4.0.3",
+        "typescript": "^5.0.0",
+        "uuid": "^11.0.5"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20250124.3",
+        "@types/node": "^22.10.10",
+        "@types/uuid": "^10.0.0",
+        "wrangler": "^3.60.3"
+    }
+}

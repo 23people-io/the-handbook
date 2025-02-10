@@ -1,0 +1,23 @@
+name = "23people-handbook-docs-loader"
+compatibility_flags = ["nodejs_compat"]
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[observability]
+enabled = true
+
+[vars]
+REPO_FROM_DIR_PATH = "docs"
+REPO_NAME = "23people-handbook"
+REPO_OWNER = "23people-io"
+
+[[d1_databases]]
+binding = "DOCS_TO_INDEX_DB" # available in your Worker on env.DB
+database_name = "docs-to-index-db"
+database_id = "06b15e97-c32e-4de5-8d59-aa04981f7ac3"
+
+# Bind a Queue producer. Use this binding to schedule an arbitrary task that may be processed later by a Queue consumer.
+# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#queues
+[[queues.producers]]
+queue = "23people-docs-to-index-queue"
+binding = "DOCS_TO_INDEX_QUEUE" # available in your Worker on env.DOCS_TO_INDEX_QUEUE
