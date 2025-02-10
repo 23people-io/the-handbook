@@ -68,14 +68,14 @@ export async function handle(payload: PushEvent, env: any) {
 	const queuePromises = [
 		// Queue added/modified documents
 		...documents.map((doc) =>
-			env.DOCS_QUEUE.send({
+			env.DOCS_TO_INDEX_QUEUE.send({
 				type: added.includes(doc.path) ? 'add' : 'update',
 				document: doc,
 			})
 		),
 		// Queue removed documents
 		...removed.map((path) =>
-			env.DOCS_QUEUE.send({
+			env.DOCS_TO_INDEX_QUEUE.send({
 				type: 'remove',
 				document: { path },
 			})

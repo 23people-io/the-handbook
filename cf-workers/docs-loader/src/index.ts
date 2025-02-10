@@ -1,16 +1,7 @@
 // src/index.ts
 import { GithubReader } from '@shared/readers/github';
-import { verifyGitHubWebhook } from '@shared/utils/github';
 import { Context, Hono } from 'hono';
 import { handle } from './handlers/github';
-
-interface Env {
-	GITHUB_APP_ID: string;
-	GITHUB_APP_PRIVATE_KEY: string;
-	GITHUB_APP_INSTALLATION_ID: string;
-	GITHUB_WEBHOOK_SECRET: string;
-	DOCS_QUEUE: Queue;
-}
 
 const app = new Hono<{ Bindings: Env }>();
 
@@ -30,18 +21,20 @@ app.get('/', (c: Context) => {
 app.post('/webhook', async (c) => {
 	const signature = c.req.header('x-hub-signature-256');
 	const event = c.req.header('x-github-event');
-
-	if (!signature || !event) {
-		return c.json({ error: 'Missing signature or event type' }, 400);
-	}
-
-	// Verify webhook signature
 	const rawBody = await c.req.text();
-	const isValid = await verifyGitHubWebhook(rawBody, signature, c.env.GITHUB_WEBHOOK_SECRET);
 
-	if (!isValid) {
-		return c.json({ error: 'Invalid signature' }, 401);
-	}
+	// FIXME: Remove this block after implementing the verifyGitHubWebhook function
+	// if (!signature || !event) {
+	// 	return c.json({ error: 'Missing signature or event type' }, 400);
+	// }
+
+	// // Verify webhook signature
+	// const rawBody = await c.req.text();
+	// const isValid = await verifyGitHubWebhook(rawBody, signature, c.env.GITHUB_WEBHOOK_SECRET);
+
+	// if (!isValid) {
+	// 	return c.json({ error: 'Invalid signature' }, 401);
+	// }
 
 	// Only process push events
 	if (event !== 'push') {
@@ -77,9 +70,9 @@ app.post('/reindex', async (c) => {
 				installationId: c.env.GITHUB_APP_INSTALLATION_ID,
 			},
 			{
-				owner: '23people',
-				name: 'handbook',
-				branch: 'main',
+				owner: c.env.REPO_OWNER,
+				name: c.env.REPO_NAME,
+				branch: c.env.REPO_BRANCH,
 			}
 		);
 
@@ -92,7 +85,7 @@ app.post('/reindex', async (c) => {
 
 		// Queue all documents for processing
 		const queuePromises = documents.map((doc) =>
-			c.env.DOCS_QUEUE.send({
+			c.env.DOCS_TO_INDEX_QUEUE.send({
 				type: 'add',
 				document: {
 					id: doc.id,

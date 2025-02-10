@@ -4,11 +4,12 @@ interface Env {
 	REPO_FROM_DIR_PATH: "docs";
 	REPO_NAME: "23people-handbook";
 	REPO_OWNER: "23people-io";
+	REPO_BRANCH: "main";
 	GITHUB_APP_ID: string;
 	GITHUB_APP_CLIENT_ID: string;
 	GITHUB_APP_CLIENT_SECRET: string;
 	GITHUB_APP_INSTALLATION_ID: string;
 	GITHUB_APP_PRIVATE_KEY: string;
-	DOCS_TO_INDEX_DB: D1Database;
+	GITHUB_WEBHOOK_SECRET: string;
 	DOCS_TO_INDEX_QUEUE: Queue;
 }
