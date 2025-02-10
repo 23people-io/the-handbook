@@ -1,7 +1,8 @@
 {
-    "name": "23people-handbook-repo-reader",
-    "version": "1.8.2",
+    "name": "23people-handbook-docs-loader",
+    "version": "1.8.5",
     "scripts": {
+        "predeploy": "cd ../shared && npm run build",
         "dev": "npx wrangler dev --experimental-vectorize-bind-to-prod",
         "start": "npm run dev",
         "typegen": "npx wrangler types",
@@ -13,7 +14,8 @@
         "llamaindex": "^0.8.32",
         "octokit": "^4.0.3",
         "typescript": "^5.0.0",
-        "uuid": "^11.0.5"
+        "uuid": "^11.0.5",
+        "23people-handbook-cf-workers-shared": "file:../shared"
     },
     "devDependencies": {
         "@cloudflare/workers-types": "^4.20250124.3",

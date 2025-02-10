@@ -33,7 +33,9 @@
         }
     },
     "exclude": [
-        "test"
+        "node_modules",
+        "test",
+        "dist"
     ],
     "include": [
         "worker-configuration.d.ts",
