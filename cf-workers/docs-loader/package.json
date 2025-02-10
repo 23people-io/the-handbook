@@ -3,6 +3,7 @@
     "version": "1.8.5",
     "scripts": {
         "predeploy": "cd ../shared && npm run build",
+        "build": "tsc",
         "dev": "npx wrangler dev --experimental-vectorize-bind-to-prod",
         "start": "npm run dev",
         "typegen": "npx wrangler types",
