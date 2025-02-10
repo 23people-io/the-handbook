@@ -1,8 +1,8 @@
 // src/index.ts
-import { Context, Hono } from 'hono';
-import { handle } from './handlers/github';
 import { GithubReader } from '@shared/readers/github';
 import { verifyGitHubWebhook } from '@shared/utils/github';
+import { Context, Hono } from 'hono';
+import { handle } from './handlers/github';
 
 interface Env {
 	GITHUB_APP_ID: string;
@@ -36,7 +36,7 @@ app.post('/webhook', async (c) => {
 	}
 
 	// Verify webhook signature
-	const rawBody = await c.req.raw.clone().text();
+	const rawBody = await c.req.text();
 	const isValid = await verifyGitHubWebhook(rawBody, signature, c.env.GITHUB_WEBHOOK_SECRET);
 
 	if (!isValid) {
