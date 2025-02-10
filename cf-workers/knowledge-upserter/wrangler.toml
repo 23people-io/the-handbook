@@ -1,0 +1,33 @@
+name = "23people-handbook-knowledge-upserter"
+compatibility_flags = ["nodejs_compat"]
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[observability]
+enabled = true
+
+[vars]
+EMBEDDINGS_MODEL = "text-embedding-3-small"
+EMBEDDINGS_DIMENSIONS = 768
+OPENAI_EMBEDDINGS_API_ENDPOINT = "https://api.openai.com/v1/embeddings"
+REPO_NAME = "23people-handbook"
+REPO_OWNER = "23people-io"
+
+[[workflows]]
+name = "knowledge-seeding-workflow"
+binding = "KNOWLEDGE_SEEDING_WORKFLOW"
+class_name = "KnowledgeSeedingWorkflow"
+
+[[queues.consumers]]
+queue = "23people-docs-to-index-queue" 
+
+# Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
+# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#workers-ai
+[ai]
+binding = "AI" # available in your Worker on env.AI
+
+# Bind a Vectorize index. Use to store and query vector embeddings for semantic search, classification and other vector search use-cases.
+# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#vectorize-indexes
+[[vectorize]]
+binding = "VECTORIZE_INDEX_ID" # available in your Worker on env.VECTORIZE_INDEX_ID
+index_name = "handbook-index-2" # the name of the index
