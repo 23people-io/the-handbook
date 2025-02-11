@@ -35,13 +35,19 @@
 		/* Enable all strict type-checking options. */
 		"strict": true,
 		/* Skip type checking all .d.ts files. */
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"paths": {
+			"@shared/*": [
+				"../shared/*"
+			]
+		}
 	},
 	"exclude": [
 		"test"
 	],
 	"include": [
 		"worker-configuration.d.ts",
-		"src/**/*.ts"
+		"src/**/*.ts",
+		"../shared/**/*.ts" // Include shared directory TypeScript files
 	]
 }

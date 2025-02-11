@@ -7,22 +7,104 @@ This repository is dedicated to storing all company **public consolidated inform
 
 ## Use
 
-You can access to the handbook in a production environment at [https://manual.23people.io/](https://manual.23people.io).
+You can access the handbook in a production environment at [https://manual.23people.io/](https://manual.23people.io).
 
-## Setup
+## Contributing to the Handbook
 
-First, you need to have **Python** and **[Poetry](https://python-poetry.org/)** installed on your machine.
+We follow an open contribution model where team members can propose changes through Pull Requests. This ensures quality and consistency in our documentation.
 
-After you clone the repo, you can run project locally by following the steps below:
+### Prerequisites
 
-1. Run `make build` to install the dependencies and create a virtual environment.
-2. Run the project using `make run`. The project will be available at `http://localhost:2300` by default.
+Before you start contributing, make sure you have:
 
-To open the app in Visual Studio Code, you can use the following command:
+- [Python 3.11.x](https://www.python.org/)
+- [Poetry Dependency Manager](https://python-poetry.org/)
+- [Visual Studio Code](https://code.visualstudio.com/) (recommended IDE)
+- Git installed on your machine
+- A GitHub account with access to the 23people organization
 
-```bash
-code .
-```
+### Setting up SSH Keys
+
+1. Generate SSH keys if you haven't already:
+
+   ```bash
+   ssh-keygen -t ed25519 -C "your_email@23people.io"
+   ```
+
+2. Add your public SSH key to GitHub:
+   - Copy your public key (usually in `~/.ssh/id_ed25519.pub`)
+   - Go to GitHub Settings > SSH and GPG keys
+   - Click "New SSH key" and paste your public key
+   - Save the key
+
+### Development Workflow
+
+1. Clone the repository:
+
+   ```bash
+   git clone git@github.com:23people-io/23people-handbook.git
+   cd 23people-handbook
+   ```
+
+2. Open the project in Visual Studio Code:
+
+   ```bash
+   code .
+   ```
+
+3. Create a new branch for your changes:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+    > [!NOTE]
+    > We create feature branches to:
+    > - Keep the main branch stable
+    > - Allow for code review before changes are merged
+    > - Enable multiple people to work on different features simultaneously
+    > - Maintain a clean project history
+
+4. Set up local development environment:
+
+   ```bash
+   # Install project dependencies using Poetry
+   make build
+
+   # Start the local development server
+   make run
+   ```
+
+   The handbook will be available at `http://localhost:2300` for local preview
+
+5. Make your changes and test them locally by viewing the site in your browser
+
+6. Commit your changes:
+
+   ```bash
+   git add .
+   git commit -m "Description of your changes"
+   ```
+
+7. Push your changes to GitHub:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+### Creating a Pull Request
+
+1. Go to the [repository page on GitHub](https://github.com/23people-io/23people-handbook)
+2. Click on "Pull requests" and then "New pull request"
+3. Select your feature branch as the compare branch
+4. Fill in the pull request template with:
+   - A clear description of your changes
+   - Any relevant context or screenshots
+   - Reference to related issues if applicable
+5. Submit the pull request
+6. Wait for review from the repository maintainers
+
+Your changes will be reviewed by the CODEOWNERS of the repository. They may request changes or provide feedback. Once approved, your changes will be merged into the main branch.
 
 ## Technical Information
 
@@ -32,11 +114,6 @@ The project is built using the following technologies:
 - [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
 - Markdown
 
-### Requirements
-
-- [Python 3.11.x](https://www.python.org/)
-- [Poetry Dependency Manager](https://python-poetry.org/)
-  
 ## Versioning
 
 Run `make new-version` to create a new version of the handbook and push it to the remote repo. It will create a new tag with a version under the `vX.Y.Z` format as per [Semantic Versioning](https://semver.org/).
@@ -47,8 +124,10 @@ The deployment is done automatically when you push a new version to the `main` b
 
 ## References
 
-- [Getting started](https://squidfunk.github.io/mkdocs-material/getting-started/)
-- [Cloudflare Pages](https://pages.cloudflare.com/)
+- [Getting started with Mkdocs Material](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- [Cloudflare Pages Documentation](https://pages.cloudflare.com/)
+- [GitHub Pull Request Documentation](https://docs.github.com/en/pull-requests)
+- [Setting up SSH for GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
 ## Contact
 

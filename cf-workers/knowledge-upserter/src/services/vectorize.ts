@@ -1,32 +1,39 @@
-class VectorizeService {
-	vectorizeIndex: VectorizeIndex;
+// src/services/vectorize.ts
+import type { DocumentChunk } from '../types';
 
-	constructor(env: Env) {
-		if (!env.VECTORIZE_INDEX_ID) {
-			throw new Error('Vectorize index not initialized');
-		}
-		this.vectorizeIndex = env.VECTORIZE_INDEX_ID;
+export class VectorizeService {
+	constructor(private vectorizeIndex: VectorizeIndex) {}
+
+	/**
+	 * Inserts or updates document chunks in the vector store
+	 */
+	async upsertDocumentChunks(chunks: DocumentChunk[]): Promise<void> {
+		const { vectorizeIndex } = this;
+
+		const vectors = chunks.map((chunk) => ({
+			id: chunk.id,
+			values: chunk.embedding!,
+			metadata: chunk.metadata,
+		}));
+
+		await vectorizeIndex.upsert(vectors);
 	}
 
-	async upsertEmbeddings(embeddings: Embedding[]): Promise<VectorizeVectorMutation> {
-		let vectors: VectorizeVector[] = [];
+	/**
+	 * Removes document chunks from the vector store
+	 */
+	async removeDocument(documentId: string): Promise<void> {
+		const { vectorizeIndex } = this;
 
-		for (const embedding of embeddings) {
-			vectors.push({
-				id: embedding.id,
-				values: embedding.values,
-				metadata: embedding.metadata,
-			});
+		// Find all chunks for this document
+		const results = await vectorizeIndex.query({
+			topK: 100,
+			filter: { document_id: documentId },
+		});
+
+		if (results.matches.length > 0) {
+			const chunkIds = results.matches.map((match) => match.id);
+			await vectorizeIndex.delete(chunkIds);
 		}
-
-		let inserted = await this.vectorizeIndex.upsert(vectors);
-		return inserted;
 	}
-
-	// async deleteVectorsByPrefix(path: string): Promise<void> {
-	// 	const vectors = await this.env.VECTORIZE_INDEX_ID.list({ prefix: path });
-	// 	await this.env.VECTORIZE_INDEX_ID.deleteByIds(vectors.vectors.map((v) => v.id));
-	// }
 }
-
-export { VectorizeService };

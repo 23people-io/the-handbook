@@ -6,16 +6,20 @@
 		"start": "npm run dev",
 		"typegen": "npx wrangler types",
 		"deploy": "npm run new-version && npx wrangler deploy",
-		"new-version": "./scripts/bump-version.sh && ./scripts/push-changes.sh"
+		"new-version": "./scripts/bump-version.sh && ./scripts/push-changes.sh",
+		"test": "vitest",
+		"test:integration": "vitest integration"
 	},
 	"dependencies": {
+		"23people-handbook-cf-workers-shared": "file:../shared",
 		"hono": "^4.6.20",
 		"octokit": "^4.0.3",
 		"typescript": "^5.0.0"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20250124.3",
+		"@cloudflare/workers-types": "^4.20250204.0",
 		"@types/node": "^22.10.10",
-		"wrangler": "^3.60.3"
+		"vitest": "^3.0.5",
+		"wrangler": "^3.107.3"
 	}
 }

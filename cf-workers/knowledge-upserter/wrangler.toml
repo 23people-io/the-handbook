@@ -7,16 +7,11 @@ compatibility_date = "2025-01-01"
 enabled = true
 
 [vars]
-EMBEDDINGS_MODEL = "text-embedding-3-small"
-EMBEDDINGS_DIMENSIONS = 768
+OPENAI_EMBEDDINGS_MODEL = "text-embedding-3-small"
+OPENAI_EMBEDDINGS_DIMENSIONS = 768
 OPENAI_EMBEDDINGS_API_ENDPOINT = "https://api.openai.com/v1/embeddings"
 REPO_NAME = "23people-handbook"
 REPO_OWNER = "23people-io"
-
-[[workflows]]
-name = "knowledge-seeding-workflow"
-binding = "KNOWLEDGE_SEEDING_WORKFLOW"
-class_name = "KnowledgeSeedingWorkflow"
 
 [[queues.consumers]]
 queue = "23people-docs-to-index-queue" 
@@ -31,3 +26,16 @@ binding = "AI" # available in your Worker on env.AI
 [[vectorize]]
 binding = "VECTORIZE_INDEX_ID" # available in your Worker on env.VECTORIZE_INDEX_ID
 index_name = "handbook-index-2" # the name of the index
+
+[env.test]
+name = "knowledge-upserter-test"
+
+[[env.test.queues.consumers]]
+queue = "DOCS_TO_INDEX_QUEUE"
+max_batch_size = 10
+max_batch_timeout = 5
+max_retries = 3
+
+[[env.test.queues.producers]]
+queue = "DOCS_TO_INDEX_QUEUE"
+binding = "DOCS_TO_INDEX_QUEUE"
