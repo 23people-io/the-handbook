@@ -58,7 +58,7 @@ Before you start contributing, make sure you have:
    git checkout -b feature/your-feature-name
    ```
 
-    > [!NOTE]
+    > [!IMPORTANTE]
     > We create feature branches to:
     > - Keep the main branch stable
     > - Allow for code review before changes are merged
