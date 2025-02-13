@@ -1,4 +1,4 @@
-name = "23p-handbook-knowledge-upserter"
+name = "23p-handbook-cf-workers-knowledge-upserter"
 compatibility_flags = ["nodejs_compat"]
 main = "src/index.ts"
 compatibility_date = "2025-01-01"

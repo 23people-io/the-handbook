@@ -1,6 +1,6 @@
 {
-	"name": "23people-ai-knowledge-indexer",
-	"version": "0.1.1",
+	"name": "23p-handbook-cf-workers-knowledge-upserter",
+	"version": "0.1.2",
 	"scripts": {
 		"dev": "npx wrangler dev --experimental-vectorize-bind-to-prod",
 		"start": "npm run dev",
