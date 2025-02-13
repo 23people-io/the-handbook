@@ -1,17 +1,15 @@
 {
 	"name": "23people-ai-knowledge-indexer",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"scripts": {
 		"dev": "npx wrangler dev --experimental-vectorize-bind-to-prod",
 		"start": "npm run dev",
 		"typegen": "npx wrangler types",
 		"deploy": "npm run new-version && npx wrangler deploy",
-		"new-version": "./scripts/bump-version.sh && ./scripts/push-changes.sh",
-		"test": "vitest",
-		"test:integration": "vitest integration"
+		"new-version": "./scripts/bump-version.sh && ./scripts/push-changes.sh"
 	},
 	"dependencies": {
-		"23people-handbook-cf-workers-shared": "file:../shared",
+		"23p-handbook-cf-workers-shared": "file:../shared",
 		"hono": "^4.6.20",
 		"octokit": "^4.0.3",
 		"typescript": "^5.0.0"

@@ -1,5 +1,5 @@
 // src/types.ts
-import { Document } from '23people-handbook-cf-workers-shared';
+import { Document } from '23p-handbook-cf-workers-shared';
 
 export interface QueueMessage {
 	type: 'add' | 'update' | 'remove';

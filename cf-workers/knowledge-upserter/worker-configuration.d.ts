@@ -4,14 +4,8 @@ interface Env {
 	OPENAI_EMBEDDINGS_MODEL: "text-embedding-3-small";
 	OPENAI_EMBEDDINGS_DIMENSIONS: 768;
 	OPENAI_EMBEDDINGS_API_ENDPOINT: "https://api.openai.com/v1/embeddings";
-	REPO_NAME: "23people-handbook";
+	REPO_NAME: "23p-handbook";
 	REPO_OWNER: "23people-io";
-	OPENAI_API_KEY: string;
-	GITHUB_APP_ID: string;
-	GITHUB_APP_CLIENT_ID: string;
-	GITHUB_APP_CLIENT_SECRET: string;
-	GITHUB_APP_INSTALLATION_ID: string;
-	GITHUB_APP_PRIVATE_KEY: string;
-	VECTORIZE_INDEX_ID: VectorizeIndex;
+	HANDBOOK_VECTORIZE_INDEX_ID: VectorizeIndex;
 	AI: Ai;
 }
