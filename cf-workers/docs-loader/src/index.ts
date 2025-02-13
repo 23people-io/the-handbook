@@ -1,7 +1,6 @@
 // src/index.ts
 import { GithubReader } from '@shared/readers/github';
 import { Context, Hono } from 'hono';
-import { handle } from './handlers/github';
 
 const app = new Hono<{ Bindings: Env }>();
 
@@ -11,53 +10,9 @@ app.get('/', (c: Context) => {
 		status: 'ok',
 		message: '23people Handbook Docs Loader is working',
 		endpoints: {
-			webhook: 'POST /webhook',
 			reindex: 'POST /reindex',
 		},
 	});
-});
-
-// GitHub webhook handler
-app.post('/webhook', async (c) => {
-	const signature = c.req.header('x-hub-signature-256');
-	const event = c.req.header('x-github-event');
-	const rawBody = await c.req.text();
-
-	// FIXME: Remove this block after implementing the verifyGitHubWebhook function
-	// if (!signature || !event) {
-	// 	return c.json({ error: 'Missing signature or event type' }, 400);
-	// }
-
-	// // Verify webhook signature
-	// const rawBody = await c.req.text();
-	// const isValid = await verifyGitHubWebhook(rawBody, signature, c.env.GITHUB_WEBHOOK_SECRET);
-
-	// if (!isValid) {
-	// 	return c.json({ error: 'Invalid signature' }, 401);
-	// }
-
-	// Only process push events
-	if (event !== 'push') {
-		return c.json({ message: 'Event type not processed' }, 200);
-	}
-
-	try {
-		const payload = JSON.parse(rawBody);
-		const changes = await handle(payload, c.env);
-
-		return c.json({
-			message: 'Webhook processed successfully',
-			changes,
-		});
-	} catch (error) {
-		console.error('Error processing webhook:', error);
-		return c.json(
-			{
-				error: error instanceof Error ? error.message : 'Unknown error',
-			},
-			500
-		);
-	}
 });
 
 // Manual reindex endpoint
@@ -73,7 +28,7 @@ app.post('/reindex', async (c) => {
 				owner: c.env.REPO_OWNER,
 				name: c.env.REPO_NAME,
 				branch: c.env.REPO_BRANCH,
-			}
+			},
 		);
 
 		// Load all markdown documents from the docs directory
@@ -93,7 +48,7 @@ app.post('/reindex', async (c) => {
 					content: doc.content,
 					metadata: doc.metadata,
 				},
-			})
+			}),
 		);
 
 		await Promise.all(queuePromises);
@@ -107,12 +62,11 @@ app.post('/reindex', async (c) => {
 			},
 		});
 	} catch (error) {
-		console.error('Error starting reindex:', error);
 		return c.json(
 			{
 				error: error instanceof Error ? error.message : 'Unknown error',
 			},
-			500
+			500,
 		);
 	}
 });
