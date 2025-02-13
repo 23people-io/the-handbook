@@ -1,6 +1,6 @@
 {
-    "name": "23p-handbook-docs-loader",
-    "version": "1.9.1",
+    "name": "23p-handbook-cf-workers-docs-loader",
+    "version": "1.9.2",
     "scripts": {
         "predeploy": "cd ../shared && npm run build",
         "build": "tsc",
