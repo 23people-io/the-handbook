@@ -1,5 +1,5 @@
 {
-    "name": "23p-hanbook-cf-workers",
+    "name": "23p-handbook-cf-workers",
     "private": true,
     "workspaces": [
         "shared",
