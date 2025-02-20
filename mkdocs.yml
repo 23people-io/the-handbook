@@ -81,13 +81,13 @@ plugins:
         python:
           options:
             docstring_style: google
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: timeago
-  # - git-committers:
-  #     repository: 23people-io/23people-handbook
-  #     branch: main
-  #     token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-committers:
+      repository: 23people-io/23p-handbook
+      branch: main
+      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -184,6 +184,7 @@ nav:
           - "Backoffice (BKO)":
               - "Resumen": organization/teams/backoffice/index.md
               - "Glosario": organization/teams/backoffice/glossary.md
+              - "Sello de Calidad": organization/teams/backoffice/quality-seal.md
           - "Research & Development (R&D)": organization/teams/research-and-development/index.md
 
   - Prácticas:

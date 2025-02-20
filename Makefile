@@ -28,7 +28,7 @@ build:
 
 new-version:
 	@echo "$(MAGENT)Starting Versioning...$(RESET)"
-	@scripts/new-version.sh
+	@scripts/bump-package-version.sh
 	@scripts/date-updater.sh
 	@scripts/git.sh
 	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
