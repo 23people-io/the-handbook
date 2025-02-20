@@ -26,7 +26,7 @@ build:
 	@scripts/build.sh
 	@echo "$(MAGENT)✔ Completed successfully.$(RESET)"
 
-new-version:
+deploy:
 	@echo "$(MAGENT)Starting Versioning...$(RESET)"
 	@scripts/bump-package-version.sh
 	@scripts/date-updater.sh

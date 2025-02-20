@@ -10,6 +10,9 @@ package-mode = true
 readme = "README.md"
 repository = "https://github.com/23people-io/23p-handbook"
 version = "1.2.12"
+packages = [
+  { include = "scripts", from = "." },
+]
 
 [tool.poetry.dependencies]
 mkdocs = {extras = ["i18n"], version = "^1.6.1"}
@@ -27,7 +30,7 @@ python = "^3.11.5"
 python-dotenv = "^1.0.1"
 
 [tool.poetry.scripts]
-deploy = "my_module:main"
+deploy = "scripts.deploy:deploy"
 
 [tool.pyright]
 defineConstant = {DEBUG = true}

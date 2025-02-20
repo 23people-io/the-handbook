@@ -21,7 +21,8 @@ else
 fi
 
 echo "${MAGENT}Bumping version...${RESET}"
-npm version patch
+poetry version patch
+poetry version
 
 echo "${MAGENT}Pushing to Github...${RESET}"
 git push
