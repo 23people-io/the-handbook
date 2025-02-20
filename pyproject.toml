@@ -30,7 +30,8 @@ python = "^3.11.5"
 python-dotenv = "^1.0.1"
 
 [tool.poetry.scripts]
-deploy = "scripts.deploy:deploy"
+build = "scripts.main:build"
+deploy = "scripts.main:deploy"
 
 [tool.pyright]
 defineConstant = {DEBUG = true}
@@ -41,6 +42,9 @@ exclude = [
 include = ["src"]
 reportMissingImports = "error"
 reportMissingTypeStubs = false
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"

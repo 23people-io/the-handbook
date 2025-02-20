@@ -19,7 +19,7 @@ poetry export --without-hashes --format=requirements.txt > requirements.txt
 
 # Activate virtual environment
 echo "${WHITE}Activating virtual environment...${RESET}"
-poetry shell
+poetry env activate
 
 # Building docs
 echo "${WHITE}Building mkdocs...${RESET}"
