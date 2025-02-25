@@ -42,8 +42,8 @@ Before you start contributing, make sure you have:
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:23people-io/23people-handbook.git
-   cd 23people-handbook
+   git clone git@github.com:23people-io/23p-handbook.git
+   cd 23p-handbook
    ```
 
 2. Open the project in Visual Studio Code:
@@ -69,10 +69,10 @@ Before you start contributing, make sure you have:
 
    ```bash
    # Install project dependencies using Poetry
-   make build
+   poetry run build
 
    # Start the local development server
-   make run
+   poetry run
    ```
 
    The handbook will be available at `http://localhost:2300` for local preview
@@ -94,7 +94,7 @@ Before you start contributing, make sure you have:
 
 ### Creating a Pull Request
 
-1. Go to the [repository page on GitHub](https://github.com/23people-io/23people-handbook)
+1. Go to the [repository page on GitHub](https://github.com/23people-io/23p-handbook)
 2. Click on "Pull requests" and then "New pull request"
 3. Select your feature branch as the compare branch
 4. Fill in the pull request template with:
@@ -114,10 +114,6 @@ The project is built using the following technologies:
 - [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
 - Markdown
 
-## Versioning
-
-Run `make new-version` to create a new version of the handbook and push it to the remote repo. It will create a new tag with a version under the `vX.Y.Z` format as per [Semantic Versioning](https://semver.org/).
-
 ## Deployment
 
 The deployment is done automatically when you push a new version to the `main` branch. The deployment is done using [Cloudflare Pages](https://pages.cloudflare.com/). The associated Cloudflare Worker is [23people-handbook](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/pages/view/23people-handbook). You should be able to see the changes in the production environment after a few minutes under [https://manual.23people.io/](https://manual.23people.io/).
@@ -131,6 +127,6 @@ The deployment is done automatically when you push a new version to the `main` b
 
 ## Contact
 
-If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or leave an issue [here](https://github.com/23people-io/23people-handbook/issues).
+If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or leave an issue [here](https://github.com/23people-io/23p-handbook/issues).
 
-We are always happy to help! :smile:
+_**We are 23people**, with love **:material-heart:** and passion for technology. Happy Coding! 🚀_
