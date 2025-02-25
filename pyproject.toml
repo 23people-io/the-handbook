@@ -9,7 +9,7 @@ name = "23p-handbook"
 package-mode = true
 readme = "README.md"
 repository = "https://github.com/23people-io/23p-handbook"
-version = "1.2.15"
+version = "1.2.16"
 packages = [
   { include = "scripts", from = "." },
 ]
@@ -30,6 +30,7 @@ python = "^3.11.5"
 python-dotenv = "^1.0.1"
 
 [tool.poetry.scripts]
+start = "scripts.main:start"
 build = "scripts.main:build"
 deploy = "scripts.main:deploy"
 

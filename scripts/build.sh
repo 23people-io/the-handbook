@@ -1,11 +1,13 @@
 #!/bin/sh
 
-# script/setup: Set up application for the first time after cloning, or set it
-#               back to the initial first unused state.
+# script/build: Setup the application for development environment.
 
 set -e
 
 cd "$(dirname "$0")/.."
+
+# Include scripts/colors.sh
+. scripts/colors.sh
 
 # Only things for a development environment will run inside here
 # Do things that need to be done to the application to set up for the first

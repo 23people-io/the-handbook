@@ -6,6 +6,9 @@ set -e
 
 cd "$(dirname "$0")/.."
 
+# Include scripts/colors.sh
+. scripts/colors.sh
+
 # Create Claude project knowledge files for a given folder
 echo "${YELLOW}Create Claude project knowledge files for pattern...${RESET}"
 

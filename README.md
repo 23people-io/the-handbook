@@ -23,20 +23,6 @@ Before you start contributing, make sure you have:
 - Git installed on your machine
 - A GitHub account with access to the 23people organization
 
-### Setting up SSH Keys
-
-1. Generate SSH keys if you haven't already:
-
-   ```bash
-   ssh-keygen -t ed25519 -C "your_email@23people.io"
-   ```
-
-2. Add your public SSH key to GitHub:
-   - Copy your public key (usually in `~/.ssh/id_ed25519.pub`)
-   - Go to GitHub Settings > SSH and GPG keys
-   - Click "New SSH key" and paste your public key
-   - Save the key
-
 ### Development Workflow
 
 1. Clone the repository:
@@ -72,7 +58,7 @@ Before you start contributing, make sure you have:
    poetry run build
 
    # Start the local development server
-   poetry run
+   poetry run run
    ```
 
    The handbook will be available at `http://localhost:2300` for local preview

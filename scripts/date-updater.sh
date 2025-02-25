@@ -6,6 +6,9 @@ set -e
 
 cd "$(dirname "$0")/.."
 
+# Include scripts/colors.sh
+. scripts/colors.sh
+
 # Current date in the desired format (YYYY-MM-DDTHH:MM:SSZ)
 CURRENT_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
