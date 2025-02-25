@@ -1,9 +1,6 @@
 # mkdocs
 site/
 
-# Claude Project Files Generated
-_claude/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
