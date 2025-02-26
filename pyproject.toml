@@ -17,7 +17,6 @@ packages = [
 [tool.poetry.dependencies]
 mkdocs = {extras = ["i18n"], version = "^1.6.1"}
 mkdocs-exclude = "^1.0.2"
-mkdocs-git-committers-plugin = "^0.2.3"
 mkdocs-git-committers-plugin-2 = "^2.4.1"
 mkdocs-git-revision-date-localized-plugin = "^1.2.7"
 mkdocs-material = "^9.5.34"

@@ -1,8 +1,8 @@
 ---
 created: YYYY-MM-DDT00:00:00 (el dia de hoy por defecto. Debe ser en ISO 8601 format y en UTC)
 updated: YYYY-MM-DDT00:00:00 (el dia de hoy por defecto. Debe ser en ISO 8601 format y en UTC)
-index: false (true si es que se desea que este articulo sea indexado en un Vector Store. Por defecto es false)
-slug: (nombre del archivo sin la extensión .md, en minúsculas y con guiones en lugar de espacios)
+index: false
+slug: (nombre, en ingles, del archivo sin la extensión .md, en minúsculas y con guiones en lugar de espacios)
 tags: 
   - (lista de tags que describen el contenido del articulo)
 authors:
