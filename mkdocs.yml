@@ -190,9 +190,7 @@ nav:
           - "Research & Development (R&D)": organization/teams/research-and-development/index.md
       - "Tribus":
           - organization/tribes/index.md
-          - "Iarvis Tribe":
-              - organization/tribes/iarvis-tribe/index.md
-              - "Claude Projects de 23people": organization/tribes/iarvis-tribe/claude-projects-catalog.md
+          - "Iarvis Tribe": organization/tribes/iarvis-tribe/index.md
           - "Drakkar Tribe": organization/tribes/drakkar-tribe/index.md
 
   - Prácticas:
