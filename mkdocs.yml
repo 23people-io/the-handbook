@@ -195,6 +195,7 @@ nav:
       - "Escribir, luego comunicar": practices//write-then-communicate.md
       - "Estructurar la narrativa": practices/structure-the-narrative.md
       - "Notificar los avances": practices/notify-progress.md
+      - "Uso de Claude Projects para Tarjetas de Flujos de Trabajo": docs/practices/uso-claude-projects-tarjetas-flujo-trabajo.md
 
   # - Insights:
   #     - insights/index.md
