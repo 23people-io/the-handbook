@@ -23,9 +23,11 @@ La estructura general es circular tal de fomentar la colaboración y la comunica
 Los siguientes son los equipos operacionales de 23people y su propósito:
 
 - [**Tech Talent Services Team (TTS)**](teams/tech-talent-services). Dar la mejor experiencia en selección, validación y retención de Profesionales Tech que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
-- [**Sales & Growth Marketing Team (SMKT)**](/sales-and-growth-marketing). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
+- [**Sales & Growth Marketing Team (SMKT)**](teams/sales-and-growth-marketing). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
 - [**Backoffice Services Team (BKO)**](teams/backoffice). Dar la mejor experiencia en soporte administrativo empresarial, facilitanto el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer.
 - [**Research & Development Services Team (R&D)**](teams/research-and-development). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
+
+Todos estos equipos operacionales se agrupan bajo el nombre de la [**Tribu Iarvis**](tribes/iarvis-tribe/).
 
 ### Modelo Interno
 
@@ -50,13 +52,6 @@ Cada equipo cuenta con:
 ### Equipo Estratégico
 
 Se persigue que cada equipo sea autónomo en el cómo avanza en su propósito, sin embargo se busca también que estén alineados con los objetivos estrategicos de la organización. Para ello, se cuenta con un equipo estratégico llamado [High Council](councils/high-council.md) que se encarga de definir y comunicar la estrategia de la organización y de asegurar que los equipos operacionales estén alineados con ella.
-
-## Tribus
-
-A modo de organización de equipos y como una capa virtual sobre los equipos, estos se agrupan en Tribus:
-
-- [**Iarvis Tribe**](tribes.md#iarvis-tribe). Es el nombre del conjunto de equipos operacionales en 23people.
-- [**Drakkar Tribe**](tribes.md#drakkar-tribe). Es el nombre del conjunto de equipos de Profesionales Tech que están en modo subcontratación en 23people.
 
 ## Cargos y Roles
 

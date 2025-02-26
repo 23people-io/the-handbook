@@ -39,11 +39,11 @@ Los servicios que entrega este equipo, tienen un fuerte enfoque en el Talento Te
 
 El equipo está compuesto por:
 
-- [Service Request Manager para TTS](team-roles/service-request-manager-tts.md).
-- [Service Delivery Manager para TTS](team-roles/service-delivery-manager-tts.md).
-- [Tech Recruiters](team-roles/tech-recruiter-tts.md): Profesionales encargados de identificar y atraer a los mejores profesionales Tech para cubrir las necesidades de nuestros clientes.
-- [Tech Lead](team-roles/tech-lead-tts.md): Profesional encargado de asesorar y evaluar las factibilidades técnicas de los perfiles Tech que se maduran junto a los clientes.
-- [Developer Relations](team-roles/developer-relations-for-tts.md): Profesional encargado de fortalecer la capacidad del equipo Tech Talent Services para atraer, retener y desarrollar profesionales Tech que son parte de la empresa, además de actuar como puente entre 23people y la comunidad de desarrolladores en el ecosistema.
+- [Service Request Manager para TTS](roles/tts-service-request-manager.md).
+- [Service Delivery Manager para TTS](roles/tts-service-delivery-manager.md).
+- [Tech Recruiters](roles/tts-tech-recruiter.md): Profesionales encargados de identificar y atraer a los mejores profesionales Tech para cubrir las necesidades de nuestros clientes.
+- [Tech Lead](roles/tts-tech-lead.md): Profesional encargado de asesorar y evaluar las factibilidades técnicas de los perfiles Tech que se maduran junto a los clientes.
+- [Developer Relations](roles/tts-developer-relations.md): Profesional encargado de fortalecer la capacidad del equipo Tech Talent Services para atraer, retener y desarrollar profesionales Tech que son parte de la empresa, además de actuar como puente entre 23people y la comunidad de desarrolladores en el ecosistema.
 
 ## Conceptos usados en Tech Talent Services
 
@@ -51,6 +51,6 @@ Para entender mejor los conceptos que se manejan en este equipo, te recomendamos
 
 ## Contacto
 
-Si tienes alguna duda o necesitas ayuda, no dudes en contactar a **Tech Talent Services** a través de [tech.talent@23people.io](mailto:tech.talent@23people.io) o por medio de nuestros canales en Discord y WhatsApp.
+Si tienes alguna duda o necesitas ayuda, no dudes en contactar a **Tech Talent Services** a través de [tts@23people.io](mailto:tts@23people.io) o por medio de nuestros canales en Discord y WhatsApp.
 
-Tambien puedes contactarte al correo [be.the.one@23people.io](mailto:be.the.one@23people.io) si quieres ser parte de nuestro equipo o si tienes alguna duda sobre nuestros procesos de selección.
+Tambien puedes contactarte al correo [be-the-one@23people.io](mailto:be-the-one@23people.io) si quieres ser parte de nuestro equipo o si tienes alguna duda sobre nuestros procesos de selección.
