@@ -18,7 +18,6 @@ docs_dir: "docs"
 site_dir: "site"
 theme:
   name: "material"
-  override:
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
@@ -81,13 +80,14 @@ plugins:
         python:
           options:
             docstring_style: google
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-  - git-committers:
-      repository: 23people-io/23p-handbook
-      branch: main
-      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  # FIXME: Uncomment when we have a resolution about when to show this info publicly
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: timeago
+  # - git-committers:
+  #     repository: 23people-io/23p-handbook
+  #     branch: main
+  #     token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 markdown_extensions:
   - pymdownx.highlight:

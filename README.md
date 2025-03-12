@@ -58,7 +58,7 @@ Before you start contributing, make sure you have:
    poetry run build
 
    # Start the local development server
-   poetry run run
+   poetry run start
    ```
 
    The handbook will be available at `http://localhost:2300` for local preview
