@@ -18,7 +18,7 @@ We follow an open contribution model where team members can propose changes thro
 Before you start contributing, make sure you have:
 
 - [Python 3.11.x](https://www.python.org/)
-- [Poetry Dependency Manager](https://python-poetry.org/)
+- [Poetry Dependency Manager 2.1.1](https://python-poetry.org/)
 - [Visual Studio Code](https://code.visualstudio.com/) (recommended IDE)
 - Git installed on your machine
 - A GitHub account with access to the 23people organization
@@ -55,10 +55,10 @@ Before you start contributing, make sure you have:
 
    ```bash
    # Install project dependencies using Poetry
-   poetry run build
+   poetry install
 
    # Start the local development server
-   poetry run run
+   poetry run start
    ```
 
    The handbook will be available at `http://localhost:2300` for local preview
