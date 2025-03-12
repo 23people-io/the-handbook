@@ -1,6 +1,4 @@
-# Principios
-
-## Transparencia
+# Transparencia
 
 ![Transparencia](../_assets/images/transparency.png)
 
@@ -8,7 +6,7 @@ Estamos comprometidos en generar un impacto positivo en la sociedad. Para lograr
 
 Toda la información o proceso que pueda ser público lo hacemos público. 
 
-### No Público
+## No Público
 
 En general, todo es público con excepción de:
 
@@ -18,7 +16,7 @@ En general, todo es público con excepción de:
 
 Esto incluye contratos, proyectos, tecnología, correos electrónicos, información personal y todo tipo de información sensible o que legalmente requiera de un tratamiento privado.
 
-### Beneficios
+## Beneficios
 
 Sabemos que la transparencia tiene sus costos, como distracción o alguna interpretación equivocada, sin embargo creemos que sus beneficios son mucho más valiosos:
 
