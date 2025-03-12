@@ -15,22 +15,12 @@ A continuación, un resumen de lo que debes saber:
 
 ## Quienes somos
 
-Somos el equipo detrás de [**23people**](<https://23people.io>), una empresa tecnológica con **10 años** de existencia en la industria, fundada y conformada por:
+Somos el equipo detrás de [**23people**](<https://23people.io>), una empresa tecnológica enfocada en crear un modelo de negocio sustentable que pueda ser adoptado y adaptado por otros. Una empresa donde ponemos a las personas primero tanto en la relación con clientes como con nuestros profesionales. Una empresa que persigue el beneficio a través del bien común y una participación positiva en la sociedad.
 
 !!! example ""
 
     **Profesionales a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar.**
 
-## Lo que hacemos
 
-...
-
-## Lo que nos diferencia
-
-...
-
-## Lo que perseguimos
-
-...
 
 _**We are 23people**, with love [**:material-heart:**](teams) and passion for technology. Happy Coding! 🚀_

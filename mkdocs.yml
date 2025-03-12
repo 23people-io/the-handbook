@@ -145,12 +145,17 @@ extra:
 nav:
   - "Hello there.":
       - index.md
+      - "Principios":
+          - People First: principles/people-first.md
+          - Sustentabilidad: principles/sustainability.md
+          - Transparencia: principles/transparency.md
+          - Igualitaria: principles/egalitarian.md
+          - Agilidad: principles/agility.md
       - "Lo que hacemos":
           - about-us/what-we-do/index.md
           - Desafíos: about-us/what-we-do/challenges.md
           - Servicios: about-us/what-we-do/services.md
-          - Clientes: about-us/about-us/what-we-do/clients.md
-          - Casos de éxito: about-us/what-we-do/success-stories.md
+
       - "Lo que nos diferencia":
           - about-us/how-we-work/index.md
           - Especialización en Roles Tech: about-us/how-we-work/tech-roles.md
@@ -172,9 +177,10 @@ nav:
           - Servidor de Discord: community/procedures/discord-server.md
 
   - Organización:
-      - Estructura general: organization/index.md
-      - Cargos y Roles: organization/tribes/iarvis-tribe/workforce/index.md
-      - Equipos:
+      - organization/index.md
+      - "Cargos y Roles": organization/tribes/iarvis-tribe/workforce/index.md
+      - "Equipos":
+          - organization/teams/index.md
           - "Tech Talent Services (TTS)":
               - "Resumen": organization/teams/tech-talent-services/index.md
               - "Glosario": organization/teams/tech-talent-services/glossary.md
@@ -186,22 +192,27 @@ nav:
               - "Glosario": organization/teams/backoffice/glossary.md
               - "Sello de Calidad": organization/teams/backoffice/quality-seal.md
           - "Research & Development (R&D)": organization/teams/research-and-development/index.md
+      - "Tribus":
+          - organization/tribes/index.md
+          - "Iarvis Tribe": organization/tribes/iarvis-tribe/index.md
+          - "Drakkar Tribe": organization/tribes/drakkar-tribe/index.md
 
   - Prácticas:
-      - "Resúmen": practices/index.md
+      - practices/index.md
       - "Gestionar el trabajo, no las personas": practices/manage-work-not-people.md
       - "Todo es un servicio a otros": practices/everything-is-a-service.md
       - "Comunicación asincrónica": practices/asynchronous-communication.md
       - "Escribir, luego comunicar": practices//write-then-communicate.md
       - "Estructurar la narrativa": practices/structure-the-narrative.md
       - "Notificar los avances": practices/notify-progress.md
+      - "Uso de Claude Projects": practices/using-claude-projects.md
 
-  # - Insights:
-  #     - insights/index.md
-  #     - La Evolución Digital Empresarial: insights/evolucion-digital-empresarial.md
-  #     - Autonomía de Equipos, APIs y Servicios: insights/autonomia-equipos-api-servicios.md
-  #     - Los Datos no tienen valor intrínseco: insights/datos-no-tienen-valor-intrinseco.md
-  #     - IA Generativa como conector entre Humanos y Sistemas: insights/ia-generativa-conector-humanos-sistemas.md
+  - Insights:
+      - insights/index.md
+      - "La Evolución Digital Empresarial": insights/business-digital-evolution.md
+      - "Recursión como predictor de desempeño en desarrolladores": insights/recursion-as-a-good-predictor-for-developers.md
+      - "Autonomía de Equipos, APIs y Servicios": insights/team-autonomy-through-service-apis.md
+      - "IA como Multiplicador de Capacidades": insights/ai-as-professional-capabilities-multiplier.md
 
   - Acerca del Manual:
       - the-handbook/index.md
