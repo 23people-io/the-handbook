@@ -38,11 +38,12 @@ Cada equipo tiene autonomía entorno a un próposito bien definido y un contrato
 
 ### Gestión y Liderazgo
 
-Los equipos operacionales están liderados por el rol de [**Global Operations Manager**](workforce/roles/iarvis-global-operations-manager.md), responsable de:
+Los equipos operacionales están liderados por el rol de [**Global Operations Manager**](workforce/global-roles/global-operations-manager/), responsable de:
 
 - La eficiencia operacional y calidad global de los servicios
 - La colaboración efectiva entre equipos, tanto interna como externamente
 - Definir los miembros del [**Iarvis Council**](councils/iarvis-council.md), encargado de la coordinación y alineación de los equipos operacionales
+- Liderar el equipo de sustentabilidad encargado de velar por la utilización de los recurso, medir y cumplir las metas de reducción de huella de carbono definidas por la organización.
 
 Cada equipo cuenta con:
 
