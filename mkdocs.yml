@@ -213,7 +213,10 @@ nav:
       - "Recursión como predictor de desempeño en desarrolladores": insights/recursion-as-a-good-predictor-for-developers.md
       - "Autonomía de Equipos, APIs y Servicios": insights/team-autonomy-through-service-apis.md
       - "IA como Multiplicador de Capacidades": insights/ai-as-professional-capabilities-multiplier.md
-
+  - Estrategia:
+      - strategy/index.md
+      - "Estrategia Reducción Emisiones": strategy/sustainability.md
+     
   - Acerca del Manual:
       - the-handbook/index.md
       - Contribuir: the-handbook/contribute.md
