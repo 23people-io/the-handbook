@@ -28,4 +28,10 @@ Las responsabilidades y funciones del Global Operations Manager están principal
     - Definir indicadores de desempeño (KPIs)
     - Definir OKRs para gestionar avance en objetivos operacionales
     - Monitorear y reportar avances
+3. Liderar el equipo de sustentabilidad
+    - Encargado de elaborar la estrategia de gobernanza en sostenibilidad
+    - Medir huella de carbono
+    - Definir KPIs y OKRs para monitorear avances
+    - Evaluación de proveedores
+    - Fomento de la conciencia ambiental
   
