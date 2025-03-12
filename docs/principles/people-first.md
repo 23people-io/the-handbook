@@ -1,6 +1,4 @@
-# Principios
-
-## Las Personas Primero
+# Las Personas Primero
 
 ![People First](../_assets/images/people-first.png)
 
