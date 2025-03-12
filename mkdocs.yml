@@ -146,12 +146,17 @@ extra:
 nav:
   - "Hello there.":
       - index.md
+      - "Principios":
+        - People First: principles/people-first.md
+        - Sustentabilidad: principles/sustainability.md
+        - Transparencia: principles/transparency.md
+        - Igualitaria: principles/egalitarian.md
+        - Agilidad: principles/agility.md
       - "Lo que hacemos":
           - about-us/what-we-do/index.md
           - Desafíos: about-us/what-we-do/challenges.md
           - Servicios: about-us/what-we-do/services.md
-          - Clientes: about-us/about-us/what-we-do/clients.md
-          - Casos de éxito: about-us/what-we-do/success-stories.md
+
       - "Lo que nos diferencia":
           - about-us/how-we-work/index.md
           - Especialización en Roles Tech: about-us/how-we-work/tech-roles.md
