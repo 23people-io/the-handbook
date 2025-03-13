@@ -1,6 +1,6 @@
 # Agilidad
 
-![People First](../_assets/images/agile.png)
+![Agility](../_assets/images/agile.png)
 
 Utiizamos los principios ágiles como forma de ser una empresa innovadora, resiliente y eficiente en el uso de los recursos.  En términos generales adherimos a los valores principales de la agilidad y sus prácticas:
 
