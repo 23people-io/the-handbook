@@ -213,10 +213,21 @@ nav:
       - "Recursión como predictor de desempeño en desarrolladores": insights/recursion-as-a-good-predictor-for-developers.md
       - "Autonomía de Equipos, APIs y Servicios": insights/team-autonomy-through-service-apis.md
       - "IA como Multiplicador de Capacidades": insights/ai-as-professional-capabilities-multiplier.md
+
   - Estrategia:
-      - strategy/index.md
       - "Estrategia Reducción Emisiones": strategy/sustainability.md
-     
+
+  - "Guía Técnica":
+      - technical-guide/index.md
+      - "Desarrollo de Software": technical-guide/software-development/index.md
+      - "Principios de Desarrollo de Software": technical-guide/software-development/principles.md
+      - "Metodologías de Desarrollo de Software": technical-guide/software-development/methodologies.md
+      - "Tecnologías de Desarrollo de Software": technical-guide/software-development/technologies.md
+      - "Prácticas de Desarrollo de Software": technical-guide/software-development/practices.md
+      - "IA y Machine Learning": technical-guide/software-development/ai-and-machine-learning.md
+      - Cloud: technical-guide/software-development/cloud.md
+      - Seguridad: technical-guide/software-development/security.md
+
   - Acerca del Manual:
       - the-handbook/index.md
       - Contribuir: the-handbook/contribute.md
