@@ -19,8 +19,6 @@ Somos el equipo detrás de [**23people**](<https://23people.io>), una empresa te
 
 !!! example ""
 
-    **Profesionales a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar.**
-
-
+    **Somos un equipo de profesionales a los que realmente les apasiona lo que hacen en tecnología y que buscan crear un lugar en donde a todos les gustaría trabajar.**
 
 _**We are 23people**, with love [**:material-heart:**](teams) and passion for technology. Happy Coding! 🚀_

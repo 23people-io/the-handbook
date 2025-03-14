@@ -4,7 +4,6 @@ updated: 2025-01-11T00:00:00 (UTC -04:00)
 author: manu-reyes-23p
 description: >
   Valores que compartimos en 23people.
-
 ---
 
 # Nuestros Valores
@@ -43,9 +42,9 @@ Sabemos que no todo puede ser transparente, dado que puede generar ruidos si son
 
 !!! example ""
 
-    **Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático y sostenible en el tiempo. No a costa de nosotros mismos y nuestro equipo.**
+    **Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático, sostenible y sustentable en el tiempo. No a costa de nosotros mismos, nuestro equipo, nuestros clientes ni el planeta.**
 
-Buscamos un crecimiento que sea económicamente viable y sostenible en el tiempo. Perseguimos ambiciosamente nuestros números, pero no a costa de nuestras personas. El fin no justifica los medios.
+Buscamos un crecimiento que sea económicamente viable y sostenible en el tiempo. Perseguimos ambiciosamente nuestros números, pero no a costa de nuestras personas ni de los recursos naturales. El fin no justifica los medios.
 
 Perseguimos la sostenibilidad en lo que hacemos, es decir, encontramos un ritmo de trabajo que nos permita avanzar indefinidamente. Preferimos avances sistemáticos por sobre esfuerzos puntuales y desgastantes al mediano o largo plazo.
 
