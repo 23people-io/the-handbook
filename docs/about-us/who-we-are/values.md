@@ -42,7 +42,7 @@ Sabemos que no todo puede ser transparente, dado que puede generar ruidos si son
 
 !!! example ""
 
-    **Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático, sostenible y sustentable en el tiempo. No a costa de nosotros mismos, nuestro equipo, nuestros clientes ni el planeta.**
+    **Somos realmente ambiciosos en crecer económicamente y ser referentes internacionales en lo que hacemos, solo que a un ritmo que sea sistemático, sostenible y sustentable en el tiempo. No a costa de nosotros mismos, nuestro equipo, nuestros clientes ni de nuestro planeta.**
 
 Buscamos un crecimiento que sea económicamente viable y sostenible en el tiempo. Perseguimos ambiciosamente nuestros números, pero no a costa de nuestras personas ni de los recursos naturales. El fin no justifica los medios.
 
