@@ -1,5 +1,8 @@
 # Igualitaria
 
+
+[English version](https://manual-23people-io.translate.goog/principles/egalitarian/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
+
 ![People First](../_assets/images/egalitarian.png)
 
 Creemos en una empresa humana y motivante. Buscamos que todas las personas sean tratadas de forma respetuosa e igualitaria. 

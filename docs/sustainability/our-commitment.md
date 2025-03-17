@@ -1,5 +1,7 @@
 # **Política de Compromiso con Science Based Targets (SBTi)**  
 
+[English version](https://manual-23people-io.translate.goog/sustainability/our-commitment/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
+
 ## **1. Propósito**  
 23people SpA se compromete a reducir su huella de carbono en línea con la ciencia climática y los objetivos del Acuerdo de París. Como empresa 100% digitalizada y remota, adoptamos los **Science Based Targets (SBTi)** para garantizar que nuestro crecimiento no comprometa el equilibrio climático y la sostenibilidad del planeta.  
 

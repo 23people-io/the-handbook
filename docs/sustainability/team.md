@@ -1,5 +1,7 @@
 # Equipo de sustentabilidad
 
+[English version](https://manual-23people-io.translate.goog/sustainability/team/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
+
 El esfuerzo de sustentabilidad es un esfuerzo transversal a la organización. El equipo de sustentabilidad no solo debe diseñar estrategias y medir el impacto ambiental de la empresa, sino que también debe actuar como un agente de cambio interno y externo, fomentando la responsabilidad ambiental, la innovación sostenible y la transparencia en la comunicación de sus avances. 
 
 Este enfoque garantizará que la empresa no solo cumpla con sus obligaciones ambientales, sino que también genere un impacto positivo y diferenciado en su industria. 🌍♻️
