@@ -1,5 +1,8 @@
 # Agilidad
 
+
+[English version](https://manual-23people-io.translate.goog/principles/agility/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
+
 ![Agility](../_assets/images/agile.png)
 
 Utiizamos los principios ágiles como forma de ser una empresa innovadora, resiliente y eficiente en el uso de los recursos.  En términos generales adherimos a los valores principales de la agilidad y sus prácticas:
