@@ -15,6 +15,6 @@ description: >
 
 Las prácticas son formas y costumbres de trabajo que son parte de la cultura de trabajo de 23people.
 
-!!! example ""
+!!! example "Nota"
 
-    **No son reglas estrictas, pero si son una guía de como ya sabemos que funcionan mejor algunas cosas.**
+    **Las prácticas no son reglas estrictas, pero si son una guía de como ya sabemos que funcionan mejor algunas cosas. Entiéndelas y critícalas objetivamente, luego propone mejoras.**
