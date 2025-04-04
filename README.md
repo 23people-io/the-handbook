@@ -55,7 +55,7 @@ Before you start contributing, make sure you have:
 
    ```bash
    # Install project dependencies using Poetry
-   poetry install
+   poetry run build
 
    # Start the local development server
    poetry run start

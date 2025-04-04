@@ -173,12 +173,33 @@ nav:
           - Principios: about-us/what-we-pursue/principles.md
 
   - Comunidad:
-      - Beneficios: community/benefits/index.md
-      - Eventos: community/events/index.md
-      - Playlist Spotify: community/spotify-playlist.md
+      - community/index.md
+      - Beneficios:
+          - community/benefits/index.md
+          - Convenios:
+              - Betterfly: community/benefits/agreements/betterfly.md
+              - Banco de Chile: community/benefits/agreements/cuenta-bancaria-banco-de-chile.md
+              - Seguros Complementarios: community/benefits/agreements/seguros-complementarios.md
+          - Incentivos:
+              - Vacaciones: community/benefits/incentives/vacaciones.md
+              - Regalo de Cumpleaños: community/benefits/incentives/regalo-cumpleanios.md
+              - Fiestas Patrias y Navidad: community/benefits/incentives/fiestas-patrias-y-navidad.md
+              - Dia Libre Cumpleaños: community/benefits/incentives/dia-libre-cunpleanios.md
+              - Baby Shower: community/benefits/incentives/baby-shower.md
+          - Reembolsos:
+              - Vacunación contra la influenza: community/benefits/refunds/vacunacion-influenza.md
+              - Cursos: community/benefits/refunds/cursos.md
+              - Certificaciones Internacionales: community/benefits/refunds/certificaciones-internacionales.md
+              - Mejora de Espacio de Trabajo: community/benefits/refunds/mejora-espacio-de-trabajo.md
+          - Capacitaciones:
+              - Cursos de Ingles: community/benefits/trainings/clases-de-ingles.md
       - Procedimientos:
           - Administrativos: community/procedures/administratives.md
           - Servidor de Discord: community/procedures/discord-server.md
+      - Eventos:
+          - community/events/index.md
+      - Entretención:
+          - Playlist Spotify: community/spotify-playlist.md
 
   - Organización:
       - organization/index.md
