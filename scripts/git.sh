@@ -10,6 +10,6 @@ cd "$(dirname "$0")/.."
 
 echo -e "${YELLOW}Committing changes to Github Repo...${RESET}"
 git add .
-git commit -m "new commit"
+git commit -S -m "new commit"
 git push origin main
 echo -e "${GREEN}✔ Success.${RESET}"

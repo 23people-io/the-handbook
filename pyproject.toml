@@ -1,6 +1,6 @@
 [tool.poetry]
 authors = ["23people <hola@23people.io>"]
-description = "The 23people's Company Handbook"
+description = "The 23people's Public Company Handbook"
 maintainers = [
   "Manuel Reyes <manuel@23people.io>",
   "Marcelo Ampuero <marcelo@23people.io>",
@@ -9,7 +9,7 @@ name = "23p-handbook"
 package-mode = true
 readme = "README.md"
 repository = "https://github.com/23people-io/23p-handbook"
-version = "1.2.22"
+version = "1.2.25"
 packages = [
   { include = "scripts", from = "." },
 ]
