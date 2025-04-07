@@ -28,8 +28,7 @@ Reglas claras para que todos podamos entender y aplicar.
 
     No solo aplica para profesionales TI, sino que para todos los cargos en 23people (es decir, también para cargos administrativos y de gestión).
 
-2. **¿Cuales son las condiciones de aplicabilidad y topes?**
-
+2. **¿Cuáles son las condiciones de aplicabilidad y topes?**
     Las condiciones y topes de reembolso (en donde aplique), se detallan en cada uno de los beneficios.
 
 3. **¿Existe alguna restricción por antigüedad en 23people?**
