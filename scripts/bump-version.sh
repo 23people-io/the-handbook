@@ -24,11 +24,6 @@ echo "${MAGENT}Bumping version...${RESET}"
 poetry version patch
 poetry version
 
-echo "${MAGENT}Creating new tag...${RESET}"
-VERSION=$(poetry version -s)
-git tag "$VERSION" -m "Version $VERSION"
-git push origin "$VERSION"
-
 echo "${MAGENT}Pushing to Github...${RESET}"
 git push
 
