@@ -22,7 +22,12 @@ fi
 
 echo "${YELLOW}Bumping version...${RESET}"
 poetry version patch
+NEW_VERSION=$(poetry version -s)
 poetry version
+
+echo "${YELLOW}Committing version bump...${RESET}"
+git add pyproject.toml
+git commit -m "bump version to ${NEW_VERSION}"
 
 echo "${YELLOW}Pushing to Github...${RESET}"
 git push
