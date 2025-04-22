@@ -144,7 +144,7 @@ extra:
 
 nav:
   - "Hello there.":
-      - index.md
+      - index.md      
 
       - "Quienes somos":
           - about-us/who-we-are/index.md
@@ -167,10 +167,14 @@ nav:
           - Madures de desarrollo de software: about-us/how-we-work/methodology.md
           - Manejo de tecnologías empresariales y emergentes: about-us/how-we-work/stack.md
           - Satisfacción de clientes: about-us/how-we-work/customer-success.md
+
       - "Lo que perseguimos":
           - about-us/what-we-pursue/index.md
           - Metas: about-us/what-we-pursue/goals.md
           - Principios: about-us/what-we-pursue/principles.md
+
+      - "LLM Resources": 
+          - llms.txt: llm-resources/llms.txt
 
   - Comunidad:
       - Beneficios:
