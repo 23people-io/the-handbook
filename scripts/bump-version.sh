@@ -9,9 +9,9 @@ cd "$(dirname "$0")/.."
 # Include scripts/colors.sh
 . scripts/colors.sh
 
-echo "${YELLOW}Bumping package version...${RESET}"
+echo "${MAGENT}Bumping package version...${RESET}"
 
-echo "${MAGENT}Pre: Committing previous changes...${RESET}"
+echo "${YELLOW}Pre: Committing previous changes...${RESET}"
 if git diff --quiet; then
   echo "${WHITE}No changes to commit before version bump.${RESET}"
 else
@@ -20,11 +20,11 @@ else
   git commit -m "preparing for new version"
 fi
 
-echo "${MAGENT}Bumping version...${RESET}"
+echo "${YELLOW}Bumping version...${RESET}"
 poetry version patch
 poetry version
 
-echo "${MAGENT}Pushing to Github...${RESET}"
+echo "${YELLOW}Pushing to Github...${RESET}"
 git push
 
 echo "${GREEN}✔ New version created successfully.${RESET}"
