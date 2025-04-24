@@ -174,7 +174,7 @@ nav:
           - Principios: about-us/what-we-pursue/principles.md
 
       - "LLM Resources": 
-          - llms.txt: llm-resources/llms.txt
+          - handbook-summary.txt: llm-resources/handbook-summary.txt
 
   - Comunidad:
       - Beneficios:
