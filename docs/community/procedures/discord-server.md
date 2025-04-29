@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-30T10:14:26
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Paso a paso para añadir nuevos miembros al servidor de Discord de 23people y asignarles roles predefinidos.
 author: 5127711
 ---

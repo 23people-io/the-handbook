@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-09-04T12:31:47
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Conceptos, expresiones y acuerdos de definiciones que se usen en la comunicación diaria en temas asociados a Finanzas.
 author: 5127711
 status: wip

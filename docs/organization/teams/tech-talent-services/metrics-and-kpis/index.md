@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-06-17T18:01:41
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: KPIs y Métricas de IT Talent Services
 author: 5127711
 legacy_url: 

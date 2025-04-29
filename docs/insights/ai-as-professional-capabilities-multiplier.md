@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2025-02-26T14:30:00
-updated: 2025-02-26T14:30:00
+updated: 2025-04-29T17:43:00Z
 index: false
 slug: ai-as-professional-capabilities-multiplier
 tags: 

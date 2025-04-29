@@ -1,4 +1,6 @@
 [English version](https://manual-23people-io.translate.goog/sustainability/technology-recommendations/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 
 Nuestra empresa está comprometida con la reducción de su huella de carbono, optimizando el uso de tecnología eficiente y servicios digitales de bajo impacto ambiental. El cumplimiento de estas directrices es fundamental para reducir nuestra huella de carbono y mantener un entorno de trabajo digital eficiente y sustentable. Todos los empleados deben seguir estas pautas y buscar alternativas que minimicen el impacto ambiental en cada acción tecnológica.
 

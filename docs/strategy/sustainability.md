@@ -1,4 +1,6 @@
-# Estrategia de Reducción de Emisiones
+---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 
 ## 1. Introducción
 Este documento establece la hoja de ruta para que 23people alcance la certificación Carbon Neutral, alineada con nuestra visión como empresa tecnológica responsable. Aprovechando nuestro modelo de teletrabajo y enfoque 100% digital, buscamos minimizar y compensar eficientemente nuestra huella de carbono en el contexto chileno.
@@ -145,6 +147,6 @@ Acciones clave:
 - Aprobar presupuesto inicial para el programa
 - Comunicar internamente el compromiso Carbon Neutral
 
-----
+---
 
-Nota: Esta estrategia está diseñada específicamente para el contexto de 23people como consultora tecnológica chilena con modelo de teletrabajo, aprovechando el marco regulatorio y las iniciativas locales disponibles.
+Nota: Esta estrategia está diseñada específicamente para el contexto de 23people como consultora tecnológica chilena con modelo de teletrabajo, aprovechando el marco regulatorio y las iniciativas locales disponibles.---

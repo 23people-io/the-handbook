@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-24T11:43:54
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Mide la calidad del servicio mediante la aprobación de candidatos por parte de los clientes.
 author: 5127711
 ---

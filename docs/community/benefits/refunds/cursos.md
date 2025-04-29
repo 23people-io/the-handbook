@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-06-19T16:15:20
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Descripción e instructivo de uso del beneficio de cursos.
 ---
 

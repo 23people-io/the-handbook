@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-09T09:40:45
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Información publicamente compartida de lo que hacemos en 23people
 ---
 

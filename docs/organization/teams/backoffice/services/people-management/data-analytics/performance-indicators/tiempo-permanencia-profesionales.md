@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-05-31T17:23:39
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Mide la duración promedio en meses que los profesionales permanecen en 23people.
 author: 5127711
 legacy_url: https://manual.23people.io/es/articles/9407244-tiempo-de-permanencia-promedio-de-profesionales

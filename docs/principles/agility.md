@@ -1,4 +1,6 @@
 # Agilidad
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 
 
 [English version](https://manual-23people-io.translate.goog/principles/agility/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)

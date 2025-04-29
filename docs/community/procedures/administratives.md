@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-05-23T13:24:17
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Listado de procedimientos para solicitudes administrativas como del tipo Vacaciones, Registro de Asistencia, Reembolsos, Rendiciones, etc.
 ---
 

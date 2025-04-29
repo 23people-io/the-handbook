@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-04-10T16:21:04
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Guía para generar contenido audiovisual al asistir o realizar un evento con la intención de enriquecer nuestras redes sociales de la empresa
 author: 5127711
 legacy_url: https://manual.23people.io/es/articles/9180635-generacion-de-material-audiovisual
