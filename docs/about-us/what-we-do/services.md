@@ -2,7 +2,7 @@
 reindex: true
 reindex-date: 2025-04-29T17:42:23Z
 created: 2024-08-10T14:30:00
-updated: 2025-04-29T17:43:00Z
+updated: 2025-05-01T15:11:41Z
 authors:
   - manu-reyes-23p
 description: >
@@ -13,9 +13,9 @@ description: >
 
 **Somos facilitadores y co-creadores tecnológicos confiables para empresas que buscan evolucionar sus productos y servicios digitales.**
 
-En 23people nos hemos especializado en **tres líneas de servicios complementarios** que buscan resolver los desafíos de talento capacitado, uso de tecnología y uso de datos que enfrentan las empresas en su camino de Evolución Digital:
+En 23people nos hemos especializado en **tres líneas de servicios complementarios** que buscan resolver los desafíos de talento capacitado, uso de tecnología y uso de datos que enfrentan las empresas en su camino de Evolución Digital. Los siguientes, son los servicios de 23people:
 
-## 1. Outsourcing y Reclutamiento de Tech Talent
+## 1. Outsourcing de Desarrolladores TI
 
 !!! example ""
 
