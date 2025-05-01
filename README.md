@@ -17,7 +17,7 @@ The vector index is hosted on Cloudflare Vectorize and can be accessed at [https
 
 ## AI Context Resources
 
-The repository includes a special file in the `llm-resources` folder called `handbook-summary.txt`, which contains an up-to-date summary of the entire handbook. This file serves as a context source for AI-powered chatbots and tools.
+The repository includes a special file in the `docs/llm-resources` folder called `handbook-summary.txt`, which contains an up-to-date summary of the entire handbook. This file serves as a context source for AI-powered chatbots and tools.
 
 This summary file can be referenced directly in various AI applications:
 

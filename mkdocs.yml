@@ -170,8 +170,8 @@ nav:
           - Principios: about-us/what-we-pursue/principles.md
 
       # FIXME: Figure out how to show raw markdown files in the nav
-      # - "LLM Resources": 
-      #     - handbook-summary.md: llm-resources/handbook-summary.md
+      - "LLM Resources": 
+          - handbook-summary.md: llm-resources/handbook-summary.md
 
   - "Comunidad":
       - Beneficios:
@@ -263,3 +263,6 @@ nav:
       - "IA y Machine Learning": technical-guide/software-development/ai-and-machine-learning.md
       - Cloud: technical-guide/software-development/cloud.md
       - Seguridad: technical-guide/software-development/security.md
+
+not_in_nav: |
+  /llm-resources/handbook-summary.md
