@@ -168,10 +168,9 @@ nav:
           - about-us/what-we-pursue/index.md
           - Metas: about-us/what-we-pursue/goals.md
           - Principios: about-us/what-we-pursue/principles.md
-
-      # FIXME: Figure out how to show raw markdown files in the nav
+      
       - "LLM Resources": 
-          - handbook-summary.md: llm-resources/handbook-summary.md
+          - handbook-summary.md: https://raw.githubusercontent.com/23people-io/23p-handbook/68b47424a9a05df5e4180353e8716de05503e44c/llm-resources/handbook-summary.md
 
   - "Comunidad":
       - Beneficios:
