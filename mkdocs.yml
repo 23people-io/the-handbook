@@ -262,6 +262,3 @@ nav:
       - "IA y Machine Learning": technical-guide/software-development/ai-and-machine-learning.md
       - Cloud: technical-guide/software-development/cloud.md
       - Seguridad: technical-guide/software-development/security.md
-
-not_in_nav: |
-  /llm-resources/handbook-summary.md
