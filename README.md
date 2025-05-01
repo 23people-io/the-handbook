@@ -1,6 +1,6 @@
 # 23people Handbook
 
-This repository is dedicated to storing all company **public consolidated information** in markdown files. This accumulated information will later be indexed in Vector Store Indexes and utilized by Large Language Models (LLMs) for various tasks related to 23people.
+This repository is dedicated to storing all company **public consolidated information** in markdown files. This accumulated information is indexed in Vector Store Indexes and utilized by Large Language Models (LLMs) for various tasks related to 23people.
 
 > [!IMPORTANT]
 > The **access level** of the files content is `public`, meaning it is accessible to everyone. The content is **not confidential** and can be shared with anyone.
@@ -8,6 +8,24 @@ This repository is dedicated to storing all company **public consolidated inform
 ## Use
 
 You can access the handbook in a production environment at [https://manual.23people.io/](https://manual.23people.io).
+
+## Indexing Process
+
+This repository includes a GitHub Action workflow that triggers the indexing of all handbook content into a vector database. When changes are pushed to the main branch, the workflow sends a request to the [23p-handbook-indexer](https://github.com/23people-io/23p-handbook-indexer.git) service, which processes the markdown files and updates the vector index.
+
+The vector index is hosted on Cloudflare Vectorize and can be accessed at [https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/ai/vectorize/autorag-handbook-rag](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/ai/vectorize/autorag-handbook-rag).
+
+## AI Context Resources
+
+The repository includes a special file in the `llm-resources` folder called `handbook-summary.txt`, which contains an up-to-date summary of the entire handbook. This file serves as a context source for AI-powered chatbots and tools.
+
+This summary file can be referenced directly in various AI applications:
+
+- In tools like NotebookLM, you can add it as a link to provide context
+- In Claude Projects, you can upload this text file as a reference document
+- In custom RAG implementations, you can use it as a high-level context source
+
+The summary is periodically updated to reflect the current state of the handbook, providing a comprehensive overview without needing to process the entire repository.
 
 ## Contributing to the Handbook
 
