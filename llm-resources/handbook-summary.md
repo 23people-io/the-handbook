@@ -1,5 +1,5 @@
 ---
-updated: 2025-04-24T00:00:00Z
+updated: 2025-05-01T00:00:00Z
 ---
 # 23people.io Handbook Summary
 
