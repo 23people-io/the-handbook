@@ -170,7 +170,7 @@ nav:
           - Principios: about-us/what-we-pursue/principles.md
       
       - "LLM Resources": 
-          - handbook-summary.md: https://raw.githubusercontent.com/23people-io/23p-handbook/68b47424a9a05df5e4180353e8716de05503e44c/llm-resources/handbook-summary.md
+          - handbook-summary.md: https://raw.githubusercontent.com/23people-io/23p-handbook/refs/heads/main/llm-resources/handbook-summary.md
 
   - "Comunidad":
       - Beneficios:
