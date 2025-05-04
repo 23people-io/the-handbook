@@ -7,6 +7,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 # Include scripts/colors.sh
+# shellcheck disable=SC1091
 . scripts/colors.sh
 
 echo "${MAGENT}Bumping package version...${RESET}"
