@@ -12,12 +12,12 @@ cd "$(dirname "$0")/.."
 echo "${MAGENT}Bumping package version...${RESET}"
 
 git add .
-echo "${YELLOW}Pre: Committing previous changes...${RESET}"
-if git diff --quiet; then
+echo "${MAGENT}Pre: Committing previous changes...${RESET}"
+if git diff-index --quiet HEAD --; then
   echo "${WHITE}No changes to commit before version bump.${RESET}"
 else
   echo "${WHITE}Preparing for new version...${RESET}"
-  git commit -m "preparing for new version"
+  git commit -m "previous changes before version bump"
 fi
 
 echo "${YELLOW}Bumping version...${RESET}"
