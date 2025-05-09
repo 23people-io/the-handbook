@@ -1,4 +1,6 @@
-# Estrategia de Reducción de Emisiones
+---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 [English version](https://manual-23people-io.translate.goog/sustainability/strategy/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
 
 ![Sustainability Strategy](../_assets/images/strategy.png)
@@ -149,6 +151,6 @@ Acciones clave:
 - Aprobar presupuesto inicial para el programa
 - Comunicar internamente el compromiso Carbon Neutral
 
-----
+---
 
-Nota: Esta estrategia está diseñada específicamente para el contexto de 23people como consultora tecnológica chilena con modelo de teletrabajo, aprovechando el marco regulatorio y las iniciativas locales disponibles.
+Nota: Esta estrategia está diseñada específicamente para el contexto de 23people como consultora tecnológica chilena con modelo de teletrabajo, aprovechando el marco regulatorio y las iniciativas locales disponibles.---

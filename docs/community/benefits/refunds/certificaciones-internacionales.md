@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-24T13:20:14
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Acreditaciones globales que validan competencias profesionales en diversas áreas, esenciales para la calidad y competitividad en 23people.
 author: 5127711
 status: wip

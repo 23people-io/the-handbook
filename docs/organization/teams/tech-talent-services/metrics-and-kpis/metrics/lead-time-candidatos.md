@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-10-23T11:43:54
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Esta métrica mide el tiempo (en días hábiles) que toma enviar candidatos TI a un cliente, desde la aprobación de un requerimiento.
 ---
 

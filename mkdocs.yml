@@ -1,7 +1,7 @@
 # Project information
 site_name: Nuestro Manual
 site_author: 23people.io
-site_description: El Manual público de lo que hacemos en 23people
+site_description: El manual público de lo que hacemos en 23people como empresa y equipo de profesionales TI
 strict: false
 site_url: https://23people.io/
 
@@ -11,7 +11,7 @@ repo_url: https://github.com/23people-io/23p-handbook
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2024 <a href="https://23people.io">23people SpA</a>
+copyright: Copyright &copy; 2025 <a href="https://23people.io">23people SpA</a>
 
 # Configuration
 docs_dir: "docs"
@@ -80,14 +80,13 @@ plugins:
         python:
           options:
             docstring_style: google
-  # FIXME: Uncomment when we have a resolution about when to show this info publicly
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: timeago
-  # - git-committers:
-  #     repository: 23people-io/23p-handbook
-  #     branch: main
-  #     token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-committers:
+      repository: 23people-io/23p-handbook
+      branch: main
+      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -138,9 +137,6 @@ extra:
       link: https://www.facebook.com/23people
   chatbot:
     url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
-  extra:
-    status:
-      do_no_index: This page will not be indexed in vector stores
 
 nav:
   - "Hello there.":
@@ -172,11 +168,11 @@ nav:
           - about-us/what-we-pursue/index.md
           - Metas: about-us/what-we-pursue/goals.md
           - Principios: about-us/what-we-pursue/principles.md
-
+      
       - "LLM Resources": 
-          - handbook-summary.txt: llm-resources/handbook-summary.txt
+          - handbook-summary.md: https://raw.githubusercontent.com/23people-io/23p-handbook/refs/heads/main/llm-resources/handbook-summary.md
 
-  - Comunidad:
+  - "Comunidad":
       - Beneficios:
           - community/benefits/index.md
           - Convenios:
@@ -204,7 +200,7 @@ nav:
       - Entretención:
           - Playlist Spotify: community/spotify-playlist.md
 
-  - Organización:
+  - "Organización":
       - organization/index.md
       - "Cargos y Roles": organization/tribes/iarvis-tribe/workforce/index.md
       - "Equipos":
@@ -225,7 +221,7 @@ nav:
           - "Iarvis Tribe": organization/tribes/iarvis-tribe/index.md
           - "Drakkar Tribe": organization/tribes/drakkar-tribe/index.md
 
-  - Principios:
+  - "Principios":
       - principles/index.md
       - People First: principles/people-first.md
       - Sustentabilidad: principles/sustainability.md
@@ -233,7 +229,7 @@ nav:
       - Equidad: principles/egalitarian.md
       - Agilidad: principles/agility.md
 
-  - Prácticas:
+  - "Prácticas":
       - practices/index.md
       - "Gestionar el trabajo, no las personas": practices/manage-work-not-people.md
       - "Todo es un servicio a otros": practices/everything-is-a-service.md
@@ -243,14 +239,14 @@ nav:
       - "Notificar los avances": practices/notify-progress.md
       - "Uso de Claude Projects": practices/using-claude-projects.md
 
-  - Insights:
+  - "Insights":
       - insights/index.md
       - "La Evolución Digital Empresarial": insights/business-digital-evolution.md
       - "Recursión como predictor de desempeño en desarrolladores": insights/recursion-as-a-good-predictor-for-developers.md
       - "Autonomía de Equipos, APIs y Servicios": insights/team-autonomy-through-service-apis.md
       - "IA como Multiplicador de Capacidades": insights/ai-as-professional-capabilities-multiplier.md
 
-  - Sustentabilidad:
+  - "Sustentabilidad":
       - "Nuestro Compromiso": sustainability/our-commitment.md
       - "Estrategia Reducción Emisiones": sustainability/strategy.md
       - "Equipo de Sustentabilidad": sustainability/team.md

@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2023-10-06T13:21:47
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Una breve historia de 23people desde sus inicios en 2014.
 author: 5127711
 ---

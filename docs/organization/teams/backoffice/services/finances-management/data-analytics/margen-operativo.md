@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-23T13:01:08
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Mide la eficiencia operativa y la rentabilidad.
 author: 5127711
 status: wip

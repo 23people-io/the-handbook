@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-16T12:09:17
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Mide el porcentaje de postulaciones referidas por miembros actuales de 23people en comparación con el total de postulaciones recibidas.
 author: 5127711
 status: wip

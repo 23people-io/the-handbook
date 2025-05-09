@@ -1,6 +1,7 @@
+---
+updated: 2025-05-01T00:00:00Z
+---
 # 23people.io Handbook Summary
-
-**UPDATED AT:** 2025-04-24
 
 This document presents a structured summary of the 23people.io Handbook, based on the files provided from the repository. The handbook is organized into several main sections covering everything from basic corporate information to specific technical details.
 

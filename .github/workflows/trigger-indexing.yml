@@ -1,0 +1,28 @@
+name: Trigger Indexing on Vector Database
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-indexing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Trigger Cloudflare Worker
+        id: trigger-worker
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: ${{ vars.CLOUDFLARE_HANDBOOK_INDEXER_WORKER_URL }}
+          method: 'POST'
+          contentType: 'application/json'
+          data: '{"commit": "${{ github.sha }}"}'
+      
+      - name: Show response
+        run: |
+          echo "Worker Response Status: ${{ steps.trigger-worker.outputs.status }}"
+          echo "Worker Response: ${{ steps.trigger-worker.outputs.response }}"
+          echo "Status URL: ${{ fromJson(steps.trigger-worker.outputs.response).statusUrl }}"

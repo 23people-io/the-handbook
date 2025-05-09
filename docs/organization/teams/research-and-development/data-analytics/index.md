@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-16T11:08:36
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: El equipo de Data & Analytics en 23people busca ser el habilitador interno de la toma de decisiones basada en datos, a través de la generación de insights y la implementación de soluciones analíticas.
 author: 5127711
 ---

@@ -7,17 +7,18 @@ set -e
 cd "$(dirname "$0")/.."
 
 # Include scripts/colors.sh
+# shellcheck disable=SC1091
 . scripts/colors.sh
 
 echo "${MAGENT}Bumping package version...${RESET}"
 
-echo "${YELLOW}Pre: Committing previous changes...${RESET}"
-if git diff --quiet; then
+git add .
+echo "${MAGENT}Pre: Committing previous changes...${RESET}"
+if git diff-index --quiet HEAD --; then
   echo "${WHITE}No changes to commit before version bump.${RESET}"
 else
   echo "${WHITE}Preparing for new version...${RESET}"
-  git add .
-  git commit -m "preparing for new version"
+  git commit -m "previous changes before version bump"
 fi
 
 echo "${YELLOW}Bumping version...${RESET}"

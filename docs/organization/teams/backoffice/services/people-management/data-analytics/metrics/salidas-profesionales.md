@@ -1,6 +1,8 @@
 ---
+reindex: true
+reindex-date: 2025-04-29T17:42:23Z
 created: 2024-10-29T00:00:00
-updated: 2025-01-11T00:00:00
+updated: 2025-04-29T17:43:00Z
 description: Registro mensual detallado de las salidas de profesionales, considerando múltiples dimensiones de análisis como tribu, empresa, equipo, perfil profesional, tipo y motivo de salida.
 ---
 
