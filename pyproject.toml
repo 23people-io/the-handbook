@@ -1,34 +1,33 @@
-[tool.poetry]
-authors = ["23people <hola@23people.io>"]
-description = "The 23people's Public Company Handbook"
-maintainers = [
-  "Manuel Reyes <manuel@23people.io>",
-  "Marcelo Ampuero <marcelo@23people.io>",
-]
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
 name = "23p-handbook"
-package-mode = true
-readme = "README.md"
-repository = "https://github.com/23people-io/23p-handbook"
 version = "1.2.61"
-packages = [
-  { include = "scripts", from = "." },
+description = "The 23people's Public Company Handbook"
+readme = "README.md"
+authors = [{name = "mreyes23p", email = "manuel@23people.io"}]
+maintainers = [
+  {name = "mreyes23p", email = "manuel@23people.io"},
+  {name = "Marcelo", email = "marcelo@23people.io"},
+]
+requires-python = ">=3.11.5"
+dependencies = [
+  "mkdocs>=1.6.1",
+  "mkdocs-exclude>=1.0.2",
+  "mkdocs-git-committers-plugin-2>=2.4.1",
+  "mkdocs-git-revision-date-localized-plugin>=1.2.7",
+  "mkdocs-material>=9.5.34",
+  "mkdocs-minify-plugin>=0.8.0",
+  "mkdocs-redirects>=1.2.1",
+  "mkdocs-version-annotations>=1.0.0",
+  "mkdocstrings>=0.25.2",
+  "mkdocstrings-python>=1.10.9",
+  "python-dotenv>=1.0.1",
 ]
 
-[tool.poetry.dependencies]
-mkdocs = {extras = ["i18n"], version = "^1.6.1"}
-mkdocs-exclude = "^1.0.2"
-mkdocs-git-committers-plugin-2 = "^2.4.1"
-mkdocs-git-revision-date-localized-plugin = "^1.2.7"
-mkdocs-material = "^9.5.34"
-mkdocs-minify-plugin = "^0.8.0"
-mkdocs-redirects = "^1.2.1"
-mkdocs-version-annotations = "^1.0.0"
-mkdocstrings = "^0.25.2"
-mkdocstrings-python = "^1.10.9"
-python = "^3.11.5"
-python-dotenv = "^1.0.1"
-
-[tool.poetry.scripts]
+[project.scripts]
 start = "scripts.main:start"
 build = "scripts.main:build"
 deploy = "scripts.main:deploy"
@@ -43,9 +42,3 @@ include = ["src"]
 reportMissingImports = "error"
 reportMissingTypeStubs = false
 
-[tool.poetry.requires-plugins]
-poetry-plugin-export = ">=1.8"
-
-[build-system]
-build-backend = "poetry.core.masonry.api"
-requires = ["poetry-core"]
