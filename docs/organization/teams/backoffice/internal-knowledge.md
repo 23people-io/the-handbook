@@ -1,0 +1,17 @@
+---
+created: 2025-05-13T12:46:17Z
+updated: 2025-05-13T18:14:13Z
+authors:
+  - manu-reyes-23p
+description: >
+    Base de conocimientos interna del equipo de Backoffice
+---
+
+# Base de Conocimientos de BKO (interna)
+
+Esta sección permite acceder a diversos materiales relacionados con el conocimiento y experiencia compartidos al interior del equipo de [Backoffice](/organization/teams/backoffice/), a fin de establecer estandares co-creados para el funcionamiento diario. El objetivo es crear y actualizar periódicamente los estándares del equipo en acceso común y elaboración colaborativa.
+
+## Material de Elaboración Colaborativa
+
+1. [Backoffice Notebook (NotebookLM)](https://notebooklm.google.com/notebook/7ebc69f6-5183-49bf-8ab8-8313253b4f36). Es un proyecto/notebook en la plataforma de [Google NotebookLM](https://notebooklm.google/) en la cuenta privada de 23people. Podrás hacer consultas a un chatbot con contexto de fuentes de BKO.
+2. [Lecciones Aprendidas del Backoffice (Google Drive)](https://docs.google.com/document/d/1eVa1IYg-I-OUP2gIkr940fZD86c5WpknwKNIvvimlyc/edit?tab=t.0)
