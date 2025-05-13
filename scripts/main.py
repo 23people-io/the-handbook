@@ -10,12 +10,6 @@ def start():
     script = scripts_dir / "start.sh"
     _run_command(f"bash {script}", "Failed to run the project")
 
-def build():
-    """Build the project."""
-
-    script = scripts_dir / "build.sh"
-    _run_command(f"bash {script}", "Failed to build the project")
-
 
 def deploy():
     """Deploy the project."""
