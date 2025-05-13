@@ -1,6 +1,6 @@
 ---
 created: 2025-05-13T12:46:17Z
-updated: 2025-05-13T19:03:28Z
+updated: 2025-05-13T20:54:09Z
 authors:
   - manu-reyes-23p
 description: >
@@ -13,5 +13,5 @@ Esta sección permite acceder a diversos materiales relacionados con el conocimi
 
 ## Material de Elaboración Colaborativa
 
-1. [Backoffice Notebook (NotebookLM)](https://notebooklm.google.com/notebook/7ebc69f6-5183-49bf-8ab8-8313253b4f36). Es un proyecto/notebook en la plataforma de [Google NotebookLM](https://notebooklm.google/) en la cuenta privada de 23people. Podrás hacer consultas a un chatbot con contexto de fuentes de BKO.
-2. [Carpeta Google Drive con Base de Conocimientos Interno de BKO](https://drive.google.com/drive/folders/1I7fsUheakpNjep81LQCrwGPyDgkVK6te?usp=drive_link)
+1. [23people - Backoffice Team (BKO) (NotebookLM)](https://notebooklm.google.com/notebook/817a5560-3e22-473f-a874-defab438509e). Es un proyecto/notebook en la plataforma de [Google NotebookLM](https://notebooklm.google/) en la cuenta privada de 23people. Podrás hacer consultas a un chatbot con contexto de fuentes de BKO.
+2. [Carpeta Google Drive con Base de Conocimientos Interno de BKO](https://drive.google.com/drive/u/0/folders/1ROAN47aUMlyP9S58s0ZurxNKf49FUtsn)
