@@ -22,9 +22,9 @@ else
 fi
 
 echo "${YELLOW}Bumping version...${RESET}"
-poetry version patch
-NEW_VERSION=$(poetry version -s)
-poetry version
+uv version --bump patch
+NEW_VERSION=$(uv version)
+uv version
 
 echo "${YELLOW}Committing version bump...${RESET}"
 git add pyproject.toml
