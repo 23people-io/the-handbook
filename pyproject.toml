@@ -30,7 +30,6 @@ dependencies = [
 
 [project.scripts]
 start = "scripts.main:start"
-build = "scripts.main:build"
 deploy = "scripts.main:deploy"
 
 [tool.pyright]
