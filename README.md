@@ -19,14 +19,6 @@ The vector index is hosted on Cloudflare Vectorize and can be accessed at [https
 
 The repository includes a special file in the `docs/llm-resources` folder called `handbook-summary.txt`, which contains an up-to-date summary of the entire handbook. This file serves as a context source for AI-powered chatbots and tools.
 
-This summary file can be referenced directly in various AI applications:
-
-- In tools like NotebookLM, you can add it as a link to provide context
-- In Claude Projects, you can upload this text file as a reference document
-- In custom RAG implementations, you can use it as a high-level context source
-
-The summary is periodically updated to reflect the current state of the handbook, providing a comprehensive overview without needing to process the entire repository.
-
 ## Contributing to the Handbook
 
 We follow an open contribution model where team members can propose changes through Pull Requests. This ensures quality and consistency in our documentation.
@@ -36,7 +28,6 @@ We follow an open contribution model where team members can propose changes thro
 Before you start contributing, make sure you have:
 
 - [Python 3.11.x](https://www.python.org/)
-- [Poetry Dependency Manager 2.1.1](https://python-poetry.org/)
 - [Visual Studio Code](https://code.visualstudio.com/) (recommended IDE)
 - Git installed on your machine
 - A GitHub account with access to the 23people organization

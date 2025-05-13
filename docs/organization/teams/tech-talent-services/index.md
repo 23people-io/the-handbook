@@ -27,16 +27,6 @@ Lo siguiente, es el foco principal de Tech Talent Services:
 
 3. **Retención Profesional:** Lo hacemos cultivando una comunidad donde profesionales con hambre intelectual por aprender y mejorar sus habilidades experimentan un crecimiento técnico formidable. Es un ambiente de aprendizaje y colaboración donde la pasión por la tecnología se traduce en aportes concretos al valor que buscamos para nuestros clientes. Incluso ante atractivas oportunidades en empresas de renombre internacional, ponderan seriamente su decisión por el valor que encuentran en nuestra forma de hacer las cosas, pues quienes pasan por 23people sienten que hubo un antes y un después en su carrera.
 
-## API de Servicios
-
-!!! warning "Nota"
-
-    WIP: Se debe formalizar la API de Servicios de Tech Talent Services. Buscando que sea similar al espiritu de documentación de una API de servicios.
-
-Los servicios que entrega este equipo, tienen un fuerte enfoque en el Talento Tech. Los servicios que ofrece son:
-
-...
-
 ## Roles
 
 El equipo está compuesto por:
@@ -46,6 +36,10 @@ El equipo está compuesto por:
 - [Tech Recruiters](roles/tts-tech-recruiter.md): Profesionales encargados de identificar y atraer a los mejores profesionales Tech para cubrir las necesidades de nuestros clientes.
 - [Tech Lead](roles/tts-tech-lead.md): Profesional encargado de asesorar y evaluar las factibilidades técnicas de los perfiles Tech que se maduran junto a los clientes.
 - [Developer Relations](roles/tts-developer-relations.md): Profesional encargado de fortalecer la capacidad del equipo Tech Talent Services para atraer, retener y desarrollar profesionales Tech que son parte de la empresa, además de actuar como puente entre 23people y la comunidad de desarrolladores en el ecosistema.
+
+## Base de Conocimientos Interno
+
+Se puede acceder a la base de conocimientos interna del equipo de TTS, ingresa a: [Base de Conocimientos de TTS (interna)](internal-knowledge.md)
 
 ## Conceptos usados en Tech Talent Services
 

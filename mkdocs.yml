@@ -207,6 +207,7 @@ nav:
           - organization/teams/index.md
           - "Tech Talent Services (TTS)":
               - "Resumen": organization/teams/tech-talent-services/index.md
+              - "Base de Conocimientos": organization/teams/tech-talent-services/internal-knowledge.md
               - "Glosario": organization/teams/tech-talent-services/glossary.md
           - "Sales & Growth Marketing (SMKT)":
               - "Resumen": organization/teams/sales-and-growth-marketing/index.md

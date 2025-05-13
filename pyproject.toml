@@ -12,7 +12,7 @@ maintainers = [
   {name = "mreyes23p", email = "manuel@23people.io"},
   {name = "Marcelo", email = "marcelo@23people.io"},
 ]
-requires-python = ">=3.11.5"
+requires-python = "===3.11.11"
 dependencies = [
   "mkdocs>=1.6.1",
   "mkdocs-exclude>=1.0.2",
@@ -25,6 +25,7 @@ dependencies = [
   "mkdocstrings>=0.25.2",
   "mkdocstrings-python>=1.10.9",
   "python-dotenv>=1.0.1",
+  "pymdown-extensions>=10.6",
 ]
 
 [project.scripts]
