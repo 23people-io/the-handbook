@@ -4,7 +4,7 @@ requires-python = "==3.11.11"
 
 [[package]]
 name = "23p-handbook"
-version = "1.2.64"
+version = "1.2.65"
 source = { editable = "." }
 dependencies = [
     { name = "mkdocs" },
