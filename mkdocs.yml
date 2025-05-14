@@ -207,14 +207,14 @@ nav:
           - organization/teams/index.md
           - "Tech Talent Services (TTS)":
               - "Resumen": organization/teams/tech-talent-services/index.md
-              - "Base de Conocimientos": organization/teams/tech-talent-services/internal-knowledge.md
+              - "Base de Conocimientos": organization/teams/tech-talent-services/knowledge-base.md
               - "Glosario": organization/teams/tech-talent-services/glossary.md
           - "Sales & Growth Marketing (SMKT)":
               - "Resumen": organization/teams/sales-and-growth-marketing/index.md
               - "Glosario": organization/teams/sales-and-growth-marketing/glossary.md
           - "Backoffice (BKO)":
               - "Resumen": organization/teams/backoffice/index.md
-              - "Base de Conocimientos": organization/teams/backoffice/internal-knowledge.md
+              - "Base de Conocimientos": organization/teams/backoffice/knowledge-base.md
               - "Glosario": organization/teams/backoffice/glossary.md
               - "Sello de Calidad": organization/teams/backoffice/quality-seal.md
           - "Research & Development (R&D)": organization/teams/research-and-development/index.md
