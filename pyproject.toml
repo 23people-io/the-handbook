@@ -4,7 +4,8 @@ build-backend = "pdm.backend"
 
 [project]
 name = "23p-handbook"
-version = "1.2.69"
+# Using dev0 to comply with PEP 440, actual versioning handled by semantic release
+version = "0.0.0.dev0"
 description = "The 23people's Public Company Handbook"
 readme = "README.md"
 authors = [{name = "mreyes23p", email = "manuel@23people.io"}]
@@ -28,9 +29,18 @@ dependencies = [
   "pymdown-extensions>=10.6",
 ]
 
+[dependency-groups]
+dev = [
+    "pytest<9.0.0,>=8.3.4",
+    "pre-commit<5.0.0,>=4.1.0",
+    "ruff<1.0.0,>=0.11.2",
+    "pytest-mock<4.0.0,>=3.14.0",
+    "deadcode>=2.3",
+    "commitizen>=4.7.2",
+]
+
 [project.scripts]
 start = "scripts.main:start"
-deploy = "scripts.main:deploy"
 
 [tool.pyright]
 defineConstant = {DEBUG = true}
