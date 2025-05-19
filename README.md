@@ -50,7 +50,7 @@ Before you start contributing, make sure you have:
 3. Create a new branch for your changes:
 
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b docs/your-feature-name
    ```
 
     > [!IMPORTANTE]
@@ -78,14 +78,13 @@ Before you start contributing, make sure you have:
 6. Commit your changes:
 
    ```bash
-   git add .
-   git commit -m "Description of your changes"
+   uv run commit
    ```
 
 7. Push your changes to GitHub:
 
    ```bash
-   git push origin feature/your-feature-name
+   git push origin docs/your-feature-name
    ```
 
 ### Creating a Pull Request
@@ -109,6 +108,30 @@ The project is built using the following technologies:
 - **Python 3.11.x**
 - [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
 - Markdown
+
+## Versioning and Commits
+
+This project uses [Conventional Commits](https://www.conventionalcommits.org/) and [Semantic Versioning](https://semver.org/) to maintain a consistent commit history and automated versioning.
+
+### Conventional Commits
+
+When adding changes to the repository, use the following command to commit your changes:
+
+```bash
+uv run commit
+```
+
+This will launch an interactive prompt that guides you through creating a properly formatted conventional commit message. This structured format helps maintain a clean project history and enables automated version management.
+
+### Semantic Versioning
+
+The project version is not maintained in the `pyproject.toml` file (which has a fixed value of `0.0.0.dev0`), but instead is handled through GitHub releases. When changes are pushed to the `main` branch, a GitHub workflow automatically:
+
+1. Analyzes the commit messages
+2. Determines the appropriate version change (major, minor, or patch)
+3. Creates a new release with the updated version number
+
+You can view the project's version history and changelog in the [GitHub Releases section](https://github.com/23people-io/23p-handbook/releases).
 
 ## Deployment
 
