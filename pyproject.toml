@@ -53,3 +53,6 @@ include = ["src"]
 reportMissingImports = "error"
 reportMissingTypeStubs = false
 
+[tool.semantic_release]
+
+
