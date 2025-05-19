@@ -10,8 +10,8 @@ description = "The 23people's Public Company Handbook"
 readme = "README.md"
 authors = [{name = "mreyes23p", email = "manuel@23people.io"}]
 maintainers = [
-  {name = "mreyes23p", email = "manuel@23people.io"},
-  {name = "Marcelo", email = "marcelo@23people.io"},
+  {name = "Manuel Reyes", email = "manuel@23people.io"},
+  {name = "Marcelo Ampuero", email = "marcelo@23people.io"},
 ]
 requires-python = "===3.11.11"
 dependencies = [
@@ -41,6 +41,7 @@ dev = [
 
 [project.scripts]
 start = "scripts.main:start"
+commit = "scripts.main:commit"
 
 [tool.pyright]
 defineConstant = {DEBUG = true}
