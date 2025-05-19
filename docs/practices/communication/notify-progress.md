@@ -1,12 +1,11 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-11-20T14:30:00
 updated: 2025-04-29T17:43:00Z
 authors:
   - manu-reyes-23p
 description: >
   Práctica para entregar un acknowledge tan pronto sea posible para ayudar a bajar la ansiedad.
+draft: true
 ---
 
 # Entregar Acknowledge de un mensaje tan pronto sea posible

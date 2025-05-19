@@ -63,11 +63,12 @@ Before you start contributing, make sure you have:
 4. Set up local development environment:
 
    ```bash
-   # Install project dependencies using Poetry
-   poetry run build
+   # Install project dependencies using uv
+   uv venv
+   uv sync
 
    # Start the local development server
-   poetry run start
+   uv run start
    ```
 
    The handbook will be available at `http://localhost:2300` for local preview
