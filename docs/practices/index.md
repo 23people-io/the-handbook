@@ -1,16 +1,11 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-16T11:08:36
 updated: 2025-04-29T17:43:00Z
-index: true
-slug: practices
-tags: 
-  - practices
 authors:
   - manu-reyes-23p
 description: >
   Prácticas que se siguen en 23people.
+draft: false
 ---
 
 # Prácticas de 23people

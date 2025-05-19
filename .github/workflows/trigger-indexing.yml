@@ -3,7 +3,7 @@ name: Trigger Indexing on Vector Database
 on:
   push:
     branches:
-      - main
+      - main2 # FIXME: Adjust this branch as needed
 
 jobs:
   trigger-indexing:
