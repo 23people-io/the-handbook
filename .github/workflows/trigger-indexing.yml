@@ -9,10 +9,10 @@ jobs:
   trigger-indexing:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name:  Setup | Checkout Repository on Release Branch
         uses: actions/checkout@v3
         
-      - name: Trigger Cloudflare Worker
+      - name: Action | Trigger Cloudflare Worker
         id: trigger-worker
         uses: fjogeleit/http-request-action@v1
         with:
@@ -21,7 +21,7 @@ jobs:
           contentType: 'application/json'
           data: '{"commit": "${{ github.sha }}"}'
       
-      - name: Show response
+      - name: Action | Show response
         run: |
           echo "Worker Response Status: ${{ steps.trigger-worker.outputs.status }}"
           echo "Worker Response: ${{ steps.trigger-worker.outputs.response }}"
