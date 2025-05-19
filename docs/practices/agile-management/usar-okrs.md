@@ -6,15 +6,14 @@ updated: 2025-04-29T17:43:00Z
 authors:
   - manu-reyes-23p
 description: >
-    Preferir trabajar en forma remota
+    Usar OKRs (Objectives and Key Results) para establecer y medir objetivos y resultados clave.
+draft: true
 ---
 
-# Trabajo Remoto
+# Usar OKRs (Objectives and Key Results)
 
 !!! warning "WIP"
 
     Esta página es un trabajo en proceso.
-
-Balance de vida. Queremos que nuestras esten con nosotros por mucho tiempo, por lo que es importante que tengan un balance de vida y el trabajo remoto aporta bastante a esto.
 
 ## Referencias

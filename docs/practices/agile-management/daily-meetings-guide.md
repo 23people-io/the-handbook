@@ -9,11 +9,9 @@ description: >
     Guía de referencia para la realización de reuniones diarias Kanban.
 ---
 
-# Guía de Reuniones Diarias Kanban
+# Guía de Reuniones Diarias Kanban (Daily Meetings)
 
-## Definición
-
-La reunión Kanban diaria es una reunión que se realiza de pie donde los participantes toman decisiones basadas en un tablero que gestiona el trabajo del equipo.
+La reunión Kanban diaria (daily meeting) es una reunión que se realiza de pie donde los participantes toman decisiones basadas en un tablero que gestiona el trabajo del equipo.
 
 ## Objetivos Principales
 

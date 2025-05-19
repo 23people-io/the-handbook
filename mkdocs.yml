@@ -236,13 +236,14 @@ nav:
 
   - "Prácticas":
       - practices/index.md
-      - "Gestionar el trabajo, no las personas": practices/manage-work-not-people.md
-      - "Todo es un servicio a otros": practices/everything-is-a-service.md
-      - "Comunicación asincrónica": practices/asynchronous-communication.md
-      - "Escribir, luego comunicar": practices//write-then-communicate.md
-      - "Estructurar la narrativa": practices/structure-the-narrative.md
-      - "Notificar los avances": practices/notify-progress.md
-      - "Uso de Claude Projects": practices/using-claude-projects.md
+      - "Agile Management":
+          - practices/agile-management/index.md
+          - "Gestionamos el trabajo, no las personas": practices/agile-management/workflows-manage-work-not-people.md
+      - "Comunicación":
+          - practices/communication/index.md
+          - "Nos comunicamos de forma asincrónica": practices/communication/asynchronous-communication.md
+          - "Escribirmos, luego comunicamos": practices/communication/write-then-communicate.md
+          - "Estructuramos la narrativa de lo que hacmeos": practices/communication/structure-the-narrative.md
 
   - "Insights":
       - insights/index.md

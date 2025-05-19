@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-09-09T14:31:43
 updated: 2025-04-29T17:43:00Z
 index: false 
@@ -8,49 +6,84 @@ authors:
   - manu-reyes-23p
 description: >
     Preferir hacer uso de flujos de trabajo para gestionar actividades, solicitudes generales, tareas y proyectos.
+draft: false
 ---
 
-# Gestionar el trabajo, no las personas
+# Flujos de Trabajo: Gestionamos el trabajo, no las personas
 
-Considerar que: **Lo que que no se visualiza, no se puede gestionar**. Con base en lo anterior, es importante que todas los items de trabajo que se realizan, preferiblemente, se gestionen a través de flujos de trabajo visuales y sistemáticos.
+En 23people, creemos que la mejor forma de gestionar el trabajo es a través de flujos de trabajo visuales y sistemáticos. Esto nos permite tener una visión clara de las actividades que se están realizando, priorizar tareas y asegurar que todos los miembros del equipo estén alineados en sus objetivos. Gestionamos el trabajo, no las personas, lo que significa que nos enfocamos en cómo se realiza el trabajo y no en quién lo realiza. Esto fomenta un ambiente de colaboración y mejora continua.
+
+Hacemos uso de los principios y practicas de **Kanban** para gestionar nuestros flujos de trabajo. Kanban es una metodología ágil que nos ayuda a visualizar el trabajo, limitar el trabajo en progreso y maximizar la eficiencia del equipo. A través de tableros Kanban, podemos ver el estado de cada actividad, identificar cuellos de botella y mejorar continuamente nuestros procesos.
+
+## ¿Qué es un flujo de trabajo?
+
+Un flujo de trabajo es una representación visual de las actividades y tareas que un equipo debe realizar para alcanzar un objetivo específico. En 23people, utilizamos tableros Kanban para gestionar estos flujos de trabajo, lo que nos permite visualizar el estado de cada actividad y facilitar la colaboración entre los miembros del equipo.
+
+## ¿Por qué usar flujos de trabajo?
+
+Los flujos de trabajo nos permiten:
+
+- **Visualizar el trabajo**: Tener una representación clara de las actividades en curso, pendientes y completadas.
+- **Priorizar tareas**: Identificar qué actividades son más importantes y deben ser atendidas primero.
+- **Limitar el trabajo en progreso**: Evitar la sobrecarga de tareas y asegurar que el equipo se enfoque en completar lo que ya ha comenzado.
+- **Facilitar la colaboración**: Permitir que todos los miembros del equipo vean el estado del trabajo y colaboren de manera efectiva.
+- **Mejorar la comunicación**: Tener un espacio común donde todos puedan ver el progreso y los bloqueos, lo que reduce la necesidad de reuniones innecesarias.
+- **Fomentar la mejora continua**: Analizar el flujo de trabajo y los bloqueos para identificar áreas de mejora y optimizar procesos.
+
+## Tipos de Flujos de Trabajo
+
+En 23people, existen diferentes tipos de flujos de trabajo que se adaptan a las necesidades específicas de cada equipo y actividad. Estos incluyen:
+
+- **Flujos de Trabajo Principales**: El flujo de trabajo principal que sirve de puerta de entrada desde usuarios externos a los equipos de 23people. Este flujo gestiona en alto nivel las solicitudes/pedidos de servicios, incidencias, mejoras internas y actividades estratégicas.
+- **Flujos de Trabajo Operativos**: Flujos de trabajo secundarios y operativos que derivan de los flujos principales. Estos flujos son específicos para cada equipo y se utilizan para gestionar tareas y actividades internas.
 
 ## Tipos de Items de Trabajo
 
-Los siguientes son los tipos de actividades principales (items de trabajo) que se gestionan en los flujos de trabajo:
+Los siguientes son los tipos de items de trabajo que se gestionan en los flujos de trabajo:
 
-1. **Actividades de Solicitud de Servicios**
+### Items en Flujos de Trabajo Principales
+
+Los flujos de trabajo principales gestionan los siguientes tipos de items de trabajo, cada uno con un propósito específico:
+
+1. **Pedido de Servicios**
+      - Responden a necesidades puntuales de los clientes o usuarios externos a un equipo
       - Tareas específicas con inicio y fin definido
-      - Responden a necesidades puntuales de los clientes
       - Ejemplo: Generación de un informe de antigüedad laboral para un período específico
 
-2. **Actividades de Servicios Recurrentes**
-      - Tareas que se repiten cada mes
-      - Parten de un acuerdo inicial de servicio continuo
+2. **Servicios Recurrentes**
+      - Tareas que se repiten cada mes y que derivan desde un acuerdo de servicio continuo
+      - Tienen un ciclo de vida definido y se repiten en intervalos regulares
       - Ejemplo: Proceso mensual de remuneraciones, declaración mensual de impuestos
 
-3. **Actividades de Resolución de Problemas**
+3. **Incidencias**
       - Abordan situaciones donde algo no salió según lo esperado
       - Requieren corrección y prevención de situaciones similares
       - Ejemplo: Corrección de un pago erróneo y las acciones necesarias para regularizar la situación
 
-4. **Actividades de Mejora Continua**
+4. **Mejora Interna**
       - Iniciativas que surgen del propio equipo para mejorar su trabajo
       - Nacen de las reuniones de retrospectiva donde analizamos cómo mejorar
       - Buscan hacer nuestro trabajo más eficiente o prevenir problemas futuros
 
+5. **Actividades Estrátegicas**
+      - Derivan desde una iniciativa estratégica de la organización
+      - En general, son impulsadas por la dirección global
+
+## Items en Flujos de Trabajo Operativos
+
+Los flujos de trabajo operativos son específicos para cada equipo y se utilizan para gestionar tareas y actividades internas. Estos flujos pueden incluir:
+
+- **Tareas Operativas**: Corresponde a actividades que el equipo debe realizar de manera regular para mantener su funcionamiento. Estas tareas pueden ser asignadas a miembros específicos del equipo y tienen un plazo definido para su finalización. Ejemplo: Autorizaciones bancarias, gestión de proveedores, Envío de candidatos a cliente, Historias de Usuario para funcionalidades de software, etc.
+
 ## Organización del Tablero
 
-Todos los items de trabajo, independiente de su tipo, siguen un flujo común en el tablero.
+En todos los flujos de trabajo, se manejan 5 secciones que son secuenciales. Cada sección representa un estado del item de trabajo y permite al equipo visualizar el progreso de las actividades. Estas secciones son:
 
-### Areas de un Flujo de Trabajo
-
-Existen 5 tipos de areas en un flujo de trabajo y que son comunes a todos los flujos de trabajo para todos los equipos de 23people:
-
-1. **Backlog Area**: Actividades que aún necesitan ser refinadas.
-2. **Requested Area**: Actividades listas para ser ejecutadas y que el equipo se **compromete** a realizar apenas se libere capacidad.
-3. **In Progress Area**: Actividades en las que el equipo está trabajando actualmente. Políticas de gestión del [WIP Limit](), aplican aquí.
-4. **Done Area**: Actividades completadas. Cumplen con la "Definición de Listo" de lo indicado en el item de trabajo y además con los "Criterios de Aceptación" del equipo.
-5. **Ready to Archive Area**: Actividades que ya han sido completadas y que están listas para ser archivadas. Estas se usarán para mantener un registro histórico de las actividades realizadas y poder hacer analisis de mejoras.
+1. **Backlog Area (gris)**: Actividades que aún necesitan ser refinadas. Puede incluir etapas como "Nuevo" o "En refinamiento". Aquí se almacenan ideas o solicitudes que aún no están listas para ser trabajadas. Estas actividades pueden ser propuestas por el equipo o por stakeholders externos.
+2. **Requested Area (azul)**: Actividades listas para ser ejecutadas y que el equipo se **compromete** a realizar apenas se libere capacidad.
+3. **In Progress Area (naranja)**: Actividades en las que el equipo está trabajando actualmente. Políticas de gestión del [WIP Limit](), aplican aquí.
+4. **Done Area (verde)**: Actividades completadas. Cumplen con la "Definición de Listo" de lo indicado en el item de trabajo y además con los "Criterios de Aceptación" del equipo.
+5. **Ready to Archive Area (purpura)**: Actividades que ya han sido completadas y que están listas para ser archivadas. Estas se usarán para mantener un registro histórico de las actividades realizadas y poder hacer analisis de mejoras.
 
 ### Plantilla de Etapas recomendadas
 
