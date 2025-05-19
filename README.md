@@ -13,8 +13,6 @@ You can access the handbook in a production environment at [https://manual.23peo
 
 This repository includes a GitHub Action workflow that triggers the indexing of all handbook content into a vector database. When changes are pushed to the main branch, the workflow sends a request to the [23p-handbook-indexer](https://github.com/23people-io/23p-handbook-indexer.git) service, which processes the markdown files and updates the vector index.
 
-The vector index is hosted on Cloudflare Vectorize and can be accessed at [https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/ai/vectorize/autorag-handbook-rag](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/ai/vectorize/autorag-handbook-rag).
-
 ## AI Context Resources
 
 The repository includes a special file in the `docs/llm-resources` folder called `handbook-summary.txt`, which contains an up-to-date summary of the entire handbook. This file serves as a context source for AI-powered chatbots and tools.
