@@ -1,6 +1,9 @@
 # CHANGELOG
 
 
+## v0.5.0 (2025-05-19)
+
+
 ## v0.4.0 (2025-05-19)
 
 ### Bug Fixes
@@ -72,6 +75,11 @@
 
 - **practices**: Add new structure of practices content
   ([`b0f38bb`](https://github.com/23people-io/23p-handbook/commit/b0f38bb03eccfbb4548876b43718d8b9f3ec1ece))
+
+- **release**: Release a 1st version using Semantic Versioning and Release
+  ([`c51a887`](https://github.com/23people-io/23p-handbook/commit/c51a8878284a1f38d7749d1c6a747a72be64d284))
+
+BREAKING CHANGE:
 
 ### Testing
 
