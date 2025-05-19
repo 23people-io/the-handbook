@@ -11,18 +11,17 @@ def start():
     _run_command(f"bash {script}", "Failed to run the project")
 
 
-def deploy():
-    """Deploy the project."""
-
-    # Run date updater script
-    print("\033[35mStarting Date Updating...\033[0m")
-    date_script = scripts_dir / "date-updater.sh"
-    _run_command(f"bash {date_script}", "Failed to update dates")
+def commit():
+    """Commit changes to the repository using conventional commits."""
 
     # Run bump version script
-    print("\033[35mStarting Versioning...\033[0m")
-    bump_script = scripts_dir / "bump-version.sh"
-    _run_command(f"bash {bump_script}", "Failed to bump package version")
+    print("\033[35mStarting conventional commit...\033[0m")
+    
+    # First add all changes
+    _run_command("git add .", "Failed to stage changes")
+    
+    # Then run the interactive cz commit with TTY access
+    _run_command_interactive("uv run cz commit", "Failed to create a conventional commit")
 
     print("\033[35m✔ Completed successfully.\033[0m")
 
@@ -31,6 +30,18 @@ def _run_command(command: str, error_message: str) -> None:
     """Execute a shell command and handle potential errors."""
     try:
         subprocess.run(command, shell=True, check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"\033[31mError: {error_message}\033[0m")
+        print(f"Command failed with exit code {e.returncode}")
+        sys.exit(1)
+
+
+def _run_command_interactive(command: str, error_message: str) -> None:
+    """Execute an interactive shell command with TTY access."""
+    try:
+        # Pass through stdin, stdout, and stderr to allow interactive prompts
+        subprocess.run(command, shell=True, check=True, 
+                      stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr)
     except subprocess.CalledProcessError as e:
         print(f"\033[31mError: {error_message}\033[0m")
         print(f"Command failed with exit code {e.returncode}")
