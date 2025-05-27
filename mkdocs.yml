@@ -158,6 +158,10 @@ nav:
           - about-us/what-we-do/index.md
           - Desafíos: about-us/what-we-do/challenges.md
           - Servicios: about-us/what-we-do/services.md
+          - Casos de Éxito:
+            - about-us/what-we-do/client-stories/index.md
+            - "ACHS - Manteniendo la Atención de Pacientes en Tiempos de Pandemia": about-us/what-we-do/client-stories/achs-manteniendo-la-atencion-de-pacientes-en-tiempos-de-pandemia.md
+            - "Equifax - Modernizando la Plataforma del Informe Platinum 360": about-us/what-we-do/client-stories/equifax-modernizando-la-plataforma-del-informe-platinum-360.md
 
       - "Lo que nos diferencia":
           - about-us/how-we-work/index.md

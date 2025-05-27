@@ -1,13 +1,8 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-26T12:28:03
 updated: 2025-04-29T17:43:00Z
 description: 23people desarrolló una plataforma de telemedicina para ACHS durante la pandemia, asegurando la atención continua a pacientes.
-author: 5127711
-status: wip
 slug: achs-manteniendo-la-atencion-de-pacientes-en-tiempos-de-pandemia
-legacy_url: https://manual.23people.io/es/articles/8871199-achs-manteniendo-la-atencion-de-pacientes-en-tiempos-de-pandemia
 ---
 
 # ACHS: Manteniendo la Atención de Pacientes en Tiempos de Pandemia
