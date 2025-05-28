@@ -9,6 +9,8 @@ slug: equifax-modernizando-la-plataforma-del-informe-platinum-360
 
 ## **Desafío**
 
+![Equifax - Proyecto de Plataforma Platinum 360](/_assets/images/success-client-story-equifax-1.png)
+
 Equifax, líder en soluciones de información crediticia, se enfrentó al reto de
 modernizar su plataforma del Informe Platinum 360. Este proyecto, iniciado en
 2015, buscaba no solo actualizar tecnológicamente su sistema, sino también
@@ -24,6 +26,8 @@ gestión del proyecto, lo que permitió realizar entregas continuas en cada
 sprint. Esta estrategia facilitó una mayor transparencia y colaboración entre
 los equipos de 23people y Equifax, permitiendo ajustes rápidos y eficientes
 conforme avanzaba el proyecto.
+
+![Equifax - Proyecto de Plataforma Platinum 360](/_assets/images/success-client-story-equifax-2.png)
 
 La adopción de estas metodologías ágiles no solo aceleró el proceso de
 desarrollo, sino que también redujo significativamente la sensación de riesgo
@@ -45,3 +49,7 @@ Este caso destaca cómo la colaboración efectiva y la adopción de metodología
 ágiles pueden llevar a una transformación exitosa en proyectos tecnológicos
 complejos, asegurando resultados duraderos y un impacto significativo en el
 negocio del cliente.
+
+## Mas Información
+
+Para más detalles sobre este proyecto, puedes visitar este enlace: [Equifax - Modernizando la Plataforma del Informe Platinum 360](https://sec.equifax.cl/compraonline/ficha-producto/1/informe-oficial-dicom-platinum-360).
