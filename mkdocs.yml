@@ -13,9 +13,22 @@ edit_uri: edit/main/docs/
 # Copyright
 copyright: Copyright &copy; 2025 <a href="https://23people.io">23people SpA</a>
 
+# Validations
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    absolute_links: warn
+    unrecognized_links: warn
+  
 # Configuration
 docs_dir: "docs"
 site_dir: "site"
+
+# Theme
 theme:
   name: "material"
   palette:
@@ -88,6 +101,7 @@ plugins:
   #     branch: main
   #     token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
+# Markdown
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
@@ -114,13 +128,14 @@ markdown_extensions:
       generic: true
   - def_list
 
+# Extra files
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
 extra_css:
   - _assets/stylesheets/extra.css
 
+# Customization
 extra:
   version:
     provider: mike
@@ -139,8 +154,9 @@ extra:
     url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
   analytics:
     provider: google
-    property: !ENV ["GOOGLE_ANALYTICS_ID"]
+    property: !ENV GOOGLE_ANALYTICS_KEY
 
+# Navigation
 nav:
   - "Hello there.":
       - index.md      
