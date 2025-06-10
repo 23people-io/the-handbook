@@ -7,6 +7,7 @@ authors:
   - manu-reyes-23p
 description: >
   El rol de Services Request Manager en el equipo de Backoffice de 23people.
+
 ---
 
 # Services Request Manager en Backoffice Services
