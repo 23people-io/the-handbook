@@ -1,7 +1,7 @@
 # Project information
 site_name: Nuestro Manual
 site_author: 23people.io
-site_description: El manual público de lo que hacemos en 23people como empresa y equipo de profesionales TI
+site_description: Transparentamos el cómo hacemos las cosas en 23people
 strict: false
 site_url: https://23people.io/
 
@@ -31,6 +31,7 @@ site_dir: "site"
 # Theme
 theme:
   name: "material"
+  custom_dir: material/overrides
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
@@ -93,13 +94,7 @@ plugins:
         python:
           options:
             docstring_style: google
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-  # - git-committers:
-  #     repository: 23people-io/23p-handbook
-  #     branch: main
-  #     token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - blog
 
 # Markdown
 markdown_extensions:
@@ -133,7 +128,7 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
-  - _assets/stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 # Customization
 extra:
@@ -155,11 +150,25 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback!
 
 # Navigation
 nav:
-  - "Hello there.":
-      - index.md      
+  - "Hello there.": index.md
+  - "Guia General":
+      - get-started.md      
 
       - "Quienes somos":
           - about-us/who-we-are/index.md
@@ -265,13 +274,6 @@ nav:
           - "Escribirmos, luego comunicamos": practices/communication/write-then-communicate.md
           - "Estructuramos la narrativa de lo que hacmeos": practices/communication/structure-the-narrative.md
 
-  - "Insights":
-      - insights/index.md
-      - "La Evolución Digital Empresarial": insights/business-digital-evolution.md
-      - "Recursión como predictor de desempeño en desarrolladores": insights/recursion-as-a-good-predictor-for-developers.md
-      - "Autonomía de Equipos, APIs y Servicios": insights/team-autonomy-through-service-apis.md
-      - "IA como Multiplicador de Capacidades": insights/ai-as-professional-capabilities-multiplier.md
-
   - "Sustentabilidad":
       - "Nuestro Compromiso": sustainability/our-commitment.md
       - "Estrategia Reducción Emisiones": sustainability/strategy.md
@@ -288,3 +290,10 @@ nav:
       - "IA y Machine Learning": technical-guide/software-development/ai-and-machine-learning.md
       - Cloud: technical-guide/software-development/cloud.md
       - Seguridad: technical-guide/software-development/security.md
+
+  - "Blog":
+      - blog/index.md
+
+watch:
+  - "docs"
+  - "material"

@@ -2,6 +2,7 @@
     "recommendations": [
         "tamasfe.even-better-toml",
         "ms-python.vscode-pylance",
-        "charliermarsh.ruff"
+        "charliermarsh.ruff",
+        "esbenp.prettier-vscode"
     ]
 }

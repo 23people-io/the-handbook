@@ -9,6 +9,7 @@ DEFAULT_MKDOCS_PORT=2300
 cd "$(dirname "$0")/.."
 
 # Include scripts/colors.sh
+# shellcheck disable=SC1090
 . scripts/colors.sh
 
 echo "${MAGENT}Starting Docs app...${RESET}"

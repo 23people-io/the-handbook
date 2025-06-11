@@ -1,5 +1,7 @@
 # 23people Handbook
 
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
 This repository is dedicated to storing all company **public consolidated information** in markdown files. This accumulated information is indexed in Vector Store Indexes and utilized by Large Language Models (LLMs) for various tasks related to 23people.
 
 > [!IMPORTANT]
