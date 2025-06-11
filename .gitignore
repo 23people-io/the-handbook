@@ -133,3 +133,5 @@ cython_debug/
 .AppleDouble
 .LSOverride
 
+node_modules/
+
