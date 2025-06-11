@@ -29,7 +29,6 @@ Before you start contributing, make sure you have:
 - [Visual Studio Code](https://code.visualstudio.com/) (recommended IDE)
 - Git installed on your machine
 - A GitHub account with access to the 23people organization
-- Configure SSH to access from your pc to github account
 
 ### Development Workflow
 
