@@ -288,3 +288,11 @@ nav:
       - "IA y Machine Learning": technical-guide/software-development/ai-and-machine-learning.md
       - Cloud: technical-guide/software-development/cloud.md
       - Seguridad: technical-guide/software-development/security.md
+  
+  - "Carreras":
+      - careers/index.md
+      - "Proceso de Selección": careers/recruitment-process.md
+      - "Cómo Prepararse para el proceso": careers/process-preparation.md
+      - "Roles y Oportunidades": careers/roles-and-opportunities.md
+      - "Cultura de Aprendizaje": careers/learning-culture.md
+      - "Beneficios y Compensaciones": careers/benefits-and-compensation.md
