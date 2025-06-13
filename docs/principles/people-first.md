@@ -18,7 +18,7 @@ Cuando comenzamos 23people teníamos el sueño de crear **la empresa donde nos h
 
 Teníamos la idea de que **una persona motivada es más eficiente que una persona estresada**. Creo que no nos equivocamos.  
 
-Construir el mundo del futuro se basa en el reconocimiento de que **las personas no son recursos desechables**.  Existe la necesidad de beneficio mutuo entre empresas y trabajadores en los que debemos priorizar y entender que detrás de cada persona hay una historia y un mundo. **Trabajamos para vivir, no vivimos para trabajar**. 
+Construir el mundo del futuro se basa en el reconocimiento de que **las personas no son recursos desechables**.  Existe la necesidad de beneficio mutuo entre empresas y trabajadores en los que debemos priorizar y entender que detrás de cada persona hay una historia y un mundo. **Trabajamos para vivir, no vivimos para trabajar**.
 
 Creemos en los **líderes no en los jefes**. En la **colaboración por sobre el heroísmo personal**. Perseguimos la **empatía** y entender que todas las vidas tienen sus propios desafíos.
 
@@ -27,4 +27,3 @@ Sabemos que el **talento** está **distribuido uniformemente en la sociedad** po
 Propiciamos la **colaboración** en el entendimiento de que en la **mesa de las ideas todos somos iguales**. Sabemos que los mejores profesionales son aquellos con la capacidad de adaptarse y aprender en un mundo donde la tecnología avanza más rápido que lo que podemos asimilar.
 
 Cuando decimos que **las personas están primero** es nuestro compromiso de que **queremos ser parte del éxito personal de nuestros clientes y colaboradores**.  Sabemos que no es un camino fácil, no todos comparten nuestros valores, pero es nuestro objetivo saber somos parte del cambio positivo en la vida de las personas. Ése es nuestro camino y el que definirá nuestro éxito.
-
