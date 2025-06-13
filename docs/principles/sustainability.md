@@ -1,10 +1,13 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
-created: 2024-03-21T00:00:00 
+created: 2024-01-16T11:08:36
 updated: 2025-04-29T17:43:00Z
-
+authors:
+  - manu-reyes-23p
+description: >
+  Principio de 23people: Sustentabilidad.
+draft: false
 ---
+
 # Sustentabilidad
 
 [English version](https://manual-23people-io.translate.goog/principles/sustainability/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
