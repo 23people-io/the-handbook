@@ -8,6 +8,7 @@ El objetivo de nuestro proceso de selección es encontrar a profesionales que se
 
 **¿Por qué profesionales 10X?**
 
+Sabemos que los buenos profesionales producen proyectos exitosos. Si nuestros proyectos son exitosos nuestros clientes serán exitosos. Si nuestros clientes son exitosos entonces podremos generar nuevos negocios. 
 
 
 Dividimos nuestro proceso de selección en 5 etapas.
