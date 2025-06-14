@@ -15,4 +15,4 @@ description: >
 
 # Principios de 23people
 
-Los principios son directrices amplias que guían la toma de decisiones y las acciones dentro de 23people. Funcionan como una aplicación práctica de nnuestros [valores](/about-us/who-we-are/values), traduciendo esas cualidades abstractas en pautas de comportamiento y decisión más concretas.
+Los principios son directrices amplias que guían la toma de decisiones y las acciones dentro de 23people. Funcionan como una aplicación práctica de nuestros [valores](/about-us/who-we-are/values), traduciendo esas cualidades abstractas en pautas de comportamiento y decisión más concretas.
