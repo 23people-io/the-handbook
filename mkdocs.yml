@@ -36,7 +36,6 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: light
-      primary: pink
       accent: pink
   features:
     - content.tabs.link
@@ -100,7 +99,7 @@ markdown_extensions:
   - admonition
   - tables
   - toc:
-      permalink: true
+      permalink: "#"
       toc_depth: 2
   - attr_list
   - pymdownx.arithmatex:
@@ -181,9 +180,6 @@ nav:
           - about-us/what-we-pursue/index.md
           - Metas: about-us/what-we-pursue/goals.md
           - Principios: about-us/what-we-pursue/principles.md
-      
-      - "LLM Resources": 
-          - handbook-summary.md: https://raw.githubusercontent.com/23people-io/23p-handbook/refs/heads/main/llm-resources/handbook-summary.md
 
   - "Comunidad":
       - Beneficios:
