@@ -18,11 +18,11 @@ validation:
   nav:
     omitted_files: warn
     not_found: warn
-    absolute_links: warn
+    absolute_links: ignore
   links:
     not_found: warn
     absolute_links: warn
-    unrecognized_links: warn
+    unrecognized_links: ignore
   
 # Configuration
 docs_dir: "docs"
@@ -31,29 +31,13 @@ site_dir: "site"
 # Theme
 theme:
   name: "material"
-  custom_dir: material/overrides
+  custom_dir: _overrides
+  font: false
   palette:
-    - media: "(prefers-color-scheme)"
-      scheme: default
-      primary: pink
-      accent: pink
-      toggle:
-        icon: material/lightbulb
-        name: "Switch to light mode"
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: light
       primary: pink
       accent: pink
-      toggle:
-        icon: material/lightbulb-outline
-        name: "Switch to dark mode"
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: pink
-      accent: pink
-      toggle:
-        icon: material/lightbulb-auto-outline
-        name: "Switch to system preference"
   features:
     - content.tabs.link
     - content.code.annotate
@@ -124,9 +108,6 @@ markdown_extensions:
   - def_list
 
 # Extra files
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - assets/stylesheets/extra.css
 
@@ -299,9 +280,9 @@ nav:
       - Cloud: technical-guide/software-development/cloud.md
       - Seguridad: technical-guide/software-development/security.md
 
-  - "Blog":
-      - blog/index.md
+extra_css:
+  - _extra/css/extra.css
 
 watch:
   - "docs"
-  - "material"
+  - "_overrides"
