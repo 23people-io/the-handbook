@@ -25,7 +25,7 @@ La estructura general es circular tal de fomentar la colaboración y la comunica
 Los siguientes son los equipos operacionales de 23people y su propósito:
 
 - [**Tech Talent Services Team (TTS)**](teams/tech-talent-services). Dar la mejor experiencia en selección, validación y retención de Profesionales Tech que realmente les apasiona lo que hacen en tecnología y que mejor hacen match con los proyectos de nuestros clientes.
-- [**Sales & Growth Marketing Team (SMKT)**](teams/sales-and-growth-marketing). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
+- [**Sales & Marketing Team (S&M)**](teams/sales-and-marketing). Responsable de la adquisición de nuevos clientes y de la gestión de las relaciones comerciales con los clientes actuales, ademas de hacer crecer la marca, presencia y participación de servicios de 23people.
 - [**Backoffice Services Team (BKO)**](teams/backoffice). Dar la mejor experiencia en soporte administrativo empresarial, facilitanto el éxito de nuestros equipos mediante una gestión administrativa ágil y eficiente que les permita enfocarse en lo que mejor saben hacer.
 - [**Research & Development Services Team (R&D)**](teams/research-and-development). Potenciar la evolución digital de nuestros clientes explorando y dominando tecnologías emergentes que generen valor real en sus operaciones.
 
@@ -38,27 +38,70 @@ Cada equipo tiene autonomía entorno a un próposito bien definido y un contrato
 ![Esquema del modelo interno de un equipo](/assets/images/team-model-light.svg#only-light)
 ![Esquema del modelo interno de un equipo](/assets/images/team-model-dark.svg#only-dark)
 
-### Gestión y Liderazgo
+### Gestión y Liderazgo Operacional
 
-Los equipos operacionales están liderados por el rol de [**Global Operations Manager**](workforce/global-roles/global-operations-manager/), responsable de:
-
-- La eficiencia operacional y calidad global de los servicios
-- La colaboración efectiva entre equipos, tanto interna como externamente
-- Definir los miembros del [**Iarvis Council**](councils/iarvis-council.md), encargado de la coordinación y alineación de los equipos operacionales
-- Liderar el equipo de sustentabilidad encargado de velar por la utilización de los recurso, medir y cumplir las metas de reducción de huella de carbono definidas por la organización.
-
-Cada equipo cuenta con:
-
-- Un **Service Request Manager (SRM)**, responsable de ser el puente entre el cliente y la gestión de la solicitud, facilitando la gestión del trabajo y la satisfacción de las expectativas. Enfocado al **qué** y **cuándo** se debe hacer.
-- Un S**ervice Delivery Manager (SDM)**, responsable de gestionar las solicitudes de servicios aplicando las [prácticas de gestión de flujos](../culture/practices/manage-work-not-people.md). Enfocado al **cómo** y **quién** lo debe hacer.
+Los equipos operacionales están liderados por el rol del [**Global Operations Manager**](workforce/roles/global-operations-manager/). Además, cada equipo cuenta con un/a líder que cumple con el rol principal de [**Service Request Manager (SRM)**](workforce/roles/service-request-manager.md) y secundariamente con el rol de [**Service Delivery Manager (SDM)**](workforce/roles/service-delivery-manager.md).
 
 ### Equipo Estratégico
 
-Se persigue que cada equipo sea autónomo en el cómo avanza en su propósito, sin embargo se busca también que estén alineados con los objetivos estrategicos de la organización. Para ello, se cuenta con un equipo estratégico llamado [High Council](councils/high-council.md) que se encarga de definir y comunicar la estrategia de la organización y de asegurar que los equipos operacionales estén alineados con ella.
+Se persigue que cada equipo sea autónomo en el cómo avanza en su propósito, sin embargo se busca también que estén alineados con los objetivos estrategicos de la organización. Para ello, se cuenta con un equipo estratégico llamado [**High Council**](councils/high-council.md) que se encarga de definir y comunicar la estrategia de la organización y de asegurar que los equipos operacionales estén alineados con ella.
 
 ## Cargos y Roles
 
-Nos organizamos además en base a [niveles de cargos y capas organizacionales](workforce/responsibility-levels.md), que definen las responsabilidades y comportamientos esperados de cada miembro de la organización. Cada cargo, puede tener uno o mas asignados, los cuales definen las responsabilidades y funciones necesarias para el cargo.
+Nos organizamos además en base a [**Cargos**](workforce/positions/) y [**Roles**](workforce/roles/), que definen las responsabilidades y comportamientos esperados de cada miembro de la organización. Cada cargo, puede tener uno o mas roles asignados, los cuales definen las responsabilidades y funciones necesarias para el cargo.
+
+```mermaid
+flowchart TD
+    A[Cargo] -->|tiene| B[Roles]
+    B --> C[Responsabilidades]
+    B --> D[Funciones]
+    C --> E[Comportamientos Esperados]
+```
+
+En 23people, entendemos los cargos y roles como dos conceptos distintos pero complementarios que estructuran nuestra organización y la forma en que trabajamos.
+
+### Relación entre Cargos, Roles y Equipos
+
+Los cargos no están limitados a un equipo específico. Un mismo cargo puede existir en diferentes equipos de 23people (Tech Talent Services, Sales & Growth Marketing, Backoffice Services, Research & Development), y el profesional puede desempeñar distintos roles según el equipo donde se encuentre. Por ejemplo:
+
+- Un **Senior Software Engineer** podría estar:
+    - En R&D Services como Tech Lead de un proyecto de innovación
+    - En Tech Talent Services como Technical Interviewer
+    - En cualquier equipo como Software Architect
+
+- Un **Data Engineer** podría estar:
+    - En R&D Services desarrollando soluciones de datos
+    - En Tech Talent Services analizando métricas de reclutamiento
+    - En Sales & Growth Marketing trabajando con datos de ventas
+
+Esta flexibilidad permite:
+
+- Aprovechar las competencias base del cargo en diferentes contextos
+- Facilitar la movilidad interna y el desarrollo profesional
+- Mantener consistencia en los niveles y expectativas a través de la organización
+
+### Aspectos Organizacionales
+
+#### Autonomía y Responsabilidad
+
+- Cada nivel superior implica mayor autonomía estratégica
+- El alcance de responsabilidad aumenta progresivamente
+- El impacto de decisiones se amplía en niveles superiores
+- La contribución evoluciona de tareas específicas a metas organizacionales
+
+#### Alineación Organizacional
+
+- La estructura soporta la jerarquía de contribución del trabajo
+- Permite desarrollo en carreras técnicas y de gestión
+- Facilita la trazabilidad desde tareas hasta metas de largo plazo
+- Soporta el modelo de tribus y equipos
+
+#### Evaluación y Promoción
+
+- Se basa en la demostración de capacidades del siguiente nivel
+- Considera impacto en la jerarquía de contribución
+- Evalúa tanto competencias técnicas como estratégicas
+- Requiere crecimiento consistente y verificable
 
 ## Principios
 

@@ -3,6 +3,7 @@
         "tamasfe.even-better-toml",
         "ms-python.vscode-pylance",
         "charliermarsh.ruff",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "yzhang.markdown-all-in-one"
     ]
 }
