@@ -29,3 +29,8 @@ Son el motor fundamental de nuestra organización. Valoramos su contribución y 
 ## En interacciones con Proveedores
 
 Aplicamos la regla de oro: los tratamos como nos gustaría ser tratados. Esto incluye procesos de pago ágiles, comunicación clara y transparente, y relaciones comerciales basadas en el respeto mutuo y la colaboración.
+
+Notas:
+
+- Como aportamos a disminuir la ansiedad de nuestros clientes, profesionales y proveedores
+- 
