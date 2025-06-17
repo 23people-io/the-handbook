@@ -292,7 +292,7 @@ nav:
   - "Carreras":
       - careers/index.md
       - "Proceso de Selección": careers/recruitment-process.md
-      - "Cómo Prepararse para el proceso": careers/process-preparation.md
-      - "Roles y Oportunidades": careers/roles-and-opportunities.md
-      - "Cultura de Aprendizaje": careers/learning-culture.md
-      - "Beneficios y Compensaciones": careers/benefits-and-compensation.md
+      - "Preparación": careers/process-preparation.md
+      # - "Roles y Oportunidades": careers/roles-and-opportunities.md
+      #- "Cultura de Aprendizaje": careers/learning-culture.md
+      # - "Beneficios y Compensaciones": careers/benefits-and-compensation.md

@@ -11,7 +11,7 @@ description: >
 
 # :octicons-heart-fill-24:{ .heart } El Manual Público de 23people
 
-En este manual compartimos todo lo que necesitas saber sobre quiénes somos, cómo trabajamos y lo que perseguimos como equipo y empresa, tanto si ya eres parte de [**nuestro equipo**](organization) como si simplemente estás interesado en conocernos.
+En este manual compartimos todo lo que necesitas saber sobre quiénes somos, cómo trabajamos y lo que perseguimos como equipo y empresa, tanto si ya eres parte de [**nuestro equipo**](organization/index.md) como si simplemente estás interesado en conocernos.
 
 ## ¿Qué es el Manual?
 
@@ -76,4 +76,4 @@ Reconocemos que la comunicación escrita puede estar sujeta a diferentes interpr
 
 Este Manual es una herramienta dinámica que mejora continuamente con la participación activa de todo nuestro equipo.
 
-_**We are 23people**, with love [**:material-heart:**](teams) and passion for technology. Happy Coding! 🚀_
+_**We are 23people**, with love [**:material-heart:**](organization/teams/index.md) and passion for technology. Happy Coding! 🚀_
