@@ -31,6 +31,7 @@ site_dir: "site"
 # Theme
 theme:
   name: "material"
+  custom_dir: _overrides
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
@@ -125,9 +126,6 @@ markdown_extensions:
   - def_list
 
 # Extra files
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - _assets/stylesheets/extra.css
 
@@ -148,8 +146,7 @@ extra:
       link: https://www.facebook.com/23people
   chatbot:
     url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
-  extra:
-    analytics:
+  analytics:
       provider: custom
 
 # Navigation
