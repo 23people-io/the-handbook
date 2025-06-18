@@ -224,8 +224,7 @@ nav:
           - Playlist Spotify: community/spotify-playlist.md
 
   - "Organización":
-      - organization/index.md
-      - "Cargos y Roles": organization/tribes/iarvis-tribe/workforce/index.md
+      - organization/index.md        
       - "Equipos":
           - organization/teams/index.md
           - "Tech Talent Services (TTS)":
@@ -245,10 +244,19 @@ nav:
           - organization/tribes/index.md
           - "Iarvis Tribe": organization/tribes/iarvis-tribe/index.md
           - "Drakkar Tribe": organization/tribes/drakkar-tribe/index.md
+      - "Cargos Laborales": 
+          - organization/workforce/positions/index.md
+          - "Operations Director": organization/workforce/positions/operations-director.md
+      - "Roles":
+          - organization/workforce/roles/index.md
+          - "Global Operations Manager": organization/workforce/roles/global-operations-manager.md
+          - "Service Request Manager": organization/workforce/roles/service-request-manager.md
+          - "Service Delivery Manager": organization/workforce/roles/service-delivery-manager.md
 
   - "Principios":
       - principles/index.md
       - People First: principles/people-first.md
+      - Xperience: principles/xperience.md
       - Sustentabilidad: principles/sustainability.md
       - Transparencia: principles/transparency.md
       - Equidad: principles/egalitarian.md

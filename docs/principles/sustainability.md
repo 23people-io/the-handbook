@@ -1,22 +1,24 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
-created: 2024-03-21T00:00:00 
+created: 2024-01-16T11:08:36
 updated: 2025-04-29T17:43:00Z
-
+authors:
+  - manu-reyes-23p
+description: >
+  Principio de 23people: Sustentabilidad.
+draft: false
 ---
+
 # Sustentabilidad
 
 [English version](https://manual-23people-io.translate.goog/principles/sustainability/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
 
 ![Sostenibilidad](../_assets/images/sustainability.png)
 
-Cuando decimos que queremos tener un negocio sostenible y sustentable nos referimos a que estamos **comprometidos en una visión de largo plazo** con el objetivo de hacer **uso correcto** de los **recursos naturales, financieros y sociales** sin comprometer los de las **generaciones futuras**. 
+Cuando decimos que queremos tener un negocio sostenible y sustentable nos referimos a que estamos **comprometidos en una visión de largo plazo** con el objetivo de hacer **uso correcto** de los **recursos naturales, financieros y sociales** sin comprometer los de las **generaciones futuras**.
 
 Participamos activamente en la sociedad y en sus esfuerzos por detener la degradación ambiental, mejorar la educación y promover la evolución social.
 
 Para eso privilegiamos actividades, servicios y tecnologías que permitan rebajar los efectos adversos a los ecosistemas y sociedades.
-
 
 ## Trabajo remoto
 
@@ -26,7 +28,6 @@ Para eso privilegiamos actividades, servicios y tecnologías que permitan rebaja
 - Comunidad descentralizada al no requerir que las personas estén obligadas a vivir en grandes ciudades.
 - Disminución de costos de infraestructura y generación de residuos sólidos, plásticos.
 - Menor consumo de combustibles fósiles, agua y químicos asociados a la mantención de espacios de trabajo compartidos.
-
 
 ## Digitalización
 
@@ -79,7 +80,6 @@ Esto disminuye la necesidad de desplazamientos, reduce la emisión de gases de e
 Si bien la digitalización implica el uso de dispositivos electrónicos, la adopción de servicios en la nube y la virtualización de servidores disminuye la necesidad de equipos físicos dedicados (servidores locales obsoletos, discos duros, etc.).
 Un correcto mantenimiento y actualización de los dispositivos, junto con prácticas de reciclaje responsables, contribuye a reducir la generación de e-waste.
 
-
 ## Tecnología, Impacto Ambiental y Carbono Neutral
 
 Aunque 23people es una empresa es digital y remota, sigue generando una huella de carbono digital a través de servidores, dispositivos y consumo energético.
@@ -91,10 +91,3 @@ Para mitigar nuestra huella de carbono creamos una política de sustentabilidad 
 - Fomentar la compra de hardware de marcas sostenibles.
 - Implementar programas de reciclaje y reutilización de dispositivos.
 - Utilizar aplicaciones que compensen emisiones de carbono como Betterfly.
-
-
-
-
-
-
-
