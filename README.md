@@ -109,29 +109,21 @@ The project is built using the following technologies:
 - [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
 - Markdown
 
-## Versioning and Commits
+## Commit Guidelines
 
-This project uses [Conventional Commits](https://www.conventionalcommits.org/) and [Semantic Versioning](https://semver.org/) to maintain a consistent commit history and automated versioning.
+This project follows [Conventional Commits](https://www.conventionalcommits.org/) specification for commit messages to ensure consistent commit history and enable automated semantic versioning.
 
-### Conventional Commits
+## Versioning
 
-When adding changes to the repository, use the following command to commit your changes:
+This project uses [Semantic Versioning](https://github.com/semantic-release/semantic-release) to manage releases in Github. The version number is updated automatically based on the commit messages following the Conventional Commits specification.
 
-```bash
-uv run commit
-```
+NOTE: In the package.json file, the version is set to `0.0.0.dev0` on purpose to indicate that the version will be managed by the semantic release process, and it should not be manually changed.
 
-This will launch an interactive prompt that guides you through creating a properly formatted conventional commit message. This structured format helps maintain a clean project history and enables automated version management.
+This is configurated in the Github Actions workflow called [`releases.yml`](https://github.com/23people-io/23p-handbook/blob/main/.github/workflows/releases.yml), which runs on every push to the main branch. It analyzes the commit messages and determines the next version number, then publishes the release.
 
-### Semantic Versioning
+## Changelog
 
-The project version is not maintained in the `pyproject.toml` file (which has a fixed value of `0.0.0.dev0`), but instead is handled through GitHub releases. When changes are pushed to the `main` branch, a GitHub workflow automatically:
-
-1. Analyzes the commit messages
-2. Determines the appropriate version change (major, minor, or patch)
-3. Creates a new release with the updated version number
-
-You can view the project's version history and changelog in the [GitHub Releases section](https://github.com/23people-io/23p-handbook/releases).
+The changelog is automatically generated based on the commit messages following the Conventional Commits specification. You can view the project's version history and changelog in the [GitHub Releases section](https://github.com/23people-io/23p-handbook/releases)
 
 ## Deployment
 
@@ -146,6 +138,6 @@ The deployment is done automatically when you push a new version to the `main` b
 
 ## Contact
 
-If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or leave an issue [here](https://github.com/23people-io/23p-handbook/issues).
+If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or [leave an issue](https://github.com/23people-io/23p-handbook/issues).
 
 _**We are 23people**, with love **:material-heart:** and passion for technology. Happy Coding! 🚀_

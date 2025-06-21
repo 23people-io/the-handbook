@@ -33,10 +33,6 @@ theme:
   name: "material"
   custom_dir: _overrides
   font: false
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: light
-      accent: pink
   features:
     - content.tabs.link
     - content.code.annotate
@@ -77,7 +73,6 @@ plugins:
         python:
           options:
             docstring_style: google
-  - blog
 
 # Markdown
 markdown_extensions:
@@ -128,8 +123,7 @@ extra:
   chatbot:
     url: https://2prxfnwkygf4vexczrbpcq.streamlit.app/?embed=true
   analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+    provider: custom
     feedback:
       title: Was this page helpful?
       ratings:

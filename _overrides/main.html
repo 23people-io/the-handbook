@@ -1,11 +1,19 @@
-{% extends "base.html" %} {% block extrahead %} {% endblock %} {% block
-htmltitle %} {% if page.meta and page.meta.title %}
+{% extends "base.html" %} 
+
+{% block extrahead %} {% endblock %} 
+
+{% block htmltitle %} 
+{% if page.meta and page.meta.title %}
 <title>{{ page.meta.title }} | {{ config.site_name }}</title>
 {% elif page.title and not page.is_homepage %}
 <title>{{ page.title | striptags }} | {{ config.site_name }}</title>
 {% else %}
 <title>{{ config.site_name }}</title>
-{% endif %} {% endblock %} {% block libs %}
+{% endif %} 
+
+{% endblock %} 
+
+{% block libs %}
 
 <!-- Google Tag Manager -->
 <script>
@@ -22,7 +30,9 @@ htmltitle %} {% if page.meta and page.meta.title %}
 </script>
 <!-- End Google Tag Manager -->
 
-{% endblock %} {% block container %}
+{% endblock %} 
+
+{% block container %}
 
 <!-- Google Tag Manager (noscript) -->
 <noscript
@@ -43,11 +53,18 @@ htmltitle %} {% if page.meta and page.meta.title %}
   </article>
 </div>
 
-{% endblock %} {% block scripts %}
-<!-- Add scripts that need to run before here -->
-{{ super() }}
-<!-- Add scripts that need to run afterwards here -->
-<script></script>
+{% endblock %} 
 
-<!---->
+{% block scripts %}
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCDB36W"
+     height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  {{ super() }}
+  
+  
 {% endblock %}
+
