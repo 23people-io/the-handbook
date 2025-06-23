@@ -140,9 +140,8 @@ extra:
 
 # Navigation
 nav:
-  - "Hello there.": index.md
-  - "Guia General":
-      - get-started.md      
+  - "Hello there.": 
+      - get-started.md 
 
       - "Quienes somos":
           - about-us/who-we-are/index.md
