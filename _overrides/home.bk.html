@@ -1,0 +1,70 @@
+{% extends "main.html" %} 
+{% block tabs %} 
+{{ super() }}
+<style>
+  .md-header {
+    position: initial;
+  }
+  .md-main__inner {
+    margin: 0;
+  }
+  .md-content {
+    display: none;
+  }
+  @media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+      display: none;
+    }
+  }
+</style>
+<section class="mdx-section-hero">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <div class="mdx-hero__image">
+        <img src="assets/images/illustration.png" alt="" draggable="false" />
+      </div>
+      <div class="mdx-hero__content">
+        <h1>{{ config.site_description }}</h1>
+        <p>
+          Compartimos abiertamente con la comunidad nuestros principios,
+          prácticas y formas de trabajar, para que sirvan de referencia y ayuden
+          a otros equipos y profesionales.
+        </p>
+        <a
+          href="{{ page.next_page.url | url }}"
+          title="{{ page.next_page.title | e }}"
+          class="md-button md-button--primary"
+        >
+          Comencemos
+        </a>
+        <a
+          href="{{ 'blog/' | url }}"
+          title="El Blog de 23people"
+          class="md-button"
+        >
+          Ir al Blog
+        </a>
+      </div>
+    </div>   
+  </div>
+</section>
+
+<section class="mdx-section-main-feature">
+  <div class="md-grid md-typeset">
+     <div class="mdx-main-feature">
+      <div class="mdx-main-feature__content">
+        <h1>¿Porque tenemos un manual?</h1>
+        <p>
+          El Manual de 23people es nuestra fuente de verdad principal y brujula para acceder a la información y conocimientos sobre lo qué hacemos, cómo lo hacemos y por qué lo hacemos así en la empresa.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %} {% block content %}{% endblock %} {% block footer %}{% endblock
+%}
