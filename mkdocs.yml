@@ -139,7 +139,7 @@ extra:
 # Navigation
 nav:
   - "Hello there.": 
-      - get-started.md 
+      - index.md 
 
       - "Quienes somos":
           - about-us/who-we-are/index.md
