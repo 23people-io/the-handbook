@@ -26,7 +26,7 @@ aunque su acceso dependerá de los permisos correspondientes en Google Drive
 
 **Procedimiento para** |  **Mantenido por** |  **Aplica para**  
 ---|---|---  
-[Registro de Asistencia (vía Geovictoria)](https://docs.google.com/document/d/1RTstuwDw7Xb_3G26XmfMvjTjGU24Xcp0e5As841Vp74/edit?usp=drive_link) |  People Growth |  Todos en 23people  
+[Registro de Asistencia (vía BUK)](https://docs.google.com/document/d/1C_EhzfOv4ayM_HrFLdeZXu6uryi9Yb6xXhRTpOm6l58/edit?usp=drive_link) |  People Growth |  Todos en 23people  
 [Solicitud de Vacaciones](https://docs.google.com/document/d/1ulmj1zncRnRkvGybftOD40nMpfZVVLtTAHMjYMQuhps/edit?usp=drive_link) |  People Growth |  Drakkar Tribe (cliente)  
 Solicitud de Vacaciones |  People Growth |  Jarvis Tribe  
   
