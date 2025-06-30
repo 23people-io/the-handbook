@@ -196,38 +196,12 @@
   color: var(--color-background-light);
 }
 
-/* new features box on release notes */
-
-.n8n-new-features {
-  background-color: var(--color-background-light);
-  border: 1px solid var(--color-foreground-base);
-  padding: 1em;
+.md-header {
+  background-color: var(--color-background-dark);
 }
 
-.n8n-new-features p {
-  margin: 0;
-}
-
-.n8n-new-features > h4 {
-  margin-top: 0;
-}
-
-.n8n-new-features + .n8n-new-features {
-  margin-top: 1em;
-}
-
-/* additional links in footer */
-
-.n8n-footer-links {
-  border-bottom: 1px solid var(--md-footer-fg-color--light);
-  display: flex;
-  justify-content: space-between;
-  margin: auto 0.6rem;
-  padding: 0.4rem 0;
-}
-
-.n8n-footer-links > strong {
-  color: var(--md-footer-fg-color--light);
+.md-tabs {
+  background-color: var(--color-background-dark);
 }
 
 /* preserve the logo and site title on page scroll */
