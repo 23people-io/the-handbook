@@ -12,7 +12,7 @@ draft: false
 
 [English version](https://manual-23people-io.translate.goog/principles/sustainability/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
 
-![Sostenibilidad](../_assets/images/sustainability.png)
+![Sostenibilidad](../_images/sustainability.png)
 
 Cuando decimos que queremos tener un negocio sostenible y sustentable nos referimos a que estamos **comprometidos en una visión de largo plazo** con el objetivo de hacer **uso correcto** de los **recursos naturales, financieros y sociales** sin comprometer los de las **generaciones futuras**.
 

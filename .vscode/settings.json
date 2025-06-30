@@ -56,4 +56,7 @@
     "editor.codeActionsOnSave": {
         
     },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
 }
