@@ -33,6 +33,8 @@ theme:
   name: "material"
   custom_dir: _overrides
   font: false
+  palette:
+    scheme: light
   features:
     - content.tabs.link
     - content.code.annotate
