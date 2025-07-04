@@ -16,7 +16,7 @@ jobs:
         id: trigger-worker
         uses: fjogeleit/http-request-action@v1
         with:
-          url: ${{ vars.CLOUDFLARE_HANDBOOK_INDEXER_WORKER_URL }}
+          url: ${{ vars.HANDBOOK_INDEXER_WORKER_URL }}
           method: 'POST'
           contentType: 'application/json'
           data: '{"commit": "${{ github.sha }}"}'
