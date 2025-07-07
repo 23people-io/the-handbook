@@ -94,6 +94,7 @@
 [data-md-color-scheme="light"] .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
+  color: var(--color-text-dark);
   font-weight: 600;
 }
 

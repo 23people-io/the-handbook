@@ -145,7 +145,6 @@ nav:
 
       - "Quienes somos":
           - about-us/who-we-are/index.md
-          - Valores: about-us/who-we-are/values.md
           - Principios: principles/index.md
           - Prácticas: practices/index.md
           - Partnerships: about-us/who-we-are/partnerships.md
@@ -234,23 +233,20 @@ nav:
 
   - "Principios":
       - principles/index.md
-      - People First: principles/people-first.md
-      - Xperience: principles/xperience.md
-      - Sustentabilidad: principles/sustainability.md
-      - Transparencia: principles/transparency.md
-      - Equidad: principles/egalitarian.md
-      - Agilidad: principles/agility.md
+      - "Fundamentales": principles/fundamentals/index.md
+      - "Cultura y Personas": principles/culture-and-people/index.md
+      - "Operacionales": principles/operationals/index.md
 
-  - "Prácticas":
-      - practices/index.md
-      - "Agile Management":
-          - practices/agile-management/index.md
-          - "Gestionamos el trabajo, no las personas": practices/agile-management/workflows-manage-work-not-people.md
-      - "Comunicación":
-          - practices/communication/index.md
-          - "Nos comunicamos de forma asincrónica": practices/communication/asynchronous-communication.md
-          - "Escribirmos, luego comunicamos": practices/communication/write-then-communicate.md
-          - "Estructuramos la narrativa de lo que hacmeos": practices/communication/structure-the-narrative.md
+  # - "Prácticas":
+  #     - practices/index.md
+  #     - "Agile Management":
+  #         - practices/agile-management/index.md
+  #         - "Gestionamos el trabajo, no las personas": practices/agile-management/workflows-manage-work-not-people.md
+  #     - "Comunicación":
+  #         - practices/communication/index.md
+  #         - "Nos comunicamos de forma asincrónica": practices/communication/asynchronous-communication.md
+  #         - "Escribirmos, luego comunicamos": practices/communication/write-then-communicate.md
+  #         - "Estructuramos la narrativa de lo que hacmeos": practices/communication/structure-the-narrative.md
 
   - "Sustentabilidad":
       - "Nuestro Compromiso": sustainability/our-commitment.md
