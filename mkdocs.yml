@@ -7,7 +7,7 @@ site_url: https://23people.io/
 
 # Repository
 repo_name: 23people/handbook
-repo_url: https://github.com/23people-io/23p-handbook
+repo_url: https://github.com/23people-io/the-handbook
 edit_uri: edit/main/docs/
 
 # Copyright
@@ -58,7 +58,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: "https://23people.io/img/logo-white.svg"
+  logo: _images/logo-23p-dark-mode-landscape.png
   icon:
     repo: fontawesome/brands/github
   language: es
