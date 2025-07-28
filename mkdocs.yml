@@ -58,7 +58,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: "https://23people.io/img/logo-white.svg"
+  logo: _images/logo-23p-dark-mode-landscape.png
   icon:
     repo: fontawesome/brands/github
   language: es
