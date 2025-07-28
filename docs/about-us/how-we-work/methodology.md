@@ -9,7 +9,7 @@ description: >
     Metodología de trabajo en 23people.
 ---
 
-# Madures en desarrollo de software
+# Madurez en desarrollo de software
 
 !!! example ""
 

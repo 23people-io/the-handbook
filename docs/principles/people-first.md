@@ -12,7 +12,7 @@ draft: false
 
 [English version](https://manual-23people-io.translate.goog/principles/people-first/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp)
 
-![People First](../_assets/images/people-first.png)
+![People First](../_images/people-first.png)
 
 Cuando comenzamos 23people teníamos el sueño de crear **la empresa donde nos hubiese gustado trabajar**. Un lugar  al servicio del ser humano, rodeados de personas apasionadas por la tecnología y el aprendizaje contínuo. Un lugar donde el respeto tenga más valor que la imposición, donde el conocimiento esté por sobre la jerarquía.  Queríamos que **nuestros clientes fueran exitosos** y acompañarlos en ése camino. Nos comprometimos con la honestidad por sobre lo comercial.  **El éxito no es a cualquier precio**.
 

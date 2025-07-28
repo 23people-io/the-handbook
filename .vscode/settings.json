@@ -18,7 +18,7 @@
     },
     "[javascript]": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.rulers": [
             {
                 "column": 120,
@@ -55,5 +55,8 @@
     "vitest.disableWorkspaceWarning": true,
     "editor.codeActionsOnSave": {
         
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
     },
 }
