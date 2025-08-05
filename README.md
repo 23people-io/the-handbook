@@ -1,4 +1,4 @@
-# 23people Handbook
+# The 23people's Handbook
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
@@ -37,8 +37,8 @@ Before you start contributing, make sure you have:
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:23people-io/23p-handbook.git
-   cd 23p-handbook
+   git clone git@github.com:23people-io/the-handbook.git
+   cd the-handbook
    ```
 
 2. Open the project in Visual Studio Code:
@@ -50,7 +50,7 @@ Before you start contributing, make sure you have:
 3. Create a new branch for your changes:
 
    ```bash
-   git checkout -b docs/your-feature-name
+   git checkout -b feature/your-feature-name
    ```
 
     > [!IMPORTANTE]
@@ -84,12 +84,12 @@ Before you start contributing, make sure you have:
 7. Push your changes to GitHub:
 
    ```bash
-   git push origin docs/your-feature-name
+   git push origin feature/your-feature-name
    ```
 
 ### Creating a Pull Request
 
-1. Go to the [repository page on GitHub](https://github.com/23people-io/23p-handbook)
+1. Go to the [repository page on GitHub](https://github.com/23people-io/the-handbook)
 2. Click on "Pull requests" and then "New pull request"
 3. Select your feature branch as the compare branch
 4. Fill in the pull request template with:
@@ -119,11 +119,11 @@ This project uses [Semantic Versioning](https://github.com/semantic-release/sema
 
 NOTE: In the package.json file, the version is set to `0.0.0.dev0` on purpose to indicate that the version will be managed by the semantic release process, and it should not be manually changed.
 
-This is configurated in the Github Actions workflow called [`releases.yml`](https://github.com/23people-io/23p-handbook/blob/main/.github/workflows/releases.yml), which runs on every push to the main branch. It analyzes the commit messages and determines the next version number, then publishes the release.
+This is configurated in the Github Actions workflow called [`releases.yml`](https://github.com/23people-io/the-handbook/blob/main/.github/workflows/releases.yml), which runs on every push to the main branch. It analyzes the commit messages and determines the next version number, then publishes the release.
 
 ## Changelog
 
-The changelog is automatically generated based on the commit messages following the Conventional Commits specification. You can view the project's version history and changelog in the [GitHub Releases section](https://github.com/23people-io/23p-handbook/releases)
+The changelog is automatically generated based on the commit messages following the Conventional Commits specification. You can view the project's version history and changelog in the [GitHub Releases section](https://github.com/23people-io/the-handbook/releases)
 
 ## Deployment
 
@@ -138,6 +138,6 @@ The deployment is done automatically when you push a new version to the `main` b
 
 ## Contact
 
-If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or [leave an issue](https://github.com/23people-io/23p-handbook/issues).
+If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or [leave an issue](https://github.com/23people-io/the-handbook/issues).
 
 _**We are 23people**, with love **:material-heart:** and passion for technology. Happy Coding! 🚀_
