@@ -10,11 +10,11 @@ slug: convenio-banco-de-chile
 legacy_url: https://manual.23people.io/es/articles/9498220-convenio-banco-de-chile
 ---
 
-## 💳 Convenio Banco de Chile
+# 💳 Convenio Banco de Chile.  
+  
 
-## ¿Qué incluye el Plan Costo 0?
 
-### Plan Valle
+## Plan Valle
 - Cuenta corriente
 - Tarjeta de débito
 - Línea de crédito
@@ -33,13 +33,8 @@ Sí, aunque pueden no tener mantención gratuita, ofrecen tarifas preferenciales
 La apertura de cuenta y productos bancarios está sujeta a:  
 
 - Evaluación comercial del banco
- 
 - Decisión exclusiva de Banco de Chile
-
-- No depende de 23people
-  
- 
-Cada colaborador deberá cumplir con los requisitos establecidos por la entidad bancaria.
+- No depende de 23people. Cada colaborador deberá cumplir con los requisitos establecidos por la entidad bancaria.
 
 ## Contacto con Ejecutiva
 
