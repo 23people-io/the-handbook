@@ -1,233 +1,141 @@
 ---
-updated: 2025-05-01T00:00:00Z
+updated: 2025-08-11T16:10:00Z
 ---
-# 23people.io Handbook Summary
+# 23people Company Handbook Summary
 
-This document presents a structured summary of the 23people.io Handbook, based on the files provided from the repository. The handbook is organized into several main sections covering everything from basic corporate information to specific technical details.
+## Executive Overview
 
-## Introduction
+23people is a Chilean technology company founded in 2014 by Software Engineers and Computer Scientists Marcelo Ampuero and Manuel Reyes, who continue to lead the company as Engineering Director and General Director respectively. Based in Santiago, Chile, the company operates as a trusted technological facilitator and co-creator for businesses seeking to evolve their digital products and services across three continents—Latin America, North America, and Europe.
 
-23people is a Chilean technology company founded in 2014 by two Software Engineers & Computer Scientists: Marcelo Ampuero and Manuel Reyes. The company focuses on providing technology services, especially in the areas of technology talent, digital platform development, and data and AI analysis. The name "23people" is inspired by the Matrix film saga, specifically the dialogue between The Architect and Neo where it mentions that 23 people will rebuild Zion.
+With nearly 90 active professionals primarily in technical roles, 23people has established itself as more than a traditional staff augmentation firm. The company's foundation rests on the dream of creating "the company where we would have loved to work"—a human-centered organization where respect holds more value than imposition, and knowledge stands above hierarchy. Throughout its decade of existence, over 500 professionals have been part of 23people's journey, maintaining an impressive average tenure of approximately 16 months and supporting nearly 100 projects for more than 10 major enterprise clients.
 
-## Who We Are
+The company's name itself carries deep significance, representing not just a number but a commitment to being more than mere resources—they are 23 people, each with their own story, expertise, and contribution to make.
 
-### Values
+## Core Business and Services
 
-23people is based on three main values:
+23people specializes in three complementary service lines designed to address the skilled talent, technology utilization, and data challenges that companies face in their Digital Evolution journey:
 
-1. **Excellence and Intellectual Curiosity**: They pursue technical and professional excellence, cultivating a mindset of continuous learning.
+### 1. IT Talent Outsourcing and Recruitment
 
-2. **Collaboration and Assertive Communication**: They emphasize mutual support, transparency, and clear communication between professionals and teams.
+The company excels at finding, selecting, and retaining Tech Professionals who are genuinely passionate about technology. Unlike traditional recruiters who merely review CVs and forward candidates, 23people validates technical skills and real project experience. They offer two primary models:
 
-3. **Sustainable Growth**: They seek economic growth and to become international benchmarks, but in a systematic, sustainable manner.
+- **IT Outsourcing**: Professionals work on client projects while employed under 23people's legal structure
+- **IT Hunting**: Direct assistance in searching and selecting IT professionals for clients' direct hiring needs
 
-### Principles
+### 2. Digital Platforms, Cloud, and Modernization
 
-The company is guided by five fundamental principles:
+23people co-creates solutions for continuous improvement areas including Digitalization, Automation, Integrations, and Operational Data. Leveraging Cloud technologies, DevOps practices, QA Automation, Cybersecurity measures, and Agile methodologies, they help modernize and evolve digital platforms to be effective, secure, and efficient. Their experience spans large-scale technological projects used by hundreds of companies and thousands of users worldwide.
 
-1. **People First**: Prioritizes people, creating a respectful and motivating work environment.
-2. **Sustainability**: Commitment to a sustainable business that respects natural, financial, and social resources.
-3. **Transparency**: Making all processes and information that can be shared public.
-4. **Equality**: Treating all people respectfully and equally, avoiding discrimination.
-5. **Agility**: Use of agile principles to be an innovative, resilient, and efficient company.
+### 3. Data, Advanced Analytics, and AI
 
-### History
+The company enables data-driven decision-making that contributes to real operational and strategic improvements. They help organizations leverage their data potential through advanced analytics and artificial intelligence implementations, transforming raw information into actionable business insights.
 
-Founded on November 26, 2014, by Marcelo Ampuero and Manuel Reyes with the idea of "creating a company where we ourselves would like to work". The company started modestly and has grown to have more than 90 active professionals, having counted more than 500 professionals throughout its history. They currently work with clients on three continents and have executed about 100 projects.
+## Organizational Structure
 
-## What We Do
+23people operates through a circular organizational structure designed to foster collaboration and communication across teams and organizational layers. The company is organized into multidisciplinary teams, each with a clear purpose and responsibility for delivering services to internal teams or external clients.
 
-23people describes itself as "reliable technological facilitators and co-creators for companies seeking to evolve their digital products and services". Their service lines are:
+### Operational Teams
 
-1. **Tech Talent Outsourcing and Recruitment**: They identify and select technological professionals to complete client teams, offering:
-   - IT Outsourcing
-   - IT Hunting
+All operational teams are grouped under the **Iarvis Tribe**, which includes:
 
-2. **Digital Platforms, Cloud, and Modernization**: They co-create solutions for digitalization, automation, integrations, and operational data, including:
-   - Integration
-   - Modernization and Evolution
-   - Data and Analytics
-   - Automated QA
+- **Tech Talent Services Team (TTS)**: Provides the best experience in selecting, validating, and retaining Tech Professionals who are passionate about technology and best match client projects
+- **Sales & Marketing Team (S&M)**: Responsible for new client acquisition, commercial relationship management, and growing 23people's brand presence and market participation
+- **Backoffice Services Team (BKO)**: Delivers the best administrative support experience, enabling teams to focus on their core competencies through agile and efficient administrative management
+- **Research & Development Services Team (R&D)**: Empowers clients' digital evolution by exploring and mastering emerging technologies that generate real value in operations
 
-3. **Data, Advanced Analytics, and AI**: They enable data-driven decision-making through BigData technologies, predictive and generative AI, and advanced automation systems.
+### Leadership and Governance
 
-### What Sets Us Apart
+The operational teams are led by a Global Operations Manager, with each team having a Service Request Manager (SRM) who manages the "what and when" of requests, and a Service Delivery Manager (SDM) who defines "how and who" executes each service. Strategic alignment is ensured through the High Council, which defines and communicates organizational strategy.
 
-1. **Specialization in Tech Roles**: Focus on professionals who master programming and software development.
-2. **Optimization in Tech Recruitment**: Mature process for finding and selecting talent.
-3. **Maturity in software development**: Data-based agile and evolutionary approach.
-4. **Management of enterprise and emerging technologies**: Experience in mature and emerging technologies.
-5. **Customer satisfaction**: Continuous accompaniment and support.
+### Autonomy and Service Contracts
 
-## Main Technologies
+Each team operates autonomously around its well-defined purpose, delivering services through clear service contracts (similar to APIs). The organization emphasizes continuous measurement of service quality and operational efficiency, with iterative improvements based on data and accumulated experience.
 
-23people has a wide technological stack that covers different areas of development and implementation of digital solutions:
+## Company Culture and Principles
 
-### Programming Languages
-- **Python**: Mainly used for AI projects, Machine Learning, data analysis, and backend.
-- **JavaScript/TypeScript**: Core of frontend and backend development with Node.js.
-- **Java**: For enterprise application development.
-- **C#**: Used in specific projects and .NET development.
-- **Go**: For microservices and high-performance applications.
-- **Rust**: In projects that require optimal performance and security.
+23people's culture is built on a foundation of shared values and principles that guide daily decisions and behaviors:
 
-### Web Frameworks and Technologies
-- **React**: Main library for user interface development.
-- **Next.js**: Framework for React applications with server-side rendering.
-- **Node.js**: Execution environment for server-side JavaScript.
-- **NestJS**: Framework for building server-side applications with Node.js.
-- **Spring Boot**: For Java application development.
-- **FastAPI/Flask**: Frameworks for API development in Python.
-- **Tailwind CSS**: For user interface styling.
+### Fundamental Principles
 
-### Databases
-- **MongoDB**: Main NoSQL database for projects requiring flexibility.
-- **PostgreSQL**: Robust relational database for projects with strict data structure.
-- **Redis**: For caching and key-value databases.
-- **Amazon DynamoDB**: For applications with scalability requirements.
-- **Vector databases**: Such as ChromaDB and Vectorize for AI applications.
+**Excellence and Intellectual Curiosity**: The company pursues excellence and continuous learning. Team members are "eternal learners," improving their skills and knowledge with genuine curiosity. They embrace iterative, flexible, methodical, and preferably data-based work methods.
 
-### Cloud and Infrastructure
-- **Cloudflare**: For CDN, security, and application deployment (Cloudflare Pages, Workers, R2).
-- **AWS**: Wide range of services including S3, CloudWatch, Cognito, and RDS.
-- **Google Cloud Platform**: For specific services and projects requiring their tools.
-- **Azure**: For projects integrated with the Microsoft ecosystem.
-- **Docker**: For application containerization.
-- **Kubernetes**: For container orchestration in more complex projects.
+**Collaboration and Assertive Communication**: Emphasis on genuine support and collaboration among professionals and with client teams. They work as teams, support each other as teams, and take responsibility as teams—avoiding individual heroism in favor of collective success. Transparency in communication is prioritized to minimize misinterpretations and improve productivity.
 
-### Artificial Intelligence and Machine Learning
-- **ML Frameworks**: TensorFlow, PyTorch, scikit-learn.
-- **Data processing libraries**: NumPy, Pandas.
-- **AI APIs**: OpenAI API, Anthropic API, Claude.
-- **AI Architectures and Techniques**:
-  - Transformers
-  - RAG (Retrieval-Augmented Generation)
-  - AI Agents
-  - LlamaIndex Framework
+**Sustainable Growth and International Reference**: The company is ambitious about economic growth and becoming an international reference, but only at a systematic, sustainable pace that doesn't compromise their people or natural resources.
 
-### Development Tools
-- **Git**: For version control.
-- **Visual Studio Code/Cursor**: Main IDEs.
-- **SonarQube**: For static code analysis.
-- **ESLint/RUFF**: Linters for JavaScript and Python.
-- **CI/CD Tools**: For continuous integration and deployment.
-- **Businessmap/Kanbanize**: For workflow management.
+### Cultural and People Principles
 
-This technological diversity allows 23people to address a wide range of projects, from web and mobile applications to complex artificial intelligence and data analysis solutions, always with a focus on efficiency, scalability, and sustainability.
+**People First**: Based on the belief that "we work to live, not live to work," 23people was created as a place in service of human beings. They recognize that people are not disposable resources and seek mutual benefit between companies and workers.
 
-## Our Organization
+**Equity**: The company believes talent is uniformly distributed in society and avoids discrimination based on social class, religion, or gender. They apply positive discrimination when choosing between equally qualified candidates to ensure representation of underrepresented groups.
 
-### Organizational Structure
+**Xperience**: Focus on creating meaningful and memorable experiences for all stakeholders—exceptional commercial interactions with clients and stimulating work environments with growth opportunities for tech professionals.
 
-23people's structure is circular to foster collaboration and communication. It is organized into multidisciplinary teams, each with a clear purpose:
+### Operational Principles
 
-- **Tech Talent Services Team (TTS)**: Specialized in recruitment and retention of technological talent.
-- **Sales & Growth Marketing Team (SMKT)**: Manages commercial relationships and brand growth.
-- **Backoffice Services Team (BKO)**: Provides business administrative support.
-- **Research & Development Services Team (R&D)**: Explores emerging technologies.
+**Agility**: Utilizing agile principles to be an innovative, resilient, and resource-efficient company. They adhere to core agile values including individuals over processes, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan.
 
-These teams make up the **Iarvis Tribe**. There is also the **Drakkar Tribe**, which groups the subcontracted professionals who work for clients.
+**Transparency**: Open communication and information sharing across the organization, with clear boundaries for confidential information.
 
-### Internal Model
+**Sustainability**: Commitment to sustainable business practices and environmental responsibility.
 
-Each team has autonomy around a defined purpose and offers specific services through "service APIs" that specify what they deliver, what to expect, and how to request it. Each team has:
+## Technical Expertise and Methodologies
 
-- A **Service Request Manager (SRM)**: Focused on "what" and "when" to do.
-- A **Service Delivery Manager (SDM)**: Focused on "how" and "who" does it.
+23people has developed deep expertise across multiple technical domains:
 
-### Position Levels and Responsibilities
+### Technology Stack
 
-Positions are structured in three main layers:
-- **Direction**: Defines "what" must be achieved (strategic level).
-- **Management**: Implements "how" it is achieved (tactical level).
-- **Operations**: Executes "doing" the work (operational level).
+The company maintains proficiency in both mature and emerging technologies, including:
 
-## Practices
+- Cloud platforms (AWS, Azure, GCP)
+- DevOps and automation tools
+- Modern development frameworks
+- AI/ML implementation capabilities
+- Cybersecurity solutions
+- Data engineering and analytics platforms
 
-Working practices at 23people include:
+### Development Methodology
 
-1. **Manage the work, not the people**: Use of visual workflows to manage activities.
-2. **Everything is a service**: Visualizing work as a service that satisfies needs.
-3. **Asynchronous communication**: Allowing collaborators to manage their time efficiently.
-4. **Write, then communicate**: Structuring ideas before sharing them.
-5. **Narrative structure**: Framework for effectively presenting initiatives or problems.
-6. **Remote work**: Preference for remote work to improve work-life balance.
-7. **Use of OKRs**: To establish and measure key objectives and results.
+They employ agile software development practices with emphasis on:
 
-## Community and Benefits
+- Iterative and evolutionary building based on data
+- QA automation and continuous integration
+- Security-first approaches
+- Technical debt management
+- Performance optimization
 
-23people offers various benefits for its collaborators:
+### Specialization in Tech Roles
 
-### Agreements
-- Betterfly (wellness app)
-- Banco de Chile
-- Complementary Insurance
+23people specializes in roles requiring mastery of programming, software engineering, and both mature and emerging technologies. Their technical positions include Software Engineers, Data Engineers, Cloud Engineers, and AI Engineers, all starting from a solid foundation in software development.
 
-### Incentives
-- Vacation incentive
-- Birthday gift
-- National holidays and Christmas bonuses
-- Birthday day off
-- Baby shower bonus
+### Recruitment Optimization
 
-### Refunds
-- Influenza vaccination
-- Courses and training
-- International certifications
-- Improvement of workspace
+The company has developed a mature "recipe" for finding and selecting Tech Talent, going beyond CV reviews to validate actual technical skills and project experience. This rigorous validation process ensures clients can trust their recommendations and reduces expensive hiring mistakes.
 
-### Training
-- English classes
+## Sustainability and Future Focus
 
-## Sustainability
+23people demonstrates strong commitment to sustainable business practices:
 
-23people has a commitment to sustainability, including:
+### Environmental Commitment
 
-1. **Formal commitment to Science Based Targets (SBTi)**: Reduction of carbon footprint aligned with the Paris Agreement.
-2. **Emissions reduction strategy**: Plan to achieve Carbon Neutral certification.
-3. **Sustainability team**: Led by the Global Operations Manager.
-4. **Technology recommendations**: Selection of low-environmental-impact hardware and services.
+The company actively works on emission reduction strategies and maintains a dedicated sustainability team. They pursue systematic, sustainable growth that doesn't compromise natural resources, believing that "the end doesn't justify the means."
 
-## Technical Software Development Guide
+### Innovation and Development
 
-### Principles
-- Simplicity above all
-- Balance between OOP and Functional Programming
-- SOLID principles
-- Business-centered approach
-- Scalability and maintainability
-- Transparency and collaboration
+Through their R&D team, 23people continuously explores emerging technologies to generate real value for client operations. They maintain a balance between adopting cutting-edge technologies and ensuring stable, reliable solutions for enterprise clients.
 
-### Main Technologies
-1. Node.js / NestJS
-2. React
-3. Python (for ML/AI)
-4. MongoDB
-5. PostgreSQL
+### Continuous Improvement
 
-### Methodologies
-- Kanban as an agile base
-- Adaptation to project needs
-- Constant collaboration and communication
+The organization emphasizes data-driven decision making and iterative improvement across all service lines. Each team continuously measures service quality and operational efficiency, implementing improvements based on accumulated data and experience.
 
-### Practices
-- Version control (Git)
-- Code reviews
-- Automated testing
-- CI/CD
-- Pair/Mob Programming
-- Monitoring and observability
-- Light documentation
+### Knowledge Management
 
-### Security
-- SonarQube
-- Burp Suite and OWASP ZAP
-- RUFF (for Python)
-- ESLint (for JavaScript/TypeScript)
+23people maintains their handbook as a living document in GitHub, serving as the primary source of truth for organizational knowledge. This approach to documentation ensures institutional knowledge is preserved and easily accessible, allowing the team to focus on solving new problems rather than rediscovering solutions to resolved issues.
 
-## Featured Insights
+## Conclusion
 
-- **Business Digital Evolution**: Structured approach to digital evolution integrating data and expert knowledge.
-- **Recursion as a performance predictor**: Understanding recursion as an indicator of abstraction capability.
-- **Team Autonomy through Service APIs**: Model to maximize autonomy while maintaining organizational alignment.
-- **AI as a Capability Multiplier**: Use of AI to enhance professional capabilities.
+23people stands out in the technology consulting landscape through its unique combination of technical excellence, human-centered values, and sustainable business practices. By prioritizing people over profits, maintaining rigorous technical standards, and fostering a culture of continuous learning and collaboration, the company has built a distinctive position in the market.
+
+Their success is reflected not just in their sustained growth of over 30% annually, but in their ability to retain passionate professionals and deliver meaningful value to clients across continents. As they continue evolving, 23people remains committed to their founding vision: creating a workplace where technology professionals can thrive while making a positive impact on their clients' digital transformation journeys.
+
+The company's approach demonstrates that it's possible to build a successful technology business that puts people first, maintains technical excellence, and creates lasting value for all stakeholders—a model they hope can be adopted and adapted by others in the industry.
