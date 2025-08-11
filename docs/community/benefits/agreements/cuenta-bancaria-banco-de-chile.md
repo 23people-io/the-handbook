@@ -19,7 +19,7 @@ legacy_url: https://manual.23people.io/es/articles/9498220-convenio-banco-de-chi
 - Tarjeta de débito
 - Línea de crédito
 
-#### Requisito Principal
+### Requisito Principal
 Mantención $0 si abonas tu renta mensual en la cuenta
 
 ## ¿Hay otros planes disponibles?
