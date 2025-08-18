@@ -50,7 +50,7 @@ Before you start contributing, make sure you have:
 3. Create a new branch for your changes:
 
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feat/your-feature-name
    ```
 
     > [!IMPORTANTE]
