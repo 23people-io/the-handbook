@@ -10,5 +10,6 @@ description: >
 
 En 23people, nuestros casos de éxito reflejan la colaboración efectiva y el impacto positivo que hemos generado en los proyectos de nuestros clientes. Aquí compartimos algunas historias destacadas:
 
+- [Equifax USA: Formando y Escalando de Equipos de Desarrollo para InterConnect en el Santiago Development Center (SDC)](equifax-usa-formando-escalando-equipos-agiles-sdc.md)
 - [ACHS: Manteniendo la Atención de Pacientes en Tiempos de Pandemia](achs-manteniendo-la-atencion-de-pacientes-en-tiempos-de-pandemia.md)
-- [Equifax: Modernizando la Plataforma del Informe Platinum 360](equifax-modernizando-la-plataforma-del-informe-platinum-360.md)
+- [Equifax Chile: Modernizando la Plataforma del Informe Platinum 360](equifax-modernizando-la-plataforma-del-informe-platinum-360.md)

@@ -5,7 +5,7 @@ description: Equifax moderniza su Informe Platinum 360 con metodologías ágiles
 slug: equifax-modernizando-la-plataforma-del-informe-platinum-360
 ---
 
-# Equifax: Modernizando la Plataforma del Informe Platinum 360
+# Equifax Chile: Modernizando la Plataforma del Informe Platinum 360
 
 ## **Desafío**
 
