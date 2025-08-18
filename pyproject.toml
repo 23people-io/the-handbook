@@ -3,11 +3,7 @@ requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
 [project]
-<<<<<<< Updated upstream
 name = "the-handbook"
-=======
-name = "handbook"
->>>>>>> Stashed changes
 # Using dev0 to comply with PEP 440, actual versioning handled by semantic release
 version = "0.0.0.dev0"
 description = "The 23people's Public Company Handbook"

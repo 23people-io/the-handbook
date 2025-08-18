@@ -9,7 +9,7 @@ slug: achs-manteniendo-la-atencion-de-pacientes-en-tiempos-de-pandemia
 
 ## Desafío
 
-![ACHS - Proyecto de Agendamiento Telemedicina](/_assets/images/success-client-story-achs-1.png)
+![ACHS - Proyecto de Agendamiento Telemedicina](/_images/success-client-story-achs-1.png)
 
 La pandemia de COVID-19 presentó desafíos sin precedentes para el sector
 salud, particularmente en mantener la continuidad de la atención a los
@@ -26,7 +26,7 @@ no solo cumplió con los requerimientos normativos vigentes, sino que también
 se integró a la perfección con otros servicios esenciales, como consultores
 SAP, IMED y medios de pago.
 
-![ACHS - Proyecto de Agendamiento Telemedicina](/_assets/images/success-client-story-achs-2.png)
+![ACHS - Proyecto de Agendamiento Telemedicina](/_images/success-client-story-achs-2.png)
 
 La implementación de una metodología ágil fue clave en este proyecto. Esta
 aproximación permitió una adaptación y respuesta rápida a los cambios,

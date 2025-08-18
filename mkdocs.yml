@@ -155,11 +155,11 @@ nav:
           - about-us/what-we-do/index.md
           - Desafíos: about-us/what-we-do/challenges.md
           - Servicios: about-us/what-we-do/services.md
-          - Casos de Éxito:
-            - about-us/what-we-do/client-stories/index.md
-            - "Equifax USA - Formando y Escalando de Equipos de Desarrollo para InterConnect en el Santiago Development Center (SDC)": about-us/what-we-do/client-cases/equifax-usa-formando-escalando-equipos-agiles-sdc.md
-            - "Equifax Chile - Modernizando la Plataforma del Informe Platinum 360": about-us/what-we-do/client-cases/equifax-modernizando-la-plataforma-del-informe-platinum-360.md
-            - "ACHS - Manteniendo la Atención de Pacientes en Tiempos de Pandemia": about-us/what-we-do/client-cases/achs-manteniendo-la-atencion-de-pacientes-en-tiempos-de-pandemia.md
+          - Casos de Éxito: 
+            - about-us/what-we-do/client-cases/index.md
+            - "Equifax USA: Escalando de Equipos de Desarrollo para el SDC": about-us/what-we-do/client-cases/equifax-usa-formando-escalando-equipos-agiles-sdc.md
+            - "Equifax Chile: Modernizando la Plataforma del Informe Platinum 360": about-us/what-we-do/client-cases/equifax-chile-modernizando-la-plataforma-del-informe-platinum-360.md
+            - "ACHS: Manteniendo la Atención de Pacientes en Tiempos de Pandemia": about-us/what-we-do/client-cases/achs-manteniendo-la-atencion-de-pacientes-en-tiempos-de-pandemia.md
 
       - "Lo que nos diferencia":
           - about-us/how-we-work/index.md
