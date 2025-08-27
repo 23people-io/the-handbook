@@ -65,17 +65,11 @@ Los flujos de trabajo principales gestionan los siguientes tipos de items de tra
       - Nacen de las reuniones de retrospectiva donde analizamos cómo mejorar
       - Buscan hacer nuestro trabajo más eficiente o prevenir problemas futuros
 
-5. **Actividades Estrátegicas**
-      - Derivan desde una iniciativa estratégica de la organización
+5. **Actividades Claves**
+      - Derivan desde un Objetivo Estratégico de la organización
       - En general, son impulsadas por la dirección global
 
-## Items en Flujos de Trabajo Operativos
-
-Los flujos de trabajo operativos son específicos para cada equipo y se utilizan para gestionar tareas y actividades internas. Estos flujos pueden incluir:
-
-- **Tareas Operativas**: Corresponde a actividades que el equipo debe realizar de manera regular para mantener su funcionamiento. Estas tareas pueden ser asignadas a miembros específicos del equipo y tienen un plazo definido para su finalización. Ejemplo: Autorizaciones bancarias, gestión de proveedores, Envío de candidatos a cliente, Historias de Usuario para funcionalidades de software, etc.
-
-## Organización del Tablero
+## Organización Tableros para Visualización
 
 En todos los flujos de trabajo, se manejan 5 secciones que son secuenciales. Cada sección representa un estado del item de trabajo y permite al equipo visualizar el progreso de las actividades. Estas secciones son:
 
@@ -90,6 +84,7 @@ En todos los flujos de trabajo, se manejan 5 secciones que son secuenciales. Cad
 Dentro de cada area, el equipo define las etapas que considere necesarias para el flujo de trabajo. Se propone la siguiente estructura de etapas como plantilla:
 
 - **Inmaduro** (Backlog Area): Ideas o solicitudes que aún necesitan ser refinadas.
+- **En Refinamiento** (Backlog Area): Actividades que están siendo trabajadas para ser definidas y detalladas.
 - **Por Hacer** (Requested Area): Una cola de actividades listas para ser ejecutadas. El equipo ha revisado el contenido y cumple con lo "suficientemente maduro" para que el equipo pueda trabajar en ello apenas tenga capacidad.
 - **Ejecución** (In Progress Area): El equipo está trabajando actualmente en estas actividades.  Tiene las siguientes sub-etapas:
     - **En Progreso**: Trabajo que se está realizando activamente.
@@ -101,116 +96,24 @@ Dentro de cada area, el equipo define las etapas que considere necesarias para e
 
     Para distinguir fácilmente los distintos tipos de actividades, se suguiere mantener un código de colores en las tarjetas. Esto permitirá visualizar rápidamente la naturaleza de cada actividad mientras se mantiene un flujo de trabajo simple y efectivo.
 
-## Algoritmo para Daily Meetings
+## Gestión del Trabajo
 
-Esta es una de las practicas más importantes para el equipo. Dia a dia, el equipo debe revisar el tablero de trabajo y asegurarse de que todas las actividades estén en el estado correcto y avanzando a ser efectivamente terminadas. Se deben aplicar los principios de **"Preferir terminar algo antes de empezar algo nuevo"** y **"Limitar el trabajo en progreso"**.
-
-Existe una receta para la gestión diaria del trabajo que se puede seguir haciendo uso del tablero:
-
-### Pre-requisitos
-
-1. Tablero Kanban configurado con las áreas establecidas
-2. Todos los miembros del equipo presentes
-3. Moderador designado
-4. Duración máxima: 15 minutos
-
-### Algoritmo Principal
-
-1. Inicio
-
-    1.1. Bienvenida y verificación de asistencia
-    1.2. Compartir tablero visual
-
-2. Celebración de logros
-
-    2.1. Reconocer items completados desde la última daily
-
-3. Actualización del Estado del Trabajo
-
-    Por cada columna, desde la más cercana a "Listo" hacia atrás:
-
-    3.1. Para cada item en la columna actual:
-      - Preguntar: "¿Quién puede compartir el estado actual de esta actividad?"
-      - Documentar avances y obstáculos encontrados
-      - Actualizar subtareas si es necesario
-
-    3.2. Verificar capacidad de la columna:
-      - Si hay capacidad disponible, evaluar items de la columna anterior
-      - Mover los items elegibles que cumplen criterios para avanzar
-
-4. Determinación del Foco del Día (4 minutos)
-
-    4.1. Evaluar prioridades:
-      - Identificar items urgentes si existen
-      - Revisar estado general de los items ya actualizados
-      - Identificar items que, al completarse, desbloquearán otros trabajos
-
-    4.2. Establecer el foco:
-          - Comunicar los items prioritarios del día
-          - Reorganizar al equipo para trabajo en "enjambre" si es necesario
-          - Marcar como "Bloqueado - Cambio de Foco" los items que no se trabajarán
-
-5. Cierre:
-    5.1. Confirmar entendimiento del foco del día
-    5.2. Programar conversaciones necesarias para resolver impedimentos
-
-## Gestión de Bloqueos
-
-### Tipos de Bloqueo
-
-1. **Bloqueado - Cambio de Foco**
-   - Cuando el item debe pausarse para priorizar otro trabajo
-   - Cuando el equipo decide trabajar en modo "enjambre" en otro item
-
-2. **Bloqueado - Dependencia Externa**
-   - Esperando respuesta/acción de un stakeholder
-   - Dependencia de otro equipo o sistema
-   - Esperando aprobación necesaria
-
-3. **Bloqueado - Impedimento Técnico**
-   - Problemas técnicos que impiden el progreso
-   - Falta de accesos o permisos
-   - Problemas de infraestructura
-
-4. **Bloqueado - Falta de Información**
-   - Requerimientos incompletos o poco claros
-   - Falta de criterios de aceptación
-   - Necesidad de clarificación del cliente
-
-### Cuándo Marcar un Item como Bloqueado
-
-1. Criterios para Bloqueo:
-   - El impedimento no puede resolverse en las próximas 4 horas
-   - Se requiere intervención de alguien fuera del equipo
-   - No hay trabajo alternativo que pueda avanzarse en el item
-   - El riesgo de continuar es mayor que el beneficio
-
-2. Proceso de Bloqueo:
-   - Identificar y documentar la razón específica
-   - Asignar un responsable de seguimiento
-   - Establecer próxima fecha de revisión
-   - Mover el item a la columna correspondiente (si aplica)
-
-3. Gestión de Items Bloqueados:
-   - Revisar diariamente el estado del bloqueo
-   - Documentar acciones tomadas para resolver
-   - Desbloquear inmediatamente cuando se resuelve el impedimento
+Para la gestión recurrente del trabajo dentro de un Flujo de Trabajo, se siguen las indicaciones mencionadas en la [Guía de Reuniones Kanban](/practices/agile-management/kanban-meetings-guide).
 
 ## Métricas Clave
 
-1. Flujo de Trabajo
-   - Cantidad de items completados
-   - Tiempo promedio de bloqueo por tipo
-   - Efectividad del trabajo en "enjambre"
-
-2. Bloqueos
-   - Número de items bloqueados por tipo
-   - Tiempo promedio de resolución
-   - Patrones recurrentes de bloqueo
+1. **Aging Time**: Tiempo que un ítem de trabajo lleva en una etapa. Esta es la [métrica más importante a hacer seguimiento](https://getnave.com/blog/one-thing-you-should-focus-on/).
+2. **Throughput**: Cantidad de ítems de trabajo que se completan en un periodo de tiempo.
+3. **Cycle Time**: Tiempo que un ítem de trabajo ocupa entre determinadas etapas del flujo de trabajo.
+4. **Lead Time**: Tiempo que un ítem de trabajo toma en ser completada de cara a un cliente.
+5. **Bloqueos**:
+      - Número de items bloqueados por tipo
+      - Tiempo promedio de resolución
+      - Patrones recurrentes de bloqueo
 
 ## Señales de Advertencia
 
-- Items bloqueados por más de 3 días sin actualización
+- Items bloqueados por más de X días sin actualización
 - Más del 25% de items bloqueados en una columna
 - Cambios frecuentes de foco que generan múltiples bloqueos
 - Bloqueos recurrentes del mismo tipo
@@ -219,7 +122,7 @@ Existe una receta para la gestión diaria del trabajo que se puede seguir hacien
 
 Pueden existir situaciones en las que no sea necesario o conveniente usar flujos de trabajo. Algunos ejemplos son:
 
-1. Cuando las tareas son simples y son muy rapidas de implementar. En general cuando se estima que lo que se debe realizar es menor a 1 hora. Si en medio de esto, se tuvo que pausar la tarea, ya se recomienda usar un flujo de trabajo.
+1. **Cuando las tareas son simples y son muy rapidas de implementar.** En general cuando se estima que lo que se debe realizar es menor a 1 hora. Si en medio de esto, se tuvo que pausar la tarea, ya se recomienda usar un flujo de trabajo.
 
 ## Políticas comunes de uso
 

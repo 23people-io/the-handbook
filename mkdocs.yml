@@ -145,8 +145,7 @@ nav:
 
       - "Quienes somos":
           - about-us/who-we-are/index.md
-          - Principios: principles/index.md
-          - Prácticas: practices/index.md
+          - Principios: about-us/who-we-are/principles/index.md
           - Partnerships: about-us/who-we-are/partnerships.md
           - Historia: about-us/who-we-are/history.md
           - Nombre: about-us/who-we-are/name.md
@@ -170,9 +169,13 @@ nav:
           - Satisfacción de clientes: about-us/how-we-work/customer-success.md
 
       - "Lo que perseguimos":
-          - about-us/what-we-pursue/index.md
-          - Metas: about-us/what-we-pursue/goals.md
-          - Principios: about-us/what-we-pursue/principles.md
+          - about-us/what-we-pursue
+
+      - "Lo que nos guia":
+          - about-us/what-guide-us/index.md
+          - "Fundamentales": about-us/what-guide-us/fundamentals/index.md
+          - "Cultura y Personas": about-us/what-guide-us/culture-and-people/index.md
+          - "Operacionales": about-us/what-guide-us/operationals/index.md
 
   - "Comunidad":
       - Beneficios:
@@ -223,6 +226,8 @@ nav:
           - organization/tribes/index.md
           - "Iarvis Tribe": organization/tribes/iarvis-tribe/index.md
           - "Drakkar Tribe": organization/tribes/drakkar-tribe/index.md
+      - "Councils":
+          - "High Council": organization/councils/high-council.md
       - "Cargos Laborales": 
           - organization/workforce/positions/index.md
           - "Operations Director": organization/workforce/positions/operations-director.md
@@ -232,20 +237,17 @@ nav:
           - "Service Request Manager": organization/workforce/roles/service-request-manager.md
           - "Service Delivery Manager": organization/workforce/roles/service-delivery-manager.md
 
-  - "Principios":
-      - principles/index.md
-      - "Fundamentales": principles/fundamentals/index.md
-      - "Cultura y Personas": principles/culture-and-people/index.md
-      - "Operacionales": principles/operationals/index.md
+  
 
-  # - "Prácticas":
-  #     - practices/index.md
-  #     - "Agile Management":
-  #         - practices/agile-management/index.md
-  #         - "Gestionamos el trabajo, no las personas": practices/agile-management/workflows-manage-work-not-people.md
-  #     - "Comunicación":
-  #         - practices/communication/index.md
-  #         - "Nos comunicamos de forma asincrónica": practices/communication/asynchronous-communication.md
+  - "Prácticas":
+      - practices/index.md
+      - "Agile Management":
+          - practices/agile-management/index.md
+          - "Gestionamos el trabajo, no las personas": practices/agile-management/workflows.md
+          - "Guia para Reuniones Kanban": practices/agile-management/kanban-meetings-guide.md
+      - "Comunicación":
+          - practices/communication/index.md
+          - "Nos comunicamos de forma asincrónica": practices/communication/asynchronous-communication.md
   #         - "Escribirmos, luego comunicamos": practices/communication/write-then-communicate.md
   #         - "Estructuramos la narrativa de lo que hacmeos": practices/communication/structure-the-narrative.md
 

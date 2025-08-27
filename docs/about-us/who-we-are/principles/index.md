@@ -6,7 +6,7 @@ description: >
   Principios que compartimos en 23people y que guían nuestras decisiones y comportamientos.
 ---
 
-# Principios de 23people
+# Los principios que nos guian
 
 Los principios son las reglas que nos guían en nuestros comportamientos esperados y decisiones dentro de 23people de manera objetiva y menos interpretativa. Funcionan como directrices amplias que orientan nuestras acciones y la toma de decisiones en todas las situaciones, traduciendo nuestras convicciones fundamentales en pautas concretas de comportamiento.
 
