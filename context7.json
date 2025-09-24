@@ -1,0 +1,15 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "The 23people's Handbook",
+  "description": "All the public consolidated information about 23people.io in markdown files. This accumulated information is utilized by LLMs for various tasks related to the company",
+  "folders": ["docs"],
+  "excludeFolders": ["_extra", "_images"],
+  "excludeFiles": ["!*.md"],
+  "rules": [],
+  "previousVersions": [
+    {
+      "tag": "v0.15.0",
+      "title": "version 0.15.0"
+    }
+  ]
+}
