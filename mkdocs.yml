@@ -233,6 +233,7 @@ nav:
       - "Cargos Laborales": 
           - organization/workforce/positions/index.md
           - "Operations Director": organization/workforce/positions/operations-director.md
+          - "Senior Business Development Manager": organization/workforce/positions/senior-business-development-manager.md
       - "Roles":
           - organization/workforce/roles/index.md
           - "Global Operations Manager": organization/workforce/roles/global-operations-manager.md
