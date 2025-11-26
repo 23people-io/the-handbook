@@ -88,7 +88,7 @@ Es importante tener en cuenta que el costo de las cargas familiares es
 cubierto por el trabajador y será descontado mensualmente de tu liquidación de
 sueldo.
 
-#### ¿Cual es el costo de las cargas?
+### ¿Cual es el costo de las cargas?
 
 **1 Carga:** 0,4431  
 ​**2 o más cargas:** 0,8838 UF

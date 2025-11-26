@@ -37,11 +37,13 @@ dev = [
     "pytest-mock<4.0.0,>=3.14.0",
     "deadcode>=2.3",
     "commitizen>=4.7.2",
+    "pymarkdownlnt>=0.9.26",
 ]
 
 [project.scripts]
 start = "scripts.main:start"
 commit = "scripts.main:commit"
+lint-markdown = "scripts.main:lint_markdown"
 
 [tool.pyright]
 defineConstant = {DEBUG = true}

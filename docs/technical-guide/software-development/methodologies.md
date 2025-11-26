@@ -16,4 +16,3 @@ En 23people, hemos adoptado un enfoque ágil que nos permite adaptarnos rápidam
 4. **Integración con la cultura de simplificación**  
    - La metodología Kanban se alinea perfectamente con el principio de simplificación: se trata de un sistema ligero y adaptable que nos ayuda a enfocarnos en lo esencial.  
    - Buscamos que cada tarea se divida en unidades de trabajo lo más pequeñas y manejables posibles, reduciendo la complejidad y acelerando la entrega de valor.
-

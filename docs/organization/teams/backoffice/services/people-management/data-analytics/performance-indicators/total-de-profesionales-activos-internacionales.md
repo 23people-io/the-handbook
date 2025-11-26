@@ -16,20 +16,20 @@ Indica el tamaño de la fuerza laboral en mercados internacionales, crucial
 para evaluar la expansión global y la capacidad de manejar proyectos
 internacionales.
 
-### Frecuencia de Cálculo
+## Frecuencia de Cálculo
 
 Mensual.
 
-### Unidad de Medida
+## Unidad de Medida
 
 Número de profesionales (cantidad).
 
-### Cómo Calcularlo
+## Cómo Calcularlo
 
 Sumar el número de profesionales activos en todas las ubicaciones
 internacionales al cierre de cada mes.
 
-#### Ejemplo Numérico
+### Ejemplo Numérico
 
 Si se tienen 80 profesionales activos en el extranjero, ese es el valor del
 KPI.

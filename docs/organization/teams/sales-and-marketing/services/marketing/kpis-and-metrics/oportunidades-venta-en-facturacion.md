@@ -12,11 +12,11 @@ legacy_url: https://manual.23people.io/es/articles/9769612-oportunidades-de-vent
 
 # Oportunidades de Venta en Facturación (ISO)
 
-### Descripción
+## Descripción
 
 Representa el número de oportunidades de venta que han completado el ciclo y
 han sido facturadas, indicando la conversión final a ingresos.
 
-### Fórmula
+## Fórmula
 
 **ISO** = Número total de oportunidades de venta facturadas durante el mes
