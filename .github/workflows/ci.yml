@@ -1,0 +1,42 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - feature/*
+      - version/*
+      - staging
+      - main
+
+jobs:
+  build-and-deploy:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup | Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup | Install Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Setup | Cache Bun dependencies
+        id: cache-bun
+        uses: actions/cache@v4
+        env:
+          cache-name: cache-bun-modules
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ env.cache-name }}-${{ hashFiles('**/bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-${{ env.cache-name }}-
+            ${{ runner.os }}-bun-
+
+      - name: Setup | Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Action | Linting
+        run: |
+          bun run lint:markdown

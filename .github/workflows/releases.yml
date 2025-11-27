@@ -1,45 +1,63 @@
-name: Release
+name: Release Version
+
 on:
-  push:
+  workflow_run:
+    workflows: ["CI/CD"] # Depends on successful CI/CD workflow
+    types:
+      - completed
     branches:
       - main
 
 permissions:
-  contents: read # for checkout
-
-env:
-  PYTHON_VERSION: "3.11.11"
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
 
 jobs:
-  release:
-    name: Release
+  release-version:
+    name: Release | Create Semantic Release
+    if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # to be able to publish a GitHub release
-      issues: write # to be able to comment on released issues
-      pull-requests: write # to be able to comment on released pull requests
-      id-token: write # to enable use of OIDC for npm provenance
+    outputs:
+      new_release_published: ${{ steps.semantic.outputs.new_release_published }}
+      new_release_version: ${{ steps.semantic.outputs.new_release_version }}
+
     steps:
-      - name: Setup | Checkout Repository on Release Branch
+      - name: Setup | Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
           fetch-depth: 0
+          persist-credentials: true
 
-      - name: Action | Semantic Version Release
-        id: release
-        # Adjust tag with desired version if applicable.
-        uses: python-semantic-release/python-semantic-release@v9.21.1
+      - name: Setup | Install Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          commit: false
-          changelog: false
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          git_committer_name: "github-actions"
-          git_committer_email: "actions@users.noreply.github.com"
+          bun-version: latest
 
-      - name: Publish | Upload to GitHub Release Assets
-        uses: python-semantic-release/publish-action@v9.21.1
-        if: steps.release.outputs.released == 'true'
+      - name: Setup | Cache Bun dependencies
+        id: cache-bun
+        uses: actions/cache@v4
+        env:
+          cache-name: cache-bun-modules
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ steps.release.outputs.tag }}
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ env.cache-name }}-${{ hashFiles('**/bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-${{ env.cache-name }}-
+            ${{ runner.os }}-bun-
+
+      - name: Setup | Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Setup | Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Action | Create Release
+        id: semantic
+        uses: cycjimmy/semantic-release-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          

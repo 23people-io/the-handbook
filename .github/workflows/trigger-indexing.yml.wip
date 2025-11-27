@@ -1,4 +1,4 @@
-name: Trigger Indexing on Vector Database
+name: Indexing on Vector Database
 
 on:
   push:
