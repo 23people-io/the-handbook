@@ -29,6 +29,9 @@ This skill is an expert system for managing the 23people handbook content. It:
    - Maintains consistency with existing structure
 
 2. **Content Creation & Updates**
+   - The name of the file to create/update must be in english and use hyphens for spaces
+   - Creates new markdown files with proper frontmatter
+   - Updates existing files while preserving style and tone
    - Generates clear, descriptive markdown content
    - Writes text in spanish by default
    - Follows handbook writing style (descriptive, not marketing)
@@ -75,13 +78,17 @@ Every handbook page must have proper frontmatter:
 
 ```yaml
 ---
-created: YYYY-MM-DDTHH:mm:ss (UTC -04:00)
-updated: YYYY-MM-DDTHH:mm:ss (UTC -04:00)
+created: YYYY-MM-DDTHH:mm:ssZ (UTC -04:00)
+updated: YYYY-MM-DDTHH:mm:ssZ (UTC -04:00)
 authors:
   - manu-reyes-23p
 description: >
   Brief description of the page content
 ---
+
+# [Page Title]
+
+...
 ```
 
 ## Handbook Structure (from mkdocs.yml)
