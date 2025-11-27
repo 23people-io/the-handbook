@@ -10,16 +10,16 @@ slug: convenio-banco-de-chile
 legacy_url: https://manual.23people.io/es/articles/9498220-convenio-banco-de-chile
 ---
 
-# 💳 Convenio Banco de Chile.  
+# 💳 Convenio Banco de Chile  
   
-
-
 ## Plan Valle
+
 - Cuenta corriente
 - Tarjeta de débito
 - Línea de crédito
 
 ### Requisito Principal
+
 Mantención $0 si abonas tu renta mensual en la cuenta
 
 ## ¿Hay otros planes disponibles?
@@ -45,6 +45,7 @@ Sucursal El Bosque Banco Chile**
 ​**Email:** [fpriquelme@bancochile.cl](mailto:fpriquelme@bancochile.cl)
 
 ## Consideraciones
+
 Sin restricción de antigüedad
 Condiciones sujetas a evaluación bancaria
 Beneficios exclusivos para colaboradores de 23people

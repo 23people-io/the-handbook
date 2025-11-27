@@ -24,21 +24,21 @@ aunque su acceso dependerá de los permisos correspondientes en Google Drive
 
 ## Laboral
 
-**Procedimiento para** |  **Mantenido por** |  **Aplica para**  
----|---|---  
-[Registro de Asistencia (vía BUK)](https://docs.google.com/document/d/1C_EhzfOv4ayM_HrFLdeZXu6uryi9Yb6xXhRTpOm6l58/edit?usp=drive_link) |  People Growth |  Todos en 23people  
-[Solicitud de Vacaciones](https://docs.google.com/document/d/1ulmj1zncRnRkvGybftOD40nMpfZVVLtTAHMjYMQuhps/edit?usp=drive_link) |  People Growth |  Drakkar Tribe (cliente)  
-Solicitud de Vacaciones |  People Growth |  Jarvis Tribe  
+**Procedimiento para**                                                                                                                  | **Mantenido por** | **Aplica para**
+----------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------------
+[Registro de Asistencia (vía BUK)](https://docs.google.com/document/d/1C_EhzfOv4ayM_HrFLdeZXu6uryi9Yb6xXhRTpOm6l58/edit?usp=drive_link) | People Growth     | Todos en 23people
+[Solicitud de Vacaciones](https://docs.google.com/document/d/1ulmj1zncRnRkvGybftOD40nMpfZVVLtTAHMjYMQuhps/edit?usp=drive_link)          | People Growth     | Drakkar Tribe (cliente)
+Solicitud de Vacaciones                                                                                                                 | People Growth     | Jarvis Tribe
   
 ## Beneficios
 
-**Procedimiento para** |  **Mantenido por** |  **Aplica para**  
----|---|---  
-[Reembolso Vacuna contra la Influenza](https://docs.google.com/document/d/12oaQ2ghlig1syE7qSR7u4ZLwAz5ZceGbOQxybNAr0jM/edit?usp=drive_link) |  People Growth |  Todos en 23people  
+**Procedimiento para**                                                                                                                      | **Mantenido por** | **Aplica para**
+--------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------
+[Reembolso Vacuna contra la Influenza](https://docs.google.com/document/d/12oaQ2ghlig1syE7qSR7u4ZLwAz5ZceGbOQxybNAr0jM/edit?usp=drive_link) | People Growth     | Todos en 23people
   
 ## Financieros y contables
 
-**Procedimiento para** |  **Mantenido por** |  **Aplica para**  
----|---|---  
-[Rendición de Fondos](https://docs.google.com/document/d/1bD8kUk5Hos0272CqYKjYJ6Owk6ZF_VAzhyumUbBK9-M/edit?usp=drive_link) |  Finances |  Todos en 23people  
-[Reembolso de Gastos](https://docs.google.com/document/d/1A0TgdVysk-1Xq_i_7R-QSQGHed3eToELLR5qa7MvqYI/edit?usp=drive_link) |  Finances |  Todos en 23people
+**Procedimiento para**                                                                                                     | **Mantenido por** | **Aplica para**
+---------------------------------------------------------------------------------------------------------------------------|-------------------|------------------
+[Rendición de Fondos](https://docs.google.com/document/d/1bD8kUk5Hos0272CqYKjYJ6Owk6ZF_VAzhyumUbBK9-M/edit?usp=drive_link) | Finances          | Todos en 23people
+[Reembolso de Gastos](https://docs.google.com/document/d/1A0TgdVysk-1Xq_i_7R-QSQGHed3eToELLR5qa7MvqYI/edit?usp=drive_link) | Finances          | Todos en 23people

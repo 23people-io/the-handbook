@@ -16,20 +16,20 @@ Mide la cantidad de personal activo en las operaciones locales, reflejando la
 capacidad de la empresa en el mercado local y su crecimiento o contracción en
 profesionales.
 
-### Frecuencia de Cálculo
+## Frecuencia de Cálculo
 
 Mensual.
 
-### Unidad de Medida
+## Unidad de Medida
 
 Número de profesionales (cantidad)
 
-### Cómo Calcularlo
+## Cómo Calcularlo
 
 Contabilizar el número total de profesionales activos en la localidad al final
 de cada mes.
 
-#### Ejemplo Numérico
+### Ejemplo Numérico
 
 Si al final de un mes, la empresa cuenta con 150 profesionales activos
 localmente, ese es el valor del KPI.

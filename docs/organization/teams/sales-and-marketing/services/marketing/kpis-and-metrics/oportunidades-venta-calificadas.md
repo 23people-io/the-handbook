@@ -12,7 +12,7 @@ legacy_url: https://manual.23people.io/es/articles/9769589-oportunidades-de-vent
 
 # Oportunidades de Venta Calificadas (QSO)
 
-### Descripción
+## Descripción
 
 Mide el número de oportunidades de venta que han pasado el proceso de
 calificación y se consideran potenciales y viables de poder concretar según
@@ -30,6 +30,6 @@ Se entiende por **Calificada** que se cumplan los siguientes criterios:
 
   5. Consideramos que tiene el presupuesto para poder contratar nuestros servicios.
 
-### Fórmula
+## Fórmula
 
 **QSO** = Número total de oportunidades de venta calificadas al final del mes.

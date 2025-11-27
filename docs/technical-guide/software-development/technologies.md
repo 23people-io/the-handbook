@@ -21,7 +21,7 @@ En 23people utilizamos un conjunto de tecnologías cuidadosamente seleccionadas 
     - Permite consultas avanzadas y la manipulación de grandes volúmenes de información de manera eficiente.
 
 **Razones de la selección tecnológica**  
+
 - **Ecosistema confiable y maduro**: Cada tecnología cuenta con una amplia comunidad de soporte, librerías y documentación.  
 - **Escalabilidad y rendimiento**: El stack garantiza la capacidad de manejar altos volúmenes de datos y peticiones.  
 - **Flexibilidad y simplicidad**: Todas las tecnologías se integran de manera armónica, permitiendo diseñar soluciones eficientes y sencillas de mantener.
-

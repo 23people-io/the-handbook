@@ -12,12 +12,12 @@ legacy_url: https://manual.23people.io/es/articles/8795886-customer-retention-ra
 
 # Customer Retention Rate (CRR)
 
-### Descripción
+## Descripción
 
 Mide el porcentaje de clientes que continúan haciendo negocios con la empresa
 en un período determinado, indicando la fidelidad y satisfacción del cliente.
 
-### Fórmula
+## Fórmula
 
 **CRR** = (Número de clientes al final del mes - Nuevos clientes adquiridos
 durante el mes) / Número de clientes al inicio del mes x 100

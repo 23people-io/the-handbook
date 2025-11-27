@@ -16,14 +16,25 @@ def commit():
 
     # Run bump version script
     print("\033[35mStarting conventional commit...\033[0m")
-    
+
     # First add all changes
     _run_command("git add .", "Failed to stage changes")
-    
+
     # Then run the interactive cz commit with TTY access
     _run_command_interactive("uv run cz commit", "Failed to create a conventional commit")
 
     print("\033[35m✔ Completed successfully.\033[0m")
+
+
+def lint_markdown():
+    """Check markdown files for formatting issues using pymarkdownlnt."""
+    print("\033[35mChecking markdown files...\033[0m")
+
+    # Run pymarkdown scan on docs directory
+    # pymarkdownlnt automatically reads .markdownlint.yaml configuration
+    _run_command("uv run pymarkdown --config .markdownlint.yaml scan docs/", "Markdown linting failed")
+
+    print("\033[35m✔ All markdown files are properly formatted.\033[0m")
 
 
 def _run_command(command: str, error_message: str) -> None:

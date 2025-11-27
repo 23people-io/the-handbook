@@ -23,4 +23,3 @@ Para 23people, la seguridad y la calidad del código son prioridades fundamental
     - **Revisiones de seguridad y calidad periódicas**: Más allá de las revisiones de código cotidianas, establecemos auditorías ocasionales para garantizar que el proyecto cumpla con los requisitos de seguridad y que se apliquen las mejores prácticas.
 
 Con este enfoque, nos aseguramos de que cada línea de código escrita en 23people cumpla con altos estándares de calidad y seguridad, reforzando la confianza de nuestros clientes y respaldando nuestro compromiso con la simplificación y la excelencia técnica.
-

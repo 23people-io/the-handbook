@@ -12,7 +12,7 @@ legacy_url: https://manual.23people.io/es/articles/9769609-oportunidades-de-vent
 
 # Oportunidades de Venta Comprometidas (CSO)
 
-### Descripción
+## Descripción
 
 Cuantifica las oportunidades de venta que han resultado en un compromiso
 formal del cliente.
@@ -22,7 +22,7 @@ siguientes criterios:
 
 * En IT Talent, se considera como aquellas oportunidades comerciales (pedidos) que están en la etapa de "Por Facturar".
 
-### Fórmula
+## Fórmula
 
 **CSO** = Número total de oportunidades de venta con compromisos formales al
 final del mes

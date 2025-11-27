@@ -1,5 +1,4 @@
 
-
 En 23people creemos que cada proyecto de software debe ser un proceso de simplificación de un problema real. Esta premisa se convierte en nuestro principio rector y se ve reflejada en cada etapa de desarrollo. A continuación, describimos nuestros principales pilares y los principios que los sustentan:
 
 1. **Simplicidad ante todo**  

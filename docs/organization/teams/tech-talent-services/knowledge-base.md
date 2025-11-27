@@ -20,7 +20,6 @@ Esta sección permite acceder a diversos materiales, **de uso interno**, y que e
 1. [[TTS] Tech Talent Services - 23people (NotebookLM)](https://notebooklm.google.com/notebook/7ebc69f6-5183-49bf-8ab8-8313253b4f36). Es una herramienta de Google Workspace en la cuenta privada de 23people. Podrás hacer consultas a un chatbot con IA pero solo hacia fuentes de TTS.
 2. [Carpeta Knowledge Base de TTS (Google Drive)](https://drive.google.com/drive/folders/1I7fsUheakpNjep81LQCrwGPyDgkVK6te?usp=drive_link)
 
-
 ---
 
 ## References
