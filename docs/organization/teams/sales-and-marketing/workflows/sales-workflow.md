@@ -1,46 +1,39 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
-created: 2025-11-26T22:30:45
-updated: 2025-11-26T22:30:45Z
+created: 2025-11-26T22:30:45Z
+updated: 2025-11-27T22:30:45Z
 authors:
     - manu-reyes-23p
 description: >
     Proceso de Venta Consultiva de 23people: metodología de 5 etapas para ventas grandes enfocada en conversión, guiando al cliente a tomar el siguiente paso en cada fase.
 ---
 
-# Proceso de Venta Consultiva
+# Flujo de Ventas Consultiva de 23people
 
-!!! example "Enfoque del Proceso"
+## Propósito
 
-    Este proceso se centra en **conversión** y está diseñado para **ventas grandes**, donde tu rol es guiar al cliente a tomar el siguiente paso en todo momento.
+El Proceso de Venta Consultiva es la metodología estructurada de 5 etapas que tenemos en 23people para maximizar la conversión de ventas complejas y de alto valor. Cada etapa tiene objetivos claros y señales concretas que indican cuándo es apropiado avanzar al siguiente paso.
 
-El Proceso de Venta Consultiva es una metodología estructurada de 5 etapas diseñada para maximizar la conversión en ventas complejas y de alto valor. Cada etapa tiene objetivos claros y señales concretas que indican cuándo es apropiado avanzar al siguiente paso.
+Este proceso está diseñado para **Ventas Consultivas Corporativas** (proyectos complejos y de alto valor), no para ventas transaccionales. En grandes ventas, es fundamental que el vendedor guíe al cliente a dar el siguiente paso en cada interacción.
 
-!!! info "Contexto: Grandes Ventas"
+!!! info "El rol del Vendedor Consultivo"
 
-    Este proceso está diseñado para **grandes ventas** (proyectos complejos y de alto valor), no para ventas transaccionales. En grandes ventas, es fundamental que el vendedor guíe al cliente a dar el siguiente paso en cada interacción. El rol del vendedor es posicionarse como **experto confiable** que ayuda al cliente a resolver su problema.
+    El rol del vendedor es posicionar a 23people como **asesor experto confiable** que ayuda al cliente a resolver realmente su problema. No debemos ser un "Cotizador de Requerimientos".
 
-## Resumen Ejecutivo
+## Pipeline de Ventas Consultivas (Proceso)
 
-La siguiente tabla resume las 5 etapas del proceso de venta consultiva:
+El siguiente diagrama ilustra el Flujo General de las Ventas Consultivas en 5 etapas:
 
-| Etapa                                                       | Objetivo Principal                                                                                                                                                 | Señales Concretas Clave                                                                                                                                                                                                                                                                                                                                                                                |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **1. Levantar Oportunidad** | Identificar necesidad real del cliente, validar que 23people puede ayudar, obtener compromiso para avanzar | Cliente acepta activamente próxima reunión, se genera "gancho" mostrando CÓMO se resuelve el problema, cliente acepta preguntas de investigación, fecha de implementación conocida |
-| **2. Validación de la Solución / Levantar Requerimientos** | Mostrar expertise, validar que la solución propuesta tiene sentido para el cliente, determinar requerimientos específicos para cotizar | Cliente valida que la solución tiene sentido y cumple expectativas, cliente da activamente siguiente paso (interés en continuar), desbloquear posibilidad de obtener detalles de requerimientos (NDA, registro de proveedor), determinar concretamente qué se necesita para propuesta económica |
-| **3. Presentar Propuesta** | Presentar formalmente la solución previamente acordada y ser seleccionado como proveedor experto | Reunión agendada para aclarar dudas inmediatamente después de presentación (las cotizaciones no se envían, se presentan), cliente invierte tiempo asistiendo a presentación (no solo pide documento), Gerente de TI o tomadores de decisión relevantes presentes, seguridad previa (señales concretas) de que la propuesta será aceptada |
-| **4. Seguimiento** | Generar "duda emocional" en el cliente para asegurar cooperación y transparencia en el flujo de información sobre el estado de la oportunidad | Cliente coopera y entrega información transparente sobre riesgos/retrasos/problemas, mantener comunicación enviando material de valor que continúa posicionando como experto (no spam), cliente toma paso concreto como hacer clic en material de interés enviado (caso de estudio) |
-| **5. Cierre** | Analizar y determinar causas específicas que llevaron al resultado de la oportunidad (ganada o perdida) | Lograr determinar causas exactas que llevaron a ganar o perder, identificar si la causa fue un atributo clave diferenciador para aprovechar con otros clientes |
+!!! info "Este es un flujo de Oportunidades Calificadas"
 
-## Flujo del Proceso
+    Los items que pasarán en cada etapa corresponden a **Oportunidades Calificadas de Venta Consultiva**:
 
-El siguiente diagrama ilustra el flujo general del Proceso de Venta Consultiva:
+    - Son oportunidades que vienen desde el [Flujo de Prospección](./prospection-workflow.md).
+    - Han sido calificadas como viables para avanzar en el proceso de ventas.
 
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
 flowchart TD
-    A[1. Levantar Oportunidad]:::stage1 --> B[2. Validación de Solución /<br/>Levantar Requerimientos]:::stage2
+    A[1. Levantar Oportunidad]:::stage1 --> B[2. Validación de Solución<br/> y Levantamiento de Requerimientos]:::stage2
     B --> C[3. Presentar Propuesta]:::stage3
     C --> D[4. Seguimiento]:::stage4
     D --> E{Decisión del Cliente}
@@ -67,7 +60,17 @@ flowchart TD
     classDef learning fill:#fff9e1,stroke:#cc9900,stroke-width:2px
 ```
 
-## 1. Levantar Oportunidad
+La siguiente tabla resume las 5 etapas del proceso de venta consultiva:
+
+| Etapa                                                       | Objetivo Principal                                                                                                                                                 |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1. Levantar<br>Oportunidad** | Identificar necesidad real del cliente, validar que 23people puede ayudar, obtener compromiso para avanzar |
+| **2. Validación de la<br>Solución y Levantamiento<br>de Requerimientos** | Mostrar expertise, validar que la solución propuesta tiene sentido para el cliente, determinar requerimientos específicos para cotizar |
+| **3. Presentar<br>Propuesta** | Presentar formalmente la solución previamente acordada y ser seleccionado como proveedor experto |
+| **4. Seguimiento** | Generar "duda emocional" en el cliente para asegurar cooperación y transparencia en el flujo de información sobre el estado de la oportunidad |
+| **5. Cierre** | Analizar y determinar causas específicas que llevaron al resultado de la oportunidad (ganada o perdida) |
+
+## Etapa 1. Levantar Oportunidad
 
 ### Objetivo
 
@@ -75,9 +78,9 @@ Identificar la necesidad real del cliente, validar que 23people puede efectivame
 
 Esta etapa es fundamental para establecer las bases de una relación comercial exitosa, asegurando que ambas partes estén alineadas en cuanto a expectativas y viabilidad de la solución.
 
-### Señales Concretas
+### Definición de Listo
 
-Las siguientes señales indican que esta etapa está siendo ejecutada correctamente:
+Las siguientes condiciones deben cumplirse para considerar esta etapa completada y avanzar a la siguiente. Se debe tomar como un checklist:
 
 1. **Compromiso de Continuidad**: El cliente acepta activamente programar y asistir a la próxima reunión, demostrando interés genuino en explorar la solución.
 
@@ -87,19 +90,13 @@ Las siguientes señales indican que esta etapa está siendo ejecutada correctame
 
 4. **Temporalidad Definida**: Se ha identificado y confirmado una fecha de implementación clara, lo que indica seriedad y urgencia en la necesidad del cliente.
 
-### Mejores Prácticas
+### Buenas Prácticas
 
-!!! tip "Consejo para Levantar Oportunidades"
+1. Durante esta etapa, enfócate en escuchar activamente al cliente y hacer preguntas abiertas que revelen la profundidad de su problema. No avances a la siguiente etapa hasta que tengas confirmación explícita de que el cliente ve valor en continuar la conversación.
 
-    Durante esta etapa, enfócate en escuchar activamente al cliente y hacer preguntas abiertas que revelen la profundidad de su problema. No avances a la siguiente etapa hasta que tengas confirmación explícita de que el cliente ve valor en continuar la conversación.
+2. **Aplicar las 4 etapas de la entrevista**: En esta primera reunión, dedica máximo 10 minutos a la Apertura, luego enfócate en Investigación (el cliente debe hablar más que tú), Muestra Aptitud con casos relevantes, y cierra buscando Compromiso de Avance para una segunda reunión.
 
-    **Aplicando las 4 etapas de la entrevista**: En esta primera reunión, dedica máximo 10 minutos a la Apertura, luego enfócate en Investigación (el cliente debe hablar más que tú), Muestra Aptitud con casos relevantes, y cierra buscando Compromiso de Avance para una segunda reunión.
-
-### Relación con el Flujo de Ventas
-
-Esta etapa típicamente corresponde a la transición de [Oportunidad Inmadura](../../glossary.md#oportunidad-inmadura) a [Oportunidad Calificada](../../glossary.md#oportunidad-calificada) en el [Flujo de Ventas General](../../glossary.md#flujo-de-ventas-general).
-
-## 2. Validación de la Solución / Levantar Requerimientos
+## Etapa 2. Validación de la Solución y Levantamiento de Requerimientos
 
 ### Objetivo
 
@@ -107,9 +104,9 @@ Demostrar expertise y conocimiento profundo del dominio del problema, validar qu
 
 Esta etapa transforma el interés inicial en un entendimiento compartido de la solución y los requisitos para su implementación.
 
-### Señales Concretas
+### Definición de Listo
 
-Las siguientes señales indican que esta etapa está siendo ejecutada correctamente:
+Las siguientes condiciones deben cumplirse para considerar esta etapa completada y avanzar a la siguiente. Se debe tomar como un checklist:
 
 1. **Validación de Solución**: El cliente confirma explícitamente que la solución propuesta tiene sentido para su contexto, cumple con sus expectativas y aborda efectivamente sus necesidades identificadas.
 
@@ -119,23 +116,15 @@ Las siguientes señales indican que esta etapa está siendo ejecutada correctame
 
 4. **Claridad en Requerimientos**: Se determina de manera concreta y específica qué elementos, información y detalles se necesitan para elaborar una propuesta económica que responda con precisión a las necesidades del cliente.
 
-### Mejores Prácticas
+### Buenas Prácticas
 
-!!! tip "Consejo para Validación de Solución"
+1. **Mostrar Aptitud**: En esta etapa, es crucial demostrar conocimiento del sector y casos similares. Comparte ejemplos relevantes (casos de éxito) que refuercen tu posición como experto. Asegúrate de documentar todos los requerimientos con precisión para evitar sorpresas en etapas posteriores.
 
-    En esta etapa, es crucial demostrar conocimiento del sector y casos similares. Comparte ejemplos relevantes (casos de éxito) que refuercen tu posición como experto. Asegúrate de documentar todos los requerimientos con precisión para evitar sorpresas en etapas posteriores.
+2. **Criterio de calificación**: El vendedor debe ser capaz de calificar las oportunidades. Si determinaste que no hay oportunidad real, está perfecto. Madurar para decir "no" frente a algo es parte del rol comercial. El tiempo es escaso para ambos lados.
 
-    **Criterio de calificación**: El vendedor debe ser capaz de calificar las oportunidades. Si determinaste que no hay oportunidad real, está perfecto. Madurar para decir "no" frente a algo es parte del rol comercial. El tiempo es escaso para ambos lados.
+3. **No Crear Cotizaciones Prematuras**: No enviar cotización antes de lograr posicionarte como experto. Crear cotizaciones ocupa tiempo valioso. Si el cliente pide cotización en la primera reunión, primero logra que te permita ahondar más en su necesidad. Recuerda: antes de que se genere el valor, todo es caro para el cliente.
 
-!!! warning "No Crear Cotizaciones Prematuras"
-
-    **No deberías enviar cotización antes de lograr posicionarte como experto**. Crear cotizaciones ocupa tiempo valioso. Si el cliente pide cotización en la primera reunión, primero logra que te permita ahondar más en su necesidad. Recuerda: antes de que se genere el valor, todo es caro para el cliente.
-
-### Relación con el Flujo de Ventas
-
-Esta etapa consolida la [Oportunidad Calificada](../../glossary.md#oportunidad-calificada) y sienta las bases para avanzar hacia [Oportunidad Comprometida](../../glossary.md#oportunidad-comprometida).
-
-## 3. Presentar Propuesta
+## Etapa 3. Presentar Propuesta
 
 ### Objetivo
 
@@ -143,9 +132,9 @@ Presentar formalmente la solución técnico-comercial previamente acordada y pos
 
 **Principio fundamental**: Las cotizaciones no se envían, se presentan. Esta distinción es crítica para mantener el control del proceso y poder aclarar dudas en tiempo real.
 
-### Señales Concretas
+### Definición de Listo
 
-Las siguientes señales indican que esta etapa está siendo ejecutada correctamente:
+Las siguientes condiciones deben cumplirse para considerar esta etapa completada y avanzar a la siguiente:
 
 1. **Reunión de Aclaración Inmediata**: Se agenda una reunión para aclarar dudas inmediatamente después de la presentación de la propuesta, permitiendo abordar objeciones y refinar detalles mientras el interés está en su punto más alto.
 
@@ -155,11 +144,9 @@ Las siguientes señales indican que esta etapa está siendo ejecutada correctame
 
 4. **Señales Previas de Aceptación**: Existen indicadores concretos previos a la presentación que sugieren fuertemente que la propuesta será aceptada, como feedback positivo en reuniones preparatorias o confirmación de alineación presupuestaria.
 
-### Mejores Prácticas
+### Buenas Prácticas
 
-!!! tip "Consejo para Presentar Propuestas"
-
-    Nunca presentes una propuesta sin haber preparado el terreno previamente. La presentación debe ser una formalización de lo que ya has discutido y validado con el cliente. Si no tienes señales previas de aceptación, considera que aún no estás listo para esta etapa.
+1. Nunca presentar una propuesta sin haber preparado el terreno previamente. La presentación debe ser una formalización de lo que ya has discutido y validado con el cliente. Si no tienes señales previas de aceptación, considera que aún no estás listo para esta etapa.
 
 !!! warning "Atención"
 
@@ -177,9 +164,9 @@ Generar una "duda emocional" positiva en el cliente que asegure su cooperación 
 
 La "duda emocional" significa que el cliente siente que podría perder una oportunidad valiosa si no mantiene la comunicación activa, sin generar presión negativa.
 
-### Señales Concretas
+### Definición de Listo
 
-Las siguientes señales indican que esta etapa está siendo ejecutada correctamente:
+Las siguientes condiciones deben cumplirse para considerar esta etapa completada y avanzar a la siguiente:
 
 1. **Transparencia en la Comunicación**: El cliente coopera activamente y entrega información transparente sobre posibles riesgos, retrasos, problemas internos o cambios en las prioridades que puedan afectar la oportunidad.
 
@@ -224,9 +211,9 @@ Analizar sistemáticamente y determinar las causas específicas que condujeron a
 
 El cierre no es simplemente registrar un "sí" o un "no", sino entender el **por qué** detrás del resultado.
 
-### Señales Concretas
+### Definición de Listo
 
-Las siguientes señales indican que esta etapa está siendo ejecutada correctamente:
+Las siguientes condiciones deben cumplirse para considerar esta etapa completada:
 
 1. **Identificación de Causas Raíz**: Se logra determinar con precisión las causas exactas y específicas que llevaron a ganar o perder la oportunidad, evitando generalizaciones o suposiciones vagas.
 
@@ -260,8 +247,6 @@ Las siguientes señales indican que esta etapa está siendo ejecutada correctame
 ### Relación con el Flujo de Ventas
 
 Esta etapa finaliza el ciclo de la oportunidad, llevándola a [Oportunidad Lista](../../glossary.md#oportunidad-lista) (si fue ganada y completada la implementación) o [Oportunidad Perdida](../../glossary.md#oportunidad-perdida) (si no se concretó la venta).
-
-
 
 ## Principios Fundamentales del Proceso
 

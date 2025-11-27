@@ -9,17 +9,17 @@ description: >
     Conceptos, expresiones y acuerdos de definiciones que se usan en la comunicación diaria en temas asociados a los servicios de Backoffice Services.
 ---
 
-# Glosario de Backoffice Services
+# Glosario de Sales & Marketing Services
 
 Este es el registro oficial de todos aquellos conceptos, expresiones y
 acuerdos de definición que se usen en la comunicación diaria en temas
-asociados a los servicios de Backoffce.
+asociados a los servicios de Sales & Marketing.
 
 El objetivo es el poder alinear el conocimiento que se va adquiriendo a lo
 largo del tiempo y así poder transmitirlo a las personas de una manera más
 eficiente y efectiva.
 
-## Conceptos Generales
+## Conceptos de Marketing y Ventas
 
 [`Oportunidad de Negocio`](){#oportunidad-de-negocio}
 
