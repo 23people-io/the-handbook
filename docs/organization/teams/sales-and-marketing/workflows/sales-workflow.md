@@ -106,23 +106,38 @@ Esta etapa tiene dos partes secuenciales críticas. Primero, validar la **Soluci
 
 Muchos vendedores confunden la solución con los requerimientos. En 23people, los diferenciamos así:
 
-1. **La Solución (El Enfoque):** Es la estrategia general o el servicio *macro* que proponemos para curar el tipo de "dolor" descubierto en la Etapa 1.
-2. **El Requerimiento (La Táctica):** Son los inputs técnicos, restricciones y especificaciones necesarias para costear e implementar esa solución.
+1. **La Solución (La Estrategia):** Es el servicio *macro* que proponemos para curar el tipo de "dolor" descubierto en la Etapa 1. Es como la plantilla o el marco de trabajo que usaremos (ej. Anteproyecto, Staff Augmentation, Consultoría).
+2. **El Requerimiento (La Táctica):** Son los inputs técnicos, restricciones y especificaciones necesarias para costear e implementar esa solución (desde aqui se calculan horas, recursos, condiciones, etc. para armar la propuesta formal).
 
 !!! example "Caso de Estudio: El Proyecto de Incertidumbre"
 
-    **Contexto:** Un cliente llega pidiendo "Desarrollar un sistema completo de gestión" (Pedido), pero detectamos que no tienen claros sus procesos internos (Necesidad Real: Definición de procesos antes de automatizar).
+    **Contexto:** Un cliente llega diciendo: *"Necesito contratar 2 arquitectos senior por 3 meses para que nos ayuden a evaluar un gran proyecto que vamos a iniciar"* (Pedido/Síntoma).
+
+    **Análisis de Necesidad Real (Etapa 1):** Detectamos que el cliente no necesita "horas de personas", sino **Seguridad Técnica**, **Mitigación de Riesgos** y **Apoyo confiable y experto en el area** por parte de un partner para poder avanzar con confianza en su proyecto.
 
     **Paso 1: Validación de la Solución (Macro)**
-    Le proponemos al cliente: *"Dado que hay incertidumbre en los procesos, nuestra solución no es desarrollar el software de inmediato. Nuestra solución es ejecutar primero un **Anteproyecto de Discovery** de 4 semanas para mapear los procesos y reducir el riesgo."*
 
-    * *¿Hace sentido esto al cliente?* Si dice **SÍ**, pasamos al paso 2.
+    En lugar de venderle 2 personas (que es lo que pidió), le proponemos una solución distinta:
+
+    > *"Entendiendo que buscan seguridad para este gran proyecto, nuestra solución no es asignar personal por horas para esta oportunidad dado que el periodo es muy corto. En cambio,  nuestra solución apunta a ejecutar un **Servicio de Anteproyecto de Arquitectura**, el cual ha mostrado muy buenos resultados en otros clientes como ustedes que tenian un problema similar*
+    >
+    > *Permitanme detallar la metodologia de este servicio que se ejecuta en 3 fases bien definidas:*
+    >
+    > *A) Relevamiento de infraestructura actual,*
+    > *B) Análisis de brechas,*
+    > *C) Diseño de Hoja de Ruta.*
+    >
+    > *El entregable final es un Informe Técnico Ejecutivo validado por nuestros expertos."*
+
+    * *Validación con el Cliente:* "¿Les hace sentido que abordemos esto como un proyecto con entregables fijos en vez de solo contratar horas?" -> **Si dicen SÍ, la solución está validada.**
 
     **Paso 2: Levantamiento de Requerimientos (Micro)**
-    Ahora que aceptaron el "Anteproyecto" como solución, preguntamos lo específico para cotizar ese anteproyecto:
-    * *"¿Cuántas áreas de la empresa debemos entrevistar?"*
-    * *"¿Quiénes serán los stakeholders disponibles?"*
-    * *"¿Tienen documentación actual?"*
+
+    Ahora que acordamos hacer un "Anteproyecto", levantamos lo necesario para cotizarlo:
+
+    - *"Necesitaremos acceso a su documentación actual."* (Requerimiento)
+    - *"¿Podemos entrevistar a su CTO la próxima semana?"* (Requerimiento)
+    - *"¿Tienen diagramas de red vigentes?"* (Requerimiento)
 
 ### Definición de Listo
 
