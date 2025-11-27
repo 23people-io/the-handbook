@@ -219,8 +219,11 @@ nav:
               - "Base de Conocimientos": organization/teams/tech-talent-services/knowledge-base.md
               - "Glosario": organization/teams/tech-talent-services/glossary.md
           - "Sales & Growth Marketing (SMKT)":
-              - "Resumen": organization/teams/sales-and-growth-marketing/index.md
-              - "Glosario": organization/teams/sales-and-growth-marketing/glossary.md
+              - "Resumen": organization/teams/sales-and-marketing/index.md
+              - "Glosario": organization/teams/sales-and-marketing/glossary.md
+              - "Servicios":
+                  - "Ventas":
+                      - "Proceso de Venta Consultiva": organization/teams/sales-and-marketing/services/sales/consultative-sales-process.md
           - "Backoffice (BKO)":
               - "Resumen": organization/teams/backoffice/index.md
               - "Base de Conocimientos": organization/teams/backoffice/knowledge-base.md
