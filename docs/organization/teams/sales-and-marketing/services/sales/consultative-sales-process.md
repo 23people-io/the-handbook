@@ -331,10 +331,3 @@ El seguimiento de este proceso se mide a través de los siguientes KPIs:
 - [Senior Business Development Manager](../../../../workforce/positions/senior-business-development-manager.md) - Rol principal que ejecuta este proceso
 
 ---
-
-## Historial de Cambios
-
-| Fecha      | Cambio                                                                                                                            | Autor            |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| 2025-11-26 | Creación inicial del documento                                                                                                    | @manu-reyes-23p  |
-| 2025-11-27 | Complementación con material del Taller de Marketing y Ventas (MCI Consultores): 4 etapas de entrevista, principios fundamentales | @manu-reyes-23p  |
