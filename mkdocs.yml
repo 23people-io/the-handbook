@@ -161,7 +161,8 @@ nav:
       - "Lo que hacemos":
           - about-us/what-we-do/index.md
           - Desafíos: about-us/what-we-do/challenges.md
-          - Servicios: 
+          - Servicios:
+            - about-us/what-we-do/services/index.md
             - "Tech Talent": about-us/what-we-do/services/tech-talent.md
             - "Integration & Digital Platforms": about-us/what-we-do/services/integration-n-digital-platforms.md
             - "Cloud Migration & Modernization": about-us/what-we-do/services/cloud-migration-n-modernization.md

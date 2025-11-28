@@ -27,15 +27,21 @@ Pensado para Equipos que se busca que sean estables en el tiempo (>= 6 meses). P
 
 Esto lo resolvemos mediante dos modalidades:
 
-- **Outsourcing Tech (Subcontratación):** 23people forma y contrata al equipo (Development, QA, Seguridad) bajo su estructura legal. Los profesionales trabajan dedicados al proyecto del cliente, pero la gestión administrativa y beneficios corre por cuenta de 23people. Se destacan ventajas como la gestión de husos horarios (Timezone) y la estabilidad laboral.
+#### Outsourcing Tech (Subcontratación)
 
-- **Hunting Tech (Reclutamiento):** Servicio de búsqueda y selección especializada donde 23people valida técnicamente a los candidatos para que sean **contratados directamente por el cliente**. Ideal para empresas que desean internalizar el talento en su propia nómina y gestionar directamente al personal.
+Servicio de búsqueda y selección especializada donde **23people contrata al equipo** (con roles de Development, QA, Seguridad) bajo su estructura legal. Los profesionales trabajan dedicados 100% al proyecto del cliente, pero la gestión administrativa y beneficios corre por cuenta de 23people. Se destacan ventajas como la gestión de husos horarios (Timezone) y la estabilidad laboral.
+
+#### Hunting Tech (Reclutamiento)
+
+Servicio de búsqueda y selección especializada donde 23people valida técnicamente a los candidatos para que sean **contratados directamente por el cliente**. Ideal para empresas que desean internalizar el talento en su propia nómina y gestionar directamente al personal.
 
 ### B. Enfoque de Corto Plazo y/o Alta Especialización Técnica
 
 Solución para brechas de mercado donde los perfiles Senior o altamente especializados no postulan a proyectos breves o inciertos.
 
-- **Tech Talent as a Service (con Equipo de Ingeniería de 23people):** Para proyectos de duración acotada (< 6 meses) o requerimientos muy específicos que requieren de alta especialización, el equipo de Ingenieria de 23people asume la ejecución del proyecto utilizando a su **Propio Staff Interno**. Esto resuelve la imposibilidad de encontrar perfiles expertos dispuestos a cambiarse de trabajo por periodos cortos, garantizando la calidad técnica sin la fricción de una contratación temporal externa.
+#### Tech Talent as a Service (con Equipo de Ingeniería de 23people)
+
+Para proyectos de duración acotada (< 6 meses) o requerimientos muy específicos que requieren de alta especialización, el equipo de Ingenieria de 23people asume la ejecución del proyecto utilizando a su **Propio Staff Interno**. Esto resuelve la imposibilidad de encontrar perfiles expertos dispuestos a cambiarse de trabajo por periodos cortos, garantizando la calidad técnica sin la fricción de una contratación temporal externa.
 
 ## Diferenciadores Clave
 
