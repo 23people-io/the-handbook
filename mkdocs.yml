@@ -161,7 +161,11 @@ nav:
       - "Lo que hacemos":
           - about-us/what-we-do/index.md
           - Desafíos: about-us/what-we-do/challenges.md
-          - Servicios: about-us/what-we-do/services.md
+          - Servicios: 
+            - "Tech Talent": about-us/what-we-do/services/tech-talent.md
+            - "Integration & Digital Platforms": about-us/what-we-do/services/integration-n-digital-platforms.md
+            - "Cloud Migration & Modernization": about-us/what-we-do/services/cloud-migration-n-modernization.md
+            - "Data Engineering & AI": about-us/what-we-do/services/data-engineering-n-ai.md
           - Casos de Éxito: 
             - about-us/what-we-do/client-cases/index.md
             - "Equifax USA: Escalando de Equipos de Desarrollo para el SDC": about-us/what-we-do/client-cases/equifax-usa-formando-escalando-equipos-agiles-sdc.md
