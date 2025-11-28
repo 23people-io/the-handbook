@@ -24,6 +24,14 @@
 		"typescript": "latest",
 		"husky": "^9.1.7"
 	},
+	"dependencies": {
+		"commitizen": "^4.3.1"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
 	"release": {
 		"branches": [
 			"main"
@@ -39,5 +47,10 @@
 			],
 			"@semantic-release/github"
 		]
+	},
+	"husky": {
+		"hooks": {
+			"prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+		}
 	}
 }
