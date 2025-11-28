@@ -88,6 +88,14 @@ Los clientes suelen llegar con una "solución preconcebida" (el síntoma). Nuest
 | *"Necesito 3 perfiles de QA para mi equipo."*   | *"Estamos lanzando un producto nuevo y no tenemos capacidad para asegurar su calidad."*          |
 | *"Quiero una página web con formulario."*       | *"No estamos captando leads calificados y el equipo comercial no tiene a quién llamar."*         |
 
+!!! example "Expectivas del enfoque del Vendedor Consultivo"
+
+    Para ilustrar la diferencia, se plantea un esceneario a modo de analogía médica para un paciente que llega a consulta con un médico:
+
+    * **Paciente:** *"Doctor, estoy deprimido, necesito ayuda."* (Síntoma/Pedido)
+    * **Médico Tradicional:** *"Le recetaré antidepresivos."* (Toma el pedido y propone una solución directa)
+    * **Médico Consultivo:** *"¿Por qué crees que estás deprimido? ¿Qué ha cambiado en tu vida últimamente? ¿En que lo has notado?"* (Busca la causa raíz del problema)
+
 ### Definición de Listo
 
 1. **Diagnóstico Claro**: Hemos identificado qué dolor de negocio está tratando de resolver el cliente (Causa Raíz).
