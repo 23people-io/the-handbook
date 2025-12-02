@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-07-17T10:16:38
 updated: 2025-04-29T17:43:00Z
 description: Información para conocer los detalles de porcentaje de cobertura del seguro complementario de salud, dental, vida y catastrófico.

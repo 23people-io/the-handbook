@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-15T10:16:42
 updated: 2025-04-29T17:43:00Z
 description: Mide la capacidad de la empresa para reasignar profesionales a nuevos proyectos una vez que sus proyectos actuales concluyen.

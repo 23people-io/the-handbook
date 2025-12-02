@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-09-10T12:15:10
 updated: 2025-04-29T17:43:00Z
 description: Mide el grado de concentración de las ventas entre los clientes de la empresa.

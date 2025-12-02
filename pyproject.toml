@@ -42,8 +42,6 @@ dev = [
 
 [project.scripts]
 start = "scripts.main:start"
-commit = "scripts.main:commit"
-lint-markdown = "scripts.main:lint_markdown"
 
 [tool.pyright]
 defineConstant = {DEBUG = true}

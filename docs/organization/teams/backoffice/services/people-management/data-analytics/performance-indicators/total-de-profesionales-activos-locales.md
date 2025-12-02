@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-08T17:52:02
 updated: 2025-04-29T17:43:00Z
 description: Número de profesionales empleados activamente en Chile

@@ -1,6 +1,5 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
+
 
 en base al video de automatia en youtube y agentes IA
 

@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-06-19T12:12:30
 updated: 2025-04-29T17:43:00Z
 description: Te entregamos un bono en dinero en septiembre y diciembre.
