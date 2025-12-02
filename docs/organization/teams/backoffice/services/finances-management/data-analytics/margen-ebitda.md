@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-08T17:57:58
 updated: 2025-04-29T17:43:00Z
 description: Porcentaje que representa el EBITDA sobre los ingresos totales.

@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-24T13:16:07
 updated: 2025-04-29T17:43:00Z
 description: Total de profesionales de 23people que cuentan con certificaciones internacionales

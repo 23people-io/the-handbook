@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-24T17:38:41
 updated: 2025-04-29T17:43:00Z
 description: El departamento de Finances en 23people.

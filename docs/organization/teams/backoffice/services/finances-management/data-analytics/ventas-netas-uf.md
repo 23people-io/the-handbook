@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-11T12:15:10
 updated: 2025-04-29T17:43:00Z
 description: Mide el total de ingresos mensuales generados por la venta de servicios, expresado en Unidades de Fomento (UF).

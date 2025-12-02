@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-06-19T12:17:41
 updated: 2025-07-2814:25
 description: 23people tiene convenio con el Banco de Chile con excelentes beneficios.
