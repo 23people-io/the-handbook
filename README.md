@@ -141,3 +141,5 @@ The deployment is done automatically when you push a new version to the `main` b
 If you have any questions or feedback, feel free to reach out to us at `hola@23people.io` or [leave an issue](https://github.com/23people-io/the-handbook/issues).
 
 _**We are 23people**, with love **:material-heart:** and passion for technology. Happy Coding! 🚀_
+
+n8n 1.0.0
