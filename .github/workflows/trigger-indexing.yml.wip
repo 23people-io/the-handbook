@@ -1,9 +1,9 @@
-name: Indexing on Vector Database
+name: Call Indexing on Vector Database
 
 on:
   push:
     branches:
-      - main2 # FIXME: Adjust this branch as needed
+      - main
 
 jobs:
   trigger-indexing:
@@ -16,7 +16,7 @@ jobs:
         id: trigger-worker
         uses: fjogeleit/http-request-action@v1
         with:
-          url: ${{ vars.HANDBOOK_INDEXER_WORKER_URL }}
+          url: 'https://iarvis.app.n8n.cloud/webhook-test/d7411ae0-f14f-4be3-91d3-683a51d23696'
           method: 'POST'
           contentType: 'application/json'
           data: '{"commit": "${{ github.sha }}"}'

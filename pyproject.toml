@@ -5,7 +5,7 @@ build-backend = "pdm.backend"
 [project]
 name = "the-handbook"
 # Using dev0 to comply with PEP 440, actual versioning handled by semantic release
-version = "0.0.0.dev0"
+version = "0.0.0"
 description = "The 23people's Public Company Handbook"
 readme = "README.md"
 authors = [{name = "mreyes23p", email = "manuel@23people.io"}]
