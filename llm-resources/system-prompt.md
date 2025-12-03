@@ -94,7 +94,7 @@ Use this exact structure for consistency:
 
 ```markdown
 ---
-updated: [Use this timestamp {{CURRENT_DATETIME}} and use ISO 8601 format (YYYY-MM-DDTHH:mm:ss.sssZ)]
+updated: [Use this timestamp 'CURRENT_DATETIME' in ISO 8601 format (YYYY-MM-DDTHH:mm:ss.sssZ)]
 ---
 
 # 23people Company Handbook Summary
