@@ -1,89 +1,97 @@
 ---
-updated: 2024-05-21T10:00:00Z
+updated: 2024-10-27T15:01:23.123Z
 ---
 
 # 23people Company Handbook Summary
 
-This document provides a structured overview of the 23people Company Handbook, our main source of truth and compass. It is organized to reflect the handbook's official structure, serving as a guide for both team members and those interested in our company.
+This document provides a synthesized overview of the 23people Company Handbook, our main source of truth and compass. It is structured to reflect our organization, culture, and operational methodologies.
 
-## About 23people
+## About Us
 
-This section outlines our identity, purpose, and position in the market. It covers who we are, what we do, what makes us different, and our long-term goals.
+This section introduces 23people, our identity, mission, and how we position ourselves in the industry.
 
 ### Who We Are
-This area defines our core identity, including our fundamental **Principles** and **Practices**, key **Partnerships**, company **History**, and the story behind our **Name**.
+This area covers our core identity, history, partnerships, and the meaning behind our name. It also links to our fundamental principles and practices that guide our actions.
 
 ### What We Do
-We focus on delivering value through technology and talent.
+Here we outline the services we provide, the problems we solve for our clients, and showcase our successful partnerships.
 
-#### Addressing Client Challenges
-Our services are designed to address the core challenges clients face in their digital evolution. We recognize that technology and data only create value when they improve business processes. Key client hurdles we help overcome include:
+#### Client Challenges in Digital Evolution
+The fundamental challenge clients face is that data and technology alone do not generate value. Value is only created when these elements are applied to tangible improvements in business processes and services. Key obstacles for companies include:
 - Justifying the ROI of digital investments.
-- Finding reliable technology partners who understand business goals.
-- Sourcing, hiring, and retaining highly skilled and passionate tech professionals in a competitive market.
+- Finding reliable technology partners who understand business objectives.
+- Identifying, hiring, and retaining highly skilled and passionate tech professionals in a competitive market.
 
-#### Services & Success Stories
-Our **Services** are the solutions to the challenges above. Our capabilities are demonstrated through detailed **Success Stories** with clients like Equifax (USA and Chile) and ACHS, showcasing our impact on their operations and technological modernization.
+#### Our Services
+*(Details on the specific services offered by 23people, from tech talent augmentation to software development projects.)*
 
-### Our Differentiators
-What sets us apart is our approach and expertise:
-- **Specialization in Tech Roles:** Deep focus on specific and high-demand technology positions.
-- **Optimized Tech Recruitment:** A mature and efficient process for talent acquisition.
-- **Software Development Maturity:** Proven methodologies and high standards in development.
-- **Technology Stack:** Expertise in both enterprise-grade and emerging technologies.
-- **Customer Satisfaction:** A strong commitment to client success and partnership.
+#### Success Cases
+*(Summaries of key client projects like Equifax and ACHS demonstrate our ability to deliver value and solve complex problems.)*
+
+### What Sets Us Apart
+This section explains our unique value proposition, focusing on:
+- **Specialization:** Deep expertise in key technology roles.
+- **Recruitment:** Optimized and efficient tech talent sourcing and vetting.
+- **Methodology:** A mature and effective software development lifecycle.
+- **Technology:** Expertise in both enterprise and emerging tech stacks.
+- **Customer Success:** A strong commitment to client satisfaction and partnership.
 
 ### What We Pursue
-This section details our strategic direction, outlining our company **Goals** and the **Principles** that guide us in achieving them.
+This outlines our long-term vision, including our strategic goals and the core principles that guide our mission.
 
-## Our Community
+## Community
 
-This part of the handbook is dedicated to our team members, covering the benefits, procedures, and events that shape our internal community.
+This section is for our team members, detailing the benefits, procedures, and events that shape our internal community.
 
-### Benefits & Perks
-We offer a comprehensive range of benefits to support our team, including:
-- **Agreements:** Partnerships with Betterfly, Banco de Chile, and supplementary insurance providers.
-- **Incentives:** Extra vacation days, birthday gifts and a day off, and bonuses for national holidays and Christmas.
-- **Reimbursements:** Financial support for flu vaccinations, professional courses, international certifications, and home office improvements.
-- **Training:** Company-sponsored English language courses.
+### Benefits
+We offer a comprehensive range of benefits designed to support our team's well-being and professional growth, including:
+- **Agreements:** Partnerships with services like Betterfly, Banco de Chile, and for complementary health insurance.
+- **Incentives:** Extra vacation days, birthday gifts and a day off, and holiday bonuses.
+- **Reimbursements:** Support for flu vaccinations, professional courses, international certifications, and home office improvements.
+- **Training:** Company-sponsored English language classes.
 
-### Procedures & Events
-This section outlines key operational **Procedures** (administrative and Discord server guidelines) and information on company **Events**. It also links to our official Internal Regulations.
+### Procedures
+This area contains important operational information, such as administrative procedures and guidelines for using our internal communication platforms like Discord.
 
 ## Organization
 
-This section details the structure of our company, explaining how we organize our teams, roles, and operational units to deliver value effectively.
+This section provides a clear overview of our internal structure, including how our teams and tribes are organized and the key roles and responsibilities within the company.
 
-### Teams & Tribes
-Our organization is structured into specialized units:
-- **Teams:** Functional departments responsible for core business areas.
-    - **Tech Talent Services (TTS):** Manages talent acquisition and technical services.
-    - **Sales & Marketing (SMKT):** Drives business development and market presence.
-    - **Backoffice (BKO):** Handles administrative, financial, and operational support.
-    - **Research & Development (R&D):** Explores new technologies and innovations.
-- **Tribes:** Cross-functional operational groups, such as the **Iarvis Tribe** and **Drakkar Tribe**, focused on specific service delivery streams.
+### Teams
+Our work is organized into specialized teams:
+- **Tech Talent Services (TTS):** Focused on talent acquisition, management, and placement.
+- **Sales & Marketing (SMKT):** Drives business growth and client relationships.
+- **Backoffice (BKO):** Manages administrative, financial, and operational functions.
+- **Research & Development (R&D):** Explores new technologies and innovations.
 
-### Positions & Roles
-We define a clear structure of formal **Job Positions** (e.g., Operations Director) and operational **Roles** (e.g., Service Request Manager, Service Delivery Manager) that clarify responsibilities and career paths within the organization.
+### Tribes
+For specific, large-scale client projects, we organize into cross-functional tribes:
+- **Iarvis Tribe**
+- **Drakkar Tribe**
 
-## Principles
+### Positions and Roles
+This section defines the responsibilities of key positions and roles such as the Operations Director, Senior Business Development Manager, Service Request Manager (SRM), and Service Delivery Manager (SDM).
 
-Our principles are the foundation of our culture and operations. They are grouped into three key areas:
-- **Fundamental Principles:** The core tenets that define our company's character.
-- **Culture & People Principles:** Guidelines that shape how we interact and collaborate.
-- **Operational Principles:** The rules that govern how we work and deliver services.
+## Our Principles
+
+Our principles are the foundation of our culture and operations, ensuring consistency and quality in everything we do. They are grouped into three key areas:
+- **Fundamental Principles:** The core, unchanging tenets of our company.
+- **Culture and People Principles:** How we interact with and support each other to foster a positive environment.
+- **Operational Principles:** Guidelines for how we work, collaborate, and deliver value to our clients.
 
 ## Sustainability
 
-We are committed to sustainable growth and responsible operations. This section covers:
-- **Our Commitment:** Our pledge to environmental and social responsibility.
-- **Emission Reduction Strategy:** Our plan to minimize our carbon footprint.
-- **Sustainability Team:** The group leading our sustainability initiatives.
-- **Technology Recommendations:** Guidance on using technology in a sustainable manner.
+We are committed to building a sustainable future. This section details:
+- Our official commitment to sustainable practices.
+- Our strategy for reducing our environmental and carbon footprint.
+- The team leading our sustainability efforts.
+- Recommendations for using technology responsibly.
 
 ## Technical Guide
 
-This guide is the central repository for our technical standards and best practices, ensuring quality and consistency across all projects. It covers:
-- **Software Development Principles:** The core philosophies guiding our engineering.
-- **Methodologies, Practices, and Technologies:** Our approved approaches and toolsets for development.
-- **Specialized Fields:** In-depth guidance on **AI & Machine Learning**, **Cloud** infrastructure, and **Security**.
+This section is a resource for our engineering standards and best practices.
+- **Software Development Principles:** Core beliefs that guide our engineering decisions.
+- **Methodologies:** The agile and other frameworks we employ to build software effectively.
+- **Technologies:** Our preferred technology stack, tools, and platforms.
+- **Practices:** Our standards for coding, testing, security, and deployment.
+- **Specializations:** Our approach to emerging fields like AI, Machine Learning, and Cloud infrastructure.
