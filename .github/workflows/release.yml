@@ -62,7 +62,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy-cloudflare:
-    name: Deploy | Build and Deploy to Cloudflare Pages
+    name: Deploy | Build and Deploy to Cloudflare
     needs: release-version
     runs-on: ubuntu-latest
 
@@ -89,12 +89,10 @@ jobs:
       - name: Action | Build MkDocs site
         run: uv run mkdocs build
 
-      - name: Deploy | Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+      - name: Deploy | Publish to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: the-handbook
-          directory: site
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          command: pages deploy site --project-name=the-handbook
 
