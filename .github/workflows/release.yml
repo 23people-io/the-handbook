@@ -1,4 +1,4 @@
-name: Release Version
+name: Release
 
 on:
   workflow_run:
@@ -60,4 +60,6 @@ jobs:
         uses: cycjimmy/semantic-release-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
+  
+

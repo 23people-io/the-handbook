@@ -22,7 +22,9 @@
 		"@semantic-release/github": "^10.3.5",
 		"@semantic-release/release-notes-generator": "^14.0.1",
 		"typescript": "latest",
-		"husky": "^9.1.7"
+		"husky": "^9.1.7",
+		"@biomejs/biome": "^2.2.0",
+		"wrangler": "^4.41.0"
 	},
 	"release": {
 		"branches": [

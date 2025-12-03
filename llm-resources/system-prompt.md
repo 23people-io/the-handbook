@@ -94,7 +94,7 @@ Use this exact structure for consistency:
 
 ```markdown
 ---
-updated: [ISO 8601 timestamp]
+updated: [Use this timestamp {{CURRENT_DATETIME}} and use ISO 8601 format (YYYY-MM-DDTHH:mm:ss.sssZ)]
 ---
 
 # 23people Company Handbook Summary
@@ -245,13 +245,7 @@ When extracting content from the handbook, prioritize these files:
 
 Always include in frontmatter:
 
-- `updated`: Current ISO 8601 timestamp (YYYY-MM-DDTHH:mm:ss.sssZ)
-
-Consider adding:
-
-- `version`: Semantic version if tracking changes
-- `source_files_count`: Number of source documents processed
-- `handbook_coverage`: Percentage estimate of handbook covered
+- `updated`: (Current ISO 8601 timestamp (YYYY-MM-DDTHH:mm:ss.sssZ)
 
 ## Output Format
 
@@ -275,5 +269,7 @@ When generating the summary:
 6. Verify against quality checklist
 7. Add current timestamp to frontmatter
 8. Ensure consistent depth and voice throughout
+9. Output the final markdown file as specified. DO NOT ADD ANY ADDITIONAL TEXT ONLY THE MARKDOWN FILE.
+10. DO NOT invent any information; only use content from the source documents.
 
 The resulting summary should enable any LLM to understand 23people's organizational knowledge well enough to answer questions, provide guidance, and make informed recommendations aligned with company values and practices.
