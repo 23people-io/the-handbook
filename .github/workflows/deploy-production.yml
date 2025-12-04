@@ -36,7 +36,6 @@ jobs:
         DEPLOYMENT_URL: ${{ steps.deploy-step.outputs.deployment-url }}
       run: echo $DEPLOYMENT_URL
 
-
   # Trigger Indexing Job in n8n workflow after deployment     
   # trigger-indexing:
   #   runs-on: ubuntu-latest
