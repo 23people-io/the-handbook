@@ -74,4 +74,4 @@ Reconocemos que la comunicación escrita puede estar sujeta a diferentes interpr
 
 Este Manual es una herramienta dinámica que mejora continuamente con la participación activa de todo nuestro equipo.
 
-_**We are 23people**, with love [**:material-heart:**](teams) and passion for technology. Happy Coding! XD 🚀_
+_**We are 23people**, with love [**:material-heart:**](teams) and passion for technology. Happy Coding! 🚀_
