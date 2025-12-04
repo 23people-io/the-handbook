@@ -115,6 +115,25 @@ The project is built using the following technologies:
 - [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
 - Markdown
 
+### GitHub Actions Workflows
+
+The repository uses three main workflows for continuous integration and deployment:
+
+1. **CI** (`ci.yml`) - Runs on every push to any branch:
+   - Markdown linting using markdownlint-cli2
+   - MkDocs site build validation
+   - Artifact creation (`site-build-<sha>`) with 1-day retention
+
+2. **Deploy Preview** (`deploy-version.yml`) - Triggered after CI completes on non-main branches:
+   - Downloads build artifact from CI workflow
+   - Deploys preview version to Cloudflare using `wrangler versions upload`
+
+3. **Deploy Production** (`deploy-production.yml`) - Triggered after CI completes on main branch:
+   - Downloads build artifact from CI workflow
+   - Deploys to production at [manual.23people.io](https://manual.23people.io)
+
+**Branch Protection**: The `main` branch requires the `Build` status check to pass before merging, ensuring all changes are linted and build successfully.
+
 ## Commit Guidelines
 
 This project follows [Conventional Commits](https://www.conventionalcommits.org/) specification for commit messages to ensure consistent commit history and enable automated semantic versioning.
