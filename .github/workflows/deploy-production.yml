@@ -1,7 +1,10 @@
 name: Deploy to Production
 
 on:
-  push:
+  workflow_run:
+    workflows: ["CI"]
+    types:
+      - completed
     branches:
       - main
 
@@ -22,6 +25,17 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
+    - name: Setup | Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Download | Site artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: site-build
+        path: ./site
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        run-id: ${{ github.event.workflow_run.id }}
+      
     - name: Deploy | To Cloudflare (only main branch)
       id: deploy-step
       uses: cloudflare/wrangler-action@v3

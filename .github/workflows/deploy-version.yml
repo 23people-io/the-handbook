@@ -25,6 +25,17 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
+    - name: Setup | Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Download | Site artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: site-build
+        path: ./site
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        run-id: ${{ github.event.workflow_run.id }}
+        
     - name: Deploy | Upload new version to Cloudflare
       id: deploy-step
       uses: cloudflare/wrangler-action@v3
@@ -34,7 +45,7 @@ jobs:
         wranglerVersion: "4.52.1"          
         command: versions upload --assets=./site
 
-    - name: print deployment-url
+    - name: Deploy | Print deployment-url
       env:
         DEPLOYMENT_URL: ${{ steps.deploy-step.outputs.deployment-url }}
       run: echo $DEPLOYMENT_URL
