@@ -60,19 +60,21 @@ jobs:
       - name: Action | Build MkDocs site
         run: bun run build
 
-      - name: Deploy | Publish to Cloudflare Workers
+      - name: Deploy | To Cloudflare (only main branch)
         uses: cloudflare/wrangler-action@v3
+        if: ${{ github.ref_name }} = "main"
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: |
-            # Deploy if on main branch, else just upload a new version
-            if [ "${{ github.ref_name }}" = "main" ]; then 
-              deploy
-            else 
-              version upload
-            fi
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}          
+          command: deploy
 
+      - name: Deploy | To Cloudflare (other branches)
+        uses: cloudflare/wrangler-action@v3
+        if: ${{ github.ref_name }} != "main"
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}          
+          command: version upload
 
   # Trigger Indexing Job in n8n workflow after deployment     
   # trigger-indexing:
