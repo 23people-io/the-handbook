@@ -52,10 +52,19 @@ jobs:
         wranglerVersion: "4.52.1"      
         command: deploy --assets=./site
 
-    - name: print deployment-url
+    - name: Deploy | Print deployment-url
       env:
         DEPLOYMENT_URL: ${{ steps.deploy-step.outputs.deployment-url }}
       run: echo $DEPLOYMENT_URL
+
+    - name: Status | Create GitHub Status Check
+      uses: hkusu/status-create-action@v1
+      with:
+        sha: ${{ github.event.workflow_run.head_sha }}
+        state: success
+        target-url: $DEPLOYMENT_URL
+        description: "Deployment to Production in Cloudflare succeeded!"
+        context: "cloudflare/deploy-production"
 
   # Trigger Indexing Job in n8n workflow after deployment     
   # trigger-indexing:
