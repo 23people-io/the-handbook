@@ -1,4 +1,4 @@
-name: CI/CD
+name: CI
 
 on:
   push:
@@ -40,7 +40,7 @@ jobs:
       - name: Action | Lint Markdown
         run: bun run lint:markdown
 
-      # MkDocs Build Setup
+      # Build Project
       - name: Setup | Install Python
         uses: actions/setup-python@v5
         with:
@@ -51,11 +51,6 @@ jobs:
         with:
           enable-cache: true
 
-      - name: Setup | Create virtual environment
-        run: uv venv
-
-      - name: Setup | Install Python dependencies
-        run: uv sync
-
       - name: Action | Build MkDocs site
-        run: uv run mkdocs build
+        run: bun run build
+
