@@ -1,13 +1,11 @@
-name: CI
+name: CI/CD
 
 on:
-  # Trigger on pull request to main branch
+  # Trigger on pull requests
   pull_request:
-    branches:
-      - main
 
 jobs:
-  # Build the project and lint markdown files
+  # Build the project
   build:
     name: Build
     runs-on: ubuntu-latest
@@ -53,4 +51,31 @@ jobs:
 
       - name: Action | Build MkDocs site
         run: bun run build
+
+  # Deploy the project
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
+    steps:
+    - name: Deploy | To Cloudflare (only main branch)
+      uses: cloudflare/wrangler-action@v3
+      if: ${{ github.ref_name }} = "main"
+      with:
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}          
+        command: deploy
+
+    - name: Deploy | To Cloudflare (other branches)
+      uses: cloudflare/wrangler-action@v3
+      if: ${{ github.ref_name }} != "main"
+      with:
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}          
+        command: version upload
 
