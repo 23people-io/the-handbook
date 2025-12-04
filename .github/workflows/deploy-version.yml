@@ -17,7 +17,7 @@ permissions:
 jobs:
   # Deploy the project
   deploy:
-    name: Deploy
+    name: Deploy Preview
     runs-on: ubuntu-latest
     permissions:
       contents: write
