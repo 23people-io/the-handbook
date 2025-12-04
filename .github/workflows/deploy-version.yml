@@ -13,17 +13,13 @@ permissions:
   issues: write
   pull-requests: write
   id-token: write
+  actions: read  # Required to download artifacts from another workflow
 
 jobs:
   # Deploy the project
   deploy:
     name: Deploy Preview
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
-      id-token: write
     steps:
     - name: Setup | Checkout repository
       uses: actions/checkout@v4
@@ -34,10 +30,13 @@ jobs:
       run: echo $GITHUB_SHA
 
     - name: Download | Site artifact
-      uses: actions/download-artifact@v5
+      uses: actions/download-artifact@v4
       with:
         name: site-build-${{ github.sha }}
         path: ./site
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        repository: ${{ github.repository }}
+        run-id: ${{ github.event.workflow_run.id }}
         
     - name: Deploy | Upload new version to Cloudflare
       id: deploy-step
