@@ -14,6 +14,11 @@ jobs:
       - name: Setup | Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup | Print GitHub SHA
+        env:
+          GITHUB_SHA: Github SHA ${{ github.sha }}
+        run: echo $GITHUB_SHA
+
       # Markdown Linting Setup
       - name: Setup | Install Bun
         uses: oven-sh/setup-bun@v2
@@ -55,9 +60,7 @@ jobs:
       - name: Upload | Site artifact
         uses: actions/upload-artifact@v5
         with:
-          name: site-build
+          name: site-build-${{ github.sha }}
           path: ./site
           retention-days: 1
-          overwrite: true
-
   
