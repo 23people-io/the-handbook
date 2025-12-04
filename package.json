@@ -10,6 +10,7 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
+		"build": "bunx mkdocs build",
 		"lint:markdown": "bunx markdownlint-cli2 'docs/**/*.md' '!node_modules/**' '!dist/**' '!.*/**' '!.backup/**' '!.venv/**'",
 		"format:markdown": "bunx markdownlint-cli2 'docs/**/*.md' '!node_modules/**' '!dist/**' '!.*/**' '!.backup/**' '!.venv/**' --fix",
 		"husky": "husky"
