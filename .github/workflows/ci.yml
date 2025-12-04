@@ -1,6 +1,7 @@
 name: CI
 
 on:
+  # Trigger on pull request to main branch
   pull_request:
     branches:
       - main
