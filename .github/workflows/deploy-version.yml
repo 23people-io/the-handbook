@@ -1,13 +1,12 @@
-name: Deploy Version (no Production)
+name: Deploy Version (Non-Main Branches)
 
 on:
   workflow_run:
-    workflows: ["CI"] # Depends on successful CI workflow
+    workflows: ["CI"] # Depende del workflow CI
     types:
       - completed
-    branches:
-      # No Main Branches
-      - '!main'
+    branches-ignore:
+      - main
 
 permissions:
   contents: write
@@ -18,7 +17,7 @@ permissions:
 jobs:
   # Deploy the project
   deploy:
-    name: Deploy
+    name: Deploy Version (Non-Main Branches)
     runs-on: ubuntu-latest
     permissions:
       contents: write
