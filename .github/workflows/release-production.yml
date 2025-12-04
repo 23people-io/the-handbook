@@ -6,7 +6,7 @@ on:
     types:
       - completed
     branches:
-      - main
+      - main2
 
 permissions:
   contents: write

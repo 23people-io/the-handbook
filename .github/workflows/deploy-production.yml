@@ -1,4 +1,4 @@
-name: Deploy Version (no Production)
+name: Deploy to Production
 
 on:
   workflow_run:
@@ -6,8 +6,7 @@ on:
     types:
       - completed
     branches:
-      # No Main Branches
-      - '!main'
+      - main
 
 permissions:
   contents: write
@@ -26,13 +25,13 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
-    - name: Deploy | Upload new version to Cloudflare
+    - name: Deploy | To Cloudflare (only main branch)
       id: deploy-step
       uses: cloudflare/wrangler-action@v3
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}          
-        command: version upload
+        command: deploy
 
     - name: print deployment-url
       env:
