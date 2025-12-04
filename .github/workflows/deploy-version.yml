@@ -32,7 +32,7 @@ jobs:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         wranglerVersion: "4.52.1"          
-        command: versions upload
+        command: versions upload --assets=./site
 
     - name: print deployment-url
       env:
