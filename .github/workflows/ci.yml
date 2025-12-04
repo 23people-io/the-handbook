@@ -1,8 +1,8 @@
 name: CI
 
 on:
-  # Trigger on pull requests
-  pull_request:
+  # Trigger on pushes to any branch
+  push:
 
 jobs:
   # Build the project
