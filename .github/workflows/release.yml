@@ -1,4 +1,4 @@
-name: Release Production
+name: Release
 
 on:
   workflow_run:
@@ -6,7 +6,7 @@ on:
     types:
       - completed
     branches:
-      - main2
+      - main
 
 permissions:
   contents: write
@@ -30,26 +30,6 @@ jobs:
           fetch-depth: 0
           persist-credentials: true
 
-      - name: Setup | Install Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
-
-      - name: Setup | Cache Bun dependencies
-        id: cache-bun
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-bun-modules
-        with:
-          path: ~/.bun/install/cache
-          key: ${{ runner.os }}-bun-${{ env.cache-name }}-${{ hashFiles('**/bun.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-bun-${{ env.cache-name }}-
-            ${{ runner.os }}-bun-
-
-      - name: Setup | Install dependencies
-        run: bun install --frozen-lockfile
-
       - name: Setup | Configure Git
         run: |
           git config user.name "github-actions[bot]"
@@ -60,4 +40,3 @@ jobs:
         uses: cycjimmy/semantic-release-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
