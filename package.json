@@ -16,7 +16,7 @@
 		"husky": "husky"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.2.0",
+		"@biomejs/biome": "^2.3.8",
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/commit-analyzer": "^13.0.0",
 		"@semantic-release/github": "^10.3.5",
