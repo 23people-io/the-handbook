@@ -38,6 +38,9 @@ jobs:
       with:
         name: site-build-${{ github.sha }}
         path: ./site
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        repository: ${{ github.repository }}
+        run-id: ${{ github.event.workflow_run.id }}
       
     - name: Deploy | To Cloudflare (only main branch)
       id: deploy-step
