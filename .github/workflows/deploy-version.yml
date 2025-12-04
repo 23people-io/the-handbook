@@ -1,4 +1,4 @@
-name: Deploy Version (Non-Main Branches)
+name: Deploy Version
 
 on:
   workflow_run:
@@ -17,7 +17,7 @@ permissions:
 jobs:
   # Deploy the project
   deploy:
-    name: Deploy Version
+    name: Deploy
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,7 +30,8 @@ jobs:
       uses: cloudflare/wrangler-action@v3
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}          
+        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        wranglerVersion: "4.52.1"          
         command: versions upload
 
     - name: print deployment-url
