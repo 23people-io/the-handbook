@@ -1,10 +1,9 @@
 name: CI
 
 on:
-  push:
-    # All branches
   pull_request:
-    # All pull requests
+    branches:
+      - main
 
 jobs:
   # Build the project and lint markdown files
