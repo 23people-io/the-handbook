@@ -17,7 +17,7 @@ permissions:
 jobs:
   # Deploy the project
   deploy:
-    name: Deploy Version (Non-Main Branches)
+    name: Deploy Version
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,7 +31,7 @@ jobs:
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}          
-        command: version upload
+        command: versions upload
 
     - name: print deployment-url
       env:
