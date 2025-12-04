@@ -154,6 +154,10 @@ The changelog is automatically generated based on the commit messages following 
 
 The deployment is done automatically when you push a new version to the `main` branch. The deployment is done using [Cloudflare Pages](https://pages.cloudflare.com/). The associated Cloudflare Worker is [23people-handbook](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/pages/view/the-handbook). You should be able to see the changes in the production environment after a few minutes under [https://manual.23people.io/](https://manual.23people.io/).
 
+## TODO
+
+- [ ] Fix Release workflow to generate new semantic versions in GitHub Releases
+
 ## References
 
 - [Getting started with Mkdocs Material](https://squidfunk.github.io/mkdocs-material/getting-started/)

@@ -2,7 +2,7 @@ name: Deploy Production Version
 
 on:
   workflow_run:
-    workflows: ["Release"] # Depends on successful Release workflow
+    workflows: ["CI"] # Depends on successful Release workflow
     types:
       - completed
     branches:
