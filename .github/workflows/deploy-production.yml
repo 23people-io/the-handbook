@@ -31,13 +31,13 @@ jobs:
 
     - name: Setup | Print GitHub SHA
       env:
-        GITHUB_SHA: Github SHA ${{ github.sha }}
+        GITHUB_SHA: Github SHA ${{ github.event.workflow_run.head_sha }}
       run: echo $GITHUB_SHA
 
     - name: Download | Site artifact
       uses: actions/download-artifact@v5
       with:
-        name: site-build-${{ github.sha }}
+        name: site-build-${{ github.event.workflow_run.head_sha }}
         path: ./site
         github-token: ${{ secrets.GITHUB_TOKEN }}
         repository: ${{ github.repository }}
