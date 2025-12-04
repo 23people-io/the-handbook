@@ -1,4 +1,4 @@
-name: Deploy to Production
+name: Deploy Production Version
 
 on:
   workflow_run:
@@ -17,7 +17,7 @@ permissions:
 jobs:
   # Deploy the project
   deploy:
-    name: Deploy to Production
+    name: Deploy
     runs-on: ubuntu-latest
     permissions:
       contents: write
