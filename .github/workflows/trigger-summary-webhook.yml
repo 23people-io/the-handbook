@@ -19,6 +19,7 @@ jobs:
           url: 'https://iarvis.app.n8n.cloud/webhook/f63d8548-10d1-40dc-83ff-cd9051efb27f'
           method: 'POST'
           contentType: 'application/json'
+          customHeaders: '{"auth": "${{ secrets.N8N_IARVIS_AUTH_TOKEN }}"}'
           data: '{"commit": "${{ github.sha }}"}'
       
       - name: Action | Show response
