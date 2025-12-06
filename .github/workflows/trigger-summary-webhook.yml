@@ -1,4 +1,4 @@
-name: Call Indexing on Vector Database
+name: Call Update General Overview Handbook Summary Webhook
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  trigger-indexing:
+  trigger-webhook:
     runs-on: ubuntu-latest
     steps:
       - name:  Setup | Checkout Repository on Release Branch
@@ -16,7 +16,7 @@ jobs:
         id: trigger-worker
         uses: fjogeleit/http-request-action@v1
         with:
-          url: 'https://iarvis.app.n8n.cloud/webhook-test/d7411ae0-f14f-4be3-91d3-683a51d23696'
+          url: 'https://iarvis.app.n8n.cloud/webhook/f63d8548-10d1-40dc-83ff-cd9051efb27f'
           method: 'POST'
           contentType: 'application/json'
           data: '{"commit": "${{ github.sha }}"}'
