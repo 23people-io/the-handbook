@@ -1,12 +1,12 @@
-name: Indexing on Vector Database
+name: Call Update General Overview Handbook Summary Webhook
 
 on:
   push:
     branches:
-      - main2 # FIXME: Adjust this branch as needed
+      - main
 
 jobs:
-  trigger-indexing:
+  trigger-webhook:
     runs-on: ubuntu-latest
     steps:
       - name:  Setup | Checkout Repository on Release Branch
@@ -16,9 +16,10 @@ jobs:
         id: trigger-worker
         uses: fjogeleit/http-request-action@v1
         with:
-          url: ${{ vars.HANDBOOK_INDEXER_WORKER_URL }}
+          url: 'https://iarvis.app.n8n.cloud/webhook-test/f63d8548-10d1-40dc-83ff-cd9051efb27f'
           method: 'POST'
           contentType: 'application/json'
+          customHeaders: '{"auth": "${{ secrets.N8N_IARVIS_AUTH_TOKEN }}"}'
           data: '{"commit": "${{ github.sha }}"}'
       
       - name: Action | Show response
