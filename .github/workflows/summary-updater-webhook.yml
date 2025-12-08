@@ -1,4 +1,4 @@
-name: Call Update General Overview Handbook Summary Webhook
+name: Trigger the Summary Updater Webhook in n8n
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
         id: trigger-worker
         uses: fjogeleit/http-request-action@v1
         with:
-          url: 'https://iarvis.app.n8n.cloud/webhook-test/f63d8548-10d1-40dc-83ff-cd9051efb27f'
+          url: '${{ secrets.N8N_IARVIS_HANDBOOK_SUMMARY_UPDATER_WEBHOOK }}'
           method: 'POST'
           contentType: 'application/json'
           customHeaders: '{"auth": "${{ secrets.N8N_IARVIS_AUTH_TOKEN }}"}'

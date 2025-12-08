@@ -132,6 +132,9 @@ The repository uses three main workflows for continuous integration and deployme
    - Downloads build artifact from CI workflow
    - Deploys to production at [manual.23people.io](https://manual.23people.io)
 
+4. **Summary Updater Webhook** (`summary-updater-webhook.yml`) - Trigger the Summary Updater Webhook in n8n:
+   - Updates `llm-resources/handbook-summary.md` using AI processing
+
 **Branch Protection**: The `main` branch requires the `Build` status check to pass before merging, ensuring all changes are linted and build successfully.
 
 ## Commit Guidelines
