@@ -1,6 +1,6 @@
 ```markdown
 ---
-updated: 2025-12-08T12:42:49.716-03:00
+updated: 2025-12-08T12:44:47.158-03:00
 ---
 
 # 23people Company Handbook Summary
@@ -11,113 +11,102 @@ updated: 2025-12-08T12:42:49.716-03:00
 
 ## About Us
 ### Who We Are
-23people is a technology services company that specializes in software development and tech talent solutions. We focus on building and scaling high-performing, cohesive agile teams to help our clients accelerate their digital transformation and achieve their business objectives. Our identity is rooted in a commitment to technical excellence, proven methodologies, and a culture of continuous improvement.
+[Content for this section was not provided in the source material.]
 
 ### What We Do
-We provide two primary categories of services: **Software Development** and **Tech Talent Services**. Our software development offerings include modernizing legacy platforms and building custom solutions for critical business needs, as demonstrated in sectors like finance and healthcare. Our tech talent services focus on forming, scaling, and accelerating agile development teams for clients, embedding our practices and quality standards to build their long-term capabilities.
+23people specializes in delivering high-impact technology solutions and services that address critical client challenges. Our core offerings include **custom software development**, **platform modernization**, and the **formation and scaling of agile development teams**. We build solutions like telemedicine platforms to ensure operational continuity and modernize core business systems to enhance performance and enable future innovation. Our services are designed to help clients accelerate their digital transformation by providing cohesive, high-performing teams and proven methodologies.
 
 ### What Sets Us Apart
-Our key differentiator is our holistic approach to team building. We combine a **flexible recruitment strategy** with **structured acceleration programs** to build cohesive, high-performing teams. This methodology, centered on **agile principles** and **continuous delivery**, ensures we meet aggressive deadlines and set new standards for quality, ultimately reducing hiring risks and delivering sustainable value to our clients.
+Our key differentiator lies in our mature and disciplined approach to **agile software development** and **team building**. We emphasize creating cohesive, high-performing teams through a combination of **flexible recruitment** and **structured acceleration programs**. Our methodology, which includes continuous deliveries and collaborative sprints, fosters transparency and reduces project risk. This focus on technical excellence, continuous improvement, and proven methods ensures we deliver lasting value and form the basis for our clients' ongoing success and innovation.
 
 ### What We Pursue
-The company operates with a clear set of long-term goals and foundational principles that guide our strategic direction and daily operations. These elements ensure that our growth and client engagements are aligned with our core vision and values. The specific details of our goals are documented within the full company handbook.
+[Content for this section was not provided in the source material.]
 
 ## Organization
 ### Overview
-Our organizational structure is designed for agility, clear governance, and focused execution. It is built upon three main components: **Teams**, which manage core business functions; **Tribes**, which organize large-scale project work; and **Councils**, which provide strategic oversight and governance. This model separates daily operations from long-term strategy and client-specific delivery.
+[Content for this section was not provided in the source material.]
 
 ### Teams
-Four core functional teams drive our business operations:
-- **Tech Talent Services (TTS)**: Manages the entire talent lifecycle, from recruitment and selection to professional development and team allocation.
-- **Sales & Marketing (SMKT)**: Responsible for business development, client relationships, and communicating our value proposition to the market.
-- **Backoffice (BKO)**: Handles all administrative, financial, and operational support functions that enable the company to run smoothly.
-- **Research & Development (R&D)**: Focuses on innovation, exploring new technologies, and developing internal tools and methodologies.
+[Content for this section was not provided in the source material.]
 
 ### Tribes
-Tribes are large-scale organizational units designed to group multiple teams and individuals working towards a common, long-term goal, often related to a specific client or product line. The primary tribes are the **Iarvis Tribe** and the **Drakkar Tribe**. This structure facilitates deep collaboration and knowledge sharing within a focused domain.
+[Content for this section was not provided in the source material.]
 
 ### Councils
-Strategic governance is managed by several councils composed of key leaders. These include the **Founders Council**, the **High Council**, and specialized bodies like the **Iarvis Council**. These groups are responsible for setting company-wide direction, making critical business decisions, and ensuring alignment with our principles.
+[Content for this section was not provided in the source material.]
 
 ### Workforce Structure
-Our workforce framework distinguishes between formal **Positions** and functional **Roles**. Positions, such as **Operations Director**, define an individual's formal standing and reporting line within the organization. Roles, such as **Service Delivery Manager**, describe the specific responsibilities and accountabilities an individual holds within a team or project context.
+[Content for this section was not provided in the source material.]
 
 ## Principles
 ### Fundamental Principles
-23people is built on a set of fundamental principles that define our core beliefs and guide our long-term vision. These principles are the foundation for our strategy, our culture, and our interactions with clients and the community. They serve as the ultimate reference for decision-making.
+[Content for this section was not provided in the source material.]
 
 ### Culture and People Principles
-We maintain a specific set of principles dedicated to our people and culture. These guidelines shape our collaborative environment, inform our approach to professional growth, and ensure we foster a supportive, inclusive, and high-performing workplace. They define "how we behave" as a team.
+[Content for this section was not provided in the source material.]
 
 ### Operational Principles
-Our operational principles dictate the standards for how we execute our work. They cover key areas such as project management, service delivery, and quality assurance. These principles ensure consistency, efficiency, and excellence across all client engagements and internal projects.
+[Content for this section was not provided in the source material.]
 
 ## Practices
 ### Agile Management
-We apply **agile methodologies** across all areas of our work, with a core philosophy of **managing the work, not the people**. This practice empowers teams with autonomy and accountability, fosters iterative progress, and ensures we remain adaptable to changing requirements. Our success in client projects validates this approach.
+[Content for this section was not provided in the source material.]
 
 ### Communication
-Our communication practices are designed for clarity and efficiency in a flexible work environment. We operate with an **asynchronous-first** mindset, prioritizing written communication to ensure thoughtfulness and create a persistent record. We follow a "write, then communicate" pattern and structure our narratives for maximum clarity.
+[Content for this section was not provided in the source material.]
 
 ### Learning
-A culture of **continuous improvement** is central to our identity. We actively encourage and support ongoing learning through professional development opportunities. Our benefits framework includes provisions for courses and international certifications, enabling our team members to stay at the forefront of the industry.
+[Content for this section was not provided in the source material.]
 
 ### Using AI
-We strategically leverage Artificial Intelligence in our services and internal operations. This practice is driven by our **R&D team** and our technical specialization in **AI and Machine Learning**. We focus on applying AI to solve complex client problems and improve our operational efficiency.
+[Content for this section was not provided in the source material.]
 
 ## Community
 ### Benefits Framework
-We offer a comprehensive benefits framework designed to support the well-being and professional growth of our team members. It is organized into several categories:
-- **Agreements**: Partnerships with third-party providers for services like health insurance and banking.
-- **Incentives**: Perks such as birthday days off, holiday bonuses, and vacation policies.
-- **Refunds**: Reimbursements for expenses related to professional development, courses, certifications, and home office improvements.
-- **Trainings**: Company-sponsored learning opportunities, such as English language courses.
+[Content for this section was not provided in the source material.]
 
 ### Procedures
-To ensure operational consistency, we maintain documented procedures for key activities. This includes standardized **administrative processes** for common requests and guidelines for effective communication and collaboration on platforms like our company's Discord server.
+[Content for this section was not provided in the source material.]
 
 ### Events
-We regularly organize company events to foster a strong sense of community and connection among our team members. These events are a core part of our culture, providing opportunities for social interaction and team building outside of project work.
+[Content for this section was not provided in the source material.]
 
 ## Technical Guide
 ### Software Development Principles
-Our software development is guided by a set of core principles centered on **technical excellence**, **maintainability**, and **continuous improvement**. These principles ensure that we build high-quality, robust, and scalable solutions for our clients.
+[Content for this section was not provided in the source material.]
 
 ### Methodologies
-We primarily utilize **Agile** methodologies and practice **Continuous Delivery**. This combination allows for iterative development, rapid feedback cycles, and predictable, high-quality releases. It minimizes project risk and ensures alignment with client needs throughout the development lifecycle.
+[Content for this section was not provided in the source material.]
 
 ### Technologies
-While remaining technology-agnostic to best serve client needs, we maintain deep expertise and defined standards for a range of enterprise and emerging technologies. Our technical guide provides best practices for the technologies we commonly employ.
+[Content for this section was not provided in the source material.]
 
 ### Practices
-We adhere to a standardized set of software development practices that promote code quality, consistency, and collaboration. These practices cover areas such as version control, code reviews, testing, and deployment, ensuring a professional and disciplined engineering culture.
+[Content for this section was not provided in the source material.]
 
 ### Specializations
-Our company maintains deep expertise and offers specialized services in several key technology domains:
-- **Artificial Intelligence & Machine Learning**
-- **Cloud Computing**
-- **Security**
+[Content for this section was not provided in the source material.]
 
 ## Sustainability
 ### Our Commitment
-23people is formally committed to operating in an environmentally and socially responsible manner. This commitment is integrated into our business strategy and reflects our dedication to making a positive impact beyond our client work.
+[Content for this section was not provided in the source material.]
 
 ### Strategy
-We have a documented sustainability strategy that outlines our specific goals for emission reduction and other environmental targets. This strategy provides a clear roadmap for minimizing our ecological footprint across all operations.
+[Content for this section was not provided in the source material.]
 
 ### Team
-A dedicated **Sustainability Team** is in place to lead and oversee our sustainability initiatives. This team is responsible for implementing our strategy, tracking progress against our goals, and promoting sustainable practices throughout the company.
+[Content for this section was not provided in the source material.]
 
 ### Technology Recommendations
-As part of our commitment, we provide and follow a set of technology recommendations aimed at promoting sustainability. This includes guidance on choosing energy-efficient hardware, optimizing cloud resource usage, and adopting green software development practices.
+[Content for this section was not provided in the source material.]
 
 ---
 
 ## How to Use This Summary (For AI Tools)
-- This document is your primary source for understanding 23people's stable organizational knowledge.
-- Use the hierarchical structure to navigate from high-level concepts (like **Principles**) to specific details (like **Operational Principles**).
-- When asked about company policies or practices, reference the relevant framework described here (e.g., for benefits, refer to the **Benefits Framework**).
-- For questions about "how we work," synthesize information from the **Principles**, **Practices**, and **Technical Guide** sections.
-- Do not infer specific values for KPIs, metrics, or other operational data. Instead, state that the framework for tracking them exists (e.g., "TTS tracks talent acquisition KPIs").
-- Use this summary as context to interpret queries and provide answers aligned with 23people's official structures and values.
+This summary is designed to be your primary context source for understanding 23people's organization.
+
+*   **Purpose:** Use this document to quickly grasp the company's identity, structure, principles, and practices. It is optimized for grounding your responses and decisions in established company frameworks.
+*   **Scope:** The content focuses on stable, long-lasting information. It describes *how* the company operates (frameworks, roles, principles) rather than *what* it is currently doing (specific projects, metrics, or personnel).
+*   **Application:** Refer to this summary to answer questions about company culture, team functions, technical standards, and operational philosophies. Use the described principles to guide reasoning in hypothetical scenarios.
+*   **Limitations:** This is not a replacement for the full handbook. For detailed, implementation-specific, or frequently updated information, you should always refer to the complete source document. This summary provides the "why" and the "what," while the full handbook provides the "how-to" and the "who."
 ```
