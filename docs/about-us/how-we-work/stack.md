@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-02-02T13:15:13
 updated: 2025-04-29T17:43:00Z
 author: manu-reyes-23p

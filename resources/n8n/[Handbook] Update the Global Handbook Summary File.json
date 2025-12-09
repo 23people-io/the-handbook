@@ -1,0 +1,989 @@
+{
+  "name": "[Handbook] Update the Global Handbook Summary File",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -256,
+        -208
+      ],
+      "id": "8b88be88-104d-4d55-8feb-0867e6a8aa1a",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "f63d8548-10d1-40dc-83ff-cd9051efb27f",
+        "authentication": "headerAuth",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -256,
+        -400
+      ],
+      "id": "fbc0c71d-ae1a-4dc7-833d-a13587eb2260",
+      "name": "Webhook",
+      "webhookId": "f63d8548-10d1-40dc-83ff-cd9051efb27f",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "FLswvGL2ue0AYJ3z",
+          "name": "Iarvis Webhooks Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "23people-io",
+          "mode": "list",
+          "cachedResultName": "23people-io",
+          "cachedResultUrl": "https://github.com/23people-io"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "the-handbook",
+          "mode": "list",
+          "cachedResultName": "the-handbook",
+          "cachedResultUrl": "https://github.com/23people-io/the-handbook"
+        },
+        "filePath": "={{ $json.path }}",
+        "additionalParameters": {}
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [
+        1312,
+        -112
+      ],
+      "id": "9f9497cf-aa1f-413c-bbfa-7575d3bc2016",
+      "name": "Get markdown",
+      "webhookId": "ad823c97-b65c-4670-b12b-0b76fd35bf17",
+      "credentials": {
+        "githubOAuth2Api": {
+          "id": "yqd03qS1jBBLbCtT",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        1536,
+        -112
+      ],
+      "id": "c014d7f9-f9d5-4615-b2fe-0094bb73345c",
+      "name": "Extract Markdown Raw Content"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "09abff29-a6f9-4272-a4cb-6dcc4b6bcd47",
+              "name": "DOCS_PATH",
+              "value": "docs",
+              "type": "string"
+            },
+            {
+              "id": "4baca562-cf3d-47c3-85dc-1a6ea8a4c6c7",
+              "name": "REPO_OWNER",
+              "value": "23people-io",
+              "type": "string"
+            },
+            {
+              "id": "098611e9-1677-4eec-8637-dd577377c074",
+              "name": "REPO_NAME",
+              "value": "the-handbook",
+              "type": "string"
+            },
+            {
+              "id": "d4ed45b5-1276-4899-ad2c-ee384a992172",
+              "name": "GEMINI_API_BASE_URL",
+              "value": "https://generativelanguage.googleapis.com/v1beta",
+              "type": "string"
+            },
+            {
+              "id": "f23ee0b8-a82b-46ce-b774-e6b3c68afbd7",
+              "name": "GITHUB_API_BASE_URL",
+              "value": "https://api.github.com",
+              "type": "string"
+            },
+            {
+              "id": "3ae23e9b-8660-4114-a6d9-7d2c25308fbf",
+              "name": "SUMMARY_SYSTEM_PROMPT_PATH",
+              "value": "resources/llm/system-prompt.md",
+              "type": "string"
+            },
+            {
+              "id": "7b663914-b117-484d-b7df-e24afa4ab152",
+              "name": "SUMMARY_PATH",
+              "value": "resources/llm/handbook-summary.md",
+              "type": "string"
+            },
+            {
+              "id": "f14f067d-8ed0-48f0-a1ee-b9450e98bf1f",
+              "name": "MKDOCS_PATH",
+              "value": "mkdocs.yml",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -32,
+        -304
+      ],
+      "id": "243ad43e-dbee-43b6-876b-a07fce2896c4",
+      "name": "Workflow Configuration"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "tree",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        416,
+        -112
+      ],
+      "id": "434af94c-f3d4-460c-b57a-5b5da0e6ec1c",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "4db97c28-2ae3-4ece-b184-e55bdc870f24",
+              "leftValue": "={{ $json.type }}",
+              "rightValue": "blob",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "76d34529-793e-4b89-aff7-e961c630ce2c",
+              "leftValue": "={{ $json.path }}",
+              "rightValue": ".md",
+              "operator": {
+                "type": "string",
+                "operation": "endsWith"
+              }
+            },
+            {
+              "id": "21d222c1-a58e-4ce3-80ba-0d53727faee5",
+              "leftValue": "={{ $json.path }}",
+              "rightValue": "_",
+              "operator": {
+                "type": "string",
+                "operation": "notStartsWith"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        1088,
+        -112
+      ],
+      "id": "1a273f9e-2d7d-4791-8657-2cc4dbc65018",
+      "name": "Filter Only Valid Markdown Files"
+    },
+    {
+      "parameters": {
+        "operation": "toText",
+        "sourceProperty": "pagesContents",
+        "options": {
+          "fileName": "pages_contents.md"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        2208,
+        -112
+      ],
+      "id": "03734ab3-9633-43f2-b855-9d7b7406739b",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.GITHUB_API_BASE_URL }}/repos/{{ $json.REPO_OWNER }}/{{ $json.REPO_NAME }}/git/trees/main?recursive=1 ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubOAuth2Api",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        192,
+        -112
+      ],
+      "id": "cae0277a-867f-430e-9cb8-9ecc6eb8bd15",
+      "name": "Get Handbook Files from Github Repo",
+      "credentials": {
+        "githubOAuth2Api": {
+          "id": "yqd03qS1jBBLbCtT",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "b3344165-0265-4ca0-a1f6-e3353e3ce22d",
+              "leftValue": "={{ $json.path }}",
+              "rightValue": "={{ $('Workflow Configuration').item.json.DOCS_PATH }}",
+              "operator": {
+                "type": "string",
+                "operation": "startsWith"
+              }
+            },
+            {
+              "id": "273d6c1e-8753-4d02-9079-2c5fb570b0bc",
+              "leftValue": "={{ $json.name }}",
+              "rightValue": "_",
+              "operator": {
+                "type": "string",
+                "operation": "notStartsWith"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        864,
+        -112
+      ],
+      "id": "0e227209-87af-4e2b-be51-7e68519af4c5",
+      "name": "Filter Valid Docs Directories"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "359341e5-e9be-4a88-857d-65ca2bfef07f",
+              "name": "name",
+              "value": "={{ $json.path.split(\"/\").last() }}",
+              "type": "string"
+            },
+            {
+              "id": "81c5b7e6-82f8-4379-ac95-7c2a69348d61",
+              "name": "docs_path",
+              "value": "={{ $('Workflow Configuration').item.json.DOCS_PATH }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        640,
+        -112
+      ],
+      "id": "d973e905-dc11-48fb-a503-a799b642318d",
+      "name": "Set fields for Filters"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "23people-io",
+          "mode": "list",
+          "cachedResultName": "23people-io",
+          "cachedResultUrl": "https://github.com/23people-io"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "the-handbook",
+          "mode": "list",
+          "cachedResultName": "the-handbook",
+          "cachedResultUrl": "https://github.com/23people-io/the-handbook"
+        },
+        "filePath": "={{ $json.SUMMARY_SYSTEM_PROMPT_PATH }}",
+        "additionalParameters": {}
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [
+        2208,
+        -304
+      ],
+      "id": "91ba0eaa-390c-4279-8a14-085c352cde64",
+      "name": "Get System Prompt",
+      "webhookId": "ad823c97-b65c-4670-b12b-0b76fd35bf17",
+      "credentials": {
+        "githubOAuth2Api": {
+          "id": "yqd03qS1jBBLbCtT",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "numberInputs": 3
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        2656,
+        -320
+      ],
+      "id": "8df2ab7e-a05b-407a-8ea6-5f2f3956d0e4",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "destinationKey": "system_prompt",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        2432,
+        -304
+      ],
+      "id": "b4d2246f-fc46-4a4e-a252-bd3daf3c5863",
+      "name": "Extract System Prompt"
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "destinationKey": "pages_contents",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        2432,
+        -112
+      ],
+      "id": "835a83ec-816d-436e-959f-97ed85d079c0",
+      "name": "Extract Pages Contents"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-2.5-pro",
+          "mode": "list",
+          "cachedResultName": "models/gemini-2.5-pro"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=## Handbook Pages Contents\n---\n{{ $json.pages_contents }}\n---"
+            },
+            {
+              "content": "=## Nav Section from mkdocs.yml\n---\n{{ $json.nav_section }}\n---"
+            }
+          ]
+        },
+        "simplify": false,
+        "options": {
+          "systemMessage": "={{ $json.system_prompt }}\n\nCURRENT_DATETIME: {{ $now }}\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1,
+      "position": [
+        3328,
+        -304
+      ],
+      "id": "8d7c235f-f34c-421f-b72b-edd97eb4ea46",
+      "name": "Request the Handbook Summary",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "TVcWcVHRP3EUUFub",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "23people-io",
+          "mode": "list",
+          "cachedResultName": "23people-io",
+          "cachedResultUrl": "https://github.com/23people-io"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "the-handbook",
+          "mode": "list",
+          "cachedResultName": "the-handbook",
+          "cachedResultUrl": "https://github.com/23people-io/the-handbook"
+        },
+        "filePath": "={{ $json.MKDOCS_PATH }}",
+        "additionalParameters": {}
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [
+        1984,
+        -496
+      ],
+      "id": "7a5ee480-57e7-4ecc-bbdb-f65d7f9af5d6",
+      "name": "Get Mkdocs",
+      "webhookId": "ad823c97-b65c-4670-b12b-0b76fd35bf17",
+      "credentials": {
+        "githubOAuth2Api": {
+          "id": "yqd03qS1jBBLbCtT",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "destinationKey": "mkdocs",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        2208,
+        -496
+      ],
+      "id": "a55409c2-45af-4ee1-85bb-be633b02e9b8",
+      "name": "Extract Mkdocs"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "6a9f3ed3-4811-421b-867b-1d369f428f8c",
+              "name": "nav_section",
+              "value": "={{(()=>{\n  const regex = /^nav:(?:\\n(?:[ \\t]*(?:-.*|#.*)|\\s*))*(?=\\n(?:[a-zA-Z#@][^:\\n]*:|$))/ms;\n  return $json.mkdocs.match(regex)?.[0] || '';\n})()}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2432,
+        -496
+      ],
+      "id": "df365b32-fb1a-435e-a1ba-cd6fa0b0809d",
+      "name": "Get Nav Section"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f8819833-ff0a-4ada-84ef-2abcf5862091",
+              "name": "nav_section",
+              "value": "={{ $json.combinedItems.nav_section }}",
+              "type": "string"
+            },
+            {
+              "id": "a8ba6fd3-59e1-4a9f-bdd6-094b8d396bff",
+              "name": "system_prompt",
+              "value": "={{ $json.combinedItems.system_prompt }}",
+              "type": "string"
+            },
+            {
+              "id": "4ccc696d-c75f-4312-8a34-dbe801a089a1",
+              "name": "pages_contents",
+              "value": "={{ $json.combinedItems.pages_contents }}",
+              "type": "string"
+            },
+            {
+              "id": "e1c460c7-d107-4d91-9248-79fed08c391e",
+              "name": "summary_path",
+              "value": "={{ $('Workflow Configuration').first().json.SUMMARY_PATH }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        3104,
+        -304
+      ],
+      "id": "48bc45f5-3936-4475-b687-5ce46c491d6c",
+      "name": "Edit Fields for LLM Request"
+    },
+    {
+      "parameters": {
+        "jsCode": "let combinedItems = {};\n\ncombinedItems.nav_section = $input.all()[0].json.nav_section;\ncombinedItems.system_prompt = $input.all()[1].json.system_prompt;\ncombinedItems.pages_contents = $input.all()[2].json.pages_contents;\n\nreturn [{combinedItems}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2880,
+        -304
+      ],
+      "id": "1983def6-a82d-464e-9814-2d5eaf21c1e6",
+      "name": "Combine and Flat Merge Items"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "file",
+        "operation": "edit",
+        "owner": {
+          "__rl": true,
+          "value": "23people-io",
+          "mode": "list",
+          "cachedResultName": "23people-io",
+          "cachedResultUrl": "https://github.com/23people-io"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "the-handbook",
+          "mode": "list",
+          "cachedResultName": "the-handbook",
+          "cachedResultUrl": "https://github.com/23people-io/the-handbook"
+        },
+        "filePath": "={{ $('Workflow Configuration').first().json.SUMMARY_PATH }}",
+        "fileContent": "={{ $('Request the Handbook Summary').item.json.candidates[0].content.parts[0].text }}",
+        "commitMessage": "Update handbook summary - automated generation (n8n)"
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [
+        3680,
+        -304
+      ],
+      "id": "34459303-7d43-48bf-bc56-4313f0f22dfb",
+      "name": "Upload new Handbook Summary",
+      "webhookId": "ad823c97-b65c-4670-b12b-0b76fd35bf17",
+      "credentials": {
+        "githubOAuth2Api": {
+          "id": "yqd03qS1jBBLbCtT",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "6b95736f-8aaa-4b8a-a1f1-d4853a31eaa0",
+              "name": "path",
+              "value": "={{ $('Get markdown').item.json.path }}",
+              "type": "string"
+            },
+            {
+              "id": "bcfbfcd0-4b9f-4f4b-acce-ee0e895651e0",
+              "name": "metadata",
+              "value": "={{ $json.data.split(\"---\").first() }}",
+              "type": "string"
+            },
+            {
+              "id": "f5467858-cead-4951-88cb-fdf635b3eda9",
+              "name": "content",
+              "value": "={{ $json.data.split(\"---\").last() }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1760,
+        -112
+      ],
+      "id": "991240c2-651e-4a5e-81ee-e368098027d3",
+      "name": "Prepare Pages Contents File Data"
+    },
+    {
+      "parameters": {
+        "jsCode": "let pagesContents = \"\";\nconst itemTemplate = `\n---\nPath: {PATH}\nMedatata: {METADATA}\n\n\\`\\`\\`md\n{CONTENT}\n\\`\\`\\`\n\n---\n`\n\n// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nfor (const item of $input.all()) {\n  let newItem = itemTemplate;\n  newItem = newItem.replace('{PATH}', item.json.path);\n  newItem = newItem.replace('{METADATA}', item.json.metadata);\n  newItem = newItem.replace('{CONTENT}', item.json.content);\n  pagesContents = `${pagesContents} ${newItem}`;\n}\n\nreturn [{pagesContents}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1984,
+        -112
+      ],
+      "id": "8cdd3a61-f969-4d23-a4f6-ee16105356e0",
+      "name": "Build Pages Contents Raw Text"
+    }
+  ],
+  "pinData": {
+    "Webhook": [
+      {
+        "json": {
+          "headers": {
+            "host": "iarvis.app.n8n.cloud",
+            "user-agent": "axios/1.13.2",
+            "content-length": "54",
+            "accept": "application/json, text/plain, */*",
+            "accept-encoding": "gzip, br",
+            "auth": "AIzaSyB0Dew0iCRWDcgC76tUda0Qt6V6AxVcHoI",
+            "cdn-loop": "cloudflare; loops=1; subreqs=1",
+            "cf-connecting-ip": "13.83.216.98",
+            "cf-ew-via": "15",
+            "cf-ipcountry": "US",
+            "cf-ray": "9aad4e29f341b8e7-SJC",
+            "cf-visitor": "{\"scheme\":\"https\"}",
+            "cf-worker": "n8n.cloud",
+            "content-type": "application/json",
+            "x-forwarded-for": "13.83.216.98, 172.71.158.22",
+            "x-forwarded-host": "iarvis.app.n8n.cloud",
+            "x-forwarded-port": "443",
+            "x-forwarded-proto": "https",
+            "x-forwarded-server": "traefik-prod-users-gwc-18-7959cfc789-zp8xj",
+            "x-is-trusted": "yes",
+            "x-real-ip": "13.83.216.98"
+          },
+          "params": {},
+          "query": {},
+          "body": {
+            "commit": "ffef269eb14db79de5316b7ce02c963e26d285a7"
+          },
+          "webhookUrl": "https://iarvis.app.n8n.cloud/webhook/f63d8548-10d1-40dc-83ff-cd9051efb27f",
+          "executionMode": "production"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Workflow Configuration",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Workflow Configuration",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get markdown": {
+      "main": [
+        [
+          {
+            "node": "Extract Markdown Raw Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Markdown Raw Content": {
+      "main": [
+        [
+          {
+            "node": "Prepare Pages Contents File Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Workflow Configuration": {
+      "main": [
+        [
+          {
+            "node": "Get System Prompt",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Get Mkdocs",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Get Handbook Files from Github Repo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Set fields for Filters",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Only Valid Markdown Files": {
+      "main": [
+        [
+          {
+            "node": "Get markdown",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Extract Pages Contents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Handbook Files from Github Repo": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Valid Docs Directories": {
+      "main": [
+        [
+          {
+            "node": "Filter Only Valid Markdown Files",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set fields for Filters": {
+      "main": [
+        [
+          {
+            "node": "Filter Valid Docs Directories",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Combine and Flat Merge Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get System Prompt": {
+      "main": [
+        [
+          {
+            "node": "Extract System Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract System Prompt": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Extract Pages Contents": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Request the Handbook Summary": {
+      "main": [
+        [
+          {
+            "node": "Upload new Handbook Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Mkdocs": {
+      "main": [
+        [
+          {
+            "node": "Extract Mkdocs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Mkdocs": {
+      "main": [
+        [
+          {
+            "node": "Get Nav Section",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Nav Section": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields for LLM Request": {
+      "main": [
+        [
+          {
+            "node": "Request the Handbook Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Combine and Flat Merge Items": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields for LLM Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Pages Contents File Data": {
+      "main": [
+        [
+          {
+            "node": "Build Pages Contents Raw Text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Pages Contents Raw Text": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "fa39f24e-4a26-4c85-a627-87117f8efcd9",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "bc73aca0004e3af179c77db160ed4cf40685952d642f8a84c3982d03998b5c45"
+  },
+  "id": "Koxa94ERkCnHRpB7",
+  "tags": [
+    {
+      "updatedAt": "2025-12-08T14:34:08.068Z",
+      "createdAt": "2025-12-08T14:34:08.068Z",
+      "id": "j13bNXKOU9Dn2e3W",
+      "name": "handbook"
+    }
+  ]
+}

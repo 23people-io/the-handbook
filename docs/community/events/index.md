@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-01-08T14:54:18
 updated: 2025-04-29T17:43:00Z
 description: En esta página se puede acceder a las fotografías y videos de los eventos de 23people

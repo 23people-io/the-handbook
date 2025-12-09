@@ -1,6 +1,4 @@
 ---
-reindex: true
-reindex-date: 2025-04-29T17:42:23Z
 created: 2024-08-21T18:03:41
 updated: 2025-04-29T17:43:00Z
 description: KPI de Oportunidades de Venta Calificadas (QSO)

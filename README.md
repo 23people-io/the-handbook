@@ -2,7 +2,7 @@
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
-This repository is dedicated to storing all company **public consolidated information** in markdown files. This accumulated information is indexed in Vector Store Indexes and utilized by Large Language Models (LLMs) for various tasks related to 23people.
+This repository is dedicated to storing all company **public consolidated information** in markdown files. This accumulated information is expected to be utilized by Large Language Models (LLMs) for various tasks related to 23people.
 
 > [!IMPORTANT]
 > The **access level** of the files content is `public`, meaning it is accessible to everyone. The content is **not confidential** and can be shared with anyone.
@@ -11,13 +11,19 @@ This repository is dedicated to storing all company **public consolidated inform
 
 You can access the handbook in a production environment at [https://manual.23people.io/](https://manual.23people.io).
 
-## Indexing Process
+## Content Structure
 
-This repository includes a GitHub Action workflow that triggers the indexing of all handbook content into a vector database. When changes are pushed to the main branch, the workflow sends a request to the [23p-handbook-indexer](https://github.com/23people-io/23p-handbook-indexer.git) service, which processes the markdown files and updates the vector index.
+The main content associated with the company is stored in the `docs/` folder. All handbook documentation, guides, and resources are organized within this directory.
 
-## AI Context Resources
+The navigation structure of the handbook can be viewed in the `mkdocs.yml` file, specifically in the `nav:` section. This section defines how content is organized and displayed on the handbook website.
 
-The repository includes a special file in the `docs/llm-resources` folder called `handbook-summary.txt`, which contains an up-to-date summary of the entire handbook. This file serves as a context source for AI-powered chatbots and tools.
+## Context Resources for AI Tools
+
+The repository includes specialized resources in the `llm-resources/` folder for AI-powered tools:
+
+- **`handbook-summary.md`**: An up-to-date, LLM-optimized summary of the entire handbook. This file serves as a context source for AI-powered chatbots and tools, focusing on stable patterns, principles, and frameworks rather than frequently changing operational data.
+
+- **`system-prompt.md`**: A comprehensive system prompt that defines the strategy and guidelines for generating and maintaining the handbook summary. This prompt is designed for use in automation projects and ensures consistency in how the summary is created and updated.
 
 ## Contributing to the Handbook
 
@@ -109,6 +115,30 @@ The project is built using the following technologies:
 - [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
 - Markdown
 
+### GitHub Actions Workflows
+
+The repository uses three main workflows for continuous integration and deployment:
+
+1. **CI** (`ci.yml`) - Runs on every push to any branch:
+   - Markdown linting using markdownlint-cli2
+   - MkDocs site build validation
+   - Artifact creation (`site-build-<sha>`) with 1-day retention
+
+2. **Deploy Preview** (`deploy-version.yml`) - Triggered after CI completes on non-main branches:
+   - Downloads build artifact from CI workflow
+   - Deploys preview version to Cloudflare using `wrangler versions upload`
+
+3. **Deploy Production** (`deploy-production.yml`) - Triggered after CI completes on main branch:
+   - Downloads build artifact from CI workflow
+   - Deploys to production at [manual.23people.io](https://manual.23people.io)
+
+4. **Summary Updater Webhook** (`summary-updater-webhook.yml`) - Triggers the Summary Updater Webhook in n8n:
+   - Monitors changes to `docs/**`, `resources/llm/system-prompt.md`, and `mkdocs.yml`
+   - Triggers n8n workflow to update `resources/llm/handbook-summary.md` using AI processing
+   - **Loop Prevention**: Uses GitHub's native `paths` filter to prevent triggering when only the summary file is updated, avoiding infinite webhook loops
+
+**Branch Protection**: The `main` branch requires the `Build` status check to pass before merging, ensuring all changes are linted and build successfully.
+
 ## Commit Guidelines
 
 This project follows [Conventional Commits](https://www.conventionalcommits.org/) specification for commit messages to ensure consistent commit history and enable automated semantic versioning.
@@ -117,7 +147,7 @@ This project follows [Conventional Commits](https://www.conventionalcommits.org/
 
 This project uses [Semantic Versioning](https://github.com/semantic-release/semantic-release) to manage releases in Github. The version number is updated automatically based on the commit messages following the Conventional Commits specification.
 
-NOTE: In the package.json file, the version is set to `0.0.0.dev0` on purpose to indicate that the version will be managed by the semantic release process, and it should not be manually changed.
+**NOTE:** In the package.json and pyproject.toml files, the version is set to `0.0.0` on purpose to indicate that the version will be managed by the semantic release process, and it should not be manually changed.
 
 This is configurated in the Github Actions workflow called [`releases.yml`](https://github.com/23people-io/the-handbook/blob/main/.github/workflows/releases.yml), which runs on every push to the main branch. It analyzes the commit messages and determines the next version number, then publishes the release.
 
@@ -127,7 +157,11 @@ The changelog is automatically generated based on the commit messages following 
 
 ## Deployment
 
-The deployment is done automatically when you push a new version to the `main` branch. The deployment is done using [Cloudflare Pages](https://pages.cloudflare.com/). The associated Cloudflare Worker is [23people-handbook](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/pages/view/23people-handbook). You should be able to see the changes in the production environment after a few minutes under [https://manual.23people.io/](https://manual.23people.io/).
+The deployment is done automatically when you push a new version to the `main` branch. The deployment is done using [Cloudflare Pages](https://pages.cloudflare.com/). The associated Cloudflare Worker is [23people-handbook](https://dash.cloudflare.com/a49f23d59d1f5dc6b2a238d6f4a16ed4/pages/view/the-handbook). You should be able to see the changes in the production environment after a few minutes under [https://manual.23people.io/](https://manual.23people.io/).
+
+## TODO
+
+- [ ] Fix Release workflow to generate new semantic versions in GitHub Releases.
 
 ## References
 
