@@ -153,12 +153,13 @@ nav:
 
   - "Lo que hacemos":
     - about-us/what-we-do/index.md
-    - Desafíos: about-us/what-we-do/challenges.md
     - Servicios:
+      - about-us/what-we-do/index.md
       - "Tech Talent": about-us/what-we-do/services/tech-talent.md
       - "Integraciones": about-us/what-we-do/services/integrations.md
       - "Optimización Cloud": about-us/what-we-do/services/cloud-optimization.md
       - "Data Engineering & AI": about-us/what-we-do/services/data-ai.md
+    - Desafíos: about-us/what-we-do/challenges.md
     - Casos de Éxito:
       - about-us/what-we-do/client-cases/index.md
       - "Equifax USA: Escalando de Equipos de Desarrollo para el SDC": about-us/what-we-do/client-cases/equifax-usa-formando-escalando-equipos-agiles-sdc.md
