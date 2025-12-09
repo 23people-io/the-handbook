@@ -1,12 +1,22 @@
 ---
+created: 2024-08-10T14:30:00
+updated: 2025-04-29T17:43:00Z
+authors:
+  - manu-reyes-23p
+description: >
+  El desafío de nuestros clientes en la evolución digital y cómo los abordamos en 23people.
+---
 
+# Estrategia de Sostenibilidad para la Certificación Carbon Neutral en 23people
 
 ## 1. Introducción
+
 Este documento establece la hoja de ruta para que 23people alcance la certificación Carbon Neutral, alineada con nuestra visión como empresa tecnológica responsable. Aprovechando nuestro modelo de teletrabajo y enfoque 100% digital, buscamos minimizar y compensar eficientemente nuestra huella de carbono en el contexto chileno.
 
 ## 2. Fases del Proceso
 
 ### Fase 1: Medición Inicial (3 meses)
+
 Acciones clave:
 
 - Selección de metodología y estándar: Adoptar el GHG Protocol como metodología de medición, compatible con estándares chilenos.
@@ -66,6 +76,7 @@ Acciones clave:
     - Documentar medidas de reducción implementadas
     - Verificar compensaciones realizadas
     - Obtener certificación oficial Carbon Neutral
+
 ## 3. Estructura Organizativa
 
 - Comité de Sostenibilidad:
@@ -98,7 +109,6 @@ Acciones clave:
     - Porcentaje de reducción vs. año base
     - Eficiencia energética digital (kWh por desarrollo)
 
-
 - Sistema de Monitoreo:
     - Dashboard interno con actualización mensual
     - Revisión trimestral de avances
@@ -127,7 +137,6 @@ Acciones clave:
 - Año 2:
     - T1: Obtención de certificación Carbon Neutral
     - T2-T4: Optimización continua y expansión del programa
-
 
 ## 8. Alianzas Estratégicas en Chile
 

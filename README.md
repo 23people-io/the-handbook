@@ -160,6 +160,7 @@ The deployment is done automatically when you push a new version to the `main` b
 ## TODO
 
 - [ ] Fix Release workflow to generate new semantic versions in GitHub Releases
+- [ ] Edit Chunk Size in the n8n workflow that summarizes the handbook pages (currently set to 1000 tokens).
 
 ## References
 

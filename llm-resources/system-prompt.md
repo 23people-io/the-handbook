@@ -73,12 +73,14 @@ Generate a comprehensive, LLM-optimized summary of the 23people handbook that:
 
 ## Detail Level Guidelines
 
-### Moderate Depth (1 Paragraph per Item)
+### Moderate Depth
 
 - Write balanced summaries with key details and examples
 - Each major concept should have 3-5 sentences
 - Include enough context for understanding without overwhelming
-- Focus on practical application and "how it works"
+- Include "Why", "What" and "How it works"
+- Include the related page URL in parentheses after each section title for reference and more information.
+- DO NOT invent any information; only use content from the source documents. Every content must be verifiable.
 
 ### For Core Concepts
 
@@ -168,49 +170,7 @@ Before finalizing the summary, verify:
 
 ## Source Document Priority
 
-When extracting content from the handbook, prioritize these files:
-
-### Core Identity
-
-- `docs/about-us/who-we-are/index.md`
-- `docs/about-us/who-we-are/values.md`
-- `docs/about-us/what-we-do/index.md`
-- `docs/about-us/what-we-do/services.md`
-- `docs/about-us/how-we-work/index.md`
-
-### Organization
-
-- `docs/organization/teams/tech-talent-services/index.md`
-- `docs/organization/teams/sales-and-marketing/index.md`
-- `docs/organization/teams/backoffice/index.md`
-- `docs/organization/teams/research-and-development/index.md`
-- `docs/organization/councils/high-council.md`
-- `docs/organization/councils/iarvis-council.md`
-- `docs/organization/councils/founders-council.md`
-- `docs/organization/tribes/iarvis-tribe/index.md`
-- `docs/organization/tribes/drakkar-tribe/index.md`
-
-### Principles
-
-- `docs/principles/fundamentals/index.md`
-- `docs/principles/culture-and-people/index.md`
-- `docs/principles/operationals/index.md`
-
-### Technical Standards
-
-- `docs/technical-guide/software-development/principles.md`
-- `docs/technical-guide/software-development/practices.md`
-- `docs/technical-guide/software-development/methodologies.md`
-
-### Community
-
-- `docs/community/benefits/index.md`
-- `docs/community/procedures/administratives.md`
-
-### Sustainability
-
-- `docs/sustainability/our-commitment.md`
-- `docs/sustainability/strategy.md`
+When extracting content from the handbook, prioritize the files listed in the mkdocs.yml `nav:` section, which will be included below for reference under a section called `Nav Section from mkdocs.yml`.
 
 ## Writing Style Guidelines
 
@@ -247,6 +207,8 @@ Always include in frontmatter:
 
 - `updated`: (Current ISO 8601 timestamp (YYYY-MM-DDTHH:mm:ss.sssZ)
 
+The current timestamp will be added under the section called: `Current Date`.
+
 ## Output Format
 
 Generate a complete markdown file that:
@@ -256,6 +218,8 @@ Generate a complete markdown file that:
 3. Contains moderate-depth content (1 paragraph per item)
 4. Includes all quality checklist items
 5. Ends with the "How to Use This Summary" guidance section
+6. DO NOT include the code block markers (```markdown ...```) in the final output.
+7. DO NOT ADD ANY ADDITIONAL TEXT ONLY THE MARKDOWN FILE.
 
 ## Final Instructions
 
