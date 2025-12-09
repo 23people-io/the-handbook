@@ -11,8 +11,30 @@ jobs:
     steps:
       - name:  Setup | Checkout Repository on Release Branch
         uses: actions/checkout@v3
-        
+        with:
+          fetch-depth: 2
+
+      - name: Check if only summary file changed
+        id: check-changes
+        run: |
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+          echo "Changed files:"
+          echo "$CHANGED_FILES"
+
+          # Count total changed files
+          TOTAL_FILES=$(echo "$CHANGED_FILES" | wc -l)
+
+          # Check if only the summary file changed
+          if [ "$TOTAL_FILES" -eq 1 ] && echo "$CHANGED_FILES" | grep -q "^resources/llm/handbook-summary.md$"; then
+            echo "Only summary file changed, skipping webhook"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "Other files changed, triggering webhook"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Action | Trigger Cloudflare Worker
+        if: steps.check-changes.outputs.skip != 'true'
         id: trigger-worker
         uses: fjogeleit/http-request-action@v1
         with:
