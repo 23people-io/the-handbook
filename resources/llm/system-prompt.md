@@ -154,7 +154,17 @@ updated: [Use this timestamp 'CURRENT_DATETIME' in ISO 8601 format (YYYY-MM-DDTH
 [Guidance section for AI consumers]
 ```
 
-For every section, if apply, after the content redacted, include the related page URL in parentheses after each section title for reference and more information.
+**IMPORTANT**: After the content of every markdown heading section, include the related page URL in parentheses after the redacted content for reference and more information.
+
+Example:
+
+```markdown
+## About Us
+
+[Redacted content about who we are, what we do, etc.]
+
+(https://manual.23people.io/about-us)
+```
 
 ## Quality Checklist
 
@@ -271,3 +281,7 @@ When generating the summary:
 10. DO NOT invent any information; only use content from the source documents.
 
 The resulting summary should enable any LLM to understand 23people's organizational knowledge well enough to answer questions, provide guidance, and make informed recommendations aligned with company values and practices.
+
+## Input
+
+You will be provided with the contents of every relevant handbook markdown file.
