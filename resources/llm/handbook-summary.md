@@ -1,5 +1,5 @@
 ---
-updated: 2025-12-09T12:48:55.421-03:00
+updated: 2025-12-09T12:59:57.917-03:00
 ---
 
 # 23people Company Handbook Summary
@@ -10,187 +10,305 @@ updated: 2025-12-09T12:48:55.421-03:00
 
 ## About Us
 
-### Who We Are (docs/about-us/who-we-are/index.md)
-23people is a technology company founded on November 26, 2014, by two software engineers, **Marcelo Ampuero** and **Manuel Reyes**. The founding principle was to **"create a company where we ourselves would have liked to work"**—a place that prioritizes people, passion for technology, and continuous learning. We are a team of professionals dedicated to creating a sustainable business model that puts people first, both clients and our own team members, pursuing shared benefit and a positive societal impact.
+### Who We Are
 
-The name "23people" is inspired by the movie *The Matrix Reloaded*, referencing the 23 individuals selected to rebuild Zion, symbolizing the spirit of those chosen to build something new outside the conventional system.
+**23people is a technology company founded on November 26, 2014, by two passionate software engineers, Marcelo Ampuero and Manuel Reyes**, who still lead the company. The founding principle was to "create a company where we would have liked to work"—a place that puts people first, fosters a passion for technology, and values continuous learning. We are a team of professionals who are genuinely passionate about what we do. The company's name, "23people," is inspired by a concept from the movie *The Matrix Reloaded*, representing the spirit of those chosen to rebuild Zion.
 
-### What We Do (docs/about-us/what-we-do/index.md)
-We are **reliable technology facilitators and co-creators** for companies navigating their Digital Evolution. We help businesses integrate tech talent, software engineering, and advanced technologies with their expert business knowledge and data potential. Our work addresses key client challenges, such as justifying the ROI of technology investments, finding a trustworthy tech partner, and sourcing validated tech professionals in a competitive market.
+(https://manual.23people.io/about-us/who-we-are/)
 
-Our services are structured into three main lines:
-1.  **Tech Talent Outsourcing and Recruitment**: We specialize in finding, vetting, and retaining high-level tech professionals and teams to complement our clients' capabilities through IT Outsourcing and IT Hunting services.
-2.  **Digital Platforms, Cloud, and Modernization**: We co-create and evolve digital platforms using Cloud, DevOps, and Agile practices. Our services include **Integration**, **Modernization & Evolution**, **Data & Analytics**, and **Automated QA**.
-3.  **Data, Advanced Analytics, and AI**: We enable data-driven decision-making by combining Big Data technologies, predictive and generative AI tools (like Machine Learning and LLMs), and advanced automation systems (AI Agents) to generate real operational value.
+### What We Do
 
-### What Sets Us Apart (docs/about-us/how-we-work/index.md)
-Our differentiation lies in **how** we do things, based on five fundamental pillars:
-1.  **Specialization in Tech Roles**: We focus on identifying exceptional Software Programmers and Engineers who are passionate and have proven experience. We primarily work with Software, Data, Cloud, and AI Engineers.
-2.  **Optimization in Tech Recruitment**: We have a mature methodology for finding and selecting top tech talent.
-3.  **Maturity in Software Development**: We build enterprise software in an agile, evolutionary, and data-driven manner, emphasizing collaboration and continuous iteration.
-4.  **Mastery of Enterprise and Emerging Technologies**: We have validated experience with a wide range of mature and emerging technologies, which we use to build solutions and validate professional skills.
-5.  **Customer Satisfaction**: We are committed to supporting and guiding our clients at every step, ensuring an exceptional experience and building lasting relationships.
+**We are trusted technology facilitators and co-creators for companies undergoing digital evolution.** We empower our clients' teams by integrating **Tech Talent**, **Software Engineering**, and advanced **Technologies** with their expert business knowledge and data potential. Our services are structured into three main lines:
 
-### What We Pursue (docs/about-us/what-we-pursue/index.md)
-Our strategic vision is guided by ambitious goals and core principles. We aim for sustainable growth and industry leadership through collaborative, objective-driven work.
+1.  **Tech Talent Outsourcing & Recruitment**: We specialize in finding, validating, and retaining high-level Tech Professionals who align with our clients' project needs. We offer both IT Outsourcing and IT Hunting services.
+2.  **Digital Platforms, Cloud & Modernization**: We co-create and evolve effective, secure, and efficient digital platforms. Our services in this area include systems integration, application modernization, data and analytics infrastructure, and automated QA.
+3.  **Data, Advanced Analytics & AI**: We enable data-driven decision-making by combining Big Data technologies, predictive and generative AI tools (like Machine Learning and LLMs), and advanced automation to deliver tangible operational and strategic value.
 
-Our main goals are:
-1.  **Become a Benchmark in Technology and Professional Growth**: To be recognized as a leader in high-performance IT teams, world-class digital platforms, and the use of AI tools in LATAM.
-2.  **Achieve Sustainable Economic Growth**: To grow our business in a systematic and sustainable manner without compromising the well-being of our team, clients, or the planet.
-3.  **Innovate with Data- and AI-driven Digital Products**: To create new digital products and services by leveraging an AI-native culture, enhancing our human capabilities.
+We help clients overcome key challenges such as justifying the ROI of tech investments, finding a reliable technology partner, and successfully selecting and retaining validated tech professionals in a competitive market.
 
-Our strategy is guided by the principle that **execution matters most**, turning ideas and objectives into tangible results.
+(https://manual.23people.io/about-us/what-we-do/)
+
+### What Sets Us Apart
+
+Our differentiation lies in *how* we do things, based on **five fundamental pillars**:
+
+1.  **Specialization in Tech Roles**: We focus on exceptional Programmers and Engineers in Software, Data, Cloud, and AI who are passionate about their craft.
+2.  **Optimized Tech Recruitment**: We have a mature and proven "recipe" for finding and selecting top-tier tech talent, validating their real-world experience.
+3.  **Maturity in Software Development**: We build enterprise software in an agile, evolutionary, and data-driven manner, ensuring high-quality and adaptable digital products.
+4.  **Mastery of Enterprise and Emerging Technologies**: We have validated expertise in a wide range of mature and emerging technologies, which we use to build solutions and validate professional skills.
+5.  **Customer Satisfaction**: We are committed to supporting and accompanying our clients at every step, ensuring they feel guided and have an exceptional experience.
+
+(https://manual.23people.io/about-us/how-we-work/)
+
+### What We Pursue
+
+Our vision is guided by clear, ambitious goals and a set of strategic principles. Our primary goals are:
+
+*   **To be a benchmark in technology** and professional growth for tech talent.
+*   **To achieve sustainable economic growth** and consolidate our position in the LATAM market.
+*   **To innovate with digital products** based on data and an AI-native culture.
+
+These goals are pursued through core strategic principles, including attracting and retaining excellent professionals, competing on quality rather than price, leveraging our accumulated experience and data, and fostering a culture where everyone can contribute to the company's evolution.
+
+(https://manual.23people.io/about-us/what-we-pursue/)
 
 ## Organization
-### Overview (docs/organization/index.md)
-23people is organized in a **circular structure** of multidisciplinary teams to foster collaboration and communication. Each team has a clear, well-defined purpose and operates with autonomy, delivering services to other internal teams or external clients.
 
-This internal model functions like an **API**, where each team offers a "service contract" that specifies what it delivers, what to expect, and how to request its services. Teams are expected to constantly measure the quality and operational efficiency of their services and improve them iteratively based on data and accumulated experience.
+### Overview
 
-### Teams (docs/organization/index.md)
-Our operational teams are the core of our service delivery:
--   **Tech Talent Services (TTS)**: Delivers the best experience in the selection, validation, and retention of Tech Professionals who are passionate about technology and are the best match for our clients' projects.
--   **Sales & Marketing (SMKT)**: Responsible for acquiring new clients, managing current commercial relationships, and growing the 23people brand and market presence.
--   **Backoffice (BKO)**: Provides agile and efficient administrative support in People Management, Financial Management, and Company Management, enabling other teams to focus on their core functions.
--   **Research & Development (R&D)**: Powers our clients' digital evolution by exploring and mastering emerging technologies that generate real value for their operations.
+23people is organized into **multidisciplinary teams with a circular structure** to foster collaboration and open communication. Each team operates with a clear, well-defined purpose and a high degree of autonomy. The core principles guiding our teams are:
 
-### Tribes (docs/organization/tribes/index.md)
-Teams are grouped into Tribes that share common objectives:
--   **Iarvis Tribe**: Comprises all of 23people's internal operational teams (TTS, SMKT, BKO, R&D). Its purpose is to drive the delivery of high-quality, sustainable services aligned with the company's strategic goals.
--   **Drakkar Tribe**: Consists of all teams and professionals working on a subcontracting basis for our clients. Its purpose is to ensure we have the right talent to meet client needs effectively.
+*   **Clear and defined purpose**: Every team has a "North Star" that guides its daily activities.
+*   **Autonomy around purpose**: Teams decide *how* to achieve their goals, aligned with company strategy.
+*   **Service contracts (API-like)**: Each team delivers services to internal or external clients through well-defined service contracts.
+*   **Data-driven iterative improvement**: Teams constantly measure and improve their services based on data and accumulated experience.
 
-### Councils (docs/organization/index.md)
--   **High Council**: The strategic team responsible for defining and communicating the organization's strategy, ensuring all operational teams are aligned with it.
--   **Iarvis Council**: A body responsible for the coordination and alignment of the operational teams within the Iarvis Tribe.
+(https://manual.23people.io/organization/)
 
-### Workforce Structure (docs/organization/index.md)
-Our structure distinguishes between positions and roles to provide clarity and flexibility.
--   **Positions (Cargos)**: Define a professional's level of seniority and core capabilities within the organization (e.g., Intermediate, Senior). A higher level implies greater strategic autonomy and broader impact.
--   **Roles**: Define a specific scope of action and concrete responsibilities a professional undertakes in a particular context, team, or project (e.g., Tech Lead, Service Request Manager). A person can hold multiple roles.
+### Teams
 
-We classify technical professionals into three main levels of seniority based on skill development and acquired learning, not just years of experience: **Entry**, **Intermediate**, and **Senior**.
+Our operations are carried out by four main teams that form the Iarvis Tribe:
+
+*   **Tech Talent Services (TTS)**: Delivers the best experience in recruiting, validating, and retaining tech professionals who are passionate about technology and are the best match for our clients' projects.
+*   **Sales & Marketing (SMKT)**: Responsible for acquiring new clients, managing current commercial relationships, and growing the 23people brand and market presence.
+*   **Backoffice (BKO)**: Provides agile and efficient administrative support in people management, financial management, and company management, enabling other teams to focus on their core functions.
+*   **Research & Development (R&D)**: Empowers clients' digital evolution by exploring and mastering emerging technologies that generate real business value.
+
+(https://manual.23people.io/organization/teams/)
+
+### Tribes
+
+We use the concept of **Tribes** to group teams with shared objectives. There are two main tribes:
+
+*   **Iarvis Tribe**: Comprises all the operational teams (TTS, SMKT, BKO, R&D) that run the core business of 23people. Its purpose is to deliver high-quality, sustainable services aligned with strategic goals.
+*   **Drakkar Tribe**: Consists of all tech professionals and teams working on an outsourcing basis directly with our clients. Its purpose is to ensure we have the right talent to meet client needs.
+
+(https://manual.23people.io/organization/tribes/)
+
+### Councils
+
+Strategic alignment and operational coordination are managed by councils:
+
+*   **High Council**: A strategic team responsible for defining and communicating the organization's overall strategy and ensuring that operational teams are aligned with it.
+*   **Iarvis Council**: An operational body that coordinates the Iarvis Tribe teams, ensuring collaboration and alignment in execution.
+
+(https://manual.23people.io/organization/)
+
+### Workforce Structure
+
+We distinguish between **Positions** and **Roles** to provide both structure and flexibility:
+
+*   **Positions** (Cargos): Define a professional's capabilities, level of seniority, and hierarchical standing within the company (e.g., Senior Operations Director). They represent a career path.
+*   **Roles**: Define specific, dynamic responsibilities that a professional undertakes within a particular team or project (e.g., Service Request Manager, Tech Lead). A person in one position can perform different roles across the organization.
+
+Key operational roles include the **Service Request Manager (SRM)**, who manages the "what" and "when" of service requests as the client interface, and the **Service Delivery Manager (SDM)**, who manages the "how" and "who," ensuring efficient workflow and quality delivery.
+
+(https://manual.23people.io/organization/workforce/)
 
 ## Principles
-### Fundamental Principles (docs/principles/fundamentals/index.md)
--   **Excellence and Intellectual Curiosity**: We are lifelong learners, continuously improving our skills with genuine curiosity and striving for technical and professional excellence.
--   **Collaboration and Assertive Communication**: We genuinely support each other with honest transparency. We work as a team, share responsibilities, celebrate victories, and provide support during challenges.
--   **Sustainable Growth and Being a Reference**: We are ambitious about growing and becoming international benchmarks, but at a systematic and sustainable pace that respects our people, our clients, and our planet.
 
-### Culture and People Principles (docs/principles/culture-and-people/index.md)
--   **People First**: We work to live, not live to work. We prioritize the well-being and professional growth of our team, fostering a respectful and empathetic environment.
--   **Equity**: We believe in treating everyone respectfully and equally, avoiding any form of discrimination in our selection processes. Talent is uniformly distributed, and our company should reflect society.
--   **Xperience**: We focus on creating meaningful and memorable experiences in every interaction—with clients, tech professionals, administrative staff, and suppliers—to build lasting, value-based relationships.
+Our actions and decisions are guided by nine core principles, categorized into three groups.
 
-### Operational Principles (docs/principles/operationals/index.md)
--   **Agility**: We embrace agile values to adapt quickly, foster continuous improvement, minimize waste, and remain resilient. We value individuals and interactions over processes, and responding to change over following a plan.
--   **Transparency**: We make information public by default, except for sensitive client, employee, or supplier data. We believe the benefits of trust, collaboration, and productivity outweigh the costs.
--   **Sustainability**: We are committed to a long-term vision, making responsible use of natural, financial, and social resources. We are a 100% digital and cloud-based company, privileging remote work and technologies that reduce our environmental impact.
+(https://manual.23people.io/principles/)
+
+### Fundamental Principles
+
+These define our organizational essence.
+
+*   **Excellence and Intellectual Curiosity**: We are eternal learners who pursue excellence in everything we do. We have an open mind and use iterative, data-driven methods to consolidate our knowledge.
+*   **Collaboration and Assertive Communication**: We genuinely support each other and our clients. We work as a team, sharing responsibilities and prioritizing clear, honest communication.
+*   **Sustainable Growth and Being Referents**: We are ambitious about growing and becoming international leaders, but we do so at a systematic and sustainable pace that respects our people, clients, and the planet.
+
+(https://manual.23people.io/principles/fundamentals/)
+
+### Culture and People Principles
+
+These shape how we interact with each other and our stakeholders.
+
+*   **People First**: We work to live, not live to work. We prioritize the well-being and personal success of our team members and clients, fostering a culture of empathy, respect, and collaboration over hierarchy.
+*   **Equity**: We believe in a humane and motivating environment where everyone is treated with respect. We avoid all forms of discrimination in our selection processes, focusing on talent and potential.
+*   **Xperience**: We focus on creating meaningful and memorable experiences in every interaction—for clients, tech professionals, administrative staff, and suppliers alike.
+
+(https://manual.23people.io/principles/culture-and-people/)
+
+### Operational Principles
+
+These guide how we work and operate.
+
+*   **Agility**: We adhere to agile values to be innovative, resilient, and efficient. This allows us to adapt to change, foster continuous improvement, and minimize waste.
+*   **Transparency**: We make information public by default, except for sensitive client, employee, or supplier data. We believe transparency fosters trust, productivity, and collaboration.
+*   **Sustainability**: We are committed to a long-term vision, ensuring the responsible use of natural, financial, and social resources. We favor remote work and digital processes to minimize our environmental impact.
+
+(https://manual.23people.io/principles/operationals/)
 
 ## Practices
-### Agile Management (docs/practices/agile-management/workflows-manage-work-not-people.md)
-We **manage the work, not the people**, using **Kanban** principles to guide our workflows. This approach allows us to visualize tasks, limit work in progress (WIP) to improve focus and flow, and maximize efficiency. Our Kanban boards are structured with clear stages (Backlog, Requested, In Progress, Done, Archive) to provide a transparent view of all activities. This system fosters a culture of collaboration and continuous improvement, allowing teams to identify bottlenecks and optimize processes based on real data.
 
-### Communication (docs/practices/communication/index.md)
-Effective communication is core to our operations. We adhere to several key practices:
--   **Asynchronous-First**: We prefer asynchronous communication (e.g., written documents, messages) to allow team members to manage their time and energy efficiently, especially across different time zones.
--   **Write, Then Communicate**: We encourage writing down ideas before sharing them to promote clarity, reflection, and well-thought-out responses.
--   **Structured Narratives**: We use frameworks like SCQA (Situation, Complication, Question, Answer) to structure proposals and initiatives, ensuring clear and effective communication.
--   **Acknowledge Promptly**: We confirm receipt of messages as soon as possible to reduce uncertainty and anxiety for the sender.
+These are the established ways of working that form our company culture.
 
-### Learning (docs/practices/learning/how-to-learn.md)
-We foster a culture of continuous learning. We use a simple but powerful technique for mastering new topics:
-1.  **Study** the chosen topic.
-2.  **Explain** it in simple terms, as if teaching someone else. This reveals knowledge gaps.
-3.  **Review** and study again where you get stuck.
-4.  **Simplify** the explanation further, using analogies.
-If the explanation is clear and simple, the topic is truly understood.
+(https://manual.23people.io/practices/)
 
-### Using AI (docs/practices/using-ai/claude-project.md)
-We leverage AI as a **capability multiplier** for our professional teams. We use tools like **Claude Projects** to create dedicated workspaces with pre-defined instructions and context. This allows us to automate repetitive tasks, maintain quality standards, and free up our teams to focus on higher-value activities. The content generated by AI is treated as a **first draft**, which professionals must then review, edit, and enrich with their expertise and judgment. This "human-in-the-loop" approach ensures quality while boosting efficiency.
+### Agile Management
+
+**We manage the work, not the people.** Our approach is based on **Kanban** principles to ensure a visual, systematic, and efficient workflow. Key practices include:
+
+*   **Visual Workflows**: Using Kanban boards with clear stages (e.g., Backlog, Requested, In Progress, Done) to provide visibility into all work items.
+*   **WIP (Work in Progress) Limits**: Limiting the number of active tasks to encourage focus and completion.
+*   **Daily Meetings**: A structured daily check-in to review the board from right to left (closest to "Done" first), celebrate progress, address blockers, and define the day's focus.
+*   **Documenting Decisions**: We prefer to document decisions rather than relying on memory, ensuring clarity and historical context.
+
+(https://manual.23people.io/practices/agile-management/)
+
+### Communication
+
+*   **Asynchronous-First**: We prefer asynchronous communication (e.g., written messages, documents) to allow focused work and respect different schedules.
+*   **Write First, Then Communicate**: We encourage writing down ideas to clarify them before sharing them widely. This improves the quality of communication.
+*   **Structured Narrative**: We use a **Context-Response** framework to present initiatives or problems, ensuring all stakeholders understand the "why" before the "what" and "how."
+*   **Acknowledge Promptly**: We provide quick acknowledgements of messages to reduce uncertainty and anxiety for the sender.
+
+(https://manual.23people.io/practices/communication/)
+
+### Learning
+
+We employ a "learn how to learn" technique based on the Feynman method, which involves:
+1.  Studying a topic.
+2.  Explaining it in simple terms as if teaching someone else.
+3.  Identifying and reviewing knowledge gaps.
+4.  Simplifying the language and using analogies until the explanation is clear and concise.
+
+(https://manual.23people.io/practices/learning/)
+
+### Using AI
+
+We view **AI as a multiplier of professional capabilities**. We use tools like **Claude Projects** to automate repetitive tasks, generate initial drafts, and maintain quality standards. The key principle is that AI provides a starting point, but **the professional is always responsible for reviewing, editing, and owning the final output**. We never input sensitive or confidential information into AI models.
+
+(https://manual.23people.io/practices/using-ai/)
 
 ## Community
-### Benefits Framework (docs/community/benefits/index.md)
-We offer a range of benefits to support our team's physical, mental, and professional well-being. Most benefits are available to all team members with at least three months of seniority. The framework is organized into several categories:
--   **Agreements**: Includes access to the **Betterfly** wellness platform, a company agreement with **Banco de Chile**, and **complementary health, dental, life, and catastrophic insurance**.
--   **Incentives**: We provide an **economic bonus for taking vacations**, a **birthday gift** and a **day off for birthdays**, monetary bonuses for **national holidays and Christmas**, and a **Baby Shower bonus** for new parents.
--   **Refunds**: We offer reimbursements for the annual **influenza vaccination**, online **courses** (up to a quarterly limit), international **certification exams**, and improvements to the **home office workspace** (up to an annual limit).
--   **Trainings**: We provide company-sponsored **English classes** in small groups to improve language skills.
 
-### Procedures (docs/community/procedures/administratives.md)
-We have documented administrative procedures to ensure consistency and clarity. These include processes for **expense reimbursement** and **fund rendering**. We also have a defined process for adding new members to our company's Discord server.
+### Benefits Framework
 
-### Events (docs/community/events/index.md)
-We capture moments from our company events. Official photos and videos are stored in a shared Google Drive, accessible to relevant teams like Marketing and People Growth, to preserve our shared memories and culture.
+We offer a range of benefits designed to support the physical, mental, and professional well-being of our team. Eligibility for most benefits begins after three months of seniority. The framework includes:
+
+*   **Agreements**: Partnerships that provide access to services like the **Betterfly** wellness platform and comprehensive **complementary health, dental, catastrophic, and life insurance**.
+*   **Incentives**: Financial bonuses to encourage rest and celebrate important dates, including an **incentive for taking vacations**, birthday gifts, and bonuses for national holidays and Christmas.
+*   **Refunds**: Reimbursement for expenses that support professional growth and well-being, such as **international certifications**, online **courses**, improvements to the **home office workspace**, and the annual influenza vaccine.
+*   **Trainings**: Company-sponsored learning opportunities, such as group **English classes**.
+
+(https://manual.23people.io/community/benefits/)
+
+### Procedures
+
+We maintain standardized administrative procedures for processes such as expense reports and handling Discord server invitations, ensuring consistency and efficiency.
+
+(https://manual.23people.io/community/procedures/)
+
+### Events
+
+We organize company events to foster community and collaboration. Photos and videos from these events are stored in a shared, centralized repository.
+
+(https://manual.23people.io/community/events/)
 
 ## Technical Guide
-### Software Development Principles (docs/technical-guide/software-development/principles.md)
-Our development philosophy is centered on **simplifying real-world problems**.
--   **Simplicity First**: We strive to make every part of a system as simple as possible.
--   **Balanced Paradigm**: We blend the best of **Object-Oriented Programming** (encapsulation, abstraction) and **Functional Programming** (pure functions, immutability) to create modular, readable, and testable code.
--   **SOLID Principles**: We adhere to the five SOLID principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) to build flexible and maintainable software.
--   **Business-Focused**: We thoroughly understand the business problem before writing code to ensure we deliver true value.
--   **Scalability and Maintainability**: We design solutions that can grow in a controlled manner and are easy to maintain over time.
 
-### Methodologies (docs/technical-guide/software-development/methodologies.md)
-We use an agile approach based on **Kanban**. This method provides flexibility and focuses on optimizing workflow. Key aspects include:
--   **Visualizing workflow** on Kanban boards.
--   **Limiting Work in Progress (WIP)** to prevent overload and encourage task completion.
--   **Continuous improvement** through regular reviews to identify and eliminate bottlenecks.
+### Software Development Principles
 
-### Technologies (docs/technical-guide/software-development/technologies.md)
-We use a curated stack of technologies chosen for their mature ecosystems, scalability, and flexibility.
--   **Primary Stack**: **Node.js/NestJS** for backends, **React** for frontends, and **Python** for Machine Learning projects.
--   **Databases**: **MongoDB** for flexible, document-oriented data, and **PostgreSQL** for robust, relational data requiring ACID transactions.
--   **Cloud Platforms**: We leverage services from **Cloudflare** (Pages, Workers, R2), **DigitalOcean**, and **AWS** (S3, CloudWatch, Cognito) for scalable, simple, and sustainable infrastructure.
--   **AI Integration**: We use advanced models like **Claude** and **ChatGPT** to enrich our solutions.
+Our development philosophy is centered on **simplifying real-world problems**. This is guided by several core principles:
 
-### Practices (docs/technical-guide/software-development/practices.md)
-To ensure quality and consistency, we follow key development practices:
--   **Version Control**: We use **Git** with structured workflows like GitFlow.
--   **Code Reviews**: All code changes are reviewed by peers to improve quality and share knowledge.
--   **Automated Testing**: We maintain adequate coverage of unit, integration, and end-to-end tests.
--   **CI/CD**: We use automated pipelines for continuous integration and delivery.
--   **Monitoring and Observability**: We use logging and monitoring tools to ensure application stability in production.
--   **Security**: We perform static code analysis with **SonarQube**, automated pentesting with tools like **Burp Suite** and **OWASP ZAP**, and use linters like **RUFF** (Python) and **ESLint** (JS/TS) to ensure code quality and security.
+*   **Simplicity Above All**: We strive for the simplest possible solution, eliminating unnecessary complexity in architecture and code.
+*   **Balance of OOP and Functional Programming**: We leverage the strengths of both paradigms—using OOP for modular structure and Functional principles for clear, predictable logic.
+*   **SOLID Principles**: We adhere to Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion to create flexible and maintainable code.
+*   **Business-Centric Approach**: We focus on understanding the business problem deeply before development begins to ensure we deliver real value.
+*   **Scalability and Maintainability**: We design solutions that can grow in an orderly fashion and are easy to maintain over time.
 
-### Specializations (docs/about-us/how-we-work/tech-roles.md)
-We have deep expertise in several key technical areas:
--   **Software Engineering**: Fullstack, Frontend, Backend, and QA Engineers.
--   **Data Engineering**: Designing and implementing systems for processing and managing large data volumes.
--   **Cloud Engineering**: DevOps, SREs, and Cloud Architects focused on cloud infrastructure.
--   **AI Engineering**: Data Scientists and Machine Learning/Deep Learning Engineers developing intelligent models.
+(https://manual.23people.io/technical-guide/software-development/principles/)
+
+### Methodologies
+
+We use a **Kanban-based agile methodology**. This flexible approach allows us to adapt to project needs while maintaining a focus on optimizing workflow. Key aspects include:
+
+*   **Visualizing Workflow**: Using Kanban boards for transparency.
+*   **Limiting Work in Progress (WIP)**: To prevent bottlenecks and promote focus.
+*   **Continuous Improvement**: Regularly reviewing processes to enhance efficiency.
+
+(https://manual.23people.io/technical-guide/software-development/methodologies/)
+
+### Technologies
+
+Our primary technology stack is chosen for its reliability, scalability, and mature ecosystems:
+
+*   **Backend**: **Node.js** with the **NestJS** framework for scalable and modular applications.
+*   **Frontend**: **React** for building interactive and component-based user interfaces.
+*   **AI/Machine Learning**: **Python** with its extensive ecosystem of data science libraries.
+*   **Databases**: **MongoDB** (NoSQL) for flexibility and **PostgreSQL** (Relational) for robustness and transactional integrity.
+
+(https://manual.23people.io/technical-guide/software-development/technologies/)
+
+### Practices
+
+To ensure quality and consistency, we follow a set of standard development practices:
+
+*   **Version Control**: Using **Git** with a structured branching workflow (e.g., GitFlow).
+*   **Code Reviews**: All code changes are reviewed by peers to ensure quality and share knowledge.
+*   **Automated Testing**: Maintaining adequate test coverage (unit, integration, E2E).
+*   **CI/CD**: Automating build, testing, and deployment pipelines.
+*   **Pair/Mob Programming**: Collaborating in real-time to solve complex problems.
+*   **Monitoring and Observability**: Using logging and monitoring tools to ensure application health.
+*   **Lightweight Documentation**: Keeping essential documentation concise and up-to-date.
+
+(https://manual.23people.io/technical-guide/software-development/practices/)
+
+### Specializations
+
+*   **AI & Machine Learning**: We use Python and its ecosystem to follow a structured project lifecycle, including MLOps for automation and a strong focus on ethics and responsibility.
+*   **Cloud**: We leverage cloud services from providers like **Cloudflare**, **DigitalOcean**, and **AWS**, prioritizing those with strong sustainability commitments and low carbon footprints.
+*   **Security**: We integrate security practices throughout the development lifecycle, using tools like **SonarQube** for static analysis, **Burp Suite/OWASP ZAP** for penetration testing, and linters like **RUFF** (Python) and **ESLint** (JS/TS) within our CI/CD pipelines.
+
+(https://manual.23people.io/technical-guide/software-development/)
 
 ## Sustainability
-### Our Commitment (docs/sustainability/our-commitment.md)
-23people is committed to reducing its carbon footprint in line with climate science. We have adopted the **Science Based Targets initiative (SBTi)** to guide our efforts. Our key goals are:
--   **Reduce Scope 1 and 2 emissions by at least 50% by 2030**.
--   **Achieve carbon neutrality by 2040** through emission reduction and offsetting.
--   **Reduce Scope 3 emissions by 30%** by promoting energy efficiency and low-carbon solutions.
 
-### Strategy (docs/sustainability/our-commitment.md)
-Our strategy for implementation includes:
--   **Energy and Technology**: Prioritizing cloud providers with 100% renewable energy certifications and promoting energy-efficient hardware.
--   **Indirect Emissions**: Reducing business travel by prioritizing virtual meetings and selecting suppliers with aligned sustainability commitments.
--   **Measurement and Reporting**: Measuring our carbon footprint annually using the GHG Protocol and transparently reporting our progress.
+### Our Commitment
 
-### Team (docs/sustainability/team.md)
-Our sustainability effort is a cross-organizational initiative led by a dedicated team. This team includes our Global Operations Manager, a representative from People Growth, and a founder. They are responsible for designing strategies, measuring our environmental impact, and driving change both internally and externally.
+**23people is committed to reducing its carbon footprint in line with climate science.** We adhere to the **Science Based Targets initiative (SBTi)** with clear goals:
 
-### Technology Recommendations (docs/sustainability/technology-recommendations.md)
-As a 100% digital and remote company, our technology choices are a key part of our sustainability strategy. We prioritize:
--   **Cloud Services**: Using data centers that run on clean energy.
--   **Digitalization**: Minimizing paper use and physical infrastructure.
--   **Remote Work**: Reducing carbon emissions from commuting.
--   **Hardware**: Fostering the purchase of sustainable hardware and implementing recycling programs.
+*   Reduce Scope 1 and 2 emissions by at least 50% by 2030.
+*   Achieve carbon neutrality across all operations by 2040.
+*   Reduce Scope 3 emissions (e.g., business travel, hardware) by 30%.
+
+(https://manual.23people.io/sustainability/our-commitment/)
+
+### Strategy
+
+Our sustainability strategy focuses on actionable measures within our digital and remote operational model. This includes:
+
+*   Prioritizing cloud providers that use 100% renewable energy.
+*   Promoting energy-efficient hardware and prolonging its lifespan.
+*   Minimizing business travel in favor of virtual meetings.
+*   Annually measuring and transparently reporting our carbon footprint.
+
+(https://manual.23people.io/sustainability/strategy/)
+
+### Team
+
+We have a designated, cross-functional **sustainability team**, led by the Global Operations Manager, responsible for implementing and monitoring our environmental policies and initiatives.
+
+(https://manual.23people.io/sustainability/team/)
+
+### Technology Recommendations
+
+As a 100% digital and remote company, we have specific guidelines and recommendations for technology use to minimize our environmental impact. This includes favoring hardware from sustainable brands, using energy-efficient devices, and choosing cloud services that are committed to carbon neutrality.
+
+(https://manual.23people.io/sustainability/technology-recommendations/)
 
 ---
 
 ## How to Use This Summary (For AI Tools)
--   This summary is designed to provide stable, foundational knowledge about 23people.
--   Use the **"About Us"** and **"Principles"** sections to understand the company's identity and core values.
--   Refer to the **"Organization"** section for details on team structure, roles, and how they interact. Do not infer specific individual assignments.
--   Use the **"Practices"** and **"Technical Guide"** sections to answer questions about how work is done, our methodologies, and our technology stack.
--   The **"Community"** section describes the frameworks for employee benefits and activities, not specific events or values.
--   The **"Sustainability"** section outlines our environmental commitments and strategies.
--   When asked for specific, real-time data (like current KPI values, project statuses, or team members), state that this summary does not contain operational data and recommend consulting internal, real-time systems.
--   The parenthesized URLs link to the full handbook pages for deeper context. Use these as pointers for more detailed inquiries.
+
+This document is designed to be your primary context source for understanding 23people.
+
+*   **Use the hierarchical structure** to navigate from high-level concepts to specific details. Section headers are semantic guides.
+*   **Focus on the "why"**: The summary explains the rationale behind structures, principles, and practices. Use this to provide nuanced and context-aware answers.
+*   **Reference frameworks, not values**: When asked about metrics or KPIs, state that frameworks exist (e.g., "TTS tracks KPIs for talent acquisition") but that specific, real-time values are not in this document.
+*   **Identify relationships**: Pay attention to how teams, principles, and practices connect. For example, understand how the **Tech Talent Services (TTS)** team's purpose aligns with the company's goal of attracting and retaining top talent.
+*   **Prioritize stable information**: This summary contains foundational knowledge that changes infrequently. Use it as a stable base and assume operational details (projects, specific people, metrics) are managed elsewhere.
+*   **Use bolded terms** as key concepts to anchor your understanding of 23people's internal language.
