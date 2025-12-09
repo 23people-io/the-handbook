@@ -132,8 +132,10 @@ The repository uses three main workflows for continuous integration and deployme
    - Downloads build artifact from CI workflow
    - Deploys to production at [manual.23people.io](https://manual.23people.io)
 
-4. **Summary Updater Webhook** (`summary-updater-webhook.yml`) - Trigger the Summary Updater Webhook in n8n:
-   - Updates `llm-resources/handbook-summary.md` using AI processing
+4. **Summary Updater Webhook** (`summary-updater-webhook.yml`) - Triggers the Summary Updater Webhook in n8n:
+   - Monitors changes to `docs/**`, `resources/llm/system-prompt.md`, and `mkdocs.yml`
+   - Triggers n8n workflow to update `resources/llm/handbook-summary.md` using AI processing
+   - **Loop Prevention**: Uses GitHub's native `paths` filter to prevent triggering when only the summary file is updated, avoiding infinite webhook loops
 
 **Branch Protection**: The `main` branch requires the `Build` status check to pass before merging, ensuring all changes are linted and build successfully.
 
@@ -159,8 +161,7 @@ The deployment is done automatically when you push a new version to the `main` b
 
 ## TODO
 
-- [ ] Fix Release workflow to generate new semantic versions in GitHub Releases
-- [ ] Edit Chunk Size in the n8n workflow that summarizes the handbook pages (currently set to 1000 tokens).
+- [ ] Fix Release workflow to generate new semantic versions in GitHub Releases.
 
 ## References
 
