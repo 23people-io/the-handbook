@@ -7,13 +7,13 @@ description: >
     23people Tech Talent: Nuestro servicio de Gestión de Talento y Formación de Equipos Tech.
 ---
 
-# Gestión de Talento y Formación de Equipos (Tech Talent)
+# Formación, Selección y Gestión de Equipos Tech
+
+!!! example "Propuesta de Valor"
+
+    Formamos, Seleccionamos y Gestionamos Equipos Tech de corto y largo plazo para que tú puedas enfocarte en lograr los objetivos de tu negocio.
 
 **Sabemos buscar, seleccionar y retener Profesionales Tech para que complementen las capacidades técnicas y humanas de los equipos de nuestros clientes.**
-
-!!! example "Propuesta de Valor de Tech Talent"
-
-    El cliente delega en 23people la formación y gestión de sus Equipos Tech, permitiéndole enfocarse exclusivamente en su negocio principal.
 
 Este servicio evoluciona del concepto tradicional de "Staff Augmentation" hacia una propuesta de valor enfocada en que el cliente delegue la gestión del equipo técnico. Se propone que el cliente delegue en 23people la formación y gestión de sus capacidades técnicas, **permitiéndoles enfocarse en su negocio principal**.
 

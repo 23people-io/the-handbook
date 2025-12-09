@@ -7,4 +7,8 @@ description: >
     23people Cloud, Migration & Modernization: Nuestro servicio de migración y modernización en la nube eficiente en costos.
 ---
 
-# Cloud, Migración y Optimización (Cloud & Modernization)
+# Opmitización Cloud
+
+!!! example "Propuesta de Valor"
+
+    Minimizamos los costos de uso de la nube de tus plataformas, sin sacrificar rendimiento ni seguridad.

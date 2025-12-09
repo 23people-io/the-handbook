@@ -156,8 +156,8 @@ nav:
     - Desafíos: about-us/what-we-do/challenges.md
     - Servicios:
       - "Tech Talent": about-us/what-we-do/services/tech-talent.md
-      - "Integration & Digital Platforms": about-us/what-we-do/services/integrations.md
-      - "Cloud Migration & Modernization": about-us/what-we-do/services/cloud.md
+      - "Integraciones": about-us/what-we-do/services/integrations.md
+      - "Optimización Cloud": about-us/what-we-do/services/cloud-optimization.md
       - "Data Engineering & AI": about-us/what-we-do/services/data-ai.md
     - Casos de Éxito:
       - about-us/what-we-do/client-cases/index.md

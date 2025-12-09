@@ -7,11 +7,11 @@ description: >
   Servicio de integración de sistemas empresariales B2B. Conectamos aplicaciones y plataformas para que intercambien información de forma eficiente y segura.
 ---
 
-# Integración de Sistemas
+# Integraciones de Herramientas y Sistemas Empresariales
 
-!!! example "Propuesta de Valor de Integración de Sistemas"
+!!! example "Propuesta de Valor"
 
-    El cliente delega en 23people la conexión de sus sistemas empresariales, permitiéndole que sus plataformas intercambien datos de forma confiable sin tener que desarrollar y mantener ese conocimiento especializado internamente.
+    Conectamos las herramientas y sistemas que tu organización más usa.
 
 ## Descripción del Servicio
 
@@ -20,6 +20,15 @@ description: >
 Los sistemas empresariales a menudo necesitan interactuar con datos provenientes de otras fuentes. Por ejemplo, una solución SAP que necesita ser alimentada desde otras plataformas o sistemas ya existentes pero no conectados. Estas integraciones se realizan típicamente mediante APIs, lo que requiere conocimiento especializado en diseño de integraciones, manejo de protocolos, transformación de datos, y mantenimiento de las conexiones en el tiempo.
 
 El servicio consiste en diseñar, desarrollar y mantener estas integraciones entre sistemas que necesitan comunicarse, ya sean aplicaciones internas de la organización o conexiones con sistemas externos (clientes, proveedores, partners).
+
+TODO:
+
+- Documentos para RAG (Google Drive, Emails, etc)
+- Plataformas via API
+- Pipelines de datos para analítica
+- Automatizaciones de flujos de trabajo
+- Uso hibrido de los servicios cloud y on-premise
+- Si planea hacer uso de Agentes IA en un futuro, los sistemas deben estar generando datos de manera ordenada y estructurada para alimentar los modelos.
 
 ## Tipos de Integraciones que Realizamos
 

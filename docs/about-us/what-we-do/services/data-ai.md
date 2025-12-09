@@ -11,6 +11,6 @@ description: >
 
 !!! example ""
 
-    **Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas.**
+    Implementamos la Ingeniería para Generar y Recolectar los datos que tu organización necesita para la toma de decisiones y uso de la inteligencia artificial.
 
 Combinamos tecnologías para grandes volúmenes de datos (BigData, DataLakes, Data Warehouses), herramientas de IA predictiva y generativa (Machine Learning, RAG, LLMs), y sistemas de automatización avanzada (AI Agents). Todo esto alineado con el conocimiento experto del negocio de nuestros clientes para generar valor real en sus operaciones diarias.
