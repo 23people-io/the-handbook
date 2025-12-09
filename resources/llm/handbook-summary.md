@@ -1,5 +1,6 @@
+```markdown
 ---
-updated: 2025-12-09T12:31:35.339-03:00
+updated: 2025-12-09T12:35:19.092-03:00
 ---
 
 # 23people Company Handbook Summary
@@ -12,211 +13,213 @@ updated: 2025-12-09T12:31:35.339-03:00
 
 ### Who We Are (about-us/who-we-are/index.md)
 
-**23people is a technology company founded on November 26, 2014, in Santiago, Chile, by two software engineers, Marcelo Ampuero and Manuel Reyes.** Their founding principle was to create a company where they themselves would want to work—a place that prioritizes people, fosters a passion for technology, and builds sustainable business practices. The company name, **23people**, is inspired by a dialogue in "The Matrix Reloaded," symbolizing the spirit of those chosen to rebuild Zion, representing a team that operates "outside the matrix." Today, the company comprises nearly 90 professionals and has had over 500 professionals throughout its history, serving major clients across Latin America, North America, and Europe.
+**23people** is a technology company founded on November 26, 2014, by two software engineers, **Marcelo Ampuero** (Engineering Director) and **Manuel Reyes** (General Director). The company was born from the desire to create a workplace where they themselves would love to work—a place that prioritizes people, fosters a passion for technology, and pursues shared success with both clients and professionals. Our name is inspired by the movie *The Matrix Reloaded*, representing the spirit of the 23 individuals chosen to rebuild Zion, symbolizing a team dedicated to building a better future outside the conventional system. We are a team of professionals passionate about technology, creating a sustainable business model that puts people first.
 
 ### What We Do (about-us/what-we-do/services.md)
 
-**We are trusted technology facilitators and co-creators for companies undergoing Digital Evolution.** We help businesses enhance their digital products and services by integrating Tech Talent, Software Engineering, and advanced technologies with their business knowledge and data potential. Our services are structured into three main lines:
+We are **trusted technology facilitators and co-creators** for companies navigating their digital evolution. We help businesses integrate tech talent, software engineering, and advanced technologies with their expert business knowledge and data potential. Our services address key client challenges, such as justifying the ROI of technology investments, finding a reliable tech partner, and sourcing validated tech professionals in a competitive market.
 
-1.  **IT Outsourcing and Tech Talent Recruitment**: We specialize in finding, validating, and retaining high-level Tech Professionals and Teams to complement our clients' capabilities. This includes **IT Outsourcing** (professionals work under our legal entity) and **IT Hunting** (we assist clients in direct hiring).
-2.  **Digital Platforms, Cloud, and Modernization**: We co-create and evolve effective, secure, and efficient digital platforms using Cloud, DevOps, and agile practices. Services include **Integration**, **Modernization & Evolution**, **Data & Analytics**, and **Automated QA**.
-3.  **Data, Advanced Analytics, and AI**: We enable data-driven decision-making by combining Big Data technologies, predictive and generative AI tools (Machine Learning, RAG, LLMs), and advanced automation (AI Agents) to generate real operational value.
+Our three main service lines are:
+
+1.  **IT Talent Outsourcing and Recruitment**: We specialize in finding, selecting, and retaining high-level Tech Professionals and Teams. We validate their technical skills and experience to ensure they are the right fit for our clients' projects, offering both **IT Outsourcing** and **IT Hunting** services.
+2.  **Digital Platforms, Cloud, and Modernization**: We co-create and evolve effective, secure, and efficient digital platforms using Cloud, DevOps, QA Automation, and Agile practices. Our services include **Integration**, **Modernization & Evolution**, **Data & Analytics**, and **Automated QA**.
+3.  **Data, Advanced Analytics, and AI**: We enable data-driven decision-making by combining Big Data technologies, predictive and generative AI tools (Machine Learning, RAG, LLMs), and advanced automation systems (AI Agents) to generate real value in our clients' daily operations.
 
 ### What Sets Us Apart (about-us/how-we-work/index.md)
 
 Our differentiation lies in **how we do things**, based on five fundamental pillars:
 
-1.  **Specialization in Tech Roles**: We focus on identifying and retaining exceptional Software Programmers and Engineers with genuine passion and validated experience.
-2.  **Optimization in Tech Recruitment**: We have a mature methodology for finding and selecting top Tech Talent.
-3.  **Maturity in Software Development**: We build enterprise software in an agile, evolutionary, and data-driven manner, emphasizing collaboration and continuous iteration.
-4.  **Mastery of Technologies**: We have proven experience in both mature enterprise technologies and emerging ones, allowing us to build robust software and validate professional profiles effectively.
-5.  **Customer Satisfaction**: We are committed to supporting and guiding our clients at every step, ensuring an exceptional experience.
+1.  **Specialization in Tech Roles**: We focus on exceptional Programmers and Software Engineers who are passionate and have proven experience in key areas like Software, Data, Cloud, and AI engineering.
+2.  **Optimization in Tech Recruitment**: We have a mature methodology for finding and selecting top tech talent, ensuring a strong match with client needs.
+3.  **Maturity in Software Development**: We co-build enterprise software using an agile, evolutionary, and data-driven methodology, ensuring high-quality, adaptable digital products.
+4.  **Mastery of Enterprise and Emerging Technologies**: We have validated experience in a wide range of mature and emerging technologies, from programming languages (Python, Java, Go) and cloud platforms (AWS, Azure, Cloudflare) to AI frameworks (LlamaIndex, OpenAI) and architectures (RAG, Transformers).
+5.  **Customer Satisfaction**: We are committed to supporting and accompanying our clients at every step, ensuring an exceptional experience. This is validated by success stories with major clients like **ACHS**, for whom we developed a critical telemedicine platform during the pandemic, and **Equifax**, where we modernized their core Platinum 360 platform and helped scale their agile development center.
 
-### What We Pursue (about-us/what-we-pursue/goals.md)
+### What We Pursue (about-us/what-we-pursue/index.md)
 
-Our strategic goals are centered around three key ambitions:
+We are guided by a clear vision for sustainable growth and industry leadership. Our strategy is built on five core principles: attracting and retaining excellent tech professionals, competing on quality rather than price, leveraging our experience and data to evolve, empowering everyone to contribute, and prioritizing focus and adaptability.
 
-1.  **Become a Benchmark in Technology and Professional Growth**: To be recognized as a leader in high-performance IT teams, world-class digital platforms, and the use of AI tools in the Latam market.
-2.  **Achieve Sustainable Economic Growth and Globalization**: To grow economically in a sustainable way and become a model for other companies in professional development, retention, and operational excellence.
-3.  **Innovate with AI and Data-Driven Digital Products**: To create new digital products and services by fostering an AI-native culture, using artificial intelligence to enhance human capabilities and build effective, efficient solutions.
+Our primary goals are:
+
+1.  **Become a Benchmark in Technology and Talent Growth**: To be recognized as a leader in high-performance IT teams, world-class digital platforms, and the use of AI tools in LATAM.
+2.  **Achieve Sustainable Economic Growth**: To grow our business in a systematic and sustainable manner without compromising the well-being of our team, clients, or the planet.
+3.  **Innovate with AI- and Data-Driven Digital Products**: To create new digital products and services through an AI-native culture, using artificial intelligence to enhance our human capabilities.
 
 ## Organization
 
 ### Overview (organization/index.md)
 
-23people is organized into **multidisciplinary teams** with a circular structure to foster collaboration and communication. Each team operates with a clear, well-defined purpose and delivers services to internal teams or external clients through **service contracts**, similar to an API. The core operational principles for all teams are **clear purpose**, **autonomy**, **service contract fulfillment**, and **data-driven iterative improvement**.
+23people is organized in a **circular structure** of multidisciplinary teams to foster collaboration and communication. Each operational team has a clear purpose and delivers services to internal teams or external clients through well-defined **service contracts**, similar to APIs. Teams operate with autonomy, guided by organizational goals and values, and are committed to iterative, data-driven improvement.
 
-### Teams (organization/index.md)
+### Teams (organization/teams/index.md)
 
-The operational teams are grouped within the Iarvis Tribe and are responsible for the company's core functions:
+Our operational teams are grouped under the **Iarvis Tribe** and are responsible for the company's core functions:
 
--   **Tech Talent Services Team (TTS)**: Delivers the best experience in the selection, validation, and retention of Tech Professionals who are passionate about technology and match client project needs.
--   **Sales & Marketing Team (SMKT)**: Responsible for acquiring new clients, managing current commercial relationships, and growing the 23people brand and market presence.
--   **Backoffice Services Team (BKO)**: Provides agile and efficient administrative support in People Management, Financial Management, and Company Management to enable other teams to succeed.
--   **Research & Development Services Team (R&D)**: Drives clients' digital evolution by exploring and mastering emerging technologies that generate real business value.
+-   **Tech Talent Services (TTS)**: Delivers the best experience in recruiting, validating, and retaining Tech Professionals who are passionate about technology and perfectly match our clients' projects.
+-   **Sales & Marketing (SMKT)**: Responsible for acquiring new clients, managing current commercial relationships, and growing the 23people brand and market presence.
+-   **Backoffice (BKO)**: Provides agile and efficient administrative support in People Management, Financial Management, and Company Management, enabling other teams to focus on their core functions.
+-   **Research & Development (R&D)**: Drives our clients' digital evolution by exploring and mastering emerging technologies to generate real value in their operations.
 
 ### Tribes (organization/tribes/index.md)
 
 Teams are grouped into two **Tribes** that share common objectives:
 
--   **Iarvis Tribe**: Comprises all of 23people's internal operational teams (TTS, SMKT, BKO, R&D). Its purpose is to deliver high-quality, sustainable services aligned with the company's strategic goals.
--   **Drakkar Tribe**: Includes all tech professionals and teams working on subcontracting assignments for clients, either as dedicated teams or as independent professionals.
+-   **Iarvis Tribe**: Comprises all of 23people's internal operational teams (TTS, SMKT, BKO, R&D), working together to deliver high-quality, sustainable services aligned with strategic goals.
+-   **Drakkar Tribe**: Consists of all Tech Professionals and teams working on assignment with our clients in an outsourcing model. This tribe is fundamental to our service delivery.
 
-### Councils (organization/index.md)
+### Councils
 
-Strategic and operational alignment is managed through councils:
+Strategic alignment and operational coordination are managed through councils:
 
--   **High Council**: A strategic team responsible for defining and communicating the organization's overall strategy and ensuring that operational teams are aligned with it.
--   **Iarvis Council**: An operational body, led by the Global Operations Manager, responsible for the coordination and alignment of the operational teams within the Iarvis Tribe.
+-   **High Council**: A strategic team responsible for defining and communicating the organization's strategy, ensuring all operational teams are aligned with it.
+-   **Iarvis Council**: An operational body, led by the Global Operations Manager, that coordinates the Iarvis Tribe teams to ensure smooth execution and collaboration.
 
 ### Workforce Structure (organization/index.md)
 
-Our structure is defined by two complementary concepts:
+Our structure distinguishes between **Positions (Cargos)** and **Roles**:
 
--   **Positions (Cargos)**: Define a professional's level within the organizational hierarchy, their expected capabilities, and their career path (e.g., Senior Operations Director, Intermediate Tech Relations Specialist). A position is stable and reflects a level of seniority and responsibility.
--   **Roles**: Describe the specific responsibilities and functions a professional undertakes in a particular context, team, or project (e.g., Service Request Manager, Tech Lead). Roles are dynamic and can be assigned across different teams, allowing for flexibility and professional growth. Key operational roles include the **Global Operations Manager**, **Service Request Manager (SRM)**, and **Service Delivery Manager (SDM)**.
+-   A **Position** defines a professional's hierarchical level, scope of responsibility, and expected capabilities within the organization (e.g., Senior Operations Director, Intermediate Tech Relations Specialist).
+-   A **Role** defines a specific set of responsibilities a person takes on in a particular context, such as a team or project. A person in one position can perform multiple roles.
+
+Key operational roles include:
+-   **Global Operations Manager**: Orchestrates the Iarvis Tribe, aligning operational execution with strategic objectives.
+-   **Service Request Manager (SRM)**: Manages the "what" and "when" of service requests, acting as the primary interface with the client and defining priorities.
+-   **Service Delivery Manager (SDM)**: Defines the "how" and "who" of service execution, managing the workflow and ensuring quality and efficiency in delivery.
 
 ## Principles
 
 ### Fundamental Principles (principles/fundamentals/index.md)
 
-These principles define our core identity and guide our actions.
-
-1.  **Excellence and Intellectual Curiosity**: We are lifelong learners who pursue excellence in everything we do. We have an open mind, seek continuous improvement through iterative and data-driven methods, and are passionate about technology.
-2.  **Collaboration and Assertive Communication**: We co-create solutions through genuine support, collaboration, and honest transparency. We work as a team, sharing responsibilities and celebrating successes together. We prioritize clear, open communication to build trust and improve productivity.
-3.  **Sustainable Growth and Industry Leadership**: We are ambitious about growing and becoming international benchmarks, but we do so at a sustainable pace. We prioritize the well-being of our people and our planet over short-term gains, preferring systematic progress to exhausting efforts.
+-   **Excellence and Intellectual Curiosity**: We are eternal learners, continuously improving our skills with genuine curiosity. We pursue technical and professional excellence through iterative, data-driven work.
+-   **Collaboration and Assertive Communication**: We work as a team, supporting each other with honesty and transparency. We co-create solutions and prioritize clear, open communication to build trust and improve productivity.
+-   **Sustainable Growth and Leadership**: We are ambitious about growing and becoming international benchmarks, but we do so at a sustainable pace that respects our people, our clients, and our planet.
 
 ### Culture and People Principles (principles/culture-and-people/index.md)
 
-These principles shape our interactions and work environment.
-
-4.  **People First**: We work to live, not live to work. We aim to create a company where passionate people can thrive. We believe in leaders, not bosses, and prioritize mutual benefit, empathy, and being a positive part of our clients' and collaborators' success.
-5.  **Equity**: We believe in a respectful and egalitarian workplace. We avoid all forms of discrimination in our selection processes, as talent is uniformly distributed. We apply positive discrimination only when choosing between two equally qualified candidates to support underrepresented groups.
-6.  **Xperience**: We focus on creating meaningful and memorable experiences in every interaction. Whether with clients, tech professionals, administrative staff, or suppliers, we aim to deliver exceptional quality, build lasting relationships, and treat others as we would like to be treated.
+-   **People First**: We work to live, not live to work. We strive to create a company where everyone would want to work, prioritizing mutual benefit, empathy, and the well-being and personal success of our team and clients.
+-   **Equity**: We believe in a humane and motivating company where everyone is treated with respect. We avoid all forms of discrimination in our selection processes, focusing on talent and potential.
+-   **Xperience**: We focus on creating meaningful and memorable experiences in every interaction—for our clients, tech professionals, administrative staff, and suppliers—to build lasting, value-driven relationships.
 
 ### Operational Principles (principles/operationals/index.md)
 
-These principles guide how we work and deliver value.
-
-7.  **Agility**: We adhere to agile values to remain innovative, resilient, and efficient. We prioritize individuals and interactions, working software, customer collaboration, and responding to change. This allows us to adapt quickly, minimize waste, and continuously improve.
-8.  **Transparency**: We make information and processes public whenever possible to build trust and improve productivity. Information is only kept private if it concerns clients, employees, or suppliers, or is legally sensitive. We believe the benefits of transparency far outweigh the costs.
-9.  **Sustainability**: We are committed to a long-term vision that ensures the responsible use of natural, financial, and social resources. We are a 100% digital and remote-first company, which allows us to reduce our environmental impact. We privilege technologies and practices that are environmentally friendly.
+-   **Agility**: We embrace agile values to adapt quickly, foster continuous improvement, collaborate with clients, and respond effectively to change. This makes us innovative, resilient, and efficient.
+-   **Transparency**: We make information public by default, excluding only confidential client, employee, or supplier data. We believe transparency boosts productivity, retention, and brand trust.
+-   **Sustainability**: We are committed to a long-term vision, making responsible use of natural, financial, and social resources. We promote remote work, digitalization, and technologies that reduce our environmental impact.
 
 ## Practices
 
 ### Agile Management (practices/agile-management/workflows-manage-work-not-people.md)
 
-We manage **work, not people**, using a methodology based on **Kanban**. Our focus is on visualizing workflows, limiting work in progress (WIP) to maximize efficiency, and fostering a culture of continuous improvement. We use visual boards to track the status of all work items (Service Requests, Incidents, Internal Improvements, etc.) from backlog to completion. This approach promotes transparency, collaboration, and a sustainable pace of work.
+We **manage the work, not the people**, using **Kanban** as our core agile methodology. This approach allows us to visualize workflows, limit work in progress (WIP) to maximize efficiency, and foster continuous improvement. Our Kanban boards are typically structured into five areas: **Backlog**, **Requested** (committed work), **In Progress**, **Done**, and **Ready to Archive**. This system promotes a focus on flow, collaboration, and delivering value systematically.
 
 ### Communication (practices/communication/index.md)
 
-Effective communication is core to our culture. We follow several key practices:
-
--   **Prefer Asynchronous Communication**: To allow collaborators to manage their time and energy efficiently, reduce interruptions, and foster more thoughtful responses.
--   **Write Ideas Before Sharing**: To ensure clarity and provide a documented record for collaboration and decision-making.
--   **Structure Narratives**: We use frameworks like SCQA (Situation, Complication, Question, Answer) to present initiatives and problems clearly, ensuring all stakeholders have the necessary context.
--   **Acknowledge Messages Promptly**: To reduce anxiety and confirm receipt, fostering a responsive and respectful communication environment.
+Effective communication is central to our culture. We follow key practices to ensure clarity and collaboration:
+-   **Prefer Asynchronous Communication**: To allow team members to manage their time effectively and provide thoughtful responses.
+-   **Write Ideas Before Sharing**: We encourage writing down ideas to clarify them before presenting them, which improves the quality of discussions.
+-   **Structure the Narrative**: When presenting initiatives or problems, we use a structured approach (Context-Question-Answer) to ensure the message is clear, logical, and impactful.
+-   **Acknowledge Messages Promptly**: We confirm receipt of messages as soon as possible to reduce uncertainty and anxiety for the sender.
 
 ### Learning (practices/learning/how-to-learn.md)
 
-We encourage a culture of continuous learning. A key technique we promote is to **learn by teaching**. This involves studying a topic, explaining it in simple terms as if teaching someone else, identifying knowledge gaps, restudying those areas, and simplifying the explanation until it is clear and concise. This process ensures a deep and lasting understanding.
+We foster a culture of continuous learning. A key technique we promote is to **learn by teaching**. This involves selecting a topic, studying it, and then explaining it in simple terms as if teaching someone else. This process reveals knowledge gaps and solidifies understanding, ensuring deep and lasting learning.
 
 ### Using AI (practices/using-ai/claude-project.md)
 
-We leverage AI as a **multiplier of professional capabilities**. We use tools like **Claude Projects** to create dedicated workspaces with pre-defined instructions to automate repetitive tasks, maintain quality standards, and free up our teams to focus on higher-value activities. All AI-generated content is treated as a first draft that requires professional review, editing, and contextualization.
+We view AI as a **professional capabilities multiplier**. We use tools like **Claude Projects** to automate and optimize recurring tasks, such as creating standardized documentation or drafting communications. This allows our teams to save time, maintain quality and consistency, and focus their energy on higher-value strategic activities. The content generated by AI is always treated as a first draft that requires human review, editing, and contextualization.
 
 ## Community
 
 ### Benefits Framework (community/benefits/index.md)
 
-We offer a range of benefits to support our team's physical, mental, and professional well-being, generally available to everyone with at least three months of seniority. The framework includes:
-
--   **Agreements**: Partnerships providing access to services like the **Betterfly** wellness platform, preferential banking plans with **Banco de Chile**, and comprehensive **complementary health, dental, life, and catastrophic insurance**.
--   **Incentives**: Financial bonuses and perks, including an **incentive for taking vacations**, a **birthday gift and day off**, bonuses for **national holidays and Christmas**, and a **baby shower bonus** for new parents.
--   **Refunds**: Reimbursement programs for expenses related to **influenza vaccination**, professional development **courses**, **international certifications**, and improvements to the **home office workspace**.
--   **Trainings**: Company-sponsored learning opportunities, such as group **English classes**.
+We offer a comprehensive benefits program to support the physical, mental, and professional well-being of our team, available to everyone after a three-month ramp-up period. The framework includes:
+-   **Agreements**: Health and wellness platform (**Betterfly**), complementary health, dental, life, and catastrophic insurance, and preferential banking plans.
+-   **Incentives**: An economic bonus for taking vacations (minimum 5 days), birthday gifts and a day off, bonuses for national holidays and Christmas, and a Baby Shower bonus for new parents.
+-   **Refunds**: Reimbursement for the annual influenza vaccine, professional development courses, international certification exams, and improvements to home office workspaces.
+-   **Training**: Company-sponsored English classes to enhance professional skills.
 
 ### Procedures (community/procedures/administratives.md)
 
-We maintain documented procedures for key activities to ensure consistency and efficiency. This includes administrative processes like expense reimbursement and a guide for onboarding new members to our company's **Discord server**, our primary communication platform.
+We maintain documented administrative procedures for common tasks like expense reports and fund disbursements to ensure clarity and efficiency. We also have guidelines for integrating new members into our communication platforms like Discord.
 
 ### Events (community/events/index.md)
 
-We foster community through various events. Photos and videos from these gatherings are stored and shared internally via a dedicated Google Drive, preserving our shared memories and experiences.
+We foster community through various events, both virtual and in-person. Photos and videos from these gatherings are stored and shared internally to preserve our collective memories and strengthen our team bond.
 
 ## Technical Guide
 
 ### Software Development Principles (technical-guide/software-development/principles.md)
 
-Our development philosophy is centered on **simplifying real-world problems**. This is guided by several core principles:
-
--   **Simplicity Above All**: We strive for the most direct and efficient solution, eliminating unnecessary complexity in architecture and code.
--   **Balance of Paradigms**: We combine the best of **Object-Oriented Programming** (SOLID principles, encapsulation, abstraction) and **Functional Programming** (pure functions, immutability) to write modular, readable, and testable code.
--   **Business-Centric Focus**: We seek to deeply understand the business problem before development to ensure we deliver real value.
--   **Scalability and Maintainability**: We design solutions that can grow in an orderly manner and are easy to maintain over time.
--   **Transparency and Collaboration**: We foster open communication and continuous feedback within and between teams.
+Our development philosophy is centered on **simplifying real-world problems**. Key principles include:
+-   **Simplicity Above All**: We eliminate unnecessary complexity in architecture and code.
+-   **Balance of OOP and Functional Programming**: We leverage the best of both paradigms to create modular, readable, and testable code.
+-   **SOLID Principles**: We adhere to SOLID principles to build flexible, scalable, and maintainable systems.
+-   **Business-Centric Approach**: We thoroughly understand the business problem before writing code to ensure we deliver true value.
+-   **Scalability and Maintainability**: We design solutions that can grow in an orderly fashion and are easy to evolve over time.
 
 ### Methodologies (technical-guide/software-development/methodologies.md)
 
-We employ an agile approach based on **Kanban** to manage our development workflow. This method allows for flexibility, continuous flow, and rapid adaptation to change. We use visual boards to track work, apply **WIP (Work in Progress) limits** to prevent bottlenecks, and engage in continuous improvement to optimize our processes.
+We use **Kanban** as our foundational agile methodology. This allows us to visualize our workflow, limit work-in-progress (WIP) to prevent overload, and focus on continuous improvement. Its flexibility enables us to adapt to project needs and integrate other techniques, like sprints, when beneficial, while maintaining a focus on delivering a continuous flow of value.
 
 ### Technologies (technical-guide/software-development/technologies.md)
 
-We use a curated set of mature and reliable technologies to build our solutions. Our primary stack includes:
-
--   **Backend**: **Node.js** with the **NestJS** framework for scalable and maintainable applications.
--   **Frontend**: **React** for building interactive and component-based user interfaces.
--   **AI & Machine Learning**: **Python** with its extensive ecosystem of libraries (e.g., NumPy, Pandas, TensorFlow, PyTorch).
--   **Databases**: **MongoDB** (NoSQL) for flexibility and **PostgreSQL** (SQL) for transactional integrity and structured data.
-
-We also have broad expertise across other technologies, including various programming languages (Java, C#, Go), cloud platforms (AWS, Azure, Google Cloud, Cloudflare), and web frameworks (Next.js, Spring Boot, FastAPI).
+We use a curated, modern tech stack chosen for its mature ecosystem, scalability, and flexibility. Our primary technologies include:
+-   **Backend**: **Node.js** with the **NestJS** framework.
+-   **Frontend**: **React**.
+-   **AI/Machine Learning**: **Python** and its rich ecosystem of data science libraries.
+-   **Databases**: **MongoDB** for flexibility and **PostgreSQL** for relational robustness.
+-   **Cloud**: We primarily use services from **Cloudflare**, **AWS**, and **DigitalOcean**, prioritizing providers with strong sustainability commitments.
 
 ### Practices (technical-guide/software-development/practices.md)
 
-To ensure quality and consistency, we adhere to a set of standard development practices:
-
--   **Version Control**: Using **Git** with structured workflows (e.g., GitFlow).
--   **Code Reviews**: Mandatory for all code changes to promote quality and knowledge sharing.
--   **Automated Testing**: Maintaining adequate coverage at unit, integration, and end-to-end levels.
--   **CI/CD**: Automating build, test, and deployment pipelines.
--   **Collaborative Programming**: Using Pair/Mob programming for complex problem-solving.
--   **Monitoring & Observability**: Implementing logging and monitoring for application health.
--   **Lightweight Documentation**: Keeping essential documentation concise and up-to-date.
--   **Security**: Integrating static analysis (SonarQube), dynamic testing (OWASP ZAP), and linters (ESLint, Ruff) into our CI/CD pipelines to ensure code quality and security.
+We ensure quality and consistency through standardized practices:
+-   **Version Control**: We use **Git** with structured workflows (e.g., GitFlow).
+-   **Code Reviews**: All changes are reviewed by peers to share knowledge and improve code quality.
+-   **Automated Testing**: We maintain adequate coverage of unit, integration, and end-to-end tests.
+-   **CI/CD**: We automate build, test, and deployment pipelines.
+-   **Collaboration**: We encourage **Pair/Mob Programming** for complex problem-solving.
+-   **Monitoring & Observability**: We use logging and monitoring tools to ensure application health in production.
+-   **Security**: We integrate security analysis tools like **SonarQube**, **OWASP ZAP**, and linters (**ESLint**, **RUFF**) into our CI/CD pipelines to detect vulnerabilities early.
 
 ### Specializations (technical-guide/software-development/ai-and-machine-learning.md)
 
--   **AI and Machine Learning**: We follow a full lifecycle approach, from problem identification and data processing to model training, deployment (MLOps), and ethical review.
--   **Cloud**: We leverage cloud services (Cloudflare, AWS, DigitalOcean) for scalability, availability, and simplicity, with a strong preference for providers committed to sustainability and low carbon emissions.
+-   **AI and Machine Learning**: We follow a structured lifecycle for AI projects, from problem identification to model deployment and monitoring (MLOps), with a strong focus on ethics and responsibility.
+-   **Cloud**: We leverage cloud services to ensure scalability, availability, and simplicity, with a strong emphasis on sustainability and choosing providers with low-carbon footprints.
 
 ## Sustainability
 
 ### Our Commitment (sustainability/our-commitment.md)
 
-**23people is committed to reducing its carbon footprint in line with climate science and the Paris Agreement.** As a 100% digital and remote company, we adopt the **Science Based Targets (SBTi)** framework. Our key objectives include reducing Scope 1 and 2 emissions by at least 50% by 2030, achieving carbon neutrality by 2040, and reducing Scope 3 emissions by 30%.
+We are committed to reducing our carbon footprint in line with climate science and the Paris Agreement. We have adopted the **Science Based Targets initiative (SBTi)** with clear goals:
+-   Reduce Scope 1 and 2 emissions by at least **50% by 2030**.
+-   Achieve **carbon neutrality by 2040**.
+-   Reduce Scope 3 emissions (e.g., business travel, hardware) by 30%.
 
-### Strategy (sustainability/our-commitment.md)
+### Strategy
 
-Our reduction strategy is based on several pillars:
-
--   **Energy and Technology Use**: Prioritizing cloud providers that use 100% renewable energy and promoting energy-efficient hardware.
--   **Indirect Emissions Reduction**: Minimizing business travel in favor of virtual meetings and selecting suppliers with aligned sustainability commitments.
--   **Measurement and Reporting**: Conducting annual carbon footprint measurements and transparently reporting our progress. Our goals will be submitted for official SBTi validation.
+Our strategy for implementation includes:
+-   **Energy and Technology**: Prioritizing cloud providers that use 100% renewable energy and promoting energy-efficient hardware.
+-   **Indirect Emissions**: Reducing business travel by prioritizing virtual meetings and selecting suppliers with aligned sustainability commitments.
+-   **Measurement and Reporting**: Annually measuring our carbon footprint and transparently reporting our progress.
 
 ### Team (sustainability/team.md)
 
-Sustainability is a cross-organizational effort led by a dedicated team comprising the **Global Operations Manager, a representative from People Growth, and a representative of the founders.** This team is responsible for designing strategy, measuring impact, and acting as an agent of change within the company.
+Sustainability is a cross-functional effort led by a dedicated team comprising the **Global Operations Manager**, a representative from **People Growth**, and one of the **founders**. This team is responsible for designing strategy, measuring impact, and driving change across the organization.
 
-### Technology Recommendations (sustainability/technology-recommendations.md)
+### Technology Recommendations
 
-We maintain guidelines for technology usage to minimize our environmental impact. This includes prioritizing hardware from sustainable brands, implementing recycling programs, and utilizing applications that help offset carbon emissions, ensuring our digital operations are as green as possible.
+As a 100% digital and remote company, we have specific guidelines for our technology choices to minimize environmental impact. We prioritize cloud services that are carbon-neutral, encourage the use of energy-efficient hardware, and promote practices like recycling and extending the lifespan of devices.
 
 ---
 
 ## How to Use This Summary (For AI Tools)
 
--   This document is designed for quick context retrieval. Use the hierarchical structure (headers and sub-headers) to navigate to the relevant topic.
--   Bolded terms represent key company-specific concepts, roles, or principles. Pay attention to them as they are central to 23people's identity.
--   Content focuses on "why" and "how" to provide deeper context, not just "what."
--   This summary describes frameworks and principles, not specific, time-sensitive data like current KPI values or individual staff assignments. When asked for such data, state that it is operational and not included in this stable handbook summary.
--   Use the provided URLs in parentheses after section titles to point users to the full, detailed handbook page for more information.
+This document is an LLM-optimized summary of the 23people Company Handbook. Its purpose is to provide stable, foundational context about the company's identity, structure, principles, and practices.
+
+-   **Use this document to answer questions about "how" and "why" 23people operates.** It contains information on values, organizational design, core processes, and guiding principles.
+-   **Do not use this document for time-sensitive or operational data.** It deliberately excludes specific numbers, project details, individual assignments, and current KPI values.
+-   **When asked for specific data (e.g., "What is the current employee count?"), state that this summary focuses on frameworks and that such data is operational and changes frequently.** You can, however, describe *how* such metrics are tracked (e.g., "The People Growth team tracks the Total Professionals Activos KPI on a monthly basis.").
+-   **Use the hierarchical structure to navigate information.** The sections are organized from high-level concepts to more specific practices.
+-   **Refer to the bolded terms as key company concepts.** These are the core vocabulary of the organization.
+-   **Use the included page URLs as references for deeper dives into the full handbook.**
+```
