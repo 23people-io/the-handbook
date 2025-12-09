@@ -106,6 +106,7 @@ updated: [Use this timestamp 'CURRENT_DATETIME' in ISO 8601 format (YYYY-MM-DDTH
 > frequently changing operational data.
 
 ## About Us
+
 ### Who We Are
 ### What We Do
 ### What Sets Us Apart
@@ -153,15 +154,21 @@ updated: [Use this timestamp 'CURRENT_DATETIME' in ISO 8601 format (YYYY-MM-DDTH
 [Guidance section for AI consumers]
 ```
 
+For every section, if apply, after the content redacted, include the related page URL in parentheses after each section title for reference and more information.
+
 ## Quality Checklist
 
 Before finalizing the summary, verify:
 
 - [ ] Can an LLM answer "Who is 23people?" from this content?
+- [ ] Can an LLM answer "Who are the founders of 23people and when was founded?" from this content?
+- [ ] Can an LLM describe the company's core values and principles?
+- [ ] Can an LLM outline the organizational structure and key teams?
+- [ ] Can an LLM explain the services offered to his clients?
+- [ ] Can an LLM explain the challenges faced by clients and how 23people help them?
+- [ ] Can an LLM list and give general info about the success client cases?
+- [ ] Can an LLM list clients of 23people?
 - [ ] Can an LLM understand the complete organizational structure?
-- [ ] Can an LLM apply company principles to hypothetical decisions?
-- [ ] Can an LLM reference technical standards for code reviews?
-- [ ] Can an LLM explain how teams interact and collaborate?
 - [ ] Is all content free of time-sensitive data?
 - [ ] Are frameworks described with "why" and "how", not just listed?
 - [ ] Is the depth consistent across all major sections?
@@ -207,7 +214,7 @@ Always include in frontmatter:
 
 - `updated`: (Current ISO 8601 timestamp (YYYY-MM-DDTHH:mm:ss.sssZ)
 
-The current timestamp will be added under the section called: `Current Date`.
+The current timestamp will be added after `CURRENT_DATETIME:`.
 
 ## Output Format
 
@@ -215,11 +222,38 @@ Generate a complete markdown file that:
 
 1. Starts with YAML frontmatter
 2. Has the exact section structure specified
-3. Contains moderate-depth content (1 paragraph per item)
+3. Contains moderate-depth content
 4. Includes all quality checklist items
 5. Ends with the "How to Use This Summary" guidance section
 6. DO NOT include the code block markers (```markdown ...```) in the final output.
 7. DO NOT ADD ANY ADDITIONAL TEXT ONLY THE MARKDOWN FILE.
+8. FOLLOW the next markdown formatting rules:
+
+```yaml
+# Markdownlint configuration with all properties set to their default value
+# .markdownlint.yml
+
+# Default state for all rules
+default: true
+
+# Path to configuration file to extend
+extends: null
+
+# Individual rule configurations
+no-hard-tabs: false
+MD013: false
+MD033: false
+MD042: false
+MD046: false
+MD051: false
+MD007:
+  indent: 4
+MD036: false
+MD041: false
+MD040: false
+MD024: false
+MD060: false
+```
 
 ## Final Instructions
 
