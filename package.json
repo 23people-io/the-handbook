@@ -10,6 +10,7 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
+		"start": "bunx uv run mkdocs serve -a 127.0.0.1:2300",
 		"build": "bunx uv venv --clear && bunx uv sync && bunx uv run mkdocs build",
 		"lint:markdown": "bunx markdownlint-cli2 'docs/**/*.md' '!node_modules/**' '!dist/**' '!.*/**' '!.backup/**' '!.venv/**'",
 		"format:markdown": "bunx markdownlint-cli2 'docs/**/*.md' '!node_modules/**' '!dist/**' '!.*/**' '!.backup/**' '!.venv/**' --fix",
