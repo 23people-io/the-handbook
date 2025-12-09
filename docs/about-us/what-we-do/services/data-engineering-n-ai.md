@@ -9,4 +9,8 @@ description: >
 
 # Data Engineering e Inteligencia Artificial (Data Engineering & AI)
 
-...
+!!! example ""
+
+    **Habilitamos la toma de decisiones apoyada en datos que aporten realmente a mejoras operativas y estratégicas.**
+
+Combinamos tecnologías para grandes volúmenes de datos (BigData, DataLakes, Data Warehouses), herramientas de IA predictiva y generativa (Machine Learning, RAG, LLMs), y sistemas de automatización avanzada (AI Agents). Todo esto alineado con el conocimiento experto del negocio de nuestros clientes para generar valor real en sus operaciones diarias.
