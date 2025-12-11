@@ -239,8 +239,10 @@ nav:
   - "Roles":
     - organization/workforce/roles/index.md
     - "Global Operations Manager": organization/workforce/roles/global-operations-manager.md
+    - "Information Security and Data Governance Officer": organization/workforce/roles/information-security-data-governance-manager.md
     - "Service Request Manager": organization/workforce/roles/service-request-manager.md
     - "Service Delivery Manager": organization/workforce/roles/service-delivery-manager.md
+
 
 - "Principios":
   - principles/index.md
