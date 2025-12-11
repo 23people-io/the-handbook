@@ -13,9 +13,58 @@ En 23people nos organizamos en equipos multidisciplinarios. Cada equipo tiene un
 
 ## Estructura Organizacional
 
-La estructura general es circular tal de fomentar la colaboración y la comunicación entre los equipos y capas organizacionales.
+La siguiente es un diagrama que ilustra la estructura organizacional de 23people:
 
-![Esquema de organización de equipos y capas](/_images/teams-organization-light.svg#only-light)
+```mermaid
+%%{init: {'theme':'neutral'}}%%
+flowchart TD
+  
+    %% Strategic Direction
+    subgraph STRATEGIC_DIRECTION["Strategic Direction"]
+
+        FOUNDERS["Founders Direction"]
+
+        subgraph GOM["Global Operations"]
+            direction TB
+
+            OPS["Operations & Delivery"]
+            ISEC["Information Security & Compliance"]
+            DGOV["Data Governance"]
+        end
+
+        FOUNDERS --> GOM
+    end
+
+    %% Iarvis Tribe - Operational Teams
+    subgraph IARVIS_TRIBE["Tribu Iarvis"]
+        direction LR
+
+        %% Tech Talent Services Column
+        TTS_TEAM["Tech Talent Services"]
+        BKO_TEAM["Backoffice"]
+        SMK_TEAM["Sales & Marketing"]
+        ERS_TEAM["Engineering & Research"]
+    end
+
+    %% Drakkar Tribe - IT Professionals as Contractors
+    DRAKKAR_TRIBE["Tribu Drakkar"]
+
+    GOM --> TTS_TEAM & BKO_TEAM & SMK_TEAM & ERS_TEAM
+
+    TTS_TEAM -.-> DRAKKAR_TRIBE
+    BKO_TEAM -.-> DRAKKAR_TRIBE
+
+    %% Styling
+    classDef directionStyle fill:#bae1ff,stroke:#0066cc,stroke-width:2px,color:#000
+    classDef gomStyle fill:#ffb3ba,stroke:#ff6b6b,stroke-width:2px,color:#000
+    classDef teamStyle fill:#f0f0f0,stroke:#666,stroke-width:2px,color:#000
+    classDef apiStyle fill:#d4c5f9,stroke:#8b5cf6,stroke-width:2px,color:#000
+    classDef srmStyle fill:#c3f0c3,stroke:#4caf50,stroke-width:2px,color:#000
+    classDef invisibleStyle fill:none,stroke:none
+
+    class GOM apiStyle
+    class ERS_TEAM,BKO_TEAM,RND_TEAM,SMK_TEAM,TTS_TEAM srmStyle
+```
 
 ## Equipos Operacionales
 
