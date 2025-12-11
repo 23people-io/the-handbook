@@ -74,7 +74,7 @@ Before you start contributing, make sure you have:
    uv sync
 
    # Start the local development server
-   uv run start
+   bun run start
    ```
 
    The handbook will be available at `http://localhost:2300` for local preview
