@@ -34,7 +34,7 @@ Definir, implementar y supervisar el Sistema de Gestión de Seguridad de la Info
     - Monitorear la efectividad de los controles implementados.
 
 3. **Respuesta a Incidentes:**
-    - Actuar como punto de contacto principal (seguridad@23people.io) para incidentes de seguridad.
+    - Actuar como punto de contacto principal [seguridad@23people.io](mailto:seguridad@23people.io) para incidentes de seguridad.
     - Coordinar la respuesta ante incidentes de seguridad y brechas de datos.
     - Gestionar comunicaciones con autoridades (CSIRT Chile, Agencia Nacional de Ciberseguridad) en caso de incidentes críticos.
     - Implementar y supervisar el proceso de gestión de incidentes de seguridad.
