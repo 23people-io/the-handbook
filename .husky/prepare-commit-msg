@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Preparing commit message..."
+if exec < /dev/tty
+then
+  npx cz --hook
+else
+  true
+fi
