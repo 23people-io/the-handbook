@@ -56,26 +56,3 @@ jobs:
       env:
         DEPLOYMENT_URL: ${{ steps.deploy-step.outputs.deployment-url }}
       run: echo $DEPLOYMENT_URL
-
-
-  # Trigger Indexing Job in n8n workflow after deployment     
-  # trigger-indexing:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name:  Setup | Checkout Repository on Release Branch
-  #       uses: actions/checkout@v3
-        
-  #     - name: Action | Trigger Cloudflare Worker
-  #       id: trigger-worker
-  #       uses: fjogeleit/http-request-action@v1
-  #       with:
-  #         url: 'https://iarvis.app.n8n.cloud/webhook-test/d7411ae0-f14f-4be3-91d3-683a51d23696'
-  #         method: 'POST'
-  #         contentType: 'application/json'
-  #         data: '{"commit": "${{ github.sha }}"}'
-      
-  #     - name: Action | Show response
-  #       run: |
-  #         echo "Worker Response Status: ${{ steps.trigger-worker.outputs.status }}"
-  #         echo "Worker Response: ${{ steps.trigger-worker.outputs.response }}"
-  #         echo "Status URL: ${{ fromJson(steps.trigger-worker.outputs.response).statusUrl }}"
